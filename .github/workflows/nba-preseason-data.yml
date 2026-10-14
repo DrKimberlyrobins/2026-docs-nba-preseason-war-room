@@ -1,4 +1,3 @@
-
 name: NBA Preseason Live Data
 
 on:
@@ -19,9 +18,11 @@ jobs:
     timeout-minutes: 20
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Check out repository
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-python@v5
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
@@ -39,8 +40,16 @@ jobs:
           OUT = Path("data")
           OUT.mkdir(exist_ok=True)
 
-          ESPN = "https://site.api.espn.com/apis/site/v2/sports/basketball/nba"
-          KAMBI = "https://eu.offering-api.kambicdn.com/offering/v2018"
+          ESPN = (
+              "https://site.api.espn.com/apis/site/v2/"
+              "sports/basketball/nba"
+          )
+
+          KAMBI = (
+              "https://eu.offering-api.kambicdn.com"
+              "/offering/v2018"
+          )
+
           OFFERING = "pivusmsrl-bil"
 
           PARAM = {
@@ -61,9 +70,17 @@ jobs:
           def fetch(url, retries=3):
               for attempt in range(retries):
                   try:
-                      req = urllib.request.Request(url, headers=HEAD)
-                      with urllib.request.urlopen(req, timeout=22) as response:
+                      req = urllib.request.Request(
+                          url,
+                          headers=HEAD
+                      )
+
+                      with urllib.request.urlopen(
+                          req,
+                          timeout=22
+                      ) as response:
                           return json.load(response)
+
                   except Exception as exc:
                       if attempt == retries - 1:
                           errors.append({
@@ -72,59 +89,113 @@ jobs:
                           })
                       else:
                           time.sleep(2 ** attempt)
+
               return None
 
           def save(name, data):
-              (OUT / name).write_text(
-                  json.dumps(data, indent=2, ensure_ascii=False),
+              path = OUT / name
+
+              path.write_text(
+                  json.dumps(
+                      data,
+                      indent=2,
+                      ensure_ascii=False
+                  ),
                   encoding="utf-8"
               )
-              print("SAVED", name)
+
+              print("SAVED:", name)
 
           def n(value):
               try:
                   x = float(value)
-                  return int(x) if x.is_integer() and x >= 0 else None
+
+                  if x.is_integer() and x >= 0:
+                      return int(x)
+
               except (ValueError, TypeError):
-                  return None
+                  pass
+
+              return None
 
           def avg(rows, key):
-              return (
-                  round(sum(x[key] for x in rows) / len(rows), 2)
-                  if rows else None
+              if not rows:
+                  return None
+
+              return round(
+                  sum(x[key] for x in rows) / len(rows),
+                  2
               )
 
           def parse_comp(c):
               lines = c.get("linescores") or []
+
               q = [
-                  n(x.get("value", x.get("displayValue")))
+                  n(
+                      x.get(
+                          "value",
+                          x.get("displayValue")
+                      )
+                  )
                   for x in lines
               ]
+
               final = n(c.get("score"))
 
-              if len(q) < 4 or any(x is None for x in q):
-                  return None
-              if final is None or sum(q) != final:
+              if len(q) < 4:
                   return None
 
+              if any(x is None for x in q):
+                  return None
+
+              if final is None:
+                  return None
+
+              if sum(q) != final:
+                  return None
+
+              team = c.get("team", {})
+
               return {
-                  "id": str(c.get("team", {}).get("id", "")),
-                  "team": c.get("team", {}).get("displayName", ""),
-                  "abbreviation": c.get("team", {}).get("abbreviation", ""),
+                  "id": str(team.get("id", "")),
+                  "team": team.get("displayName", ""),
+                  "abbreviation": team.get(
+                      "abbreviation",
+                      ""
+                  ),
                   "homeAway": c.get("homeAway", ""),
                   "quarters": q,
                   "q1": q[0],
+                  "q2": q[1],
+                  "q3": q[2],
+                  "q4": q[3],
                   "firstHalf": sum(q[:2]),
+                  "regulation": sum(q[:4]),
                   "fullGame": final,
                   "overtime": len(q) > 4
               }
 
+          print(
+              "===================================="
+          )
+          print("DOC'S NBA PRESEASON DATA ENGINE")
+          print(
+              "===================================="
+          )
+
           today = datetime.now(timezone.utc).date()
+
           start = date(2026, 9, 20)
-          end = min(today, date(2026, 11, 1))
+          end = min(
+              today,
+              date(2026, 11, 1)
+          )
 
           games = {}
           failed_dates = []
+
+          print("START DATE:", start)
+          print("END DATE:", end)
 
           if end >= start:
               day = start
@@ -139,55 +210,119 @@ jobs:
                       "limit": "100"
                   })
 
-                  board = fetch(ESPN + "/scoreboard?" + query)
+                  url = (
+                      ESPN
+                      + "/scoreboard?"
+                      + query
+                  )
+
+                  board = fetch(url)
 
                   if board is None:
                       failed_dates.append(daystr)
+
                   else:
-                      for event in board.get("events", []):
-                          if not event.get("status", {}).get("type", {}).get("completed"):
+                      for event in board.get(
+                          "events",
+                          []
+                      ):
+                          status = (
+                              event.get("status", {})
+                              .get("type", {})
+                          )
+
+                          if not status.get(
+                              "completed",
+                              False
+                          ):
                               continue
 
-                          season_type = event.get("season", {}).get("type")
-                          if season_type is not None and str(season_type) != "1":
+                          season_type = (
+                              event.get("season", {})
+                              .get("type")
+                          )
+
+                          if (
+                              season_type is not None
+                              and str(season_type) != "1"
+                          ):
+                              continue
+
+                          competitions = event.get(
+                              "competitions",
+                              []
+                          )
+
+                          if not competitions:
                               continue
 
                           competitors = (
-                              (event.get("competitions") or [{}])[0]
-                              .get("competitors", [])
+                              competitions[0].get(
+                                  "competitors",
+                                  []
+                              )
                           )
 
                           if len(competitors) != 2:
                               continue
 
-                          parsed = [parse_comp(c) for c in competitors]
+                          parsed = [
+                              parse_comp(c)
+                              for c in competitors
+                          ]
 
-                          if any(x is None for x in parsed):
+                          if any(
+                              x is None
+                              for x in parsed
+                          ):
                               continue
 
                           away = next(
-                              (x for x in parsed if x["homeAway"] == "away"),
+                              (
+                                  x for x in parsed
+                                  if x["homeAway"] == "away"
+                              ),
                               None
                           )
+
                           home = next(
-                              (x for x in parsed if x["homeAway"] == "home"),
+                              (
+                                  x for x in parsed
+                                  if x["homeAway"] == "home"
+                              ),
                               None
                           )
 
                           if not away or not home:
                               continue
 
-                          for own, opp in ((away, home), (home, away)):
-                              own["q1Allowed"] = opp["q1"]
-                              own["firstHalfAllowed"] = opp["firstHalf"]
-                              own["fullGameAllowed"] = opp["fullGame"]
+                          for own, opp in (
+                              (away, home),
+                              (home, away)
+                          ):
+                              own["q1Allowed"] = (
+                                  opp["q1"]
+                              )
 
-                          gameid = str(event.get("id", ""))
+                              own["firstHalfAllowed"] = (
+                                  opp["firstHalf"]
+                              )
+
+                              own["fullGameAllowed"] = (
+                                  opp["fullGame"]
+                              )
+
+                          gameid = str(
+                              event.get("id", "")
+                          )
 
                           if gameid:
                               games[gameid] = {
                                   "id": gameid,
-                                  "date": event.get("date", ""),
+                                  "date": event.get(
+                                      "date",
+                                      ""
+                                  ),
                                   "away": away,
                                   "home": home,
                                   "source": "ESPN",
@@ -198,22 +333,29 @@ jobs:
 
           game_rows = sorted(
               games.values(),
-              key=lambda g: (g["date"], g["id"])
+              key=lambda g: (
+                  g["date"],
+                  g["id"]
+              )
           )
 
-          save("preseason-games-2026.json", {
-              "generatedAt": NOW,
-              "source": "ESPN",
-              "season": "2026-27",
-              "seasonType": "preseason",
-              "games": game_rows
-          })
+          save(
+              "preseason-games-2026.json",
+              {
+                  "generatedAt": NOW,
+                  "source": "ESPN",
+                  "season": "2026-27",
+                  "seasonType": "preseason",
+                  "games": game_rows
+              }
+          )
 
           teams = defaultdict(list)
 
           for game in game_rows:
               for side in ("away", "home"):
                   c = game[side]
+
                   teams[c["id"]].append({
                       **c,
                       "eventId": game["id"],
@@ -223,8 +365,15 @@ jobs:
           team_rows = []
 
           for team_id, rows in teams.items():
-              home = [r for r in rows if r["homeAway"] == "home"]
-              away = [r for r in rows if r["homeAway"] == "away"]
+              home = [
+                  r for r in rows
+                  if r["homeAway"] == "home"
+              ]
+
+              away = [
+                  r for r in rows
+                  if r["homeAway"] == "away"
+              ]
 
               def summarize(items):
                   return {
@@ -245,7 +394,9 @@ jobs:
               team_rows.append({
                   "teamId": team_id,
                   "team": rows[0]["team"],
-                  "abbreviation": rows[0]["abbreviation"],
+                  "abbreviation": rows[0][
+                      "abbreviation"
+                  ],
                   "all": summarize(rows),
                   "home": summarize(home),
                   "away": summarize(away),
@@ -263,52 +414,122 @@ jobs:
                   )
               })
 
-          save("preseason-teams-2026.json", {
-              "generatedAt": NOW,
-              "source": "ESPN",
-              "teams": sorted(team_rows, key=lambda x: x["team"])
-          })
+          save(
+              "preseason-teams-2026.json",
+              {
+                  "generatedAt": NOW,
+                  "source": "ESPN",
+                  "teams": sorted(
+                      team_rows,
+                      key=lambda x: x["team"]
+                  )
+              }
+          )
+
+          print(
+              "ESPN GAMES:",
+              len(game_rows)
+          )
+
+          print(
+              "ESPN TEAMS:",
+              len(team_rows)
+          )
 
           player_games = defaultdict(list)
+          player_names = {}
           summary_failures = []
 
           for game in game_rows:
-              summary = fetch(
-                  ESPN + "/summary?" +
-                  urllib.parse.urlencode({"event": game["id"]})
+              summary_url = (
+                  ESPN
+                  + "/summary?"
+                  + urllib.parse.urlencode({
+                      "event": game["id"]
+                  })
               )
 
+              summary = fetch(summary_url)
+
               if summary is None:
-                  summary_failures.append(game["id"])
+                  summary_failures.append(
+                      game["id"]
+                  )
                   continue
 
-              for group in summary.get("boxscore", {}).get("players", []):
-                  team = group.get("team", {})
+              boxscore = summary.get(
+                  "boxscore",
+                  {}
+              )
 
-                  for stats_group in group.get("statistics", []):
-                      labels = stats_group.get("labels", [])
+              for group in boxscore.get(
+                  "players",
+                  []
+              ):
+                  team = group.get(
+                      "team",
+                      {}
+                  )
 
-                      for entry in stats_group.get("athletes", []):
-                          if entry.get("didNotPlay"):
+                  for stats_group in group.get(
+                      "statistics",
+                      []
+                  ):
+                      labels = stats_group.get(
+                          "labels",
+                          []
+                      )
+
+                      for entry in stats_group.get(
+                          "athletes",
+                          []
+                      ):
+                          if entry.get(
+                              "didNotPlay"
+                          ):
                               continue
 
-                          values = entry.get("stats", [])
+                          values = entry.get(
+                              "stats",
+                              []
+                          )
 
                           if len(values) != len(labels):
                               continue
 
-                          stats = dict(zip(labels, values))
-                          athlete = entry.get("athlete", {})
-                          pid = str(athlete.get("id", ""))
+                          stats = dict(
+                              zip(labels, values)
+                          )
+
+                          athlete = entry.get(
+                              "athlete",
+                              {}
+                          )
+
+                          pid = str(
+                              athlete.get("id", "")
+                          )
 
                           if not pid:
                               continue
 
+                          player_names[pid] = (
+                              athlete.get(
+                                  "displayName",
+                                  ""
+                              )
+                          )
+
                           def numeric_stat(key):
                               raw = stats.get(key)
 
-                              if key == "3PT" and raw is not None:
-                                  raw = str(raw).split("-")[0]
+                              if (
+                                  key == "3PT"
+                                  and raw is not None
+                              ):
+                                  raw = str(
+                                      raw
+                                  ).split("-")[0]
 
                               return n(raw)
 
@@ -322,21 +543,32 @@ jobs:
                               )
                           }
 
-                          if any(v is None for v in vals.values()):
+                          if any(
+                              v is None
+                              for v in vals.values()
+                          ):
                               continue
 
                           player_games[pid].append({
                               "eventId": game["id"],
                               "date": game["date"],
-                              "teamId": str(team.get("id", "")),
-                              "team": team.get("displayName", ""),
+                              "teamId": str(
+                                  team.get("id", "")
+                              ),
+                              "team": team.get(
+                                  "displayName",
+                                  ""
+                              ),
                               **vals
                           })
 
           players = []
 
           for pid, rows in player_games.items():
-              unique = {r["eventId"]: r for r in rows}
+              unique = {
+                  r["eventId"]: r
+                  for r in rows
+              }
 
               logs = sorted(
                   unique.values(),
@@ -346,28 +578,52 @@ jobs:
 
               players.append({
                   "playerId": pid,
+                  "playerName": player_names.get(
+                      pid,
+                      ""
+                  ),
                   "gamesPlayed": len(logs),
                   "team": logs[0]["team"],
                   "averages": {
                       k: avg(logs, k)
-                      for k in ("points", "rebounds", "assists", "threes")
+                      for k in (
+                          "points",
+                          "rebounds",
+                          "assists",
+                          "threes"
+                      )
                   },
                   "gameLogs": logs
               })
 
-          save("preseason-players-2026.json", {
-              "generatedAt": NOW,
-              "source": "ESPN",
-              "note": "Player names not guaranteed in this first data schema; use playerId for identity.",
-              "players": players
-          })
+          save(
+              "preseason-players-2026.json",
+              {
+                  "generatedAt": NOW,
+                  "source": "ESPN",
+                  "players": sorted(
+                      players,
+                      key=lambda x: x["playerName"]
+                  )
+              }
+          )
 
-          base = KAMBI + "/" + OFFERING
+          print(
+              "ESPN PLAYERS:",
+              len(players)
+          )
+
+          base = (
+              KAMBI
+              + "/"
+              + OFFERING
+          )
 
           discovery = (
-              base +
-              "/listView/basketball/nba/all/all/matches.json?" +
-              urllib.parse.urlencode({
+              base
+              + "/listView/basketball/nba/"
+              + "all/all/matches.json?"
+              + urllib.parse.urlencode({
                   **PARAM,
                   "useCombined": "true",
                   "useCombinedLive": "true"
@@ -378,51 +634,93 @@ jobs:
           kambi_events = []
 
           if isinstance(match_data, dict):
-              for wrapper in match_data.get("events", []):
-                  event = (
-                      wrapper.get("event", {})
-                      if isinstance(wrapper, dict)
-                      else {}
+              for wrapper in match_data.get(
+                  "events",
+                  []
+              ):
+                  if not isinstance(
+                      wrapper,
+                      dict
+                  ):
+                      continue
+
+                  event = wrapper.get(
+                      "event",
+                      {}
                   )
 
-                  if isinstance(event, dict) and event.get("id") is not None:
+                  if (
+                      isinstance(event, dict)
+                      and event.get("id") is not None
+                  ):
                       kambi_events.append({
-                          "id": str(event["id"]),
-                          "name": event.get("name", ""),
-                          "start": event.get("start", "")
+                          "id": str(
+                              event["id"]
+                          ),
+                          "name": event.get(
+                              "name",
+                              ""
+                          ),
+                          "start": event.get(
+                              "start",
+                              ""
+                          )
                       })
 
-          unique_events = {e["id"]: e for e in kambi_events}
+          unique_events = {
+              e["id"]: e
+              for e in kambi_events
+          }
+
           market_events = []
 
-          for e in list(unique_events.values())[:40]:
-              url = (
-                  base +
-                  "/betoffer/event/" +
-                  urllib.parse.quote(e["id"]) +
-                  ".json?" +
-                  urllib.parse.urlencode({
+          for e in list(
+              unique_events.values()
+          )[:40]:
+              offers_url = (
+                  base
+                  + "/betoffer/event/"
+                  + urllib.parse.quote(
+                      e["id"]
+                  )
+                  + ".json?"
+                  + urllib.parse.urlencode({
                       **PARAM,
                       "includeParticipants": "true"
                   })
               )
 
-              offers = fetch(url)
+              offers = fetch(
+                  offers_url
+              )
 
-              if isinstance(offers, dict):
+              if isinstance(
+                  offers,
+                  dict
+              ):
                   market_events.append({
                       **e,
-                      "betOffers": offers.get("betOffers", [])
+                      "betOffers": offers.get(
+                          "betOffers",
+                          []
+                      )
                   })
 
-          save("preseason-markets-2026.json", {
-              "generatedAt": NOW,
-              "source": "Kambi",
-              "offering": OFFERING,
-              "market": "US-MS",
-              "events": market_events,
-              "note": "Raw offers. Match ESPN events to Kambi by teams and scheduled start; never by array index."
-          })
+          save(
+              "preseason-markets-2026.json",
+              {
+                  "generatedAt": NOW,
+                  "source": "Kambi",
+                  "offering": OFFERING,
+                  "market": "US-MS",
+                  "events": market_events,
+                  "note": (
+                      "Raw offers. Match ESPN events "
+                      "to Kambi by teams and scheduled "
+                      "start, never by array index."
+                  )
+              }
+          )
 
           status = {
               "generatedAt": NOW,
@@ -431,30 +729,53 @@ jobs:
               "espnPlayers": len(players),
               "espnFailedDates": failed_dates,
               "espnFailedSummaries": summary_failures,
-              "kambiEvents": len(unique_events),
+              "kambiEvents": len(
+                  unique_events
+              ),
               "kambiEventsWithOffers": sum(
-                  bool(x["betOffers"]) for x in market_events
+                  bool(x["betOffers"])
+                  for x in market_events
               ),
               "errors": errors,
-              "dataComplete": not failed_dates and not summary_failures,
+              "dataComplete": (
+                  not failed_dates
+                  and not summary_failures
+              ),
               "bettingQualificationEnabled": False
           }
 
-          save("preseason-status.json", status)
+          save(
+              "preseason-status.json",
+              status
+          )
 
-          print("STATUS:", json.dumps(status, indent=2))
+          print(
+              "FINAL STATUS:",
+              json.dumps(
+                  status,
+                  indent=2
+              )
+          )
 
-          if failed_dates or summary_failures:
+          if (
+              failed_dates
+              or summary_failures
+          ):
               raise SystemExit(
-                  "Incomplete ESPN fetch: refusing to publish partial update"
+                  "Incomplete ESPN fetch: "
+                  "refusing partial update"
               )
 
       - name: Commit updated preseason data
         shell: bash
         run: |
-          git config user.name 'github-actions[bot]'
-          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/preseason-*.json
-          if ! git diff --cached --quiet; then
-            git commit -m 'Update NBA preseason ESPN and Kambi data'
+
+          if git diff --cached --quiet; then
+            echo "No new preseason data to commit."
+          else
+            git commit -m "Update NBA preseason ESPN and Kambi data"
             git push
+          fi
