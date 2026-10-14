@@ -1,0 +1,496 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Doc's 2026 NBA Preseason War Room</title>
+<style>
+:root{
+ --navy:#09182b;--panel:#13263c;--gold:#f4b942;
+ --orange:#e88b35;--green:#38d68b;--yellow:#f8d16c;
+ --red:#ff7882;--text:#edf4fc
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--navy);color:var(--text);
+ font:15px Arial,sans-serif}
+header{padding:23px 16px;text-align:center;background:#10243b;
+ border-bottom:3px solid var(--gold)}
+h1{margin:0;color:var(--gold);font-size:27px}
+header p{margin:9px 0 0;color:#b9c8d9}
+main{max-width:1200px;margin:auto;padding:16px}
+section{background:var(--panel);border:1px solid #34506b;
+ border-radius:12px;padding:17px;margin-bottom:17px}
+h2{color:var(--gold);font-size:20px;margin:0 0 14px}
+h3{color:var(--gold);font-size:16px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,
+ minmax(210px,1fr));gap:12px}
+label{display:block;font-size:12px;color:#c5d3e2;margin-bottom:5px}
+input,select,button{width:100%;padding:11px;border-radius:7px;
+ font-size:15px}
+input,select{background:#08192a;color:white;border:1px solid #60748a}
+button{background:var(--gold);color:#071526;border:0;
+ font-weight:bold;cursor:pointer}
+button:hover{filter:brightness(1.12)}
+.secondary{background:#36506a;color:white}
+.danger{background:#8b3440;color:white}
+.note{color:#aebfd1;font-size:13px;line-height:1.5}
+.warning{color:var(--yellow)}
+table{width:100%;border-collapse:collapse;margin-top:12px}
+th,td{padding:10px 8px;border-bottom:1px solid #38516a;text-align:left}
+th{color:var(--gold);font-size:12px}
+.scroll{overflow-x:auto}
+.green{color:var(--green);font-weight:bold}
+.yellow{color:var(--yellow);font-weight:bold}
+.pass{color:var(--red);font-weight:bold}
+.orange{border-top:3px solid var(--orange);margin-top:18px;padding-top:15px}
+.stat{background:#0a1d31;border-radius:9px;padding:14px}
+.stat strong{display:block;color:var(--gold);font-size:23px;margin-top:5px}
+.small{font-size:12px;color:#b8c8d9}
+button:disabled{opacity:.4;cursor:not-allowed}
+</style>
+</head>
+<body>
+<header>
+<h1>DOC'S NBA PRESEASON WAR ROOM</h1>
+<p>2026 • Team Intelligence • Numerical Market Analysis • Receipts</p>
+</header>
+<main>
+
+<section>
+<h2>1. Preseason Game Results</h2>
+<p class="note">Enter completed 2026 preseason games from a
+verified box score. Enter points scored in each individual quarter.
+Both teams' histories are updated from one entry.</p>
+<div class="grid">
+<div><label>Game date</label><input type="date" id="date"></div>
+<div><label>Away team</label><select id="away"></select></div>
+<div><label>Home team</label><select id="home"></select></div>
+</div>
+<h3>Away team quarter scores</h3>
+<div class="grid" id="awayQs"></div>
+<h3>Home team quarter scores</h3>
+<div class="grid" id="homeQs"></div>
+<p><button onclick="saveGame()">Save Verified Game Result</button></p>
+<div class="grid">
+<button class="secondary" onclick="exportData()">Export Backup JSON</button>
+<div>
+<label>Restore saved JSON backup</label>
+<input type="file" accept=".json" onchange="importData(event)">
+</div>
+</div>
+<div id="history"></div>
+</section>
+
+<section>
+<h2>2. Matchup Intelligence</h2>
+<div class="grid">
+<div><label>Away team</label><select id="matchAway"></select></div>
+<div><label>Home team</label><select id="matchHome"></select></div>
+<div><label>Match date</label><input type="date" id="matchDate"></div>
+</div>
+<p><button onclick="analyze()">Analyze Matchup</button></p>
+<div id="sample"></div>
+<div id="projections"></div>
+<p class="note">Estimate = (team scoring average + opponent
+points-allowed average) ÷ 2. All results use the entered
+preseason games only. These are descriptive estimates, not
+validated betting probabilities.</p>
+</section>
+
+<section>
+<h2>3. Sportsbook Lines</h2>
+<p class="note">Enter actual available lines. Leave missing markets
+blank. For team totals, enter the displayed team total. For spread,
+enter the HOME team's spread (for example, -5.5).</p>
+<div class="grid" id="lineInputs"></div>
+<p><button onclick="evaluate()">Evaluate All Markets</button></p>
+<div id="markets"></div>
+</section>
+
+<section>
+<h2>4. Best of Slate</h2>
+<div id="best"><p class="note">Analyze a matchup and enter lines first.</p></div>
+<p><button class="secondary" onclick="saveReceipt()">
+Save Current Analysis Receipt
+</button></p>
+<div id="receipts"></div>
+</section>
+
+<section>
+<h2>5. Projection Accuracy Tracker</h2>
+<p class="note">Save an analysis before the game. After the game,
+select its receipt and enter the actual scores to calculate
+projection error. This measures scoring accuracy, not betting profit.</p>
+<div class="grid">
+<div><label>Saved receipt</label><select id="settleReceipt"></select></div>
+<div><label>Away actual 1Q</label><input type="number" id="a1" min="0"></div>
+<div><label>Home actual 1Q</label><input type="number" id="h1" min="0"></div>
+<div><label>Away actual 1H</label><input type="number" id="a2" min="0"></div>
+<div><label>Home actual 1H</label><input type="number" id="h2" min="0"></div>
+<div><label>Away actual full game</label><input type="number" id="af" min="0"></div>
+<div><label>Home actual full game</label><input type="number" id="hf" min="0"></div>
+</div>
+<p><button onclick="settle()">Record Actual Results</button></p>
+<div id="accuracy"></div>
+</section>
+</main>
+
+<script>
+"use strict";
+
+const TEAMS={
+ATL:"Atlanta Hawks",BOS:"Boston Celtics",BKN:"Brooklyn Nets",
+CHA:"Charlotte Hornets",CHI:"Chicago Bulls",CLE:"Cleveland Cavaliers",
+DAL:"Dallas Mavericks",DEN:"Denver Nuggets",DET:"Detroit Pistons",
+GSW:"Golden State Warriors",HOU:"Houston Rockets",IND:"Indiana Pacers",
+LAC:"LA Clippers",LAL:"Los Angeles Lakers",MEM:"Memphis Grizzlies",
+MIA:"Miami Heat",MIL:"Milwaukee Bucks",MIN:"Minnesota Timberwolves",
+NOP:"New Orleans Pelicans",NYK:"New York Knicks",OKC:"Oklahoma City Thunder",
+ORL:"Orlando Magic",PHI:"Philadelphia 76ers",PHX:"Phoenix Suns",
+POR:"Portland Trail Blazers",SAC:"Sacramento Kings",
+SAS:"San Antonio Spurs",TOR:"Toronto Raptors",
+UTA:"Utah Jazz",WAS:"Washington Wizards"
+};
+
+const STORE="docs_nba_preseason_2026_v1";
+let db={games:[],receipts:[]};
+let current=null;
+let evaluated=[];
+
+try{
+ const saved=JSON.parse(localStorage.getItem(STORE));
+ if(saved && Array.isArray(saved.games) &&
+ Array.isArray(saved.receipts)) db=saved;
+}catch(e){console.warn("Saved data could not be loaded",e)}
+
+function persist(){localStorage.setItem(STORE,JSON.stringify(db))}
+function el(id){return document.getElementById(id)}
+function num(v){return Number(v)}
+function fmt(v){return Number.isFinite(v)?v.toFixed(1):"N/A"}
+function safe(s){return String(s).replace(/[&<>"']/g,c=>({
+ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+})[c])}
+function optionTeams(id,defaultTeam){
+ el(id).innerHTML=Object.entries(TEAMS)
+ .map(([k,v])=>`<option value="${k}">${v}</option>`).join("");
+ el(id).value=defaultTeam;
+}
+function quarters(prefix,target){
+ el(target).innerHTML=[1,2,3,4].map(n=>
+ `<div><label>Q${n}</label><input type="number" min="0"
+ step="1" id="${prefix}${n}" placeholder="Points"></div>`
+ ).join("");
+}
+function lineFields(){
+ const names=[
+ ["q1Total","1Q combined total"],
+ ["q1Away","1Q away team total"],
+ ["q1Home","1Q home team total"],
+ ["hTotal","1H combined total"],
+ ["hAway","1H away team total"],
+ ["hHome","1H home team total"],
+ ["fTotal","Full-game combined total"],
+ ["fAway","Full-game away team total"],
+ ["fHome","Full-game home team total"],
+ ["spread","Home team full-game spread"]
+ ];
+ el("lineInputs").innerHTML=names.map(([id,name])=>
+ `<div><label>${name}</label><input type="number" step="0.5"
+ id="line_${id}" placeholder="Enter sportsbook line"></div>`
+ ).join("");
+}
+function getQs(prefix){
+ const q=[1,2,3,4].map(n=>el(prefix+n).value.trim());
+ if(q.some(v=>v==="" || !Number.isInteger(+v) || +v<0))
+ throw Error("Enter all four nonnegative integer quarter scores.");
+ return q.map(Number);
+}
+function sum(a){return a.reduce((x,y)=>x+y,0)}
+function saveGame(){
+ try{
+ const date=el("date").value,away=el("away").value,home=el("home").value;
+ if(!date)throw Error("Enter the game date.");
+ if(away===home)throw Error("Choose two different teams.");
+ const aq=getQs("aq"),hq=getQs("hq");
+ const key=date+"_"+away+"_"+home;
+ if(db.games.some(g=>g.key===key))
+ throw Error("This matchup/date already exists. Remove the old entry first.");
+ db.games.push({key,date,away,home,aq,hq});
+ persist();renderHistory();
+ alert("Game saved. Verify the score against the official box score.");
+ }catch(e){alert(e.message)}
+}
+function deleteGame(key){
+ if(!confirm("Delete this game result?"))return;
+ db.games=db.games.filter(g=>g.key!==key);
+ persist();renderHistory();
+}
+function renderHistory(){
+ const rows=[...db.games].sort((a,b)=>b.date.localeCompare(a.date));
+ el("history").innerHTML=`
+ <h3>Saved preseason games (${rows.length})</h3>
+ <div class="scroll"><table>
+ <tr><th>Date</th><th>Matchup</th><th>Final</th><th>Action</th></tr>
+ ${rows.map(g=>`<tr><td>${safe(g.date)}</td>
+ <td>${g.away} @ ${g.home}</td>
+ <td>${sum(g.aq)}–${sum(g.hq)}</td>
+ <td><button class="danger" onclick='deleteGame(${JSON.stringify(g.key)})'>
+ Delete</button></td></tr>`).join("")}
+ </table></div>`;
+}
+function teamStats(team){
+ const games=db.games.filter(g=>g.away===team||g.home===team);
+ const stats={n:games.length};
+ for(const period of ["q1","half","full"]){
+ let scored=0,allowed=0;
+ for(const g of games){
+ const own=g.away===team?g.aq:g.hq;
+ const opp=g.away===team?g.hq:g.aq;
+ const count=period==="q1"?1:period==="half"?2:4;
+ scored+=sum(own.slice(0,count));
+ allowed+=sum(opp.slice(0,count));
+ }
+ stats[period]=games.length?{
+ scored:scored/games.length,
+ allowed:allowed/games.length
+ }:null;
+ }
+ return stats;
+}
+function analyze(){
+ const away=el("matchAway").value,home=el("matchHome").value;
+ if(away===home){alert("Select two different teams.");return}
+ const A=teamStats(away),H=teamStats(home);
+ current=null; evaluated=[];
+ el("markets").innerHTML="";
+ el("best").innerHTML="";
+ el("sample").innerHTML=`
+ <div class="grid">
+ <div class="stat">${TEAMS[away]}<strong>${A.n}</strong>
+ <span class="small">Preseason games recorded</span></div>
+ <div class="stat">${TEAMS[home]}<strong>${H.n}</strong>
+ <span class="small">Preseason games recorded</span></div>
+ </div>`;
+ if(!A.n||!H.n){
+ el("projections").innerHTML='<p class="warning">Insufficient data. '
+ +'Both teams need completed preseason games. PASS.</p>';
+ return;
+ }
+ const p={};
+ for(const period of ["q1","half","full"]){
+ const a=(A[period].scored+H[period].allowed)/2;
+ const h=(H[period].scored+A[period].allowed)/2;
+ p[period]={away:a,home:h,total:a+h};
+ }
+ current={away,home,date:el("matchDate").value,
+ counts:{away:A.n,home:H.n},p};
+ const names={q1:"1Q",half:"1H",full:"Full Game"};
+ el("projections").innerHTML=`
+ <div class="scroll"><table>
+ <tr><th>Period</th><th>${away} scored / allowed</th>
+ <th>${home} scored / allowed</th><th>${away} estimate</th>
+ <th>${home} estimate</th><th>Combined</th></tr>
+ ${Object.keys(names).map(k=>`<tr><td>${names[k]}</td>
+ <td>${fmt(A[k].scored)} / ${fmt(A[k].allowed)}</td>
+ <td>${fmt(H[k].scored)} / ${fmt(H[k].allowed)}</td>
+ <td>${fmt(p[k].away)}</td><td>${fmt(p[k].home)}</td>
+ <td><strong>${fmt(p[k].total)}</strong></td></tr>`).join("")}
+ </table></div>
+ <p class="warning">${Math.min(A.n,H.n)<2?
+ "INSUFFICIENT SAMPLE: automatic PASS.":
+ Math.min(A.n,H.n)<4?
+ "PRELIMINARY SAMPLE: GREEN disabled until both teams have 4 games.":
+ "Sample-count gate met. Rotation and injury checks are still required."
+ }</p>`;
+}
+const THRESHOLDS={
+ q1Total:[2.5,1],q1Away:[2,1],q1Home:[2,1],
+ hTotal:[3.5,2],hAway:[3,1.5],hHome:[3,1.5],
+ fTotal:[6,3],fAway:[4,2],fHome:[4,2],
+ spread:[4,2]
+};
+const MARKET_NAMES={
+ q1Total:"1Q combined total",q1Away:"1Q away team total",
+ q1Home:"1Q home team total",hTotal:"1H combined total",
+ hAway:"1H away team total",hHome:"1H home team total",
+ fTotal:"Full-game combined total",fAway:"Full-game away team total",
+ fHome:"Full-game home team total",spread:"Full-game spread"
+};
+function evaluate(){
+ if(!current){alert("Analyze a matchup first.");return}
+ const p=current.p;
+ const values={
+ q1Total:p.q1.total,q1Away:p.q1.away,q1Home:p.q1.home,
+ hTotal:p.half.total,hAway:p.half.away,hHome:p.half.home,
+ fTotal:p.full.total,fAway:p.full.away,fHome:p.full.home
+ };
+ const minGames=Math.min(current.counts.away,current.counts.home);
+ evaluated=[];
+ for(const id of Object.keys(THRESHOLDS)){
+ const raw=el("line_"+id).value.trim();
+ if(raw==="")continue;
+ const line=Number(raw);
+ if(!Number.isFinite(line))continue;
+ let projection,direction,edge;
+ if(id==="spread"){
+ // Home spread covers if (home points - away points) + spread > 0.
+ // Projected margin compared with the market's implied home margin.
+ projection=p.full.home-p.full.away;
+ const homeAdvantage=projection+line;
+ direction=homeAdvantage>=0?current.home:current.away;
+ edge=Math.abs(homeAdvantage);
+ }else{
+ projection=values[id];
+ direction=projection>line?"OVER":"UNDER";
+ edge=Math.abs(projection-line);
+ }
+ const [green,yellow]=THRESHOLDS[id];
+ let status="PASS";
+ if(minGames>=4&&edge>=green)status="GREEN";
+ else if(minGames>=2&&edge>=yellow)status="YELLOW";
+ evaluated.push({id,name:MARKET_NAMES[id],line,projection,
+ direction,edge,status});
+ }
+ if(!evaluated.length){
+ el("markets").innerHTML='<p class="warning">No sportsbook lines entered.</p>';
+ el("best").innerHTML="";
+ return;
+ }
+ el("markets").innerHTML=`
+ <div class="scroll"><table>
+ <tr><th>Market</th><th>Projection</th><th>Line</th>
+ <th>Direction</th><th>Edge</th><th>Result</th></tr>
+ ${evaluated.map(m=>`<tr><td>${m.name}</td>
+ <td>${fmt(m.projection)}</td><td>${m.line}</td>
+ <td>${m.direction}</td><td>${fmt(m.edge)}</td>
+ <td class="${m.status==="GREEN"?"green":m.status==="YELLOW"?
+ "yellow":"pass"}">${m.status}</td></tr>`).join("")}
+ </table></div>`;
+ const ranked=[...evaluated].filter(m=>m.status!=="PASS")
+ .sort((a,b)=>{
+ const rank={GREEN:2,YELLOW:1};
+ return rank[b.status]-rank[a.status] ||
+ (b.edge/THRESHOLDS[b.id][0])-(a.edge/THRESHOLDS[a.id][0]);
+ });
+ el("best").innerHTML=ranked.length?
+ `<div class="scroll"><table>
+ <tr><th>Rank</th><th>Market</th><th>Direction</th>
+ <th>Edge</th><th>Rating</th></tr>
+ ${ranked.slice(0,5).map((m,i)=>`<tr>
+ <td>${i+1}</td><td>${m.name}</td><td>${m.direction}</td>
+ <td>${fmt(m.edge)}</td><td class="${m.status.toLowerCase()}">
+ ${m.status}</td></tr>`).join("")}</table></div>
+ <p class="note">Ranking is by screening status and relative threshold
+ strength, not proven expected value. YELLOW is research-only.</p>`:
+ '<p class="pass">NO QUALIFIED MARKETS — PASS.</p>';
+}
+function saveReceipt(){
+ if(!current||!evaluated.length){
+ alert("Analyze the matchup and evaluate lines first.");return;
+ }
+ const r={
+ id:Date.now()+"_"+Math.random().toString(36).slice(2,7),
+ savedAt:new Date().toISOString(),
+ matchup:JSON.parse(JSON.stringify(current)),
+ markets:JSON.parse(JSON.stringify(evaluated)),
+ actual:null
+ };
+ db.receipts.push(r);persist();renderReceipts();
+ alert("Analysis receipt saved locally.");
+}
+function renderReceipts(){
+ const rows=[...db.receipts].reverse();
+ el("receipts").innerHTML=`
+ <div class="orange"><h3>Saved Receipts (${rows.length})</h3>
+ <div class="scroll"><table>
+ <tr><th>Saved</th><th>Matchup</th><th>GREEN</th><th>Result</th></tr>
+ ${rows.map(r=>`<tr>
+ <td>${safe(r.savedAt.slice(0,16).replace("T"," "))} UTC</td>
+ <td>${r.matchup.away} @ ${r.matchup.home}</td>
+ <td>${r.markets.filter(m=>m.status==="GREEN").length}</td>
+ <td>${r.actual?"Recorded":"Pending"}</td></tr>`).join("")}
+ </table></div></div>`;
+ el("settleReceipt").innerHTML=rows.map(r=>
+ `<option value="${safe(r.id)}">${r.matchup.away} @
+ ${r.matchup.home} — ${safe(r.savedAt.slice(0,16))}</option>`
+ ).join("");
+ renderAccuracy();
+}
+function actualNumber(id){
+ const v=el(id).value.trim();
+ if(v===""||!Number.isInteger(+v)||+v<0)
+ throw Error("Enter all six actual scores as nonnegative integers.");
+ return +v;
+}
+function settle(){
+ try{
+ const r=db.receipts.find(x=>x.id===el("settleReceipt").value);
+ if(!r)throw Error("Save an analysis receipt first.");
+ const a1=actualNumber("a1"),h1=actualNumber("h1");
+ const a2=actualNumber("a2"),h2=actualNumber("h2");
+ const af=actualNumber("af"),hf=actualNumber("hf");
+ if(a2<a1||h2<h1||af<a2||hf<h2)
+ throw Error("Full-game points must be at least first-half points, "
+ +"and first-half points must be at least first-quarter points.");
+ r.actual={q1:a1+h1,half:a2+h2,full:af+hf,
+ away:af,home:hf};
+ persist();renderReceipts();
+ alert("Actual scores recorded.");
+ }catch(e){alert(e.message)}
+}
+function renderAccuracy(){
+ const done=db.receipts.filter(r=>r.actual);
+ if(!done.length){
+ el("accuracy").innerHTML='<p class="note">No completed tracked games yet.</p>';
+ return;
+ }
+ const periods=["q1","half","full"];
+ el("accuracy").innerHTML=`
+ <div class="scroll"><table>
+ <tr><th>Period</th><th>Tracked receipts</th>
+ <th>Mean absolute total error</th></tr>
+ ${periods.map(k=>{
+ const error=done.reduce((s,r)=>s+
+ Math.abs(r.matchup.p[k].total-r.actual[k]),0)/done.length;
+ return `<tr><td>${k.toUpperCase()}</td><td>${done.length}</td>
+ <td>${fmt(error)} points</td></tr>`;
+ }).join("")}</table></div>
+ <p class="note">Repeated receipts for the same game count separately.
+ Record one pregame receipt per matchup for a clean accuracy study.</p>`;
+}
+function exportData(){
+ const blob=new Blob([JSON.stringify(db,null,2)],
+ {type:"application/json"});
+ const url=URL.createObjectURL(blob);
+ const a=document.createElement("a");
+ a.href=url;a.download="docs-nba-preseason-backup.json";
+ a.click();URL.revokeObjectURL(url);
+}
+async function importData(event){
+ try{
+ const file=event.target.files[0];if(!file)return;
+ const parsed=JSON.parse(await file.text());
+ if(!Array.isArray(parsed.games)||!Array.isArray(parsed.receipts))
+ throw Error("Invalid backup format.");
+ if(!confirm("Replace locally saved data with this backup?"))return;
+ db=parsed;persist();renderHistory();renderReceipts();
+ alert("Backup restored.");
+ }catch(e){alert(e.message)}
+ event.target.value="";
+}
+function init(){
+ for(const [id,t] of [
+ ["away","BKN"],["home","MIA"],
+ ["matchAway","BKN"],["matchHome","MIA"]
+ ])optionTeams(id,t);
+ quarters("aq","awayQs");quarters("hq","homeQs");
+ lineFields();
+ const today=new Date().toLocaleDateString("en-CA");
+ el("date").value=today;el("matchDate").value=today;
+ renderHistory();renderReceipts();
+}
+init();
+</script>
+</body>
+</html>
