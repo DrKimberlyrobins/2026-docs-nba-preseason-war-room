@@ -1,0 +1,1084 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Doc's NBA Preseason Engine</title>
+
+<style>
+:root {
+  --navy:#081728;
+  --panel:#13273e;
+  --panel2:#1a3450;
+  --gold:#f4bc48;
+  --green:#40d995;
+  --yellow:#ffd166;
+  --red:#ff8585;
+  --white:#f3f7fc;
+}
+
+* { box-sizing:border-box; }
+
+body {
+  margin:0;
+  background:var(--navy);
+  color:var(--white);
+  font-family:Arial,Helvetica,sans-serif;
+  line-height:1.5;
+}
+
+header {
+  background:#10243a;
+  border-bottom:3px solid var(--gold);
+  padding:22px;
+  text-align:center;
+}
+
+h1 { color:var(--gold); margin:0; }
+h2 { color:var(--gold); margin:0 0 14px; font-size:21px; }
+h3 { margin:8px 0; }
+
+main {
+  max-width:1250px;
+  margin:auto;
+  padding:16px;
+}
+
+.card {
+  background:var(--panel);
+  border:1px solid #38506a;
+  border-radius:12px;
+  padding:18px;
+  margin-bottom:18px;
+}
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+  gap:14px;
+}
+
+label {
+  display:block;
+  margin-bottom:6px;
+  color:#c7d7e7;
+  font-weight:bold;
+}
+
+select,input,button {
+  width:100%;
+  padding:12px;
+  border-radius:8px;
+  font-size:15px;
+}
+
+select,input {
+  background:#081728;
+  color:white;
+  border:1px solid #55718d;
+}
+
+button {
+  background:var(--gold);
+  color:#101a28;
+  border:none;
+  font-weight:bold;
+  cursor:pointer;
+}
+
+button:hover { filter:brightness(1.1); }
+
+table {
+  width:100%;
+  border-collapse:collapse;
+  margin-top:12px;
+}
+
+th,td {
+  border-bottom:1px solid #36506b;
+  padding:10px;
+  text-align:left;
+}
+
+th { color:var(--gold); }
+
+.small { color:#b8c8d8; font-size:13px; }
+.note { color:#b8c8d8; }
+
+.green { color:var(--green); font-weight:bold; }
+.yellow { color:var(--yellow); font-weight:bold; }
+.red { color:var(--red); font-weight:bold; }
+
+.number {
+  font-size:25px;
+  font-weight:bold;
+  color:var(--gold);
+}
+
+.market {
+  background:var(--panel2);
+  padding:14px;
+  border-radius:10px;
+  margin:10px 0;
+  border-left:4px solid #68819b;
+}
+
+.market.green-border { border-left-color:var(--green); }
+.market.yellow-border { border-left-color:var(--yellow); }
+
+.two {
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  gap:14px;
+}
+
+@media(max-width:650px) {
+  .two { grid-template-columns:1fr; }
+  th,td { padding:7px 4px; font-size:13px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <h1>DOC'S NBA PRESEASON WAR ROOM</h1>
+  <div>ESPN Intelligence + Kambi Markets + Decision Engine</div>
+</header>
+
+<main>
+
+<section class="card">
+  <h2>1. Select Your Matchup</h2>
+
+  <div class="grid">
+    <div>
+      <label>Preseason Game</label>
+      <select id="game" onchange="selectGame()"></select>
+    </div>
+
+    <div>
+      <label>Or Choose Away Team</label>
+      <select id="away" onchange="selectTeams()"></select>
+    </div>
+
+    <div>
+      <label>Home Team</label>
+      <select id="home" onchange="selectTeams()"></select>
+    </div>
+  </div>
+
+  <p id="status" class="small">Loading ESPN data...</p>
+
+  <button onclick="loadData()">Refresh ESPN Data</button>
+</section>
+
+<section class="card">
+  <h2>2. Team Intelligence</h2>
+  <div id="teamData"></div>
+</section>
+
+<section class="card">
+  <h2>3. Scoring Projections</h2>
+  <div id="projections"></div>
+</section>
+
+<section class="card">
+  <h2>4. Kambi Sportsbook Lines</h2>
+  <div id="sportsbook"></div>
+</section>
+
+<section class="card">
+  <h2>5. War Room Decisions</h2>
+  <div id="decisions"></div>
+</section>
+
+<section class="card">
+  <h2>6. Player Intelligence</h2>
+  <div id="players"></div>
+</section>
+
+<section class="card">
+  <h2>7. Best of Slate</h2>
+  <div id="best"></div>
+</section>
+
+</main>
+
+<script>
+"use strict";
+
+/*
+  KAMBI PRESEASON SNAPSHOT
+  October 14, 2026
+
+  All lines and prices below were transcribed
+  from the supplied sportsbook screenshots.
+
+  These are historical snapshot prices,
+  not live sportsbook prices.
+*/
+
+const GAMES = [
+  {
+    away:"BKN",
+    home:"MIA",
+    spreadAway:6.5,
+    spreadHome:-6.5,
+    spreadAwayOdds:-148,
+    spreadHomeOdds:120,
+    mlAway:160,
+    mlHome:-200,
+    total:234.5,
+    overOdds:-113,
+    underOdds:-109
+  },
+  {
+    away:"CHA",
+    home:"BOS",
+    spreadAway:8.5,
+    spreadHome:-8.5,
+    spreadAwayOdds:-114,
+    spreadHomeOdds:-107,
+    mlAway:265,
+    mlHome:-345,
+    total:225.5,
+    overOdds:106,
+    underOdds:-129
+  },
+  {
+    away:"CHI",
+    home:"MIL",
+    spreadAway:-1.5,
+    spreadHome:1.5,
+    spreadAwayOdds:-112,
+    spreadHomeOdds:-109,
+    mlAway:-129,
+    mlHome:106,
+    total:233.5,
+    overOdds:-105,
+    underOdds:-117
+  },
+  {
+    away:"DET",
+    home:"MIN",
+    spreadAway:2.5,
+    spreadHome:-2.5,
+    spreadAwayOdds:120,
+    spreadHomeOdds:-148,
+    mlAway:160,
+    mlHome:-200,
+    total:227.5,
+    overOdds:-108,
+    underOdds:-113
+  },
+  {
+    away:"NO",
+    home:"DAL",
+    spreadAway:0.5,
+    spreadHome:-0.5,
+    spreadAwayOdds:-141,
+    spreadHomeOdds:116,
+    mlAway:-141,
+    mlHome:116,
+    total:233.5,
+    overOdds:106,
+    underOdds:-129
+  },
+  {
+    away:"PHX",
+    home:"SA",
+    spreadAway:9.5,
+    spreadHome:-9.5,
+    spreadAwayOdds:-112,
+    spreadHomeOdds:-109,
+    mlAway:275,
+    mlHome:-360,
+    total:222.5,
+    overOdds:-109,
+    underOdds:-112
+  },
+  {
+    away:"DEN",
+    home:"LAC",
+    spreadAway:-1.5,
+    spreadHome:1.5,
+    spreadAwayOdds:-132,
+    spreadHomeOdds:108,
+    mlAway:-152,
+    mlHome:125,
+    total:225.5,
+    overOdds:-112,
+    underOdds:-110
+  }
+];
+
+const NAMES = {
+  ATL:"Atlanta Hawks",
+  BOS:"Boston Celtics",
+  BKN:"Brooklyn Nets",
+  CHA:"Charlotte Hornets",
+  CHI:"Chicago Bulls",
+  CLE:"Cleveland Cavaliers",
+  DAL:"Dallas Mavericks",
+  DEN:"Denver Nuggets",
+  DET:"Detroit Pistons",
+  GS:"Golden State Warriors",
+  HOU:"Houston Rockets",
+  IND:"Indiana Pacers",
+  LAC:"LA Clippers",
+  LAL:"Los Angeles Lakers",
+  MEM:"Memphis Grizzlies",
+  MIA:"Miami Heat",
+  MIL:"Milwaukee Bucks",
+  MIN:"Minnesota Timberwolves",
+  NO:"New Orleans Pelicans",
+  NY:"New York Knicks",
+  OKC:"Oklahoma City Thunder",
+  ORL:"Orlando Magic",
+  PHI:"Philadelphia 76ers",
+  PHX:"Phoenix Suns",
+  POR:"Portland Trail Blazers",
+  SAC:"Sacramento Kings",
+  SA:"San Antonio Spurs",
+  TOR:"Toronto Raptors",
+  UTAH:"Utah Jazz",
+  WAS:"Washington Wizards"
+};
+
+const ALIASES = {
+  BRK:"BKN",
+  NJ:"BKN",
+  BKN:"BKN",
+  CHO:"CHA",
+  CHH:"CHA",
+  CHA:"CHA",
+  GSW:"GS",
+  GS:"GS",
+  NOP:"NO",
+  NOR:"NO",
+  NO:"NO",
+  NYK:"NY",
+  NY:"NY",
+  SAS:"SA",
+  SA:"SA",
+  UTA:"UTAH",
+  UTAH:"UTAH",
+  WSH:"WAS",
+  WAS:"WAS",
+  PHO:"PHX",
+  PHX:"PHX"
+};
+
+const SNAPSHOT_DATE = "2026-10-14";
+
+let teams = [];
+let players = [];
+let gameResults = [];
+let currentGame = null;
+let currentDecisions = [];
+let dataReady = false;
+
+const $ = id => document.getElementById(id);
+
+function escapeHTML(value) {
+  return String(value ?? "").replace(
+    /[&<>"']/g,
+    c => ({
+      "&":"&amp;",
+      "<":"&lt;",
+      ">":"&gt;",
+      '"':"&quot;",
+      "'":"&#39;"
+    })[c]
+  );
+}
+
+function canonical(value) {
+  const raw = String(value || "").trim().toUpperCase();
+  return ALIASES[raw] || raw;
+}
+
+function teamCode(team) {
+  if (!team) return "";
+
+  const abbr = canonical(team.abbreviation);
+
+  if (NAMES[abbr]) return abbr;
+
+  const name = String(team.team || team.name || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g,"");
+
+  for (const [code,full] of Object.entries(NAMES)) {
+    if (full.toLowerCase().replace(/[^a-z0-9]/g,"") === name) {
+      return code;
+    }
+  }
+
+  return abbr;
+}
+
+function findTeam(code) {
+  return teams.find(t => teamCode(t) === canonical(code));
+}
+
+function number(value) {
+  if (value === null || value === undefined || value === "") {
+    return null;
+  }
+
+  const n = Number(value);
+  return Number.isFinite(n) ? n : null;
+}
+
+function fmt(value, digits=1) {
+  const n = number(value);
+  return n === null ? "N/A" : n.toFixed(digits);
+}
+
+function signed(value) {
+  const n = number(value);
+  if (n === null) return "N/A";
+  return (n > 0 ? "+" : "") + n;
+}
+
+function average(values) {
+  const valid = values.map(number).filter(x => x !== null);
+
+  if (!valid.length) return null;
+
+  return valid.reduce((a,b) => a+b,0) / valid.length;
+}
+
+function dateOnly(value) {
+  return String(value || "").slice(0,10);
+}
+
+function gameLabel(g) {
+  return `${g.away} @ ${g.home}`;
+}
+
+function initialize() {
+  $("game").innerHTML =
+    '<option value="">Choose a preseason game</option>' +
+    GAMES.map((g,i) =>
+      `<option value="${i}">${gameLabel(g)}</option>`
+    ).join("");
+
+  const options = Object.entries(NAMES)
+    .sort((a,b) => a[1].localeCompare(b[1]))
+    .map(([code,name]) =>
+      `<option value="${code}">${escapeHTML(name)}</option>`
+    ).join("");
+
+  $("away").innerHTML = options;
+  $("home").innerHTML = options;
+
+  $("game").value = "0";
+  selectGame();
+}
+
+function selectGame() {
+  const index = $("game").value;
+
+  if (index === "") return;
+
+  currentGame = GAMES[Number(index)];
+
+  $("away").value = currentGame.away;
+  $("home").value = currentGame.home;
+
+  analyze();
+}
+
+function selectTeams() {
+  const away = $("away").value;
+  const home = $("home").value;
+
+  const index = GAMES.findIndex(g =>
+    g.away === away && g.home === home
+  );
+
+  $("game").value = index >= 0 ? String(index) : "";
+
+  currentGame = index >= 0
+    ? GAMES[index]
+    : {away,home};
+
+  analyze();
+}
+
+async function fetchJSON(path) {
+  const response = await fetch(
+    path + "?refresh=" + Date.now(),
+    {cache:"no-store"}
+  );
+
+  if (!response.ok) {
+    throw new Error(`${path}: HTTP ${response.status}`);
+  }
+
+  return response.json();
+}
+
+async function loadData() {
+  $("status").textContent = "Loading ESPN preseason files...";
+
+  const results = await Promise.allSettled([
+    fetchJSON("data/preseason-teams-2026.json"),
+    fetchJSON("data/preseason-players-2026.json"),
+    fetchJSON("data/preseason-games-2026.json")
+  ]);
+
+  const [teamResult,playerResult,gameResult] = results;
+
+  if (
+    teamResult.status === "fulfilled" &&
+    Array.isArray(teamResult.value.teams)
+  ) {
+    teams = teamResult.value.teams;
+    dataReady = true;
+  } else {
+    teams = [];
+    dataReady = false;
+  }
+
+  players = (
+    playerResult.status === "fulfilled" &&
+    Array.isArray(playerResult.value.players)
+  ) ? playerResult.value.players : [];
+
+  gameResults = (
+    gameResult.status === "fulfilled" &&
+    Array.isArray(gameResult.value.games)
+  ) ? gameResult.value.games : [];
+
+  const problems = [];
+
+  if (!dataReady) problems.push("team statistics");
+  if (playerResult.status !== "fulfilled") problems.push("player statistics");
+  if (gameResult.status !== "fulfilled") problems.push("game results");
+
+  if (dataReady) {
+    $("status").innerHTML =
+      `<span class="green">ESPN DATA LOADED</span> — ` +
+      `${teams.length} teams, ${players.length} players, ` +
+      `${gameResults.length} completed games.` +
+      (problems.length
+        ? ` Missing: ${problems.join(", ")}.`
+        : "");
+  } else {
+    const reason = teamResult.status === "rejected"
+      ? teamResult.reason.message
+      : "Team JSON missing or invalid";
+
+    $("status").innerHTML =
+      `<span class="red">ESPN LOAD FAILED:</span> ` +
+      escapeHTML(reason) +
+      ". Decisions will remain PASS.";
+  }
+
+  analyze();
+}
+
+function logsBeforeGame(team) {
+  if (!team) return [];
+
+  const logs = Array.isArray(team.gameLogs)
+    ? team.gameLogs
+    : [];
+
+  return logs.filter(log =>
+    dateOnly(log.date) &&
+    dateOnly(log.date) < SNAPSHOT_DATE
+  );
+}
+
+function statsFromLogs(team,location) {
+  const all = logsBeforeGame(team);
+
+  const selected = location
+    ? all.filter(log => log.homeAway === location)
+    : all;
+
+  const fields = [
+    "q1",
+    "firstHalf",
+    "fullGame",
+    "q1Allowed",
+    "firstHalfAllowed",
+    "fullGameAllowed"
+  ];
+
+  const result = {games:selected.length};
+
+  for (const field of fields) {
+    result[field] = average(selected.map(log => log[field]));
+  }
+
+  return result;
+}
+
+function combinedStats(team) {
+  const all = statsFromLogs(team);
+  const home = statsFromLogs(team,"home");
+  const away = statsFromLogs(team,"away");
+
+  return {all,home,away};
+}
+
+function teamTable(code,stats) {
+  return `
+    <div class="card">
+      <h3>${escapeHTML(NAMES[code] || code)}</h3>
+      <table>
+        <tr>
+          <th>Statistic</th>
+          <th>All</th>
+          <th>Home</th>
+          <th>Away</th>
+        </tr>
+        ${[
+          ["Games","games",0],
+          ["1Q Scored","q1",1],
+          ["1Q Allowed","q1Allowed",1],
+          ["1H Scored","firstHalf",1],
+          ["1H Allowed","firstHalfAllowed",1],
+          ["Full Scored","fullGame",1],
+          ["Full Allowed","fullGameAllowed",1]
+        ].map(([label,key,digits]) => `
+          <tr>
+            <td>${label}</td>
+            <td>${fmt(stats.all[key],digits)}</td>
+            <td>${fmt(stats.home[key],digits)}</td>
+            <td>${fmt(stats.away[key],digits)}</td>
+          </tr>
+        `).join("")}
+      </table>
+    </div>
+  `;
+}
+
+function project(scored,opponentAllowed) {
+  if (number(scored) === null ||
+      number(opponentAllowed) === null) {
+    return null;
+  }
+
+  return (scored + opponentAllowed) / 2;
+}
+
+function makeProjection(away,home,period) {
+  const awayPoints = project(
+    away.all[period],
+    home.all[period+"Allowed"]
+  );
+
+  const homePoints = project(
+    home.all[period],
+    away.all[period+"Allowed"]
+  );
+
+  if (awayPoints === null || homePoints === null) {
+    return null;
+  }
+
+  return {
+    away:awayPoints,
+    home:homePoints,
+    total:awayPoints+homePoints,
+    margin:awayPoints-homePoints
+  };
+}
+
+function projectionCard(label,p) {
+  if (!p) {
+    return `<div class="market">${label}: insufficient data</div>`;
+  }
+
+  return `
+    <div class="market">
+      <h3>${label}</h3>
+      <div class="grid">
+        <div>Away projected: <b>${fmt(p.away)}</b></div>
+        <div>Home projected: <b>${fmt(p.home)}</b></div>
+        <div>Total projected:
+          <span class="number">${fmt(p.total)}</span>
+        </div>
+      </div>
+    </div>
+  `;
+}
+
+function marketCard(label,line,price) {
+  return `
+    <div class="market">
+      <b>${escapeHTML(label)}</b>
+      <div class="number">${escapeHTML(line)}</div>
+      <div class="small">Odds: ${escapeHTML(price)}</div>
+    </div>
+  `;
+}
+
+function sportsbookHTML(g) {
+  if (number(g.total) === null) {
+    return `
+      <p class="yellow">
+        No Kambi snapshot supplied for this matchup.
+      </p>
+      <p class="small">
+        Team projections are available, but market decisions
+        require verified sportsbook lines.
+      </p>
+    `;
+  }
+
+  return `
+    <p class="small">
+      Kambi snapshot: October 14, 2026.
+      These prices are not live.
+    </p>
+    <div class="grid">
+      ${marketCard(
+        `${g.away} spread`,
+        signed(g.spreadAway),
+        signed(g.spreadAwayOdds)
+      )}
+      ${marketCard(
+        `${g.home} spread`,
+        signed(g.spreadHome),
+        signed(g.spreadHomeOdds)
+      )}
+      ${marketCard(
+        `${g.away} moneyline`,
+        signed(g.mlAway),
+        "American"
+      )}
+      ${marketCard(
+        `${g.home} moneyline`,
+        signed(g.mlHome),
+        "American"
+      )}
+      ${marketCard(
+        "Game Over",
+        g.total,
+        signed(g.overOdds)
+      )}
+      ${marketCard(
+        "Game Under",
+        g.total,
+        signed(g.underOdds)
+      )}
+    </div>
+  `;
+}
+
+function addDecision(name,edge,price,sample,threshold=5) {
+  const valid = number(edge) !== null;
+
+  let status = "PASS";
+  let reason = "No reliable statistical comparison";
+
+  if (valid) {
+    if (sample < 3) {
+      reason = `Only ${sample} preseason games in the smaller sample`;
+    } else if (Math.abs(edge) >= threshold) {
+      status = "GREEN";
+      reason = "Model edge meets the screening threshold";
+    } else if (Math.abs(edge) >= threshold*0.6) {
+      status = "YELLOW";
+      reason = "Possible edge; below qualification threshold";
+    } else {
+      reason = "Insufficient model edge";
+    }
+  }
+
+  const result = {name,edge,price,status,reason};
+
+  currentDecisions.push(result);
+
+  const color = status === "GREEN"
+    ? "green"
+    : status === "YELLOW"
+      ? "yellow"
+      : "red";
+
+  return `
+    <div class="market ${status === "GREEN"
+      ? "green-border"
+      : status === "YELLOW"
+        ? "yellow-border"
+        : ""}">
+      <b>${escapeHTML(name)}</b>
+      <p class="${color}">${status}</p>
+      <p>Model edge: ${valid ? signed(Number(edge.toFixed(1))) : "N/A"}</p>
+      <p class="small">
+        Price: ${escapeHTML(signed(price))}<br>
+        ${escapeHTML(reason)}
+      </p>
+    </div>
+  `;
+}
+
+function decisionsHTML(g,p,sample) {
+  currentDecisions = [];
+
+  if (!p || number(g.total) === null) {
+    return `<p class="red">PASS — missing projection or sportsbook line.</p>`;
+  }
+
+  const totalEdge = p.total - g.total;
+
+  // Away cover margin = projected away-home + away handicap.
+  const awayCoverEdge = p.margin + g.spreadAway;
+
+  // Home cover margin is the negative of away cover margin.
+  const homeCoverEdge = -awayCoverEdge;
+
+  let html = `
+    <p class="small">
+      GREEN requires at least 3 completed preseason games
+      per team and a qualifying model edge.
+      These are screening decisions, not guaranteed outcomes.
+    </p>
+  `;
+
+  html += addDecision(
+    `OVER ${g.total}`,
+    totalEdge,
+    g.overOdds,
+    sample,
+    6
+  );
+
+  html += addDecision(
+    `UNDER ${g.total}`,
+    -totalEdge,
+    g.underOdds,
+    sample,
+    6
+  );
+
+  html += addDecision(
+    `${g.away} ${signed(g.spreadAway)}`,
+    awayCoverEdge,
+    g.spreadAwayOdds,
+    sample,
+    4
+  );
+
+  html += addDecision(
+    `${g.home} ${signed(g.spreadHome)}`,
+    homeCoverEdge,
+    g.spreadHomeOdds,
+    sample,
+    4
+  );
+
+  html += `
+    <div class="market">
+      <h3>Moneyline</h3>
+      <p>
+        Projected margin:
+        ${p.margin > 0 ? g.away : g.home}
+        by ${fmt(Math.abs(p.margin))} points.
+      </p>
+      <p class="yellow">
+        PASS — a scoring-margin projection alone does not
+        establish moneyline value. A calibrated win-probability
+        model is required.
+      </p>
+    </div>
+  `;
+
+  html += `
+    <div class="market">
+      <h3>First Quarter / First Half Markets</h3>
+      <p class="yellow">
+        PASS — ESPN projections are shown above, but
+        no verified Kambi 1Q or 1H lines were supplied.
+      </p>
+    </div>
+  `;
+
+  return html;
+}
+
+function playerHTML(awayCode,homeCode) {
+  if (!players.length) {
+    return `<p class="note">Player data unavailable.</p>`;
+  }
+
+  const selected = players.filter(p => {
+    const team = String(p.team || "").toLowerCase();
+
+    return [
+      NAMES[awayCode],
+      NAMES[homeCode]
+    ].some(name => name && name.toLowerCase() === team);
+  });
+
+  if (!selected.length) {
+    return `<p class="note">
+      No matching players found in the ESPN player file.
+    </p>`;
+  }
+
+  const cutoff = SNAPSHOT_DATE;
+
+  const rows = selected.map(p => {
+    const logs = (p.gameLogs || []).filter(log =>
+      dateOnly(log.date) < cutoff
+    );
+
+    const games = logs.length;
+
+    if (!games) return null;
+
+    return {
+      name:p.playerName,
+      team:p.team,
+      games,
+      points:average(logs.map(x=>x.points)),
+      rebounds:average(logs.map(x=>x.rebounds)),
+      assists:average(logs.map(x=>x.assists)),
+      threes:average(logs.map(x=>x.threes))
+    };
+  }).filter(Boolean);
+
+  rows.sort((a,b) =>
+    (b.points ?? 0)-(a.points ?? 0)
+  );
+
+  return `
+    <p class="small">
+      Player averages from available completed preseason
+      games before the snapshot date.
+    </p>
+    <div style="overflow-x:auto">
+      <table>
+        <tr>
+          <th>Player</th>
+          <th>Team</th>
+          <th>GP</th>
+          <th>PTS</th>
+          <th>REB</th>
+          <th>AST</th>
+          <th>3PM</th>
+        </tr>
+        ${rows.map(p=>`
+          <tr>
+            <td>${escapeHTML(p.name)}</td>
+            <td>${escapeHTML(p.team)}</td>
+            <td>${p.games}</td>
+            <td>${fmt(p.points)}</td>
+            <td>${fmt(p.rebounds)}</td>
+            <td>${fmt(p.assists)}</td>
+            <td>${fmt(p.threes)}</td>
+          </tr>
+        `).join("")}
+      </table>
+    </div>
+  `;
+}
+
+function bestHTML() {
+  const green = currentDecisions
+    .filter(d => d.status === "GREEN")
+    .sort((a,b) =>
+      Math.abs(b.edge)-Math.abs(a.edge)
+    );
+
+  if (!green.length) {
+    return `
+      <p class="red">NO QUALIFIED PLAYS — PASS</p>
+      <p class="small">
+        No available market passed the current screening rules.
+      </p>
+    `;
+  }
+
+  return green.map((d,i)=>`
+    <div class="market green-border">
+      <h3>${i+1}. ${escapeHTML(d.name)}</h3>
+      <p class="green">GREEN</p>
+      <p>
+        Edge: ${signed(Number(d.edge.toFixed(1)))}
+        | Price: ${signed(d.price)}
+      </p>
+    </div>
+  `).join("");
+}
+
+function analyze() {
+  if (!currentGame) return;
+
+  const g = currentGame;
+  const awayTeam = findTeam(g.away);
+  const homeTeam = findTeam(g.home);
+
+  $("sportsbook").innerHTML = sportsbookHTML(g);
+
+  if (!dataReady || !awayTeam || !homeTeam) {
+    const missing = [];
+
+    if (!dataReady) missing.push("ESPN team data");
+    if (!awayTeam) missing.push(g.away);
+    if (!homeTeam) missing.push(g.home);
+
+    $("teamData").innerHTML =
+      `<p class="red">Missing: ${escapeHTML(missing.join(", "))}</p>`;
+
+    $("projections").innerHTML =
+      `<p class="red">Projection unavailable.</p>`;
+
+    $("decisions").innerHTML =
+      `<p class="red">PASS — incomplete ESPN data.</p>`;
+
+    $("players").innerHTML =
+      `<p class="note">Player analysis unavailable.</p>`;
+
+    $("best").innerHTML =
+      `<p class="red">PASS</p>`;
+
+    currentDecisions = [];
+    return;
+  }
+
+  const a = combinedStats(awayTeam);
+  const h = combinedStats(homeTeam);
+
+  $("teamData").innerHTML = `
+    <div class="two">
+      ${teamTable(g.away,a)}
+      ${teamTable(g.home,h)}
+    </div>
+  `;
+
+  const q1 = makeProjection(a,h,"q1");
+  const half = makeProjection(a,h,"firstHalf");
+  const full = makeProjection(a,h,"fullGame");
+
+  $("projections").innerHTML =
+    projectionCard("First Quarter",q1) +
+    projectionCard("First Half",half) +
+    projectionCard("Full Game",full);
+
+  const sample = Math.min(a.all.games,h.all.games);
+
+  $("decisions").innerHTML =
+    decisionsHTML(g,full,sample);
+
+  $("players").innerHTML =
+    playerHTML(g.away,g.home);
+
+  $("best").innerHTML = bestHTML();
+}
+
+initialize();
+loadData();
+</script>
+
+</body>
+</html>
