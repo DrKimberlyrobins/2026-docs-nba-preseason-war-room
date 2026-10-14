@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Doc's 2026 NBA Preseason War Room</title>
-
 <style>
 :root{
   --navy:#09182b;
@@ -71,7 +70,6 @@ button{
   cursor:pointer;
 }
 button:hover{filter:brightness(1.12)}
-button:disabled{opacity:.4;cursor:not-allowed}
 .secondary{background:#36506a;color:white}
 .danger{background:#8b3440;color:white}
 .note{
@@ -159,14 +157,25 @@ summary{
   padding:7px;
   font-size:13px;
 }
+.edge-green{
+  color:var(--green);
+  font-weight:bold;
+}
+.edge-yellow{
+  color:var(--yellow);
+  font-weight:bold;
+}
+.edge-pass{
+  color:var(--red);
+  font-weight:bold;
+}
 </style>
 </head>
 
 <body>
-
 <header>
 <h1>DOC'S NBA PRESEASON WAR ROOM</h1>
-<p>2026 • ESPN Intelligence • Kambi Markets • Best of Slate • Receipts</p>
+<p>2026 • ESPN Intelligence • Preseason Edge Engine • Kambi Markets • Receipts</p>
 </header>
 
 <main>
@@ -184,19 +193,16 @@ Connecting to GitHub preseason datasets...
     <strong id="gameCount">—</strong>
     <span class="small">Completed preseason games</span>
   </div>
-
   <div class="stat">
     NBA Teams
     <strong id="teamCount">—</strong>
     <span class="small">Recognized NBA teams</span>
   </div>
-
   <div class="stat">
     Players
     <strong id="playerCount">—</strong>
     <span class="small">Preseason player records</span>
   </div>
-
   <div class="stat">
     Kambi Events
     <strong id="marketCount">—</strong>
@@ -208,17 +214,15 @@ Connecting to GitHub preseason datasets...
 
 <div class="inline-buttons">
   <button onclick="loadData()">Refresh War Room Data</button>
-  <button class="secondary" onclick="showGames()">
-    View ESPN Games
-  </button>
+  <button class="secondary" onclick="showGames()">View ESPN Games</button>
 </div>
 
 <div id="gameHistory"></div>
 
 <p class="note">
-Data is loaded from this repository's data folder.
-The GitHub Actions workflow updates the files automatically.
-Refreshing this page does not force GitHub Actions to run.
+Data loads automatically from this repository's JSON files.
+GitHub Actions updates the files. Refreshing the dashboard
+does not start a new GitHub Actions run.
 </p>
 </section>
 
@@ -230,21 +234,17 @@ Refreshing this page does not force GitHub Actions to run.
     <label>Away team</label>
     <select id="matchAway"></select>
   </div>
-
   <div>
     <label>Home team</label>
     <select id="matchHome"></select>
   </div>
-
   <div>
     <label>Match date</label>
     <input type="date" id="matchDate">
   </div>
 </div>
 
-<p>
-  <button onclick="analyze()">Analyze Matchup</button>
-</p>
+<p><button onclick="analyze()">Analyze Matchup</button></p>
 
 <div id="sample"></div>
 <div id="projections"></div>
@@ -252,7 +252,8 @@ Refreshing this page does not force GitHub Actions to run.
 <p class="note">
 Projection = (team preseason scoring average +
 opponent preseason points-allowed average) ÷ 2.
-These are descriptive estimates, not validated betting probabilities.
+Confidence and screening thresholds are adjusted for
+the limited preseason schedule.
 </p>
 </section>
 
@@ -260,27 +261,26 @@ These are descriptive estimates, not validated betting probabilities.
 <h2>3. Player Intelligence</h2>
 
 <p class="note">
-Preseason player averages from ESPN box scores.
-Click a player to view game-by-game statistics.
+Actual ESPN preseason player statistics.
+Click a player's name to inspect individual game logs.
 </p>
 
 <div id="players">
-  <p class="note">Select and analyze a matchup first.</p>
+  <p class="note">Analyze a matchup to display both teams.</p>
 </div>
-
 </section>
 
 <section>
 <h2>4. Kambi Market Intelligence</h2>
 
 <div id="kambiMatch">
-  <p class="note">Analyze a matchup to search available Kambi events.</p>
+  <p class="note">Analyze a matchup to inspect matching Kambi events.</p>
 </div>
 
 <p class="note">
-Kambi data reflects the last successful GitHub collection.
-It is not a live quote at the moment you open this page.
-Only use a market after verifying its event, line, and price.
+Kambi market information reflects the last successful
+GitHub collection. Verify current sportsbook lines before
+using them in the comparison engine.
 </p>
 </section>
 
@@ -288,16 +288,13 @@ Only use a market after verifying its event, line, and price.
 <h2>5. Sportsbook Line Comparison</h2>
 
 <p class="note">
-Enter current verified sportsbook lines below.
-Leave unavailable markets blank.
+Enter verified sportsbook lines. Missing markets stay blank.
 For spread, enter the HOME team's spread.
 </p>
 
 <div class="grid" id="lineInputs"></div>
 
-<p>
-  <button onclick="evaluate()">Evaluate All Markets</button>
-</p>
+<p><button onclick="evaluate()">Evaluate All Markets</button></p>
 
 <div id="markets"></div>
 </section>
@@ -306,7 +303,7 @@ For spread, enter the HOME team's spread.
 <h2>6. Best of Slate</h2>
 
 <div id="best">
-  <p class="note">Analyze a matchup and evaluate lines first.</p>
+  <p class="note">Analyze a matchup and evaluate available lines.</p>
 </div>
 
 <p>
@@ -322,8 +319,8 @@ For spread, enter the HOME team's spread.
 <h2>7. Projection Accuracy Tracker</h2>
 
 <p class="note">
-Save a receipt before the game. Record the final results afterward
-to measure how closely our projections matched actual scoring.
+Save a receipt before the game. Record actual results afterward
+to measure projection error. This is not a betting-profit tracker.
 </p>
 
 <div class="grid">
@@ -357,9 +354,7 @@ to measure how closely our projections matched actual scoring.
   </div>
 </div>
 
-<p>
-  <button onclick="settle()">Record Actual Results</button>
-</p>
+<p><button onclick="settle()">Record Actual Results</button></p>
 
 <div id="accuracy"></div>
 
@@ -375,19 +370,44 @@ to measure how closely our projections matched actual scoring.
   <label>Restore receipts backup</label>
   <input type="file" accept=".json" onchange="importData(event)">
 </p>
-
 </section>
 
 </main>
+
+<div id="playerModal" style="
+  display:none;
+  position:fixed;
+  inset:0;
+  background:rgba(0,0,0,.85);
+  z-index:9999;
+  overflow:auto;
+  padding:20px;
+">
+  <div style="
+    max-width:800px;
+    margin:30px auto;
+    background:#13263c;
+    border:2px solid #f4b942;
+    border-radius:12px;
+    padding:20px;
+  ">
+    <button onclick="closePlayer()" class="secondary"
+      style="max-width:130px;float:right">
+      Close
+    </button>
+    <div style="clear:both"></div>
+    <div id="playerDetail"></div>
+  </div>
+</div>
 
 <script>
 "use strict";
 
 /* =====================================================
-   TEAM DIRECTORY
+   NBA TEAM DIRECTORY
 ===================================================== */
 
-const TEAMS = {
+const TEAMS={
   ATL:"Atlanta Hawks",
   BOS:"Boston Celtics",
   BKN:"Brooklyn Nets",
@@ -420,7 +440,7 @@ const TEAMS = {
   WAS:"Washington Wizards"
 };
 
-const ALIASES = {
+const ALIASES={
   "LA Clippers":"LAC",
   "Los Angeles Clippers":"LAC",
   "Los Angeles Lakers":"LAL",
@@ -454,11 +474,10 @@ const ALIASES = {
   "Charlotte Hornets":"CHA"
 };
 
-const STORE = "docs_nba_preseason_2026_v1";
+const STORE="docs_nba_preseason_2026_v1";
 
-let db = {games:[],receipts:[]};
-
-let live = {
+let db={games:[],receipts:[]};
+let live={
   games:[],
   teams:[],
   players:[],
@@ -466,16 +485,15 @@ let live = {
   status:null,
   loaded:false
 };
+let current=null;
+let evaluated=[];
 
-let current = null;
-let evaluated = [];
-
-try {
-  const saved = JSON.parse(localStorage.getItem(STORE));
+try{
+  const saved=JSON.parse(localStorage.getItem(STORE));
   if(saved && Array.isArray(saved.receipts)){
-    db = saved;
+    db=saved;
   }
-} catch(e){
+}catch(e){
   console.warn("Saved receipts unavailable",e);
 }
 
@@ -483,12 +501,10 @@ try {
    UTILITIES
 ===================================================== */
 
-function el(id){
-  return document.getElementById(id);
-}
+function el(id){return document.getElementById(id)}
 
 function safe(value){
-  return String(value ?? "").replace(/[&<>"']/g,c=>({
+  return String(value??"").replace(/[&<>"']/g,c=>({
     "&":"&amp;",
     "<":"&lt;",
     ">":"&gt;",
@@ -498,9 +514,7 @@ function safe(value){
 }
 
 function fmt(value){
-  return Number.isFinite(value)
-    ? value.toFixed(1)
-    : "N/A";
+  return Number.isFinite(value)?value.toFixed(1):"N/A";
 }
 
 function sum(values){
@@ -511,1134 +525,79 @@ function persist(){
   localStorage.setItem(STORE,JSON.stringify(db));
 }
 
+function numeric(value){
+  if(value===null || value===undefined || value===""){
+    return null;
+  }
+  const n=Number(value);
+  return Number.isFinite(n)?n:null;
+}
+
+function avg(rows,key){
+  const values=rows
+    .map(r=>numeric(r[key]))
+    .filter(v=>v!==null);
+
+  return values.length?sum(values)/values.length:null;
+}
+
+function dateOnly(value){
+  return String(value||"").slice(0,10);
+}
+
+function nowLocalDate(){
+  const d=new Date();
+  return [
+    d.getFullYear(),
+    String(d.getMonth()+1).padStart(2,"0"),
+    String(d.getDate()).padStart(2,"0")
+  ].join("-");
+}
+
 function teamCode(value){
-  const raw = String(value || "").trim();
+  const raw=String(value||"").trim();
 
-  if(TEAMS[raw]) return raw;
-  if(ALIASES[raw]) return ALIASES[raw];
+  if(TEAMS[raw])return raw;
+  if(ALIASES[raw])return ALIASES[raw];
 
-  const found = Object.entries(TEAMS)
+  const found=Object.entries(TEAMS)
     .find(([code,name])=>
       name.toLowerCase()===raw.toLowerCase()
     );
 
-  return found ? found[0] : null;
+  return found?found[0]:null;
 }
 
 function optionTeams(id,defaultTeam){
-  el(id).innerHTML = Object.entries(TEAMS)
+  el(id).innerHTML=Object.entries(TEAMS)
     .map(([code,name])=>
       `<option value="${code}">${safe(name)}</option>`
     ).join("");
 
-  el(id).value = defaultTeam;
-}
-
-function numeric(value){
-  const n = Number(value);
-  return Number.isFinite(n) ? n : null;
-}
-
-function avg(rows,key){
-  const valid = rows
-    .map(r=>numeric(r[key]))
-    .filter(v=>v!==null);
-
-  if(!valid.length) return null;
-
-  return sum(valid)/valid.length;
-}
-
-function dateOnly(value){
-  return String(value || "").slice(0,10);
-}
-
-function nowLocalDate(){
-  const d = new Date();
-  const year = d.getFullYear();
-  const month = String(d.getMonth()+1).padStart(2,"0");
-  const day = String(d.getDate()).padStart(2,"0");
-  return `${year}-${month}-${day}`;
+  el(id).value=defaultTeam;
 }
 
 /* =====================================================
-   LOAD GITHUB JSON DATA
+   GITHUB DATA CONNECTION
 ===================================================== */
 
 async function getJSON(filename){
-  const url = "./data/" + filename + "?v=" + Date.now();
-
-  const response = await fetch(url,{
-    cache:"no-store"
-  });
+  const url="./data/"+filename+"?v="+Date.now();
+  const response=await fetch(url,{cache:"no-store"});
 
   if(!response.ok){
-    throw new Error(
-      filename + " returned HTTP " + response.status
-    );
+    throw Error(filename+" returned HTTP "+response.status);
   }
 
   return response.json();
 }
 
 async function loadData(){
-  el("connectionStatus").innerHTML =
-    '<span class="warning">Loading preseason datasets...</span>';
+  el("connectionStatus").innerHTML=
+    '<span class="warning">Loading ESPN and Kambi data...</span>';
 
-  const files = [
+  const files=[
     "preseason-games-2026.json",
     "preseason-teams-2026.json",
     "preseason-players-2026.json",
-    "preseason-markets-2026.json",
-    "preseason-status.json"
-  ];
-
-  const results = await Promise.allSettled(
-    files.map(getJSON)
-  );
-
-  const failures = results
-    .map((r,i)=>r.status==="rejected" ? files[i] : null)
-    .filter(Boolean);
-
-  if(failures.length){
-    live.loaded=false;
-
-    el("connectionStatus").innerHTML =
-      '<span class="pass">DATA CONNECTION INCOMPLETE</span>' +
-      '<p class="note">Missing or unreadable: ' +
-      safe(failures.join(", ")) +
-      '</p><p class="note">Check that the GitHub Actions ' +
-      'workflow committed these files to the data folder.</p>';
-
-    return;
-  }
-
-  const [
-    gameData,
-    teamData,
-    playerData,
-    marketData,
-    statusData
-  ] = results.map(r=>r.value);
-
-  if(
-    !Array.isArray(gameData.games) ||
-    !Array.isArray(teamData.teams) ||
-    !Array.isArray(playerData.players) ||
-    !Array.isArray(marketData.events)
-  ){
-    live.loaded=false;
-
-    el("connectionStatus").innerHTML =
-      '<span class="pass">Unexpected JSON structure. PASS.</span>';
-
-    return;
-  }
-
-  live.games=gameData.games;
-  live.teams=teamData.teams;
-  live.players=playerData.players;
-  live.markets=marketData.events;
-  live.status=statusData;
-  live.loaded=true;
-
-  const recognized = new Set(
-    live.teams
-      .map(t=>teamCode(t.abbreviation || t.team))
-      .filter(Boolean)
-  );
-
-  el("gameCount").textContent=live.games.length;
-  el("teamCount").textContent=recognized.size;
-  el("playerCount").textContent=live.players.length;
-  el("marketCount").textContent=
-    live.markets.filter(e=>
-      Array.isArray(e.betOffers) && e.betOffers.length
-    ).length;
-
-  const complete = statusData.dataComplete === true;
-
-  el("connectionStatus").innerHTML = complete
-    ? '<span class="green">ESPN DATA CONNECTED</span>' +
-      ' <span class="pill good">GITHUB DATA LOADED</span>'
-    : '<span class="warning">DATA LOADED WITH WARNINGS</span>';
-
-  el("updatedAt").textContent =
-    "Last dataset update: " +
-    (statusData.generatedAt
-      ? new Date(statusData.generatedAt).toLocaleString()
-      : "Unknown");
-
-  el("gameHistory").innerHTML="";
-
-  if(current){
-    analyze();
-  }
-}
-
-/* =====================================================
-   ESPN GAME HISTORY
-===================================================== */
-
-function showGames(){
-  if(!live.loaded){
-    alert("Load the ESPN data first.");
-    return;
-  }
-
-  const rows = [...live.games].sort((a,b)=>
-    String(b.date).localeCompare(String(a.date))
-  );
-
-  el("gameHistory").innerHTML=`
-    <div class="divider"></div>
-    <h3>Completed ESPN Preseason Games (${rows.length})</h3>
-    <div class="scroll">
-      <table>
-        <tr>
-          <th>Date</th>
-          <th>Away</th>
-          <th>Home</th>
-          <th>1Q</th>
-          <th>1H</th>
-          <th>Final</th>
-        </tr>
-        ${rows.map(g=>`
-          <tr>
-            <td>${safe(dateOnly(g.date))}</td>
-            <td>${safe(g.away?.team)}</td>
-            <td>${safe(g.home?.team)}</td>
-            <td>${g.away?.q1 ?? "—"}–${g.home?.q1 ?? "—"}</td>
-            <td>${g.away?.firstHalf ?? "—"}–${g.home?.firstHalf ?? "—"}</td>
-            <td>${g.away?.fullGame ?? "—"}–${g.home?.fullGame ?? "—"}</td>
-          </tr>
-        `).join("")}
-      </table>
-    </div>
-  `;
-}
-
-/* =====================================================
-   TEAM STATISTICS
-===================================================== */
-
-function getTeamRecord(code){
-  return live.teams.find(t=>
-    teamCode(t.abbreviation || t.team)===code
-  );
-}
-
-function teamStats(code){
-  const team = getTeamRecord(code);
-
-  if(!team || !Array.isArray(team.gameLogs)){
-    return {
-      n:0,
-      q1:null,
-      half:null,
-      full:null
-    };
-  }
-
-  const cutoff = el("matchDate").value;
-
-  const rows = team.gameLogs.filter(r=>
-    !cutoff || dateOnly(r.date) < cutoff
-  );
-
-  function period(scored,allowed){
-    const s=avg(rows,scored);
-    const a=avg(rows,allowed);
-
-    return s===null || a===null
-      ? null
-      : {scored:s,allowed:a};
-  }
-
-  return {
-    n:rows.length,
-    q1:period("q1","q1Allowed"),
-    half:period("firstHalf","firstHalfAllowed"),
-    full:period("fullGame","fullGameAllowed"),
-    logs:rows
-  };
-}
-
-/* =====================================================
-   MATCHUP ANALYSIS
-===================================================== */
-
-function analyze(){
-  if(!live.loaded){
-    alert("ESPN data has not loaded yet.");
-    return;
-  }
-
-  const away=el("matchAway").value;
-  const home=el("matchHome").value;
-  const date=el("matchDate").value;
-
-  if(away===home){
-    alert("Choose two different teams.");
-    return;
-  }
-
-  const A=teamStats(away);
-  const H=teamStats(home);
-
-  current=null;
-  evaluated=[];
-
-  el("markets").innerHTML="";
-  el("best").innerHTML=
-    '<p class="note">Evaluate the sportsbook lines first.</p>';
-
-  el("sample").innerHTML=`
-    <div class="grid">
-      <div class="stat">
-        ${safe(TEAMS[away])}
-        <strong>${A.n}</strong>
-        <span class="small">Preseason games before matchup date</span>
-      </div>
-      <div class="stat">
-        ${safe(TEAMS[home])}
-        <strong>${H.n}</strong>
-        <span class="small">Preseason games before matchup date</span>
-      </div>
-    </div>
-  `;
-
-  showPlayers(away,home,date);
-  showKambi(away,home,date);
-
-  if(
-    !A.n || !H.n ||
-    !A.q1 || !H.q1 ||
-    !A.half || !H.half ||
-    !A.full || !H.full
-  ){
-    el("projections").innerHTML=
-      '<p class="pass">Insufficient completed preseason data. PASS.</p>';
-    return;
-  }
-
-  const p={};
-
-  for(const period of ["q1","half","full"]){
-    const a=(
-      A[period].scored +
-      H[period].allowed
-    )/2;
-
-    const h=(
-      H[period].scored +
-      A[period].allowed
-    )/2;
-
-    p[period]={
-      away:a,
-      home:h,
-      total:a+h
-    };
-  }
-
-  current={
-    away,
-    home,
-    date,
-    counts:{
-      away:A.n,
-      home:H.n
-    },
-    p,
-    generatedAt:live.status?.generatedAt || null
-  };
-
-  const names={
-    q1:"1Q",
-    half:"1H",
-    full:"Full Game"
-  };
-
-  el("projections").innerHTML=`
-    <div class="scroll">
-      <table>
-        <tr>
-          <th>Period</th>
-          <th>${away} Scored / Allowed</th>
-          <th>${home} Scored / Allowed</th>
-          <th>${away} Projection</th>
-          <th>${home} Projection</th>
-          <th>Combined</th>
-        </tr>
-        ${Object.keys(names).map(k=>`
-          <tr>
-            <td>${names[k]}</td>
-            <td>${fmt(A[k].scored)} / ${fmt(A[k].allowed)}</td>
-            <td>${fmt(H[k].scored)} / ${fmt(H[k].allowed)}</td>
-            <td>${fmt(p[k].away)}</td>
-            <td>${fmt(p[k].home)}</td>
-            <td><strong>${fmt(p[k].total)}</strong></td>
-          </tr>
-        `).join("")}
-      </table>
-    </div>
-
-    <p class="warning">
-      ${
-        Math.min(A.n,H.n)<2
-          ? "INSUFFICIENT SAMPLE — PASS."
-          : Math.min(A.n,H.n)<4
-          ? "SMALL PRESEASON SAMPLE — RESEARCH ONLY."
-          : "SAMPLE COUNT MET — ROTATION AND INJURY CHECKS STILL REQUIRED."
-      }
-    </p>
-
-    <p class="note">
-      Official betting qualification remains disabled until
-      the projection model and sportsbook market mappings
-      are validated.
-    </p>
-  `;
-}
-
-/* =====================================================
-   PLAYER INTELLIGENCE
-===================================================== */
-
-function playerTeamCode(player){
-  const latest = Array.isArray(player.gameLogs)
-    ? player.gameLogs[0]
-    : null;
-
-  return teamCode(
-    latest?.team ||
-    player.team ||
-    ""
-  );
-}
-
-function showPlayers(away,home,date){
-  const players=live.players.filter(p=>{
-    if(![away,home].includes(playerTeamCode(p))){
-      return false;
-    }
-
-    return Array.isArray(p.gameLogs) &&
-      p.gameLogs.some(g=>
-        !date || dateOnly(g.date)<date
-      );
-  });
-
-  const groups=[away,home];
-
-  el("players").innerHTML=groups.map(code=>{
-    const rows=players
-      .filter(p=>playerTeamCode(p)===code)
-      .map(p=>{
-        const logs=p.gameLogs.filter(g=>
-          !date || dateOnly(g.date)<date
-        );
-
-        return {
-          player:p,
-          logs,
-          ppg:avg(logs,"points"),
-          rpg:avg(logs,"rebounds"),
-          apg:avg(logs,"assists"),
-          tpg:avg(logs,"threes")
-        };
-      })
-      .sort((a,b)=>(b.ppg||0)-(a.ppg||0));
-
-    return `
-      <div class="orange">
-        <h3>${safe(TEAMS[code])} — ${rows.length} Players</h3>
-        <div class="scroll">
-          <table>
-            <tr>
-              <th>Player</th>
-              <th>GP</th>
-              <th>PPG</th>
-              <th>RPG</th>
-              <th>APG</th>
-              <th>3PM</th>
-            </tr>
-            ${rows.map(r=>`
-              <tr>
-                <td>
-                  <button class="player-button"
-                    onclick="showPlayerDetail('${safe(r.player.playerId)}')">
-                    ${safe(r.player.playerName || r.player.playerId)}
-                  </button>
-                </td>
-                <td>${r.logs.length}</td>
-                <td>${fmt(r.ppg)}</td>
-                <td>${fmt(r.rpg)}</td>
-                <td>${fmt(r.apg)}</td>
-                <td>${fmt(r.tpg)}</td>
-              </tr>
-            `).join("")}
-          </table>
-        </div>
-      </div>
-    `;
-  }).join("");
-
-  if(!players.length){
-    el("players").innerHTML=
-      '<p class="warning">No matching preseason player logs found.</p>';
-  }
-}
-
-function showPlayerDetail(playerId){
-  const player=live.players.find(p=>
-    String(p.playerId)===String(playerId)
-  );
-
-  if(!player) return;
-
-  const date=el("matchDate").value;
-
-  const logs=(player.gameLogs||[]).filter(g=>
-    !date || dateOnly(g.date)<date
-  );
-
-  const html=`
-    <h3>${safe(player.playerName || playerId)}</h3>
-    <p class="note">${safe(player.team)} — ${logs.length} games</p>
-    <div class="scroll">
-      <table>
-        <tr>
-          <th>Date</th>
-          <th>PTS</th>
-          <th>REB</th>
-          <th>AST</th>
-          <th>3PM</th>
-        </tr>
-        ${logs.map(g=>`
-          <tr>
-            <td>${safe(dateOnly(g.date))}</td>
-            <td>${g.points ?? "—"}</td>
-            <td>${g.rebounds ?? "—"}</td>
-            <td>${g.assists ?? "—"}</td>
-            <td>${g.threes ?? "—"}</td>
-          </tr>
-        `).join("")}
-      </table>
-    </div>
-    <p class="note">
-      These are actual preseason game statistics.
-      No player prop is qualified solely from these averages.
-    </p>
-  `;
-
-  el("playerDetail").innerHTML=html;
-  el("playerModal").style.display="block";
-}
-
-function closePlayer(){
-  el("playerModal").style.display="none";
-}
-
-/* =====================================================
-   KAMBI MATCH DISCOVERY
-===================================================== */
-
-function normalizedName(value){
-  return String(value||"")
-    .toLowerCase()
-    .replace(/[^a-z0-9 ]/g," ")
-    .replace(/\s+/g," ")
-    .trim();
-}
-
-function eventMatches(event,away,home){
-  const name=normalizedName(event.name);
-  const awayName=normalizedName(TEAMS[away]);
-  const homeName=normalizedName(TEAMS[home]);
-
-  return name.includes(awayName) &&
-         name.includes(homeName);
-}
-
-function showKambi(away,home,date){
-  const matches=live.markets.filter(e=>{
-    if(!eventMatches(e,away,home)){
-      return false;
-    }
-
-    if(date && e.start){
-      return dateOnly(e.start)===date;
-    }
-
-    return true;
-  });
-
-  if(!matches.length){
-    el("kambiMatch").innerHTML=`
-      <p class="warning">
-        No exact Kambi event-name/date match found for this matchup.
-      </p>
-      <p class="note">
-        This does not mean betting markets are unavailable.
-        Enter verified current sportsbook lines manually below.
-      </p>
-    `;
-    return;
-  }
-
-  el("kambiMatch").innerHTML=matches.map(event=>{
-    const offers=Array.isArray(event.betOffers)
-      ? event.betOffers
-      : [];
-
-    return `
-      <div class="stat">
-        <h3>${safe(event.name)}</h3>
-        <p class="small">
-          Event ID: ${safe(event.id)}
-          | Start: ${safe(event.start)}
-        </p>
-        <p>
-          <span class="pill good">
-            ${offers.length} returned bet offers
-          </span>
-        </p>
-
-        <details>
-          <summary>View Kambi Market Labels</summary>
-
-          <div class="scroll">
-            <table>
-              <tr>
-                <th>Market</th>
-                <th>Outcomes</th>
-              </tr>
-              ${offers.map(offer=>{
-                const label=
-                  offer.criterion?.label ||
-                  offer.criterion?.englishLabel ||
-                  "Unlabeled market";
-
-                const outcomes=Array.isArray(offer.outcomes)
-                  ? offer.outcomes
-                  : [];
-
-                return `
-                  <tr>
-                    <td>${safe(label)}</td>
-                    <td>${safe(outcomes.map(o=>
-                      o.label || o.englishLabel || ""
-                    ).join(" | "))}</td>
-                  </tr>
-                `;
-              }).join("")}
-            </table>
-          </div>
-        </details>
-
-        <p class="note">
-          Raw market labels are displayed for inspection.
-          Automatic line and price mapping is not yet validated.
-        </p>
-      </div>
-    `;
-  }).join("");
-}
-
-/* =====================================================
-   SPORTSBOOK LINE INPUTS
-===================================================== */
-
-const MARKET_NAMES={
-  q1Total:"1Q combined total",
-  q1Away:"1Q away team total",
-  q1Home:"1Q home team total",
-  hTotal:"1H combined total",
-  hAway:"1H away team total",
-  hHome:"1H home team total",
-  fTotal:"Full-game combined total",
-  fAway:"Full-game away team total",
-  fHome:"Full-game home team total",
-  spread:"Full-game home spread"
-};
-
-const THRESHOLDS={
-  q1Total:[2.5,1],
-  q1Away:[2,1],
-  q1Home:[2,1],
-  hTotal:[3.5,2],
-  hAway:[3,1.5],
-  hHome:[3,1.5],
-  fTotal:[6,3],
-  fAway:[4,2],
-  fHome:[4,2],
-  spread:[4,2]
-};
-
-function lineFields(){
-  el("lineInputs").innerHTML=
-    Object.entries(MARKET_NAMES).map(([id,name])=>`
-      <div>
-        <label>${safe(name)}</label>
-        <input
-          type="number"
-          step="0.5"
-          id="line_${id}"
-          placeholder="Verified sportsbook line">
-      </div>
-    `).join("");
-}
-
-/* =====================================================
-   NUMERICAL MARKET SCREENING
-===================================================== */
-
-function evaluate(){
-  if(!current){
-    alert("Analyze a matchup first.");
-    return;
-  }
-
-  const p=current.p;
-
-  const projections={
-    q1Total:p.q1.total,
-    q1Away:p.q1.away,
-    q1Home:p.q1.home,
-    hTotal:p.half.total,
-    hAway:p.half.away,
-    hHome:p.half.home,
-    fTotal:p.full.total,
-    fAway:p.full.away,
-    fHome:p.full.home
-  };
-
-  const minGames=Math.min(
-    current.counts.away,
-    current.counts.home
-  );
-
-  evaluated=[];
-
-  for(const id of Object.keys(THRESHOLDS)){
-    const raw=el("line_"+id).value.trim();
-
-    if(raw==="") continue;
-
-    const line=Number(raw);
-
-    if(!Number.isFinite(line)) continue;
-
-    let projection;
-    let direction;
-    let edge;
-
-    if(id==="spread"){
-      projection=p.full.home-p.full.away;
-
-      const homeAdvantage=projection+line;
-
-      direction=homeAdvantage>=0
-        ? current.home
-        : current.away;
-
-      edge=Math.abs(homeAdvantage);
-    } else {
-      projection=projections[id];
-
-      direction=projection>line
-        ? "OVER"
-        : projection<line
-        ? "UNDER"
-        : "PUSH";
-
-      edge=Math.abs(projection-line);
-    }
-
-    const [strong,moderate]=THRESHOLDS[id];
-
-    let screening="PASS";
-
-    if(direction==="PUSH"){
-      screening="PASS";
-    } else if(minGames>=4 && edge>=strong){
-      screening="STRONG NUMERICAL EDGE";
-    } else if(minGames>=2 && edge>=moderate){
-      screening="RESEARCH";
-    }
-
-    evaluated.push({
-      id,
-      name:MARKET_NAMES[id],
-      line,
-      projection,
-      direction,
-      edge,
-      screening,
-      status:"PASS"
-    });
-  }
-
-  if(!evaluated.length){
-    el("markets").innerHTML=
-      '<p class="warning">No sportsbook lines entered.</p>';
-
-    el("best").innerHTML=
-      '<p class="pass">NO MARKETS EVALUATED — PASS.</p>';
-
-    return;
-  }
-
-  el("markets").innerHTML=`
-    <div class="scroll">
-      <table>
-        <tr>
-          <th>Market</th>
-          <th>Projection</th>
-          <th>Line</th>
-          <th>Direction</th>
-          <th>Difference</th>
-          <th>Screening</th>
-          <th>Official</th>
-        </tr>
-
-        ${evaluated.map(m=>`
-          <tr>
-            <td>${safe(m.name)}</td>
-            <td>${fmt(m.projection)}</td>
-            <td>${m.line}</td>
-            <td>${safe(m.direction)}</td>
-            <td>${fmt(m.edge)}</td>
-            <td class="${
-              m.screening==="STRONG NUMERICAL EDGE"
-                ? "yellow"
-                : m.screening==="RESEARCH"
-                ? "warning"
-                : "pass"
-            }">${safe(m.screening)}</td>
-            <td class="pass">PASS</td>
-          </tr>
-        `).join("")}
-      </table>
-    </div>
-  `;
-
-  const ranked=[...evaluated]
-    .filter(m=>m.screening!=="PASS")
-    .sort((a,b)=>
-      b.edge/THRESHOLDS[b.id][0] -
-      a.edge/THRESHOLDS[a.id][0]
-    );
-
-  el("best").innerHTML=ranked.length
-    ? `
-      <h3>Strongest Numerical Differences</h3>
-
-      <div class="scroll">
-        <table>
-          <tr>
-            <th>Rank</th>
-            <th>Market</th>
-            <th>Direction</th>
-            <th>Difference</th>
-            <th>Decision</th>
-          </tr>
-
-          ${ranked.slice(0,5).map((m,i)=>`
-            <tr>
-              <td>${i+1}</td>
-              <td>${safe(m.name)}</td>
-              <td>${safe(m.direction)}</td>
-              <td>${fmt(m.edge)}</td>
-              <td class="pass">PASS — VALIDATION PENDING</td>
-            </tr>
-          `).join("")}
-        </table>
-      </div>
-
-      <p class="warning">
-        STOP: Numerical differences are not yet proven betting edges.
-        Official GREEN qualification remains disabled.
-      </p>
-    `
-    : '<p class="pass">NO QUALIFIED MARKETS — PASS.</p>';
-}
-
-/* =====================================================
-   RECEIPTS
-===================================================== */
-
-function saveReceipt(){
-  if(!current || !evaluated.length){
-    alert("Analyze a matchup and evaluate lines first.");
-    return;
-  }
-
-  const receipt={
-    id:Date.now()+"_"+Math.random().toString(36).slice(2,7),
-    savedAt:new Date().toISOString(),
-    matchup:JSON.parse(JSON.stringify(current)),
-    markets:JSON.parse(JSON.stringify(evaluated)),
-    actual:null
-  };
-
-  db.receipts.push(receipt);
-  persist();
-  renderReceipts();
-
-  alert("War Room receipt saved locally.");
-}
-
-function renderReceipts(){
-  const rows=[...db.receipts].reverse();
-
-  el("receipts").innerHTML=`
-    <div class="orange">
-      <h3>Saved Receipts (${rows.length})</h3>
-
-      <div class="scroll">
-        <table>
-          <tr>
-            <th>Saved</th>
-            <th>Matchup</th>
-            <th>Markets</th>
-            <th>Result</th>
-          </tr>
-
-          ${rows.map(r=>`
-            <tr>
-              <td>${safe(r.savedAt.slice(0,16).replace("T"," "))} UTC</td>
-              <td>${safe(r.matchup.away)} @ ${safe(r.matchup.home)}</td>
-              <td>${r.markets.length}</td>
-              <td>${r.actual?"Recorded":"Pending"}</td>
-            </tr>
-          `).join("")}
-        </table>
-      </div>
-    </div>
-  `;
-
-  el("settleReceipt").innerHTML=rows.map(r=>`
-    <option value="${safe(r.id)}">
-      ${safe(r.matchup.away)} @ ${safe(r.matchup.home)}
-      — ${safe(r.savedAt.slice(0,16))}
-    </option>
-  `).join("");
-
-  renderAccuracy();
-}
-
-/* =====================================================
-   ACCURACY TRACKER
-===================================================== */
-
-function actualNumber(id){
-  const value=el(id).value.trim();
-
-  if(
-    value==="" ||
-    !Number.isInteger(Number(value)) ||
-    Number(value)<0
-  ){
-    throw Error(
-      "Enter all six actual scores as nonnegative integers."
-    );
-  }
-
-  return Number(value);
-}
-
-function settle(){
-  try {
-    const receipt=db.receipts.find(r=>
-      r.id===el("settleReceipt").value
-    );
-
-    if(!receipt){
-      throw Error("Save an analysis receipt first.");
-    }
-
-    const a1=actualNumber("a1");
-    const h1=actualNumber("h1");
-    const a2=actualNumber("a2");
-    const h2=actualNumber("h2");
-    const af=actualNumber("af");
-    const hf=actualNumber("hf");
-
-    if(
-      a2<a1 || h2<h1 ||
-      af<a2 || hf<h2
-    ){
-      throw Error(
-        "Actual scoring totals are inconsistent."
-      );
-    }
-
-    receipt.actual={
-      q1:a1+h1,
-      half:a2+h2,
-      full:af+hf,
-      away:af,
-      home:hf
-    };
-
-    persist();
-    renderReceipts();
-
-    alert("Actual results recorded.");
-  } catch(e){
-    alert(e.message);
-  }
-}
-
-function renderAccuracy(){
-  const done=db.receipts.filter(r=>
-    r.actual && r.matchup?.p
-  );
-
-  if(!done.length){
-    el("accuracy").innerHTML=
-      '<p class="note">No completed tracked games yet.</p>';
-    return;
-  }
-
-  const periods=["q1","half","full"];
-
-  el("accuracy").innerHTML=`
-    <div class="scroll">
-      <table>
-        <tr>
-          <th>Period</th>
-          <th>Tracked Receipts</th>
-          <th>Mean Absolute Total Error</th>
-        </tr>
-
-        ${periods.map(k=>{
-          const error=done.reduce((total,r)=>
-            total+Math.abs(
-              r.matchup.p[k].total-r.actual[k]
-            ),0)/done.length;
-
-          return `
-            <tr>
-              <td>${k.toUpperCase()}</td>
-              <td>${done.length}</td>
-              <td>${fmt(error)} points</td>
-            </tr>
-          `;
-        }).join("")}
-      </table>
-    </div>
-
-    <p class="note">
-      Repeated receipts for the same matchup count separately.
-      Use one pregame receipt per matchup for a cleaner study.
-    </p>
-  `;
-}
-
-/* =====================================================
-   BACKUP / RESTORE
-===================================================== */
-
-function exportData(){
-  const blob=new Blob(
-    [JSON.stringify(db,null,2)],
-    {type:"application/json"}
-  );
-
-  const url=URL.createObjectURL(blob);
-  const a=document.createElement("a");
-
-  a.href=url;
-  a.download="docs-nba-preseason-backup.json";
-  a.click();
-
-  URL.revokeObjectURL(url);
-}
-
-async function importData(event){
-  try {
-    const file=event.target.files[0];
-
-    if(!file) return;
-
-    const parsed=JSON.parse(await file.text());
-
-    if(
-      !Array.isArray(parsed.games) ||
-      !Array.isArray(parsed.receipts)
-    ){
-      throw Error("Invalid backup format.");
-    }
-
-    if(!confirm("Replace locally saved receipts with this backup?")){
-      return;
-    }
-
-    db=parsed;
-    persist();
-    renderReceipts();
-
-    alert("Backup restored.");
-  } catch(e){
-    alert(e.message);
-  }
-
-  event.target.value="";
-}
-
-/* =====================================================
-   INITIALIZE
-===================================================== */
-
-function init(){
-  optionTeams("matchAway","BKN");
-  optionTeams("matchHome","MIA");
-
-  el("matchDate").value=nowLocalDate();
-
-  lineFields();
-  renderReceipts();
-  loadData();
-}
-
-init();
-
-</script>
-
-<!-- PLAYER DETAIL WINDOW -->
-
-<div id="playerModal" style="
-  display:none;
-  position:fixed;
-  inset:0;
-  background:rgba(0,0,0,.85);
-  z-index:9999;
-  overflow:auto;
-  padding:20px;
-">
-  <div style="
-    max-width:800px;
-    margin:30px auto;
-    background:#13263c;
-    border:2px solid #f4b942;
-    border-radius:12px;
-    padding:20px;
-  ">
-    <button onclick="closePlayer()" class="secondary"
-      style="max-width:130px;float:right">
-      Close
-    </button>
-
-    <div style="clear:both"></div>
-
-    <div id="playerDetail"></div>
-  </div>
-</div>
-
-</body>
-</html>
+    "
