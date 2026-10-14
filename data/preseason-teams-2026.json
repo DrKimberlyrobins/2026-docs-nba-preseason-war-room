@@ -1,0 +1,3643 @@
+{
+  "generatedAt": "2026-10-14T21:17:11.634841+00:00",
+  "source": "ESPN",
+  "teams": [
+    {
+      "teamId": "1",
+      "team": "Atlanta Hawks",
+      "abbreviation": "ATL",
+      "all": {
+        "games": 4,
+        "q1": 28.75,
+        "firstHalf": 60.25,
+        "fullGame": 119.5,
+        "q1Allowed": 32.75,
+        "firstHalfAllowed": 64.75,
+        "fullGameAllowed": 118.75
+      },
+      "home": {
+        "games": 2,
+        "q1": 32.0,
+        "firstHalf": 58.5,
+        "fullGame": 118.0,
+        "q1Allowed": 30.0,
+        "firstHalfAllowed": 65.0,
+        "fullGameAllowed": 121.0
+      },
+      "away": {
+        "games": 2,
+        "q1": 25.5,
+        "firstHalf": 62.0,
+        "fullGame": 121.0,
+        "q1Allowed": 35.5,
+        "firstHalfAllowed": 64.5,
+        "fullGameAllowed": 116.5
+      },
+      "last5": {
+        "games": 4,
+        "q1": 28.75,
+        "firstHalf": 60.25,
+        "fullGame": 119.5,
+        "q1Allowed": 32.75,
+        "firstHalfAllowed": 64.75,
+        "fullGameAllowed": 118.75
+      },
+      "gameLogs": [
+        {
+          "id": "1",
+          "team": "Atlanta Hawks",
+          "abbreviation": "ATL",
+          "homeAway": "home",
+          "quarters": [
+            29,
+            27,
+            23,
+            34
+          ],
+          "q1": 29,
+          "q2": 27,
+          "q3": 23,
+          "q4": 34,
+          "firstHalf": 56,
+          "regulation": 113,
+          "fullGame": 113,
+          "overtime": false,
+          "q1Allowed": 28,
+          "firstHalfAllowed": 49,
+          "fullGameAllowed": 110,
+          "eventId": "401898402",
+          "date": "2026-10-12T23:00Z"
+        },
+        {
+          "id": "1",
+          "team": "Atlanta Hawks",
+          "abbreviation": "ATL",
+          "homeAway": "away",
+          "quarters": [
+            31,
+            31,
+            34,
+            23
+          ],
+          "q1": 31,
+          "q2": 31,
+          "q3": 34,
+          "q4": 23,
+          "firstHalf": 62,
+          "regulation": 119,
+          "fullGame": 119,
+          "overtime": false,
+          "q1Allowed": 32,
+          "firstHalfAllowed": 60,
+          "fullGameAllowed": 117,
+          "eventId": "401898396",
+          "date": "2026-10-10T23:00Z"
+        },
+        {
+          "id": "1",
+          "team": "Atlanta Hawks",
+          "abbreviation": "ATL",
+          "homeAway": "away",
+          "quarters": [
+            20,
+            42,
+            31,
+            30
+          ],
+          "q1": 20,
+          "q2": 42,
+          "q3": 31,
+          "q4": 30,
+          "firstHalf": 62,
+          "regulation": 123,
+          "fullGame": 123,
+          "overtime": false,
+          "q1Allowed": 39,
+          "firstHalfAllowed": 69,
+          "fullGameAllowed": 116,
+          "eventId": "401898394",
+          "date": "2026-10-09T00:00Z"
+        },
+        {
+          "id": "1",
+          "team": "Atlanta Hawks",
+          "abbreviation": "ATL",
+          "homeAway": "home",
+          "quarters": [
+            35,
+            26,
+            37,
+            25
+          ],
+          "q1": 35,
+          "q2": 26,
+          "q3": 37,
+          "q4": 25,
+          "firstHalf": 61,
+          "regulation": 123,
+          "fullGame": 123,
+          "overtime": false,
+          "q1Allowed": 32,
+          "firstHalfAllowed": 81,
+          "fullGameAllowed": 132,
+          "eventId": "401898388",
+          "date": "2026-10-05T23:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "2",
+      "team": "Boston Celtics",
+      "abbreviation": "BOS",
+      "all": {
+        "games": 2,
+        "q1": 28.0,
+        "firstHalf": 67.0,
+        "fullGame": 134.0,
+        "q1Allowed": 24.5,
+        "firstHalfAllowed": 52.0,
+        "fullGameAllowed": 109.5
+      },
+      "home": {
+        "games": 1,
+        "q1": 24.0,
+        "firstHalf": 63.0,
+        "fullGame": 144.0,
+        "q1Allowed": 20.0,
+        "firstHalfAllowed": 42.0,
+        "fullGameAllowed": 106.0
+      },
+      "away": {
+        "games": 1,
+        "q1": 32.0,
+        "firstHalf": 71.0,
+        "fullGame": 124.0,
+        "q1Allowed": 29.0,
+        "firstHalfAllowed": 62.0,
+        "fullGameAllowed": 113.0
+      },
+      "last5": {
+        "games": 2,
+        "q1": 28.0,
+        "firstHalf": 67.0,
+        "fullGame": 134.0,
+        "q1Allowed": 24.5,
+        "firstHalfAllowed": 52.0,
+        "fullGameAllowed": 109.5
+      },
+      "gameLogs": [
+        {
+          "id": "2",
+          "team": "Boston Celtics",
+          "abbreviation": "BOS",
+          "homeAway": "home",
+          "quarters": [
+            24,
+            39,
+            41,
+            40
+          ],
+          "q1": 24,
+          "q2": 39,
+          "q3": 41,
+          "q4": 40,
+          "firstHalf": 63,
+          "regulation": 144,
+          "fullGame": 144,
+          "overtime": false,
+          "q1Allowed": 20,
+          "firstHalfAllowed": 42,
+          "fullGameAllowed": 106,
+          "eventId": "401898398",
+          "date": "2026-10-11T00:00Z"
+        },
+        {
+          "id": "2",
+          "team": "Boston Celtics",
+          "abbreviation": "BOS",
+          "homeAway": "away",
+          "quarters": [
+            32,
+            39,
+            28,
+            25
+          ],
+          "q1": 32,
+          "q2": 39,
+          "q3": 28,
+          "q4": 25,
+          "firstHalf": 71,
+          "regulation": 124,
+          "fullGame": 124,
+          "overtime": false,
+          "q1Allowed": 29,
+          "firstHalfAllowed": 62,
+          "fullGameAllowed": 113,
+          "eventId": "401898392",
+          "date": "2026-10-08T23:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "17",
+      "team": "Brooklyn Nets",
+      "abbreviation": "BKN",
+      "all": {
+        "games": 3,
+        "q1": 34.0,
+        "firstHalf": 61.67,
+        "fullGame": 123.0,
+        "q1Allowed": 32.0,
+        "firstHalfAllowed": 60.67,
+        "fullGameAllowed": 106.67
+      },
+      "home": {
+        "games": 1,
+        "q1": 33.0,
+        "firstHalf": 56.0,
+        "fullGame": 114.0,
+        "q1Allowed": 33.0,
+        "firstHalfAllowed": 58.0,
+        "fullGameAllowed": 108.0
+      },
+      "away": {
+        "games": 2,
+        "q1": 34.5,
+        "firstHalf": 64.5,
+        "fullGame": 127.5,
+        "q1Allowed": 31.5,
+        "firstHalfAllowed": 62.0,
+        "fullGameAllowed": 106.0
+      },
+      "last5": {
+        "games": 3,
+        "q1": 34.0,
+        "firstHalf": 61.67,
+        "fullGame": 123.0,
+        "q1Allowed": 32.0,
+        "firstHalfAllowed": 60.67,
+        "fullGameAllowed": 106.67
+      },
+      "gameLogs": [
+        {
+          "id": "17",
+          "team": "Brooklyn Nets",
+          "abbreviation": "BKN",
+          "homeAway": "away",
+          "quarters": [
+            36,
+            37,
+            30,
+            28
+          ],
+          "q1": 36,
+          "q2": 37,
+          "q3": 30,
+          "q4": 28,
+          "firstHalf": 73,
+          "regulation": 131,
+          "fullGame": 131,
+          "overtime": false,
+          "q1Allowed": 32,
+          "firstHalfAllowed": 72,
+          "fullGameAllowed": 122,
+          "eventId": "401901824",
+          "date": "2026-10-12T23:00Z"
+        },
+        {
+          "id": "17",
+          "team": "Brooklyn Nets",
+          "abbreviation": "BKN",
+          "homeAway": "home",
+          "quarters": [
+            33,
+            23,
+            37,
+            21
+          ],
+          "q1": 33,
+          "q2": 23,
+          "q3": 37,
+          "q4": 21,
+          "firstHalf": 56,
+          "regulation": 114,
+          "fullGame": 114,
+          "overtime": false,
+          "q1Allowed": 33,
+          "firstHalfAllowed": 58,
+          "fullGameAllowed": 108,
+          "eventId": "401901823",
+          "date": "2026-10-08T23:30Z"
+        },
+        {
+          "id": "17",
+          "team": "Brooklyn Nets",
+          "abbreviation": "BKN",
+          "homeAway": "away",
+          "quarters": [
+            33,
+            23,
+            36,
+            32
+          ],
+          "q1": 33,
+          "q2": 23,
+          "q3": 36,
+          "q4": 32,
+          "firstHalf": 56,
+          "regulation": 124,
+          "fullGame": 124,
+          "overtime": false,
+          "q1Allowed": 31,
+          "firstHalfAllowed": 52,
+          "fullGameAllowed": 90,
+          "eventId": "401901820",
+          "date": "2026-10-06T23:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "30",
+      "team": "Charlotte Hornets",
+      "abbreviation": "CHA",
+      "all": {
+        "games": 2,
+        "q1": 30.0,
+        "firstHalf": 56.0,
+        "fullGame": 97.5,
+        "q1Allowed": 29.5,
+        "firstHalfAllowed": 50.5,
+        "fullGameAllowed": 107.0
+      },
+      "home": {
+        "games": 2,
+        "q1": 30.0,
+        "firstHalf": 56.0,
+        "fullGame": 97.5,
+        "q1Allowed": 29.5,
+        "firstHalfAllowed": 50.5,
+        "fullGameAllowed": 107.0
+      },
+      "away": {
+        "games": 0,
+        "q1": null,
+        "firstHalf": null,
+        "fullGame": null,
+        "q1Allowed": null,
+        "firstHalfAllowed": null,
+        "fullGameAllowed": null
+      },
+      "last5": {
+        "games": 2,
+        "q1": 30.0,
+        "firstHalf": 56.0,
+        "fullGame": 97.5,
+        "q1Allowed": 29.5,
+        "firstHalfAllowed": 50.5,
+        "fullGameAllowed": 107.0
+      },
+      "gameLogs": [
+        {
+          "id": "30",
+          "team": "Charlotte Hornets",
+          "abbreviation": "CHA",
+          "homeAway": "home",
+          "quarters": [
+            29,
+            31,
+            27,
+            18
+          ],
+          "q1": 29,
+          "q2": 31,
+          "q3": 27,
+          "q4": 18,
+          "firstHalf": 60,
+          "regulation": 105,
+          "fullGame": 105,
+          "overtime": false,
+          "q1Allowed": 26,
+          "firstHalfAllowed": 45,
+          "fullGameAllowed": 90,
+          "eventId": "401901821",
+          "date": "2026-10-11T23:00Z"
+        },
+        {
+          "id": "30",
+          "team": "Charlotte Hornets",
+          "abbreviation": "CHA",
+          "homeAway": "home",
+          "quarters": [
+            31,
+            21,
+            21,
+            17
+          ],
+          "q1": 31,
+          "q2": 21,
+          "q3": 21,
+          "q4": 17,
+          "firstHalf": 52,
+          "regulation": 90,
+          "fullGame": 90,
+          "overtime": false,
+          "q1Allowed": 33,
+          "firstHalfAllowed": 56,
+          "fullGameAllowed": 124,
+          "eventId": "401901820",
+          "date": "2026-10-06T23:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "4",
+      "team": "Chicago Bulls",
+      "abbreviation": "CHI",
+      "all": {
+        "games": 3,
+        "q1": 27.67,
+        "firstHalf": 60.0,
+        "fullGame": 117.33,
+        "q1Allowed": 33.0,
+        "firstHalfAllowed": 61.0,
+        "fullGameAllowed": 118.0
+      },
+      "home": {
+        "games": 2,
+        "q1": 28.0,
+        "firstHalf": 56.0,
+        "fullGame": 112.0,
+        "q1Allowed": 35.0,
+        "firstHalfAllowed": 62.0,
+        "fullGameAllowed": 110.5
+      },
+      "away": {
+        "games": 1,
+        "q1": 27.0,
+        "firstHalf": 68.0,
+        "fullGame": 128.0,
+        "q1Allowed": 29.0,
+        "firstHalfAllowed": 59.0,
+        "fullGameAllowed": 133.0
+      },
+      "last5": {
+        "games": 3,
+        "q1": 27.67,
+        "firstHalf": 60.0,
+        "fullGame": 117.33,
+        "q1Allowed": 33.0,
+        "firstHalfAllowed": 61.0,
+        "fullGameAllowed": 118.0
+      },
+      "gameLogs": [
+        {
+          "id": "4",
+          "team": "Chicago Bulls",
+          "abbreviation": "CHI",
+          "homeAway": "away",
+          "quarters": [
+            27,
+            41,
+            26,
+            34
+          ],
+          "q1": 27,
+          "q2": 41,
+          "q3": 26,
+          "q4": 34,
+          "firstHalf": 68,
+          "regulation": 128,
+          "fullGame": 128,
+          "overtime": false,
+          "q1Allowed": 29,
+          "firstHalfAllowed": 59,
+          "fullGameAllowed": 133,
+          "eventId": "401908941",
+          "date": "2026-10-12T01:00Z"
+        },
+        {
+          "id": "4",
+          "team": "Chicago Bulls",
+          "abbreviation": "CHI",
+          "homeAway": "home",
+          "quarters": [
+            27,
+            23,
+            32,
+            18
+          ],
+          "q1": 27,
+          "q2": 23,
+          "q3": 32,
+          "q4": 18,
+          "firstHalf": 50,
+          "regulation": 100,
+          "fullGame": 100,
+          "overtime": false,
+          "q1Allowed": 30,
+          "firstHalfAllowed": 60,
+          "fullGameAllowed": 104,
+          "eventId": "401908940",
+          "date": "2026-10-10T00:00Z"
+        },
+        {
+          "id": "4",
+          "team": "Chicago Bulls",
+          "abbreviation": "CHI",
+          "homeAway": "home",
+          "quarters": [
+            29,
+            33,
+            31,
+            31
+          ],
+          "q1": 29,
+          "q2": 33,
+          "q3": 31,
+          "q4": 31,
+          "firstHalf": 62,
+          "regulation": 124,
+          "fullGame": 124,
+          "overtime": false,
+          "q1Allowed": 40,
+          "firstHalfAllowed": 64,
+          "fullGameAllowed": 117,
+          "eventId": "401908939",
+          "date": "2026-10-08T00:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "5",
+      "team": "Cleveland Cavaliers",
+      "abbreviation": "CLE",
+      "all": {
+        "games": 3,
+        "q1": 29.67,
+        "firstHalf": 58.33,
+        "fullGame": 116.0,
+        "q1Allowed": 31.67,
+        "firstHalfAllowed": 64.33,
+        "fullGameAllowed": 120.33
+      },
+      "home": {
+        "games": 2,
+        "q1": 30.5,
+        "firstHalf": 61.5,
+        "fullGame": 116.0,
+        "q1Allowed": 30.0,
+        "firstHalfAllowed": 60.5,
+        "fullGameAllowed": 114.5
+      },
+      "away": {
+        "games": 1,
+        "q1": 28.0,
+        "firstHalf": 52.0,
+        "fullGame": 116.0,
+        "q1Allowed": 35.0,
+        "firstHalfAllowed": 72.0,
+        "fullGameAllowed": 132.0
+      },
+      "last5": {
+        "games": 3,
+        "q1": 29.67,
+        "firstHalf": 58.33,
+        "fullGame": 116.0,
+        "q1Allowed": 31.67,
+        "firstHalfAllowed": 64.33,
+        "fullGameAllowed": 120.33
+      },
+      "gameLogs": [
+        {
+          "id": "5",
+          "team": "Cleveland Cavaliers",
+          "abbreviation": "CLE",
+          "homeAway": "away",
+          "quarters": [
+            28,
+            24,
+            31,
+            33
+          ],
+          "q1": 28,
+          "q2": 24,
+          "q3": 31,
+          "q4": 33,
+          "firstHalf": 52,
+          "regulation": 116,
+          "fullGame": 116,
+          "overtime": false,
+          "q1Allowed": 35,
+          "firstHalfAllowed": 72,
+          "fullGameAllowed": 132,
+          "eventId": "401898403",
+          "date": "2026-10-13T23:00Z"
+        },
+        {
+          "id": "5",
+          "team": "Cleveland Cavaliers",
+          "abbreviation": "CLE",
+          "homeAway": "home",
+          "quarters": [
+            32,
+            29,
+            29,
+            29
+          ],
+          "q1": 32,
+          "q2": 29,
+          "q3": 29,
+          "q4": 29,
+          "firstHalf": 61,
+          "regulation": 119,
+          "fullGame": 119,
+          "overtime": false,
+          "q1Allowed": 28,
+          "firstHalfAllowed": 50,
+          "fullGameAllowed": 105,
+          "eventId": "401898401",
+          "date": "2026-10-11T22:30Z"
+        },
+        {
+          "id": "5",
+          "team": "Cleveland Cavaliers",
+          "abbreviation": "CLE",
+          "homeAway": "home",
+          "quarters": [
+            29,
+            33,
+            34,
+            17
+          ],
+          "q1": 29,
+          "q2": 33,
+          "q3": 34,
+          "q4": 17,
+          "firstHalf": 62,
+          "regulation": 113,
+          "fullGame": 113,
+          "overtime": false,
+          "q1Allowed": 32,
+          "firstHalfAllowed": 71,
+          "fullGameAllowed": 124,
+          "eventId": "401898392",
+          "date": "2026-10-08T23:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "6",
+      "team": "Dallas Mavericks",
+      "abbreviation": "DAL",
+      "all": {
+        "games": 2,
+        "q1": 23.5,
+        "firstHalf": 51.5,
+        "fullGame": 124.5,
+        "q1Allowed": 27.0,
+        "firstHalfAllowed": 58.0,
+        "fullGameAllowed": 125.0
+      },
+      "home": {
+        "games": 1,
+        "q1": 19.0,
+        "firstHalf": 45.0,
+        "fullGame": 117.0,
+        "q1Allowed": 27.0,
+        "firstHalfAllowed": 65.0,
+        "fullGameAllowed": 135.0
+      },
+      "away": {
+        "games": 1,
+        "q1": 28.0,
+        "firstHalf": 58.0,
+        "fullGame": 132.0,
+        "q1Allowed": 27.0,
+        "firstHalfAllowed": 51.0,
+        "fullGameAllowed": 115.0
+      },
+      "last5": {
+        "games": 2,
+        "q1": 23.5,
+        "firstHalf": 51.5,
+        "fullGame": 124.5,
+        "q1Allowed": 27.0,
+        "firstHalfAllowed": 58.0,
+        "fullGameAllowed": 125.0
+      },
+      "gameLogs": [
+        {
+          "id": "6",
+          "team": "Dallas Mavericks",
+          "abbreviation": "DAL",
+          "homeAway": "away",
+          "quarters": [
+            28,
+            30,
+            37,
+            37
+          ],
+          "q1": 28,
+          "q2": 30,
+          "q3": 37,
+          "q4": 37,
+          "firstHalf": 58,
+          "regulation": 132,
+          "fullGame": 132,
+          "overtime": false,
+          "q1Allowed": 27,
+          "firstHalfAllowed": 51,
+          "fullGameAllowed": 115,
+          "eventId": "401898400",
+          "date": "2026-10-11T10:00Z"
+        },
+        {
+          "id": "6",
+          "team": "Dallas Mavericks",
+          "abbreviation": "DAL",
+          "homeAway": "home",
+          "quarters": [
+            19,
+            26,
+            35,
+            37
+          ],
+          "q1": 19,
+          "q2": 26,
+          "q3": 35,
+          "q4": 37,
+          "firstHalf": 45,
+          "regulation": 117,
+          "fullGame": 117,
+          "overtime": false,
+          "q1Allowed": 27,
+          "firstHalfAllowed": 65,
+          "fullGameAllowed": 135,
+          "eventId": "401898395",
+          "date": "2026-10-09T12:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "7",
+      "team": "Denver Nuggets",
+      "abbreviation": "DEN",
+      "all": {
+        "games": 3,
+        "q1": 26.33,
+        "firstHalf": 58.67,
+        "fullGame": 115.67,
+        "q1Allowed": 31.33,
+        "firstHalfAllowed": 63.33,
+        "fullGameAllowed": 114.33
+      },
+      "home": {
+        "games": 2,
+        "q1": 27.5,
+        "firstHalf": 55.5,
+        "fullGame": 115.0,
+        "q1Allowed": 31.5,
+        "firstHalfAllowed": 65.5,
+        "fullGameAllowed": 118.5
+      },
+      "away": {
+        "games": 1,
+        "q1": 24.0,
+        "firstHalf": 65.0,
+        "fullGame": 117.0,
+        "q1Allowed": 31.0,
+        "firstHalfAllowed": 59.0,
+        "fullGameAllowed": 106.0
+      },
+      "last5": {
+        "games": 3,
+        "q1": 26.33,
+        "firstHalf": 58.67,
+        "fullGame": 115.67,
+        "q1Allowed": 31.33,
+        "firstHalfAllowed": 63.33,
+        "fullGameAllowed": 114.33
+      },
+      "gameLogs": [
+        {
+          "id": "7",
+          "team": "Denver Nuggets",
+          "abbreviation": "DEN",
+          "homeAway": "home",
+          "quarters": [
+            29,
+            30,
+            40,
+            34
+          ],
+          "q1": 29,
+          "q2": 30,
+          "q3": 40,
+          "q4": 34,
+          "firstHalf": 59,
+          "regulation": 133,
+          "fullGame": 133,
+          "overtime": false,
+          "q1Allowed": 27,
+          "firstHalfAllowed": 68,
+          "fullGameAllowed": 128,
+          "eventId": "401908941",
+          "date": "2026-10-12T01:00Z"
+        },
+        {
+          "id": "7",
+          "team": "Denver Nuggets",
+          "abbreviation": "DEN",
+          "homeAway": "away",
+          "quarters": [
+            24,
+            41,
+            30,
+            22
+          ],
+          "q1": 24,
+          "q2": 41,
+          "q3": 30,
+          "q4": 22,
+          "firstHalf": 65,
+          "regulation": 117,
+          "fullGame": 117,
+          "overtime": false,
+          "q1Allowed": 31,
+          "firstHalfAllowed": 59,
+          "fullGameAllowed": 106,
+          "eventId": "401914128",
+          "date": "2026-10-07T01:00Z"
+        },
+        {
+          "id": "7",
+          "team": "Denver Nuggets",
+          "abbreviation": "DEN",
+          "homeAway": "home",
+          "quarters": [
+            26,
+            26,
+            25,
+            20
+          ],
+          "q1": 26,
+          "q2": 26,
+          "q3": 25,
+          "q4": 20,
+          "firstHalf": 52,
+          "regulation": 97,
+          "fullGame": 97,
+          "overtime": false,
+          "q1Allowed": 36,
+          "firstHalfAllowed": 63,
+          "fullGameAllowed": 109,
+          "eventId": "401914127",
+          "date": "2026-10-04T23:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "8",
+      "team": "Detroit Pistons",
+      "abbreviation": "DET",
+      "all": {
+        "games": 2,
+        "q1": 20.5,
+        "firstHalf": 50.0,
+        "fullGame": 108.5,
+        "q1Allowed": 37.5,
+        "firstHalfAllowed": 62.0,
+        "fullGameAllowed": 110.5
+      },
+      "home": {
+        "games": 1,
+        "q1": 21.0,
+        "firstHalf": 50.0,
+        "fullGame": 109.0,
+        "q1Allowed": 35.0,
+        "firstHalfAllowed": 68.0,
+        "fullGameAllowed": 107.0
+      },
+      "away": {
+        "games": 1,
+        "q1": 20.0,
+        "firstHalf": 50.0,
+        "fullGame": 108.0,
+        "q1Allowed": 40.0,
+        "firstHalfAllowed": 56.0,
+        "fullGameAllowed": 114.0
+      },
+      "last5": {
+        "games": 2,
+        "q1": 20.5,
+        "firstHalf": 50.0,
+        "fullGame": 108.5,
+        "q1Allowed": 37.5,
+        "firstHalfAllowed": 62.0,
+        "fullGameAllowed": 110.5
+      },
+      "gameLogs": [
+        {
+          "id": "8",
+          "team": "Detroit Pistons",
+          "abbreviation": "DET",
+          "homeAway": "away",
+          "quarters": [
+            20,
+            30,
+            28,
+            20,
+            10
+          ],
+          "q1": 20,
+          "q2": 30,
+          "q3": 28,
+          "q4": 20,
+          "firstHalf": 50,
+          "regulation": 98,
+          "fullGame": 108,
+          "overtime": true,
+          "q1Allowed": 40,
+          "firstHalfAllowed": 56,
+          "fullGameAllowed": 114,
+          "eventId": "401906510",
+          "date": "2026-10-10T23:00Z"
+        },
+        {
+          "id": "8",
+          "team": "Detroit Pistons",
+          "abbreviation": "DET",
+          "homeAway": "home",
+          "quarters": [
+            21,
+            29,
+            34,
+            25
+          ],
+          "q1": 21,
+          "q2": 29,
+          "q3": 34,
+          "q4": 25,
+          "firstHalf": 50,
+          "regulation": 109,
+          "fullGame": 109,
+          "overtime": false,
+          "q1Allowed": 35,
+          "firstHalfAllowed": 68,
+          "fullGameAllowed": 107,
+          "eventId": "401908947",
+          "date": "2026-10-05T23:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "9",
+      "team": "Golden State Warriors",
+      "abbreviation": "GS",
+      "all": {
+        "games": 5,
+        "q1": 30.6,
+        "firstHalf": 57.0,
+        "fullGame": 111.0,
+        "q1Allowed": 28.8,
+        "firstHalfAllowed": 56.8,
+        "fullGameAllowed": 104.0
+      },
+      "home": {
+        "games": 2,
+        "q1": 34.5,
+        "firstHalf": 71.0,
+        "fullGame": 117.5,
+        "q1Allowed": 28.0,
+        "firstHalfAllowed": 54.5,
+        "fullGameAllowed": 102.0
+      },
+      "away": {
+        "games": 3,
+        "q1": 28.0,
+        "firstHalf": 47.67,
+        "fullGame": 106.67,
+        "q1Allowed": 29.33,
+        "firstHalfAllowed": 58.33,
+        "fullGameAllowed": 105.33
+      },
+      "last5": {
+        "games": 5,
+        "q1": 30.6,
+        "firstHalf": 57.0,
+        "fullGame": 111.0,
+        "q1Allowed": 28.8,
+        "firstHalfAllowed": 56.8,
+        "fullGameAllowed": 104.0
+      },
+      "gameLogs": [
+        {
+          "id": "9",
+          "team": "Golden State Warriors",
+          "abbreviation": "GS",
+          "homeAway": "away",
+          "quarters": [
+            29,
+            21,
+            22,
+            29
+          ],
+          "q1": 29,
+          "q2": 21,
+          "q3": 22,
+          "q4": 29,
+          "firstHalf": 50,
+          "regulation": 101,
+          "fullGame": 101,
+          "overtime": false,
+          "q1Allowed": 29,
+          "firstHalfAllowed": 63,
+          "fullGameAllowed": 89,
+          "eventId": "401898718",
+          "date": "2026-10-14T02:00Z"
+        },
+        {
+          "id": "9",
+          "team": "Golden State Warriors",
+          "abbreviation": "GS",
+          "homeAway": "home",
+          "quarters": [
+            24,
+            37,
+            28,
+            22
+          ],
+          "q1": 24,
+          "q2": 37,
+          "q3": 28,
+          "q4": 22,
+          "firstHalf": 61,
+          "regulation": 111,
+          "fullGame": 111,
+          "overtime": false,
+          "q1Allowed": 25,
+          "firstHalfAllowed": 56,
+          "fullGameAllowed": 106,
+          "eventId": "401898399",
+          "date": "2026-10-11T00:30Z"
+        },
+        {
+          "id": "9",
+          "team": "Golden State Warriors",
+          "abbreviation": "GS",
+          "homeAway": "away",
+          "quarters": [
+            31,
+            19,
+            36,
+            32
+          ],
+          "q1": 31,
+          "q2": 19,
+          "q3": 36,
+          "q4": 32,
+          "firstHalf": 50,
+          "regulation": 118,
+          "fullGame": 118,
+          "overtime": false,
+          "q1Allowed": 36,
+          "firstHalfAllowed": 57,
+          "fullGameAllowed": 123,
+          "eventId": "401914129",
+          "date": "2026-10-08T02:00Z"
+        },
+        {
+          "id": "9",
+          "team": "Golden State Warriors",
+          "abbreviation": "GS",
+          "homeAway": "home",
+          "quarters": [
+            45,
+            36,
+            15,
+            28
+          ],
+          "q1": 45,
+          "q2": 36,
+          "q3": 15,
+          "q4": 28,
+          "firstHalf": 81,
+          "regulation": 124,
+          "fullGame": 124,
+          "overtime": false,
+          "q1Allowed": 31,
+          "firstHalfAllowed": 53,
+          "fullGameAllowed": 98,
+          "eventId": "401898390",
+          "date": "2026-10-07T02:00Z"
+        },
+        {
+          "id": "9",
+          "team": "Golden State Warriors",
+          "abbreviation": "GS",
+          "homeAway": "away",
+          "quarters": [
+            24,
+            19,
+            30,
+            28
+          ],
+          "q1": 24,
+          "q2": 19,
+          "q3": 30,
+          "q4": 28,
+          "firstHalf": 43,
+          "regulation": 101,
+          "fullGame": 101,
+          "overtime": false,
+          "q1Allowed": 23,
+          "firstHalfAllowed": 55,
+          "fullGameAllowed": 104,
+          "eventId": "401918010",
+          "date": "2026-10-04T23:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "10",
+      "team": "Houston Rockets",
+      "abbreviation": "HOU",
+      "all": {
+        "games": 2,
+        "q1": 27.0,
+        "firstHalf": 58.0,
+        "fullGame": 125.0,
+        "q1Allowed": 23.5,
+        "firstHalfAllowed": 51.5,
+        "fullGameAllowed": 124.5
+      },
+      "home": {
+        "games": 1,
+        "q1": 27.0,
+        "firstHalf": 51.0,
+        "fullGame": 115.0,
+        "q1Allowed": 28.0,
+        "firstHalfAllowed": 58.0,
+        "fullGameAllowed": 132.0
+      },
+      "away": {
+        "games": 1,
+        "q1": 27.0,
+        "firstHalf": 65.0,
+        "fullGame": 135.0,
+        "q1Allowed": 19.0,
+        "firstHalfAllowed": 45.0,
+        "fullGameAllowed": 117.0
+      },
+      "last5": {
+        "games": 2,
+        "q1": 27.0,
+        "firstHalf": 58.0,
+        "fullGame": 125.0,
+        "q1Allowed": 23.5,
+        "firstHalfAllowed": 51.5,
+        "fullGameAllowed": 124.5
+      },
+      "gameLogs": [
+        {
+          "id": "10",
+          "team": "Houston Rockets",
+          "abbreviation": "HOU",
+          "homeAway": "home",
+          "quarters": [
+            27,
+            24,
+            34,
+            30
+          ],
+          "q1": 27,
+          "q2": 24,
+          "q3": 34,
+          "q4": 30,
+          "firstHalf": 51,
+          "regulation": 115,
+          "fullGame": 115,
+          "overtime": false,
+          "q1Allowed": 28,
+          "firstHalfAllowed": 58,
+          "fullGameAllowed": 132,
+          "eventId": "401898400",
+          "date": "2026-10-11T10:00Z"
+        },
+        {
+          "id": "10",
+          "team": "Houston Rockets",
+          "abbreviation": "HOU",
+          "homeAway": "away",
+          "quarters": [
+            27,
+            38,
+            34,
+            36
+          ],
+          "q1": 27,
+          "q2": 38,
+          "q3": 34,
+          "q4": 36,
+          "firstHalf": 65,
+          "regulation": 135,
+          "fullGame": 135,
+          "overtime": false,
+          "q1Allowed": 19,
+          "firstHalfAllowed": 45,
+          "fullGameAllowed": 117,
+          "eventId": "401898395",
+          "date": "2026-10-09T12:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "11",
+      "team": "Indiana Pacers",
+      "abbreviation": "IND",
+      "all": {
+        "games": 3,
+        "q1": 32.33,
+        "firstHalf": 60.67,
+        "fullGame": 117.33,
+        "q1Allowed": 27.67,
+        "firstHalfAllowed": 62.0,
+        "fullGameAllowed": 115.0
+      },
+      "home": {
+        "games": 2,
+        "q1": 32.0,
+        "firstHalf": 60.5,
+        "fullGame": 120.0,
+        "q1Allowed": 29.0,
+        "firstHalfAllowed": 63.5,
+        "fullGameAllowed": 115.5
+      },
+      "away": {
+        "games": 1,
+        "q1": 33.0,
+        "firstHalf": 61.0,
+        "fullGame": 112.0,
+        "q1Allowed": 25.0,
+        "firstHalfAllowed": 59.0,
+        "fullGameAllowed": 114.0
+      },
+      "last5": {
+        "games": 3,
+        "q1": 32.33,
+        "firstHalf": 60.67,
+        "fullGame": 117.33,
+        "q1Allowed": 27.67,
+        "firstHalfAllowed": 62.0,
+        "fullGameAllowed": 115.0
+      },
+      "gameLogs": [
+        {
+          "id": "11",
+          "team": "Indiana Pacers",
+          "abbreviation": "IND",
+          "homeAway": "away",
+          "quarters": [
+            33,
+            28,
+            23,
+            16,
+            12
+          ],
+          "q1": 33,
+          "q2": 28,
+          "q3": 23,
+          "q4": 16,
+          "firstHalf": 61,
+          "regulation": 100,
+          "fullGame": 112,
+          "overtime": true,
+          "q1Allowed": 25,
+          "firstHalfAllowed": 59,
+          "fullGameAllowed": 114,
+          "eventId": "401908621",
+          "date": "2026-10-14T00:00Z"
+        },
+        {
+          "id": "11",
+          "team": "Indiana Pacers",
+          "abbreviation": "IND",
+          "homeAway": "home",
+          "quarters": [
+            32,
+            28,
+            26,
+            31
+          ],
+          "q1": 32,
+          "q2": 28,
+          "q3": 26,
+          "q4": 31,
+          "firstHalf": 60,
+          "regulation": 117,
+          "fullGame": 117,
+          "overtime": false,
+          "q1Allowed": 31,
+          "firstHalfAllowed": 62,
+          "fullGameAllowed": 119,
+          "eventId": "401898396",
+          "date": "2026-10-10T23:00Z"
+        },
+        {
+          "id": "11",
+          "team": "Indiana Pacers",
+          "abbreviation": "IND",
+          "homeAway": "home",
+          "quarters": [
+            32,
+            29,
+            38,
+            24
+          ],
+          "q1": 32,
+          "q2": 29,
+          "q3": 38,
+          "q4": 24,
+          "firstHalf": 61,
+          "regulation": 123,
+          "fullGame": 123,
+          "overtime": false,
+          "q1Allowed": 27,
+          "firstHalfAllowed": 65,
+          "fullGameAllowed": 112,
+          "eventId": "401914123",
+          "date": "2026-10-07T23:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "12",
+      "team": "LA Clippers",
+      "abbreviation": "LAC",
+      "all": {
+        "games": 2,
+        "q1": 20.5,
+        "firstHalf": 50.0,
+        "fullGame": 105.0,
+        "q1Allowed": 24.0,
+        "firstHalfAllowed": 50.0,
+        "fullGameAllowed": 107.5
+      },
+      "home": {
+        "games": 1,
+        "q1": 23.0,
+        "firstHalf": 55.0,
+        "fullGame": 104.0,
+        "q1Allowed": 24.0,
+        "firstHalfAllowed": 43.0,
+        "fullGameAllowed": 101.0
+      },
+      "away": {
+        "games": 1,
+        "q1": 18.0,
+        "firstHalf": 45.0,
+        "fullGame": 106.0,
+        "q1Allowed": 24.0,
+        "firstHalfAllowed": 57.0,
+        "fullGameAllowed": 114.0
+      },
+      "last5": {
+        "games": 2,
+        "q1": 20.5,
+        "firstHalf": 50.0,
+        "fullGame": 105.0,
+        "q1Allowed": 24.0,
+        "firstHalfAllowed": 50.0,
+        "fullGameAllowed": 107.5
+      },
+      "gameLogs": [
+        {
+          "id": "12",
+          "team": "LA Clippers",
+          "abbreviation": "LAC",
+          "homeAway": "away",
+          "quarters": [
+            18,
+            27,
+            27,
+            34
+          ],
+          "q1": 18,
+          "q2": 27,
+          "q3": 27,
+          "q4": 34,
+          "firstHalf": 45,
+          "regulation": 106,
+          "fullGame": 106,
+          "overtime": false,
+          "q1Allowed": 24,
+          "firstHalfAllowed": 57,
+          "fullGameAllowed": 114,
+          "eventId": "401902645",
+          "date": "2026-10-10T22:30Z"
+        },
+        {
+          "id": "12",
+          "team": "LA Clippers",
+          "abbreviation": "LAC",
+          "homeAway": "home",
+          "quarters": [
+            23,
+            32,
+            22,
+            27
+          ],
+          "q1": 23,
+          "q2": 32,
+          "q3": 22,
+          "q4": 27,
+          "firstHalf": 55,
+          "regulation": 104,
+          "fullGame": 104,
+          "overtime": false,
+          "q1Allowed": 24,
+          "firstHalfAllowed": 43,
+          "fullGameAllowed": 101,
+          "eventId": "401918010",
+          "date": "2026-10-04T23:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "134478",
+      "team": "London Lions",
+      "abbreviation": "LON",
+      "all": {
+        "games": 1,
+        "q1": 21.0,
+        "firstHalf": 33.0,
+        "fullGame": 66.0,
+        "q1Allowed": 34.0,
+        "firstHalfAllowed": 72.0,
+        "fullGameAllowed": 119.0
+      },
+      "home": {
+        "games": 0,
+        "q1": null,
+        "firstHalf": null,
+        "fullGame": null,
+        "q1Allowed": null,
+        "firstHalfAllowed": null,
+        "fullGameAllowed": null
+      },
+      "away": {
+        "games": 1,
+        "q1": 21.0,
+        "firstHalf": 33.0,
+        "fullGame": 66.0,
+        "q1Allowed": 34.0,
+        "firstHalfAllowed": 72.0,
+        "fullGameAllowed": 119.0
+      },
+      "last5": {
+        "games": 1,
+        "q1": 21.0,
+        "firstHalf": 33.0,
+        "fullGame": 66.0,
+        "q1Allowed": 34.0,
+        "firstHalfAllowed": 72.0,
+        "fullGameAllowed": 119.0
+      },
+      "gameLogs": [
+        {
+          "id": "134478",
+          "team": "London Lions",
+          "abbreviation": "LON",
+          "homeAway": "away",
+          "quarters": [
+            21,
+            12,
+            16,
+            17
+          ],
+          "q1": 21,
+          "q2": 12,
+          "q3": 16,
+          "q4": 17,
+          "firstHalf": 33,
+          "regulation": 66,
+          "fullGame": 66,
+          "overtime": false,
+          "q1Allowed": 34,
+          "firstHalfAllowed": 72,
+          "fullGameAllowed": 119,
+          "eventId": "401914130",
+          "date": "2026-10-12T20:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "13",
+      "team": "Los Angeles Lakers",
+      "abbreviation": "LAL",
+      "all": {
+        "games": 4,
+        "q1": 29.25,
+        "firstHalf": 61.5,
+        "fullGame": 107.0,
+        "q1Allowed": 30.5,
+        "firstHalfAllowed": 55.25,
+        "fullGameAllowed": 109.5
+      },
+      "home": {
+        "games": 2,
+        "q1": 25.0,
+        "firstHalf": 60.0,
+        "fullGame": 101.5,
+        "q1Allowed": 24.5,
+        "firstHalfAllowed": 46.5,
+        "fullGameAllowed": 105.5
+      },
+      "away": {
+        "games": 2,
+        "q1": 33.5,
+        "firstHalf": 63.0,
+        "fullGame": 112.5,
+        "q1Allowed": 36.5,
+        "firstHalfAllowed": 64.0,
+        "fullGameAllowed": 113.5
+      },
+      "last5": {
+        "games": 4,
+        "q1": 29.25,
+        "firstHalf": 61.5,
+        "fullGame": 107.0,
+        "q1Allowed": 30.5,
+        "firstHalfAllowed": 55.25,
+        "fullGameAllowed": 109.5
+      },
+      "gameLogs": [
+        {
+          "id": "13",
+          "team": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "homeAway": "home",
+          "quarters": [
+            29,
+            34,
+            13,
+            13
+          ],
+          "q1": 29,
+          "q2": 34,
+          "q3": 13,
+          "q4": 13,
+          "firstHalf": 63,
+          "regulation": 89,
+          "fullGame": 89,
+          "overtime": false,
+          "q1Allowed": 29,
+          "firstHalfAllowed": 50,
+          "fullGameAllowed": 101,
+          "eventId": "401898718",
+          "date": "2026-10-14T02:00Z"
+        },
+        {
+          "id": "13",
+          "team": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "homeAway": "home",
+          "quarters": [
+            21,
+            36,
+            29,
+            28
+          ],
+          "q1": 21,
+          "q2": 36,
+          "q3": 29,
+          "q4": 28,
+          "firstHalf": 57,
+          "regulation": 114,
+          "fullGame": 114,
+          "overtime": false,
+          "q1Allowed": 20,
+          "firstHalfAllowed": 43,
+          "fullGameAllowed": 110,
+          "eventId": "401898717",
+          "date": "2026-10-09T02:45Z"
+        },
+        {
+          "id": "13",
+          "team": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "homeAway": "away",
+          "quarters": [
+            31,
+            22,
+            22,
+            23
+          ],
+          "q1": 31,
+          "q2": 22,
+          "q3": 22,
+          "q4": 23,
+          "firstHalf": 53,
+          "regulation": 98,
+          "fullGame": 98,
+          "overtime": false,
+          "q1Allowed": 45,
+          "firstHalfAllowed": 81,
+          "fullGameAllowed": 124,
+          "eventId": "401898390",
+          "date": "2026-10-07T02:00Z"
+        },
+        {
+          "id": "13",
+          "team": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "homeAway": "away",
+          "quarters": [
+            36,
+            37,
+            26,
+            28
+          ],
+          "q1": 36,
+          "q2": 37,
+          "q3": 26,
+          "q4": 28,
+          "firstHalf": 73,
+          "regulation": 127,
+          "fullGame": 127,
+          "overtime": false,
+          "q1Allowed": 28,
+          "firstHalfAllowed": 47,
+          "fullGameAllowed": 103,
+          "eventId": "401898716",
+          "date": "2026-10-06T02:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "29",
+      "team": "Memphis Grizzlies",
+      "abbreviation": "MEM",
+      "all": {
+        "games": 3,
+        "q1": 29.33,
+        "firstHalf": 67.33,
+        "fullGame": 118.0,
+        "q1Allowed": 32.67,
+        "firstHalfAllowed": 58.33,
+        "fullGameAllowed": 115.0
+      },
+      "home": {
+        "games": 1,
+        "q1": 26.0,
+        "firstHalf": 61.0,
+        "fullGame": 118.0,
+        "q1Allowed": 36.0,
+        "firstHalfAllowed": 64.0,
+        "fullGameAllowed": 122.0
+      },
+      "away": {
+        "games": 2,
+        "q1": 31.0,
+        "firstHalf": 70.5,
+        "fullGame": 118.0,
+        "q1Allowed": 31.0,
+        "firstHalfAllowed": 55.5,
+        "fullGameAllowed": 111.5
+      },
+      "last5": {
+        "games": 3,
+        "q1": 29.33,
+        "firstHalf": 67.33,
+        "fullGame": 118.0,
+        "q1Allowed": 32.67,
+        "firstHalfAllowed": 58.33,
+        "fullGameAllowed": 115.0
+      },
+      "gameLogs": [
+        {
+          "id": "29",
+          "team": "Memphis Grizzlies",
+          "abbreviation": "MEM",
+          "homeAway": "away",
+          "quarters": [
+            30,
+            30,
+            25,
+            19
+          ],
+          "q1": 30,
+          "q2": 30,
+          "q3": 25,
+          "q4": 19,
+          "firstHalf": 60,
+          "regulation": 104,
+          "fullGame": 104,
+          "overtime": false,
+          "q1Allowed": 27,
+          "firstHalfAllowed": 50,
+          "fullGameAllowed": 100,
+          "eventId": "401908940",
+          "date": "2026-10-10T00:00Z"
+        },
+        {
+          "id": "29",
+          "team": "Memphis Grizzlies",
+          "abbreviation": "MEM",
+          "homeAway": "home",
+          "quarters": [
+            26,
+            35,
+            26,
+            31
+          ],
+          "q1": 26,
+          "q2": 35,
+          "q3": 26,
+          "q4": 31,
+          "firstHalf": 61,
+          "regulation": 118,
+          "fullGame": 118,
+          "overtime": false,
+          "q1Allowed": 36,
+          "firstHalfAllowed": 64,
+          "fullGameAllowed": 122,
+          "eventId": "401898391",
+          "date": "2026-10-08T00:00Z"
+        },
+        {
+          "id": "29",
+          "team": "Memphis Grizzlies",
+          "abbreviation": "MEM",
+          "homeAway": "away",
+          "quarters": [
+            32,
+            49,
+            29,
+            22
+          ],
+          "q1": 32,
+          "q2": 49,
+          "q3": 29,
+          "q4": 22,
+          "firstHalf": 81,
+          "regulation": 132,
+          "fullGame": 132,
+          "overtime": false,
+          "q1Allowed": 35,
+          "firstHalfAllowed": 61,
+          "fullGameAllowed": 123,
+          "eventId": "401898388",
+          "date": "2026-10-05T23:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "14",
+      "team": "Miami Heat",
+      "abbreviation": "MIA",
+      "all": {
+        "games": 3,
+        "q1": 32.33,
+        "firstHalf": 68.33,
+        "fullGame": 127.0,
+        "q1Allowed": 27.67,
+        "firstHalfAllowed": 59.67,
+        "fullGameAllowed": 116.0
+      },
+      "home": {
+        "games": 2,
+        "q1": 28.0,
+        "firstHalf": 64.5,
+        "fullGame": 126.0,
+        "q1Allowed": 30.0,
+        "firstHalfAllowed": 62.0,
+        "fullGameAllowed": 121.5
+      },
+      "away": {
+        "games": 1,
+        "q1": 41.0,
+        "firstHalf": 76.0,
+        "fullGame": 129.0,
+        "q1Allowed": 23.0,
+        "firstHalfAllowed": 55.0,
+        "fullGameAllowed": 105.0
+      },
+      "last5": {
+        "games": 3,
+        "q1": 32.33,
+        "firstHalf": 68.33,
+        "fullGame": 127.0,
+        "q1Allowed": 27.67,
+        "firstHalfAllowed": 59.67,
+        "fullGameAllowed": 116.0
+      },
+      "gameLogs": [
+        {
+          "id": "14",
+          "team": "Miami Heat",
+          "abbreviation": "MIA",
+          "homeAway": "home",
+          "quarters": [
+            23,
+            33,
+            28,
+            40
+          ],
+          "q1": 23,
+          "q2": 33,
+          "q3": 28,
+          "q4": 40,
+          "firstHalf": 56,
+          "regulation": 124,
+          "fullGame": 124,
+          "overtime": false,
+          "q1Allowed": 24,
+          "firstHalfAllowed": 60,
+          "fullGameAllowed": 125,
+          "eventId": "401898397",
+          "date": "2026-10-11T00:00Z"
+        },
+        {
+          "id": "14",
+          "team": "Miami Heat",
+          "abbreviation": "MIA",
+          "homeAway": "home",
+          "quarters": [
+            33,
+            40,
+            20,
+            35
+          ],
+          "q1": 33,
+          "q2": 40,
+          "q3": 20,
+          "q4": 35,
+          "firstHalf": 73,
+          "regulation": 128,
+          "fullGame": 128,
+          "overtime": false,
+          "q1Allowed": 36,
+          "firstHalfAllowed": 64,
+          "fullGameAllowed": 118,
+          "eventId": "401898393",
+          "date": "2026-10-08T23:30Z"
+        },
+        {
+          "id": "14",
+          "team": "Miami Heat",
+          "abbreviation": "MIA",
+          "homeAway": "away",
+          "quarters": [
+            41,
+            35,
+            19,
+            34
+          ],
+          "q1": 41,
+          "q2": 35,
+          "q3": 19,
+          "q4": 34,
+          "firstHalf": 76,
+          "regulation": 129,
+          "fullGame": 129,
+          "overtime": false,
+          "q1Allowed": 23,
+          "firstHalfAllowed": 55,
+          "fullGameAllowed": 105,
+          "eventId": "401902644",
+          "date": "2026-10-03T23:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "15",
+      "team": "Milwaukee Bucks",
+      "abbreviation": "MIL",
+      "all": {
+        "games": 3,
+        "q1": 27.0,
+        "firstHalf": 52.33,
+        "fullGame": 105.0,
+        "q1Allowed": 34.67,
+        "firstHalfAllowed": 67.33,
+        "fullGameAllowed": 115.67
+      },
+      "home": {
+        "games": 1,
+        "q1": 20.0,
+        "firstHalf": 48.0,
+        "fullGame": 97.0,
+        "q1Allowed": 31.0,
+        "firstHalfAllowed": 60.0,
+        "fullGameAllowed": 116.0
+      },
+      "away": {
+        "games": 2,
+        "q1": 30.5,
+        "firstHalf": 54.5,
+        "fullGame": 109.0,
+        "q1Allowed": 36.5,
+        "firstHalfAllowed": 71.0,
+        "fullGameAllowed": 115.5
+      },
+      "last5": {
+        "games": 3,
+        "q1": 27.0,
+        "firstHalf": 52.33,
+        "fullGame": 105.0,
+        "q1Allowed": 34.67,
+        "firstHalfAllowed": 67.33,
+        "fullGameAllowed": 115.67
+      },
+      "gameLogs": [
+        {
+          "id": "15",
+          "team": "Milwaukee Bucks",
+          "abbreviation": "MIL",
+          "homeAway": "away",
+          "quarters": [
+            26,
+            19,
+            22,
+            23
+          ],
+          "q1": 26,
+          "q2": 19,
+          "q3": 22,
+          "q4": 23,
+          "firstHalf": 45,
+          "regulation": 90,
+          "fullGame": 90,
+          "overtime": false,
+          "q1Allowed": 29,
+          "firstHalfAllowed": 60,
+          "fullGameAllowed": 105,
+          "eventId": "401901821",
+          "date": "2026-10-11T23:00Z"
+        },
+        {
+          "id": "15",
+          "team": "Milwaukee Bucks",
+          "abbreviation": "MIL",
+          "homeAway": "away",
+          "quarters": [
+            35,
+            29,
+            33,
+            31
+          ],
+          "q1": 35,
+          "q2": 29,
+          "q3": 33,
+          "q4": 31,
+          "firstHalf": 64,
+          "regulation": 128,
+          "fullGame": 128,
+          "overtime": false,
+          "q1Allowed": 44,
+          "firstHalfAllowed": 82,
+          "fullGameAllowed": 126,
+          "eventId": "401908620",
+          "date": "2026-10-08T00:00Z"
+        },
+        {
+          "id": "15",
+          "team": "Milwaukee Bucks",
+          "abbreviation": "MIL",
+          "homeAway": "home",
+          "quarters": [
+            20,
+            28,
+            28,
+            21
+          ],
+          "q1": 20,
+          "q2": 28,
+          "q3": 28,
+          "q4": 21,
+          "firstHalf": 48,
+          "regulation": 97,
+          "fullGame": 97,
+          "overtime": false,
+          "q1Allowed": 31,
+          "firstHalfAllowed": 60,
+          "fullGameAllowed": 116,
+          "eventId": "401914102",
+          "date": "2026-10-06T00:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "16",
+      "team": "Minnesota Timberwolves",
+      "abbreviation": "MIN",
+      "all": {
+        "games": 4,
+        "q1": 28.0,
+        "firstHalf": 61.75,
+        "fullGame": 118.75,
+        "q1Allowed": 25.0,
+        "firstHalfAllowed": 53.75,
+        "fullGameAllowed": 112.0
+      },
+      "home": {
+        "games": 0,
+        "q1": null,
+        "firstHalf": null,
+        "fullGame": null,
+        "q1Allowed": null,
+        "firstHalfAllowed": null,
+        "fullGameAllowed": null
+      },
+      "away": {
+        "games": 4,
+        "q1": 28.0,
+        "firstHalf": 61.75,
+        "fullGame": 118.75,
+        "q1Allowed": 25.0,
+        "firstHalfAllowed": 53.75,
+        "fullGameAllowed": 112.0
+      },
+      "last5": {
+        "games": 4,
+        "q1": 28.0,
+        "firstHalf": 61.75,
+        "fullGame": 118.75,
+        "q1Allowed": 25.0,
+        "firstHalfAllowed": 53.75,
+        "fullGameAllowed": 112.0
+      },
+      "gameLogs": [
+        {
+          "id": "16",
+          "team": "Minnesota Timberwolves",
+          "abbreviation": "MIN",
+          "homeAway": "away",
+          "quarters": [
+            30,
+            32,
+            28,
+            32
+          ],
+          "q1": 30,
+          "q2": 32,
+          "q3": 28,
+          "q4": 32,
+          "firstHalf": 62,
+          "regulation": 122,
+          "fullGame": 122,
+          "overtime": false,
+          "q1Allowed": 25,
+          "firstHalfAllowed": 50,
+          "fullGameAllowed": 104,
+          "eventId": "401914124",
+          "date": "2026-10-12T23:30Z"
+        },
+        {
+          "id": "16",
+          "team": "Minnesota Timberwolves",
+          "abbreviation": "MIN",
+          "homeAway": "away",
+          "quarters": [
+            24,
+            36,
+            31,
+            34
+          ],
+          "q1": 24,
+          "q2": 36,
+          "q3": 31,
+          "q4": 34,
+          "firstHalf": 60,
+          "regulation": 125,
+          "fullGame": 125,
+          "overtime": false,
+          "q1Allowed": 23,
+          "firstHalfAllowed": 56,
+          "fullGameAllowed": 124,
+          "eventId": "401898397",
+          "date": "2026-10-11T00:00Z"
+        },
+        {
+          "id": "16",
+          "team": "Minnesota Timberwolves",
+          "abbreviation": "MIN",
+          "homeAway": "away",
+          "quarters": [
+            27,
+            38,
+            26,
+            21
+          ],
+          "q1": 27,
+          "q2": 38,
+          "q3": 26,
+          "q4": 21,
+          "firstHalf": 65,
+          "regulation": 112,
+          "fullGame": 112,
+          "overtime": false,
+          "q1Allowed": 32,
+          "firstHalfAllowed": 61,
+          "fullGameAllowed": 123,
+          "eventId": "401914123",
+          "date": "2026-10-07T23:00Z"
+        },
+        {
+          "id": "16",
+          "team": "Minnesota Timberwolves",
+          "abbreviation": "MIN",
+          "homeAway": "away",
+          "quarters": [
+            31,
+            29,
+            21,
+            35
+          ],
+          "q1": 31,
+          "q2": 29,
+          "q3": 21,
+          "q4": 35,
+          "firstHalf": 60,
+          "regulation": 116,
+          "fullGame": 116,
+          "overtime": false,
+          "q1Allowed": 20,
+          "firstHalfAllowed": 48,
+          "fullGameAllowed": 97,
+          "eventId": "401914102",
+          "date": "2026-10-06T00:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "3",
+      "team": "New Orleans Pelicans",
+      "abbreviation": "NO",
+      "all": {
+        "games": 2,
+        "q1": 32.0,
+        "firstHalf": 58.0,
+        "fullGame": 117.0,
+        "q1Allowed": 33.5,
+        "firstHalfAllowed": 70.0,
+        "fullGameAllowed": 119.0
+      },
+      "home": {
+        "games": 0,
+        "q1": null,
+        "firstHalf": null,
+        "fullGame": null,
+        "q1Allowed": null,
+        "firstHalfAllowed": null,
+        "fullGameAllowed": null
+      },
+      "away": {
+        "games": 2,
+        "q1": 32.0,
+        "firstHalf": 58.0,
+        "fullGame": 117.0,
+        "q1Allowed": 33.5,
+        "firstHalfAllowed": 70.0,
+        "fullGameAllowed": 119.0
+      },
+      "last5": {
+        "games": 2,
+        "q1": 32.0,
+        "firstHalf": 58.0,
+        "fullGame": 117.0,
+        "q1Allowed": 33.5,
+        "firstHalfAllowed": 70.0,
+        "fullGameAllowed": 119.0
+      },
+      "gameLogs": [
+        {
+          "id": "3",
+          "team": "New Orleans Pelicans",
+          "abbreviation": "NO",
+          "homeAway": "away",
+          "quarters": [
+            36,
+            28,
+            32,
+            22
+          ],
+          "q1": 36,
+          "q2": 28,
+          "q3": 32,
+          "q4": 22,
+          "firstHalf": 64,
+          "regulation": 118,
+          "fullGame": 118,
+          "overtime": false,
+          "q1Allowed": 33,
+          "firstHalfAllowed": 73,
+          "fullGameAllowed": 128,
+          "eventId": "401898393",
+          "date": "2026-10-08T23:30Z"
+        },
+        {
+          "id": "3",
+          "team": "New Orleans Pelicans",
+          "abbreviation": "NO",
+          "homeAway": "away",
+          "quarters": [
+            28,
+            24,
+            38,
+            26
+          ],
+          "q1": 28,
+          "q2": 24,
+          "q3": 38,
+          "q4": 26,
+          "firstHalf": 52,
+          "regulation": 116,
+          "fullGame": 116,
+          "overtime": false,
+          "q1Allowed": 34,
+          "firstHalfAllowed": 67,
+          "fullGameAllowed": 110,
+          "eventId": "401898389",
+          "date": "2026-10-07T00:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "18",
+      "team": "New York Knicks",
+      "abbreviation": "NY",
+      "all": {
+        "games": 4,
+        "q1": 27.0,
+        "firstHalf": 54.5,
+        "fullGame": 102.0,
+        "q1Allowed": 33.75,
+        "firstHalfAllowed": 69.25,
+        "fullGameAllowed": 125.25
+      },
+      "home": {
+        "games": 2,
+        "q1": 27.0,
+        "firstHalf": 56.5,
+        "fullGame": 106.5,
+        "q1Allowed": 30.0,
+        "firstHalfAllowed": 59.5,
+        "fullGameAllowed": 116.5
+      },
+      "away": {
+        "games": 2,
+        "q1": 27.0,
+        "firstHalf": 52.5,
+        "fullGame": 97.5,
+        "q1Allowed": 37.5,
+        "firstHalfAllowed": 79.0,
+        "fullGameAllowed": 134.0
+      },
+      "last5": {
+        "games": 4,
+        "q1": 27.0,
+        "firstHalf": 54.5,
+        "fullGame": 102.0,
+        "q1Allowed": 33.75,
+        "firstHalfAllowed": 69.25,
+        "fullGameAllowed": 125.25
+      },
+      "gameLogs": [
+        {
+          "id": "18",
+          "team": "New York Knicks",
+          "abbreviation": "NY",
+          "homeAway": "away",
+          "quarters": [
+            22,
+            25,
+            31,
+            20
+          ],
+          "q1": 22,
+          "q2": 25,
+          "q3": 31,
+          "q4": 20,
+          "firstHalf": 47,
+          "regulation": 98,
+          "fullGame": 98,
+          "overtime": false,
+          "q1Allowed": 42,
+          "firstHalfAllowed": 86,
+          "fullGameAllowed": 148,
+          "eventId": "401908944",
+          "date": "2026-10-13T23:00Z"
+        },
+        {
+          "id": "18",
+          "team": "New York Knicks",
+          "abbreviation": "NY",
+          "homeAway": "home",
+          "quarters": [
+            25,
+            25,
+            30,
+            24
+          ],
+          "q1": 25,
+          "q2": 25,
+          "q3": 30,
+          "q4": 24,
+          "firstHalf": 50,
+          "regulation": 104,
+          "fullGame": 104,
+          "overtime": false,
+          "q1Allowed": 30,
+          "firstHalfAllowed": 62,
+          "fullGameAllowed": 122,
+          "eventId": "401914124",
+          "date": "2026-10-12T23:30Z"
+        },
+        {
+          "id": "18",
+          "team": "New York Knicks",
+          "abbreviation": "NY",
+          "homeAway": "home",
+          "quarters": [
+            29,
+            34,
+            21,
+            25
+          ],
+          "q1": 29,
+          "q2": 34,
+          "q3": 21,
+          "q4": 25,
+          "firstHalf": 63,
+          "regulation": 109,
+          "fullGame": 109,
+          "overtime": false,
+          "q1Allowed": 30,
+          "firstHalfAllowed": 57,
+          "fullGameAllowed": 111,
+          "eventId": "401906508",
+          "date": "2026-10-08T23:30Z"
+        },
+        {
+          "id": "18",
+          "team": "New York Knicks",
+          "abbreviation": "NY",
+          "homeAway": "away",
+          "quarters": [
+            32,
+            26,
+            21,
+            18
+          ],
+          "q1": 32,
+          "q2": 26,
+          "q3": 21,
+          "q4": 18,
+          "firstHalf": 58,
+          "regulation": 97,
+          "fullGame": 97,
+          "overtime": false,
+          "q1Allowed": 33,
+          "firstHalfAllowed": 72,
+          "fullGameAllowed": 120,
+          "eventId": "401914101",
+          "date": "2026-10-05T23:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "25",
+      "team": "Oklahoma City Thunder",
+      "abbreviation": "OKC",
+      "all": {
+        "games": 4,
+        "q1": 32.75,
+        "firstHalf": 64.25,
+        "fullGame": 115.0,
+        "q1Allowed": 31.25,
+        "firstHalfAllowed": 58.25,
+        "fullGameAllowed": 117.25
+      },
+      "home": {
+        "games": 3,
+        "q1": 34.33,
+        "firstHalf": 69.33,
+        "fullGame": 116.67,
+        "q1Allowed": 32.0,
+        "firstHalfAllowed": 59.0,
+        "fullGameAllowed": 118.67
+      },
+      "away": {
+        "games": 1,
+        "q1": 28.0,
+        "firstHalf": 49.0,
+        "fullGame": 110.0,
+        "q1Allowed": 29.0,
+        "firstHalfAllowed": 56.0,
+        "fullGameAllowed": 113.0
+      },
+      "last5": {
+        "games": 4,
+        "q1": 32.75,
+        "firstHalf": 64.25,
+        "fullGame": 115.0,
+        "q1Allowed": 31.25,
+        "firstHalfAllowed": 58.25,
+        "fullGameAllowed": 117.25
+      },
+      "gameLogs": [
+        {
+          "id": "25",
+          "team": "Oklahoma City Thunder",
+          "abbreviation": "OKC",
+          "homeAway": "home",
+          "quarters": [
+            25,
+            34,
+            26,
+            15,
+            14
+          ],
+          "q1": 25,
+          "q2": 34,
+          "q3": 26,
+          "q4": 15,
+          "firstHalf": 59,
+          "regulation": 100,
+          "fullGame": 114,
+          "overtime": true,
+          "q1Allowed": 33,
+          "firstHalfAllowed": 61,
+          "fullGameAllowed": 112,
+          "eventId": "401908621",
+          "date": "2026-10-14T00:00Z"
+        },
+        {
+          "id": "25",
+          "team": "Oklahoma City Thunder",
+          "abbreviation": "OKC",
+          "homeAway": "away",
+          "quarters": [
+            28,
+            21,
+            30,
+            31
+          ],
+          "q1": 28,
+          "q2": 21,
+          "q3": 30,
+          "q4": 31,
+          "firstHalf": 49,
+          "regulation": 110,
+          "fullGame": 110,
+          "overtime": false,
+          "q1Allowed": 29,
+          "firstHalfAllowed": 56,
+          "fullGameAllowed": 113,
+          "eventId": "401898402",
+          "date": "2026-10-12T23:00Z"
+        },
+        {
+          "id": "25",
+          "team": "Oklahoma City Thunder",
+          "abbreviation": "OKC",
+          "homeAway": "home",
+          "quarters": [
+            44,
+            38,
+            20,
+            24
+          ],
+          "q1": 44,
+          "q2": 38,
+          "q3": 20,
+          "q4": 24,
+          "firstHalf": 82,
+          "regulation": 126,
+          "fullGame": 126,
+          "overtime": false,
+          "q1Allowed": 35,
+          "firstHalfAllowed": 64,
+          "fullGameAllowed": 128,
+          "eventId": "401908620",
+          "date": "2026-10-08T00:00Z"
+        },
+        {
+          "id": "25",
+          "team": "Oklahoma City Thunder",
+          "abbreviation": "OKC",
+          "homeAway": "home",
+          "quarters": [
+            34,
+            33,
+            26,
+            17
+          ],
+          "q1": 34,
+          "q2": 33,
+          "q3": 26,
+          "q4": 17,
+          "firstHalf": 67,
+          "regulation": 110,
+          "fullGame": 110,
+          "overtime": false,
+          "q1Allowed": 28,
+          "firstHalfAllowed": 52,
+          "fullGameAllowed": 116,
+          "eventId": "401898389",
+          "date": "2026-10-07T00:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "19",
+      "team": "Orlando Magic",
+      "abbreviation": "ORL",
+      "all": {
+        "games": 3,
+        "q1": 33.0,
+        "firstHalf": 62.0,
+        "fullGame": 119.67,
+        "q1Allowed": 28.67,
+        "firstHalfAllowed": 58.0,
+        "fullGameAllowed": 117.67
+      },
+      "home": {
+        "games": 1,
+        "q1": 35.0,
+        "firstHalf": 72.0,
+        "fullGame": 132.0,
+        "q1Allowed": 28.0,
+        "firstHalfAllowed": 52.0,
+        "fullGameAllowed": 116.0
+      },
+      "away": {
+        "games": 2,
+        "q1": 32.0,
+        "firstHalf": 57.0,
+        "fullGame": 113.5,
+        "q1Allowed": 29.0,
+        "firstHalfAllowed": 61.0,
+        "fullGameAllowed": 118.5
+      },
+      "last5": {
+        "games": 3,
+        "q1": 33.0,
+        "firstHalf": 62.0,
+        "fullGame": 119.67,
+        "q1Allowed": 28.67,
+        "firstHalfAllowed": 58.0,
+        "fullGameAllowed": 117.67
+      },
+      "gameLogs": [
+        {
+          "id": "19",
+          "team": "Orlando Magic",
+          "abbreviation": "ORL",
+          "homeAway": "home",
+          "quarters": [
+            35,
+            37,
+            36,
+            24
+          ],
+          "q1": 35,
+          "q2": 37,
+          "q3": 36,
+          "q4": 24,
+          "firstHalf": 72,
+          "regulation": 132,
+          "fullGame": 132,
+          "overtime": false,
+          "q1Allowed": 28,
+          "firstHalfAllowed": 52,
+          "fullGameAllowed": 116,
+          "eventId": "401898403",
+          "date": "2026-10-13T23:00Z"
+        },
+        {
+          "id": "19",
+          "team": "Orlando Magic",
+          "abbreviation": "ORL",
+          "homeAway": "away",
+          "quarters": [
+            28,
+            22,
+            25,
+            30
+          ],
+          "q1": 28,
+          "q2": 22,
+          "q3": 25,
+          "q4": 30,
+          "firstHalf": 50,
+          "regulation": 105,
+          "fullGame": 105,
+          "overtime": false,
+          "q1Allowed": 32,
+          "firstHalfAllowed": 61,
+          "fullGameAllowed": 119,
+          "eventId": "401898401",
+          "date": "2026-10-11T22:30Z"
+        },
+        {
+          "id": "19",
+          "team": "Orlando Magic",
+          "abbreviation": "ORL",
+          "homeAway": "away",
+          "quarters": [
+            36,
+            28,
+            30,
+            28
+          ],
+          "q1": 36,
+          "q2": 28,
+          "q3": 30,
+          "q4": 28,
+          "firstHalf": 64,
+          "regulation": 122,
+          "fullGame": 122,
+          "overtime": false,
+          "q1Allowed": 26,
+          "firstHalfAllowed": 61,
+          "fullGameAllowed": 118,
+          "eventId": "401898391",
+          "date": "2026-10-08T00:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "20",
+      "team": "Philadelphia 76ers",
+      "abbreviation": "PHI",
+      "all": {
+        "games": 3,
+        "q1": 28.67,
+        "firstHalf": 57.33,
+        "fullGame": 111.33,
+        "q1Allowed": 29.67,
+        "firstHalfAllowed": 59.0,
+        "fullGameAllowed": 118.33
+      },
+      "home": {
+        "games": 1,
+        "q1": 33.0,
+        "firstHalf": 72.0,
+        "fullGame": 120.0,
+        "q1Allowed": 32.0,
+        "firstHalfAllowed": 58.0,
+        "fullGameAllowed": 97.0
+      },
+      "away": {
+        "games": 2,
+        "q1": 26.5,
+        "firstHalf": 50.0,
+        "fullGame": 107.0,
+        "q1Allowed": 28.5,
+        "firstHalfAllowed": 59.5,
+        "fullGameAllowed": 129.0
+      },
+      "last5": {
+        "games": 3,
+        "q1": 28.67,
+        "firstHalf": 57.33,
+        "fullGame": 111.33,
+        "q1Allowed": 29.67,
+        "firstHalfAllowed": 59.0,
+        "fullGameAllowed": 118.33
+      },
+      "gameLogs": [
+        {
+          "id": "20",
+          "team": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "homeAway": "away",
+          "quarters": [
+            20,
+            22,
+            27,
+            37
+          ],
+          "q1": 20,
+          "q2": 22,
+          "q3": 27,
+          "q4": 37,
+          "firstHalf": 42,
+          "regulation": 106,
+          "fullGame": 106,
+          "overtime": false,
+          "q1Allowed": 24,
+          "firstHalfAllowed": 63,
+          "fullGameAllowed": 144,
+          "eventId": "401898398",
+          "date": "2026-10-11T00:00Z"
+        },
+        {
+          "id": "20",
+          "team": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "homeAway": "away",
+          "quarters": [
+            33,
+            25,
+            23,
+            27
+          ],
+          "q1": 33,
+          "q2": 25,
+          "q3": 23,
+          "q4": 27,
+          "firstHalf": 58,
+          "regulation": 108,
+          "fullGame": 108,
+          "overtime": false,
+          "q1Allowed": 33,
+          "firstHalfAllowed": 56,
+          "fullGameAllowed": 114,
+          "eventId": "401901823",
+          "date": "2026-10-08T23:30Z"
+        },
+        {
+          "id": "20",
+          "team": "Philadelphia 76ers",
+          "abbreviation": "PHI",
+          "homeAway": "home",
+          "quarters": [
+            33,
+            39,
+            21,
+            27
+          ],
+          "q1": 33,
+          "q2": 39,
+          "q3": 21,
+          "q4": 27,
+          "firstHalf": 72,
+          "regulation": 120,
+          "fullGame": 120,
+          "overtime": false,
+          "q1Allowed": 32,
+          "firstHalfAllowed": 58,
+          "fullGameAllowed": 97,
+          "eventId": "401914101",
+          "date": "2026-10-05T23:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "21",
+      "team": "Phoenix Suns",
+      "abbreviation": "PHX",
+      "all": {
+        "games": 3,
+        "q1": 36.67,
+        "firstHalf": 63.33,
+        "fullGame": 108.67,
+        "q1Allowed": 25.0,
+        "firstHalfAllowed": 54.33,
+        "fullGameAllowed": 110.33
+      },
+      "home": {
+        "games": 1,
+        "q1": 35.0,
+        "firstHalf": 58.0,
+        "fullGame": 102.0,
+        "q1Allowed": 25.0,
+        "firstHalfAllowed": 51.0,
+        "fullGameAllowed": 98.0
+      },
+      "away": {
+        "games": 2,
+        "q1": 37.5,
+        "firstHalf": 66.0,
+        "fullGame": 112.0,
+        "q1Allowed": 25.0,
+        "firstHalfAllowed": 56.0,
+        "fullGameAllowed": 116.5
+      },
+      "last5": {
+        "games": 3,
+        "q1": 36.67,
+        "firstHalf": 63.33,
+        "fullGame": 108.67,
+        "q1Allowed": 25.0,
+        "firstHalfAllowed": 54.33,
+        "fullGameAllowed": 110.33
+      },
+      "gameLogs": [
+        {
+          "id": "21",
+          "team": "Phoenix Suns",
+          "abbreviation": "PHX",
+          "homeAway": "home",
+          "quarters": [
+            35,
+            23,
+            27,
+            17
+          ],
+          "q1": 35,
+          "q2": 23,
+          "q3": 27,
+          "q4": 17,
+          "firstHalf": 58,
+          "regulation": 102,
+          "fullGame": 102,
+          "overtime": false,
+          "q1Allowed": 25,
+          "firstHalfAllowed": 51,
+          "fullGameAllowed": 98,
+          "eventId": "401898720",
+          "date": "2026-10-11T02:30Z"
+        },
+        {
+          "id": "21",
+          "team": "Phoenix Suns",
+          "abbreviation": "PHX",
+          "homeAway": "away",
+          "quarters": [
+            40,
+            24,
+            26,
+            27
+          ],
+          "q1": 40,
+          "q2": 24,
+          "q3": 26,
+          "q4": 27,
+          "firstHalf": 64,
+          "regulation": 117,
+          "fullGame": 117,
+          "overtime": false,
+          "q1Allowed": 29,
+          "firstHalfAllowed": 62,
+          "fullGameAllowed": 124,
+          "eventId": "401908939",
+          "date": "2026-10-08T00:00Z"
+        },
+        {
+          "id": "21",
+          "team": "Phoenix Suns",
+          "abbreviation": "PHX",
+          "homeAway": "away",
+          "quarters": [
+            35,
+            33,
+            16,
+            23
+          ],
+          "q1": 35,
+          "q2": 33,
+          "q3": 16,
+          "q4": 23,
+          "firstHalf": 68,
+          "regulation": 107,
+          "fullGame": 107,
+          "overtime": false,
+          "q1Allowed": 21,
+          "firstHalfAllowed": 50,
+          "fullGameAllowed": 109,
+          "eventId": "401908947",
+          "date": "2026-10-05T23:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "22",
+      "team": "Portland Trail Blazers",
+      "abbreviation": "POR",
+      "all": {
+        "games": 3,
+        "q1": 34.33,
+        "firstHalf": 65.0,
+        "fullGame": 117.33,
+        "q1Allowed": 24.67,
+        "firstHalfAllowed": 40.67,
+        "fullGameAllowed": 94.0
+      },
+      "home": {
+        "games": 2,
+        "q1": 35.0,
+        "firstHalf": 64.5,
+        "fullGame": 121.0,
+        "q1Allowed": 26.0,
+        "firstHalfAllowed": 41.5,
+        "fullGameAllowed": 92.0
+      },
+      "away": {
+        "games": 1,
+        "q1": 33.0,
+        "firstHalf": 66.0,
+        "fullGame": 110.0,
+        "q1Allowed": 22.0,
+        "firstHalfAllowed": 39.0,
+        "fullGameAllowed": 98.0
+      },
+      "last5": {
+        "games": 3,
+        "q1": 34.33,
+        "firstHalf": 65.0,
+        "fullGame": 117.33,
+        "q1Allowed": 24.67,
+        "firstHalfAllowed": 40.67,
+        "fullGameAllowed": 94.0
+      },
+      "gameLogs": [
+        {
+          "id": "22",
+          "team": "Portland Trail Blazers",
+          "abbreviation": "POR",
+          "homeAway": "away",
+          "quarters": [
+            33,
+            33,
+            27,
+            17
+          ],
+          "q1": 33,
+          "q2": 33,
+          "q3": 27,
+          "q4": 17,
+          "firstHalf": 66,
+          "regulation": 110,
+          "fullGame": 110,
+          "overtime": false,
+          "q1Allowed": 22,
+          "firstHalfAllowed": 39,
+          "fullGameAllowed": 98,
+          "eventId": "401901826",
+          "date": "2026-10-14T02:00Z"
+        },
+        {
+          "id": "22",
+          "team": "Portland Trail Blazers",
+          "abbreviation": "POR",
+          "homeAway": "home",
+          "quarters": [
+            34,
+            38,
+            28,
+            19
+          ],
+          "q1": 34,
+          "q2": 38,
+          "q3": 28,
+          "q4": 19,
+          "firstHalf": 72,
+          "regulation": 119,
+          "fullGame": 119,
+          "overtime": false,
+          "q1Allowed": 21,
+          "firstHalfAllowed": 33,
+          "fullGameAllowed": 66,
+          "eventId": "401914130",
+          "date": "2026-10-12T20:00Z"
+        },
+        {
+          "id": "22",
+          "team": "Portland Trail Blazers",
+          "abbreviation": "POR",
+          "homeAway": "home",
+          "quarters": [
+            36,
+            21,
+            29,
+            37
+          ],
+          "q1": 36,
+          "q2": 21,
+          "q3": 29,
+          "q4": 37,
+          "firstHalf": 57,
+          "regulation": 123,
+          "fullGame": 123,
+          "overtime": false,
+          "q1Allowed": 31,
+          "firstHalfAllowed": 50,
+          "fullGameAllowed": 118,
+          "eventId": "401914129",
+          "date": "2026-10-08T02:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "23",
+      "team": "Sacramento Kings",
+      "abbreviation": "SAC",
+      "all": {
+        "games": 4,
+        "q1": 23.75,
+        "firstHalf": 46.25,
+        "fullGame": 104.25,
+        "q1Allowed": 28.5,
+        "firstHalfAllowed": 64.25,
+        "fullGameAllowed": 115.5
+      },
+      "home": {
+        "games": 2,
+        "q1": 25.0,
+        "firstHalf": 43.0,
+        "fullGame": 100.5,
+        "q1Allowed": 34.5,
+        "firstHalfAllowed": 69.5,
+        "fullGameAllowed": 118.5
+      },
+      "away": {
+        "games": 2,
+        "q1": 22.5,
+        "firstHalf": 49.5,
+        "fullGame": 108.0,
+        "q1Allowed": 22.5,
+        "firstHalfAllowed": 59.0,
+        "fullGameAllowed": 112.5
+      },
+      "last5": {
+        "games": 4,
+        "q1": 23.75,
+        "firstHalf": 46.25,
+        "fullGame": 104.25,
+        "q1Allowed": 28.5,
+        "firstHalfAllowed": 64.25,
+        "fullGameAllowed": 115.5
+      },
+      "gameLogs": [
+        {
+          "id": "23",
+          "team": "Sacramento Kings",
+          "abbreviation": "SAC",
+          "homeAway": "home",
+          "quarters": [
+            22,
+            17,
+            27,
+            32
+          ],
+          "q1": 22,
+          "q2": 17,
+          "q3": 27,
+          "q4": 32,
+          "firstHalf": 39,
+          "regulation": 98,
+          "fullGame": 98,
+          "overtime": false,
+          "q1Allowed": 33,
+          "firstHalfAllowed": 66,
+          "fullGameAllowed": 110,
+          "eventId": "401901826",
+          "date": "2026-10-14T02:00Z"
+        },
+        {
+          "id": "23",
+          "team": "Sacramento Kings",
+          "abbreviation": "SAC",
+          "homeAway": "away",
+          "quarters": [
+            25,
+            31,
+            25,
+            25
+          ],
+          "q1": 25,
+          "q2": 31,
+          "q3": 25,
+          "q4": 25,
+          "firstHalf": 56,
+          "regulation": 106,
+          "fullGame": 106,
+          "overtime": false,
+          "q1Allowed": 24,
+          "firstHalfAllowed": 61,
+          "fullGameAllowed": 111,
+          "eventId": "401898399",
+          "date": "2026-10-11T00:30Z"
+        },
+        {
+          "id": "23",
+          "team": "Sacramento Kings",
+          "abbreviation": "SAC",
+          "homeAway": "away",
+          "quarters": [
+            20,
+            23,
+            27,
+            40
+          ],
+          "q1": 20,
+          "q2": 23,
+          "q3": 27,
+          "q4": 40,
+          "firstHalf": 43,
+          "regulation": 110,
+          "fullGame": 110,
+          "overtime": false,
+          "q1Allowed": 21,
+          "firstHalfAllowed": 57,
+          "fullGameAllowed": 114,
+          "eventId": "401898717",
+          "date": "2026-10-09T02:45Z"
+        },
+        {
+          "id": "23",
+          "team": "Sacramento Kings",
+          "abbreviation": "SAC",
+          "homeAway": "home",
+          "quarters": [
+            28,
+            19,
+            30,
+            26
+          ],
+          "q1": 28,
+          "q2": 19,
+          "q3": 30,
+          "q4": 26,
+          "firstHalf": 47,
+          "regulation": 103,
+          "fullGame": 103,
+          "overtime": false,
+          "q1Allowed": 36,
+          "firstHalfAllowed": 73,
+          "fullGameAllowed": 127,
+          "eventId": "401898716",
+          "date": "2026-10-06T02:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "24",
+      "team": "San Antonio Spurs",
+      "abbreviation": "SA",
+      "all": {
+        "games": 3,
+        "q1": 30.0,
+        "firstHalf": 60.33,
+        "fullGame": 107.67,
+        "q1Allowed": 29.33,
+        "firstHalfAllowed": 62.67,
+        "fullGameAllowed": 114.67
+      },
+      "home": {
+        "games": 1,
+        "q1": 39.0,
+        "firstHalf": 69.0,
+        "fullGame": 116.0,
+        "q1Allowed": 20.0,
+        "firstHalfAllowed": 62.0,
+        "fullGameAllowed": 123.0
+      },
+      "away": {
+        "games": 2,
+        "q1": 25.5,
+        "firstHalf": 56.0,
+        "fullGame": 103.5,
+        "q1Allowed": 34.0,
+        "firstHalfAllowed": 63.0,
+        "fullGameAllowed": 110.5
+      },
+      "last5": {
+        "games": 3,
+        "q1": 30.0,
+        "firstHalf": 60.33,
+        "fullGame": 107.67,
+        "q1Allowed": 29.33,
+        "firstHalfAllowed": 62.67,
+        "fullGameAllowed": 114.67
+      },
+      "gameLogs": [
+        {
+          "id": "24",
+          "team": "San Antonio Spurs",
+          "abbreviation": "SA",
+          "homeAway": "away",
+          "quarters": [
+            26,
+            35,
+            17,
+            31
+          ],
+          "q1": 26,
+          "q2": 35,
+          "q3": 17,
+          "q4": 31,
+          "firstHalf": 61,
+          "regulation": 109,
+          "fullGame": 109,
+          "overtime": false,
+          "q1Allowed": 33,
+          "firstHalfAllowed": 68,
+          "fullGameAllowed": 119,
+          "eventId": "401898721",
+          "date": "2026-10-13T01:00Z"
+        },
+        {
+          "id": "24",
+          "team": "San Antonio Spurs",
+          "abbreviation": "SA",
+          "homeAway": "away",
+          "quarters": [
+            25,
+            26,
+            22,
+            25
+          ],
+          "q1": 25,
+          "q2": 26,
+          "q3": 22,
+          "q4": 25,
+          "firstHalf": 51,
+          "regulation": 98,
+          "fullGame": 98,
+          "overtime": false,
+          "q1Allowed": 35,
+          "firstHalfAllowed": 58,
+          "fullGameAllowed": 102,
+          "eventId": "401898720",
+          "date": "2026-10-11T02:30Z"
+        },
+        {
+          "id": "24",
+          "team": "San Antonio Spurs",
+          "abbreviation": "SA",
+          "homeAway": "home",
+          "quarters": [
+            39,
+            30,
+            26,
+            21
+          ],
+          "q1": 39,
+          "q2": 30,
+          "q3": 26,
+          "q4": 21,
+          "firstHalf": 69,
+          "regulation": 116,
+          "fullGame": 116,
+          "overtime": false,
+          "q1Allowed": 20,
+          "firstHalfAllowed": 62,
+          "fullGameAllowed": 123,
+          "eventId": "401898394",
+          "date": "2026-10-09T00:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "28",
+      "team": "Toronto Raptors",
+      "abbreviation": "TOR",
+      "all": {
+        "games": 3,
+        "q1": 29.67,
+        "firstHalf": 66.0,
+        "fullGame": 122.33,
+        "q1Allowed": 27.0,
+        "firstHalfAllowed": 56.0,
+        "fullGameAllowed": 111.0
+      },
+      "home": {
+        "games": 3,
+        "q1": 29.67,
+        "firstHalf": 66.0,
+        "fullGame": 122.33,
+        "q1Allowed": 27.0,
+        "firstHalfAllowed": 56.0,
+        "fullGameAllowed": 111.0
+      },
+      "away": {
+        "games": 0,
+        "q1": null,
+        "firstHalf": null,
+        "fullGame": null,
+        "q1Allowed": null,
+        "firstHalfAllowed": null,
+        "fullGameAllowed": null
+      },
+      "last5": {
+        "games": 3,
+        "q1": 29.67,
+        "firstHalf": 66.0,
+        "fullGame": 122.33,
+        "q1Allowed": 27.0,
+        "firstHalfAllowed": 56.0,
+        "fullGameAllowed": 111.0
+      },
+      "gameLogs": [
+        {
+          "id": "28",
+          "team": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "homeAway": "home",
+          "quarters": [
+            42,
+            44,
+            30,
+            32
+          ],
+          "q1": 42,
+          "q2": 44,
+          "q3": 30,
+          "q4": 32,
+          "firstHalf": 86,
+          "regulation": 148,
+          "fullGame": 148,
+          "overtime": false,
+          "q1Allowed": 22,
+          "firstHalfAllowed": 47,
+          "fullGameAllowed": 98,
+          "eventId": "401908944",
+          "date": "2026-10-13T23:00Z"
+        },
+        {
+          "id": "28",
+          "team": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "homeAway": "home",
+          "quarters": [
+            24,
+            33,
+            32,
+            25
+          ],
+          "q1": 24,
+          "q2": 33,
+          "q3": 32,
+          "q4": 25,
+          "firstHalf": 57,
+          "regulation": 114,
+          "fullGame": 114,
+          "overtime": false,
+          "q1Allowed": 18,
+          "firstHalfAllowed": 45,
+          "fullGameAllowed": 106,
+          "eventId": "401902645",
+          "date": "2026-10-10T22:30Z"
+        },
+        {
+          "id": "28",
+          "team": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "homeAway": "home",
+          "quarters": [
+            23,
+            32,
+            25,
+            25
+          ],
+          "q1": 23,
+          "q2": 32,
+          "q3": 25,
+          "q4": 25,
+          "firstHalf": 55,
+          "regulation": 105,
+          "fullGame": 105,
+          "overtime": false,
+          "q1Allowed": 41,
+          "firstHalfAllowed": 76,
+          "fullGameAllowed": 129,
+          "eventId": "401902644",
+          "date": "2026-10-03T23:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "26",
+      "team": "Utah Jazz",
+      "abbreviation": "UTAH",
+      "all": {
+        "games": 3,
+        "q1": 33.33,
+        "firstHalf": 63.33,
+        "fullGame": 111.33,
+        "q1Allowed": 25.33,
+        "firstHalfAllowed": 59.33,
+        "fullGameAllowed": 107.67
+      },
+      "home": {
+        "games": 2,
+        "q1": 32.0,
+        "firstHalf": 63.5,
+        "fullGame": 112.5,
+        "q1Allowed": 25.0,
+        "firstHalfAllowed": 63.0,
+        "fullGameAllowed": 113.0
+      },
+      "away": {
+        "games": 1,
+        "q1": 36.0,
+        "firstHalf": 63.0,
+        "fullGame": 109.0,
+        "q1Allowed": 26.0,
+        "firstHalfAllowed": 52.0,
+        "fullGameAllowed": 97.0
+      },
+      "last5": {
+        "games": 3,
+        "q1": 33.33,
+        "firstHalf": 63.33,
+        "fullGame": 111.33,
+        "q1Allowed": 25.33,
+        "firstHalfAllowed": 59.33,
+        "fullGameAllowed": 107.67
+      },
+      "gameLogs": [
+        {
+          "id": "26",
+          "team": "Utah Jazz",
+          "abbreviation": "UTAH",
+          "homeAway": "home",
+          "quarters": [
+            33,
+            35,
+            31,
+            20
+          ],
+          "q1": 33,
+          "q2": 35,
+          "q3": 31,
+          "q4": 20,
+          "firstHalf": 68,
+          "regulation": 119,
+          "fullGame": 119,
+          "overtime": false,
+          "q1Allowed": 26,
+          "firstHalfAllowed": 61,
+          "fullGameAllowed": 109,
+          "eventId": "401898721",
+          "date": "2026-10-13T01:00Z"
+        },
+        {
+          "id": "26",
+          "team": "Utah Jazz",
+          "abbreviation": "UTAH",
+          "homeAway": "home",
+          "quarters": [
+            31,
+            28,
+            22,
+            25
+          ],
+          "q1": 31,
+          "q2": 28,
+          "q3": 22,
+          "q4": 25,
+          "firstHalf": 59,
+          "regulation": 106,
+          "fullGame": 106,
+          "overtime": false,
+          "q1Allowed": 24,
+          "firstHalfAllowed": 65,
+          "fullGameAllowed": 117,
+          "eventId": "401914128",
+          "date": "2026-10-07T01:00Z"
+        },
+        {
+          "id": "26",
+          "team": "Utah Jazz",
+          "abbreviation": "UTAH",
+          "homeAway": "away",
+          "quarters": [
+            36,
+            27,
+            25,
+            21
+          ],
+          "q1": 36,
+          "q2": 27,
+          "q3": 25,
+          "q4": 21,
+          "firstHalf": 63,
+          "regulation": 109,
+          "fullGame": 109,
+          "overtime": false,
+          "q1Allowed": 26,
+          "firstHalfAllowed": 52,
+          "fullGameAllowed": 97,
+          "eventId": "401914127",
+          "date": "2026-10-04T23:00Z"
+        }
+      ]
+    },
+    {
+      "teamId": "27",
+      "team": "Washington Wizards",
+      "abbreviation": "WSH",
+      "all": {
+        "games": 3,
+        "q1": 34.0,
+        "firstHalf": 61.67,
+        "fullGame": 115.67,
+        "q1Allowed": 28.33,
+        "firstHalfAllowed": 62.0,
+        "fullGameAllowed": 116.0
+      },
+      "home": {
+        "games": 2,
+        "q1": 36.0,
+        "firstHalf": 64.0,
+        "fullGame": 118.0,
+        "q1Allowed": 28.0,
+        "firstHalfAllowed": 61.5,
+        "fullGameAllowed": 119.5
+      },
+      "away": {
+        "games": 1,
+        "q1": 30.0,
+        "firstHalf": 57.0,
+        "fullGame": 111.0,
+        "q1Allowed": 29.0,
+        "firstHalfAllowed": 63.0,
+        "fullGameAllowed": 109.0
+      },
+      "last5": {
+        "games": 3,
+        "q1": 34.0,
+        "firstHalf": 61.67,
+        "fullGame": 115.67,
+        "q1Allowed": 28.33,
+        "firstHalfAllowed": 62.0,
+        "fullGameAllowed": 116.0
+      },
+      "gameLogs": [
+        {
+          "id": "27",
+          "team": "Washington Wizards",
+          "abbreviation": "WSH",
+          "homeAway": "home",
+          "quarters": [
+            32,
+            40,
+            22,
+            28
+          ],
+          "q1": 32,
+          "q2": 40,
+          "q3": 22,
+          "q4": 28,
+          "firstHalf": 72,
+          "regulation": 122,
+          "fullGame": 122,
+          "overtime": false,
+          "q1Allowed": 36,
+          "firstHalfAllowed": 73,
+          "fullGameAllowed": 131,
+          "eventId": "401901824",
+          "date": "2026-10-12T23:00Z"
+        },
+        {
+          "id": "27",
+          "team": "Washington Wizards",
+          "abbreviation": "WSH",
+          "homeAway": "home",
+          "quarters": [
+            40,
+            16,
+            24,
+            18,
+            16
+          ],
+          "q1": 40,
+          "q2": 16,
+          "q3": 24,
+          "q4": 18,
+          "firstHalf": 56,
+          "regulation": 98,
+          "fullGame": 114,
+          "overtime": true,
+          "q1Allowed": 20,
+          "firstHalfAllowed": 50,
+          "fullGameAllowed": 108,
+          "eventId": "401906510",
+          "date": "2026-10-10T23:00Z"
+        },
+        {
+          "id": "27",
+          "team": "Washington Wizards",
+          "abbreviation": "WSH",
+          "homeAway": "away",
+          "quarters": [
+            30,
+            27,
+            24,
+            30
+          ],
+          "q1": 30,
+          "q2": 27,
+          "q3": 24,
+          "q4": 30,
+          "firstHalf": 57,
+          "regulation": 111,
+          "fullGame": 111,
+          "overtime": false,
+          "q1Allowed": 29,
+          "firstHalfAllowed": 63,
+          "fullGameAllowed": 109,
+          "eventId": "401906508",
+          "date": "2026-10-08T23:30Z"
+        }
+      ]
+    }
+  ]
+}
