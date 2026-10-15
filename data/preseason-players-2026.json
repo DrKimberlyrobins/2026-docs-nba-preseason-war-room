@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T04:44:59.076732+00:00",
+  "generatedAt": "2026-10-15T11:35:06.377341+00:00",
   "source": "ESPN",
   "players": [
     {
@@ -151,15 +151,25 @@
     {
       "playerId": "3064290",
       "playerName": "Aaron Gordon",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 18.33,
-        "rebounds": 5.0,
-        "assists": 0.0,
-        "threes": 2.0
+        "points": 15.75,
+        "rebounds": 5.25,
+        "assists": 0.5,
+        "threes": 1.75
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 8,
+          "rebounds": 6,
+          "assists": 2,
+          "threes": 1
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -799,15 +809,25 @@
     {
       "playerId": "4065813",
       "playerName": "Alpha Diallo",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 4.0,
-        "rebounds": 3.0,
-        "assists": 0.67,
-        "threes": 0.67
+        "points": 3.0,
+        "rebounds": 2.5,
+        "assists": 1.25,
+        "threes": 0.5
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 0,
+          "rebounds": 1,
+          "assists": 3,
+          "threes": 0
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -1531,15 +1551,25 @@
     {
       "playerId": "5075626",
       "playerName": "Baba Miller",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "LA Clippers",
       "averages": {
-        "points": 9.5,
+        "points": 11.33,
         "rebounds": 5.0,
-        "assists": 0.0,
-        "threes": 0.5
+        "assists": 0.67,
+        "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "12",
+          "team": "LA Clippers",
+          "points": 15,
+          "rebounds": 5,
+          "assists": 2,
+          "threes": 2
+        },
         {
           "eventId": "401902645",
           "date": "2026-10-10T22:30Z",
@@ -1999,15 +2029,25 @@
     {
       "playerId": "4683935",
       "playerName": "Blake Wesley",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "LA Clippers",
       "averages": {
-        "points": 7.0,
-        "rebounds": 2.0,
-        "assists": 1.5,
+        "points": 6.0,
+        "rebounds": 1.33,
+        "assists": 2.0,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "12",
+          "team": "LA Clippers",
+          "points": 4,
+          "rebounds": 0,
+          "assists": 3,
+          "threes": 0
+        },
         {
           "eventId": "401902645",
           "date": "2026-10-10T22:30Z",
@@ -2649,15 +2689,25 @@
     {
       "playerId": "3448",
       "playerName": "Brook Lopez",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "LA Clippers",
       "averages": {
-        "points": 3.5,
-        "rebounds": 5.0,
-        "assists": 0.5,
-        "threes": 0.0
+        "points": 5.33,
+        "rebounds": 4.0,
+        "assists": 0.67,
+        "threes": 0.33
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "12",
+          "team": "LA Clippers",
+          "points": 9,
+          "rebounds": 2,
+          "assists": 1,
+          "threes": 1
+        },
         {
           "eventId": "401902645",
           "date": "2026-10-10T22:30Z",
@@ -2815,15 +2865,25 @@
     {
       "playerId": "4565698",
       "playerName": "Bryce Hopkins",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 4.0,
-        "rebounds": 1.33,
-        "assists": 0.67,
+        "points": 3.75,
+        "rebounds": 1.25,
+        "assists": 1.25,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 3,
+          "rebounds": 1,
+          "assists": 3,
+          "threes": 0
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -3337,15 +3397,25 @@
     {
       "playerId": "5105592",
       "playerName": "Cam Whitmore",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 8.0,
-        "rebounds": 1.0,
-        "assists": 0.67,
-        "threes": 0.67
+        "points": 10.25,
+        "rebounds": 1.75,
+        "assists": 0.5,
+        "threes": 0.75
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 17,
+          "rebounds": 4,
+          "assists": 0,
+          "threes": 1
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -3503,15 +3573,25 @@
     {
       "playerId": "3138196",
       "playerName": "Cameron Johnson",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 11.0,
+        "points": 9.5,
         "rebounds": 2.0,
-        "assists": 0.67,
-        "threes": 2.67
+        "assists": 0.75,
+        "threes": 2.25
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 5,
+          "rebounds": 2,
+          "assists": 1,
+          "threes": 1
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -4089,15 +4169,25 @@
     {
       "playerId": "4431767",
       "playerName": "Christian Braun",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 4.33,
-        "rebounds": 4.0,
-        "assists": 0.67,
-        "threes": 0.33
+        "points": 4.0,
+        "rebounds": 3.5,
+        "assists": 0.5,
+        "threes": 0.25
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 3,
+          "rebounds": 2,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -4377,7 +4467,7 @@
     {
       "playerId": "4432976",
       "playerName": "Coleman Hawkins",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Denver Nuggets",
       "averages": {
         "points": 0.0,
@@ -4386,6 +4476,16 @@
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401914127",
           "date": "2026-10-04T23:00Z",
@@ -4723,15 +4823,25 @@
     {
       "playerId": "4433607",
       "playerName": "DaRon Holmes II",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 6.33,
-        "rebounds": 3.0,
-        "assists": 1.0,
-        "threes": 0.33
+        "points": 6.75,
+        "rebounds": 2.5,
+        "assists": 0.75,
+        "threes": 0.25
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 8,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -5041,7 +5151,7 @@
     {
       "playerId": "4395667",
       "playerName": "Dane Goodwin",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Denver Nuggets",
       "averages": {
         "points": 0.0,
@@ -5050,6 +5160,16 @@
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 0,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401914127",
           "date": "2026-10-04T23:00Z",
@@ -5241,15 +5361,25 @@
     {
       "playerId": "4396907",
       "playerName": "Darius Garland",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "LA Clippers",
       "averages": {
-        "points": 13.0,
-        "rebounds": 1.5,
-        "assists": 5.0,
-        "threes": 2.0
+        "points": 13.33,
+        "rebounds": 1.67,
+        "assists": 5.67,
+        "threes": 1.67
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "12",
+          "team": "LA Clippers",
+          "points": 14,
+          "rebounds": 2,
+          "assists": 7,
+          "threes": 1
+        },
         {
           "eventId": "401902645",
           "date": "2026-10-10T22:30Z",
@@ -5895,15 +6025,25 @@
     {
       "playerId": "3936099",
       "playerName": "Derrick Jones Jr.",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "LA Clippers",
       "averages": {
-        "points": 5.5,
-        "rebounds": 1.5,
-        "assists": 0.0,
+        "points": 8.33,
+        "rebounds": 2.67,
+        "assists": 0.33,
         "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "12",
+          "team": "LA Clippers",
+          "points": 14,
+          "rebounds": 5,
+          "assists": 1,
+          "threes": 1
+        },
         {
           "eventId": "401902645",
           "date": "2026-10-10T22:30Z",
@@ -7095,15 +7235,25 @@
     {
       "playerId": "4432872",
       "playerName": "Emanuel Miller",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 5.0,
+        "points": 2.5,
         "rebounds": 1.0,
         "assists": 0.0,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 0,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401914127",
           "date": "2026-10-04T23:00Z",
@@ -7387,15 +7537,25 @@
     {
       "playerId": "5105853",
       "playerName": "Fletcher Loyer",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "LA Clippers",
       "averages": {
-        "points": 0.0,
+        "points": 1.5,
         "rebounds": 1.0,
-        "assists": 0.0,
-        "threes": 0.0
+        "assists": 0.5,
+        "threes": 0.5
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "12",
+          "team": "LA Clippers",
+          "points": 3,
+          "rebounds": 1,
+          "assists": 1,
+          "threes": 1
+        },
         {
           "eventId": "401918010",
           "date": "2026-10-04T23:00Z",
@@ -7777,15 +7937,25 @@
     {
       "playerId": "5106258",
       "playerName": "Gradey Dick",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "LA Clippers",
       "averages": {
-        "points": 4.0,
-        "rebounds": 3.5,
-        "assists": 0.5,
+        "points": 5.33,
+        "rebounds": 3.33,
+        "assists": 1.67,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "12",
+          "team": "LA Clippers",
+          "points": 8,
+          "rebounds": 3,
+          "assists": 4,
+          "threes": 0
+        },
         {
           "eventId": "401902645",
           "date": "2026-10-10T22:30Z",
@@ -8661,15 +8831,25 @@
     {
       "playerId": "4432170",
       "playerName": "Isaiah Jackson",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "LA Clippers",
       "averages": {
-        "points": 6.0,
-        "rebounds": 4.0,
-        "assists": 1.5,
-        "threes": 0.0
+        "points": 7.0,
+        "rebounds": 4.33,
+        "assists": 2.0,
+        "threes": 0.33
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "12",
+          "team": "LA Clippers",
+          "points": 9,
+          "rebounds": 5,
+          "assists": 3,
+          "threes": 1
+        },
         {
           "eventId": "401902645",
           "date": "2026-10-10T22:30Z",
@@ -9335,15 +9515,25 @@
     {
       "playerId": "4702785",
       "playerName": "Jahmyl Telfort",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "LA Clippers",
       "averages": {
-        "points": 2.0,
-        "rebounds": 5.0,
-        "assists": 1.0,
+        "points": 1.0,
+        "rebounds": 3.0,
+        "assists": 1.5,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "12",
+          "team": "LA Clippers",
+          "points": 0,
+          "rebounds": 1,
+          "assists": 2,
+          "threes": 0
+        },
         {
           "eventId": "401902645",
           "date": "2026-10-10T22:30Z",
@@ -9725,15 +9915,25 @@
     {
       "playerId": "4398390",
       "playerName": "Jalen Pickett",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "LA Clippers",
       "averages": {
-        "points": 3.5,
+        "points": 5.67,
         "rebounds": 1.0,
-        "assists": 0.5,
-        "threes": 0.5
+        "assists": 2.0,
+        "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "12",
+          "team": "LA Clippers",
+          "points": 10,
+          "rebounds": 1,
+          "assists": 5,
+          "threes": 2
+        },
         {
           "eventId": "401902645",
           "date": "2026-10-10T22:30Z",
@@ -10027,15 +10227,25 @@
     {
       "playerId": "3936299",
       "playerName": "Jamal Murray",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 8.5,
-        "rebounds": 2.5,
-        "assists": 4.0,
-        "threes": 0.5
+        "points": 10.33,
+        "rebounds": 3.0,
+        "assists": 3.0,
+        "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 14,
+          "rebounds": 4,
+          "assists": 1,
+          "threes": 2
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -12737,15 +12947,25 @@
     {
       "playerId": "4432181",
       "playerName": "Julian Strawther",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 14.0,
-        "rebounds": 3.0,
-        "assists": 1.33,
-        "threes": 2.33
+        "points": 13.25,
+        "rebounds": 2.75,
+        "assists": 1.0,
+        "threes": 2.5
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 11,
+          "rebounds": 2,
+          "assists": 0,
+          "threes": 3
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -13235,15 +13455,25 @@
     {
       "playerId": "5254165",
       "playerName": "Keaton Wagler",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "LA Clippers",
       "averages": {
         "points": 12.0,
-        "rebounds": 3.5,
-        "assists": 2.5,
-        "threes": 1.5
+        "rebounds": 4.0,
+        "assists": 3.0,
+        "threes": 2.0
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "12",
+          "team": "LA Clippers",
+          "points": 12,
+          "rebounds": 5,
+          "assists": 4,
+          "threes": 3
+        },
         {
           "eventId": "401902645",
           "date": "2026-10-10T22:30Z",
@@ -15655,15 +15885,25 @@
     {
       "playerId": "4277848",
       "playerName": "Marvin Bagley III",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 7.5,
+        "points": 6.33,
         "rebounds": 6.0,
-        "assists": 0.0,
+        "assists": 1.0,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 4,
+          "rebounds": 6,
+          "assists": 3,
+          "threes": 0
+        },
         {
           "eventId": "401914128",
           "date": "2026-10-07T01:00Z",
@@ -16933,15 +17173,25 @@
     {
       "playerId": "5105832",
       "playerName": "Nick Martinelli",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "LA Clippers",
       "averages": {
-        "points": 7.0,
-        "rebounds": 1.0,
+        "points": 7.33,
+        "rebounds": 2.33,
         "assists": 1.0,
-        "threes": 1.0
+        "threes": 0.67
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "12",
+          "team": "LA Clippers",
+          "points": 8,
+          "rebounds": 5,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401902645",
           "date": "2026-10-10T22:30Z",
@@ -17065,15 +17315,25 @@
     {
       "playerId": "3112335",
       "playerName": "Nikola Jokic",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 10.33,
+        "points": 9.0,
         "rebounds": 6.0,
-        "assists": 7.33,
-        "threes": 0.33
+        "assists": 7.25,
+        "threes": 0.25
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 5,
+          "rebounds": 6,
+          "assists": 7,
+          "threes": 0
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -19537,15 +19797,25 @@
     {
       "playerId": "4066648",
       "playerName": "Rui Hachimura",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "LA Clippers",
       "averages": {
-        "points": 17.5,
-        "rebounds": 4.0,
-        "assists": 0.5,
-        "threes": 2.5
+        "points": 17.0,
+        "rebounds": 4.33,
+        "assists": 0.67,
+        "threes": 2.67
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "12",
+          "team": "LA Clippers",
+          "points": 16,
+          "rebounds": 5,
+          "assists": 1,
+          "threes": 3
+        },
         {
           "eventId": "401902645",
           "date": "2026-10-10T22:30Z",
@@ -19723,15 +19993,25 @@
     {
       "playerId": "4433629",
       "playerName": "Ryan Nembhard",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 3.33,
+        "points": 3.75,
         "rebounds": 1.0,
-        "assists": 3.67,
-        "threes": 0.33
+        "assists": 3.25,
+        "threes": 0.25
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 5,
+          "rebounds": 1,
+          "assists": 2,
+          "threes": 0
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -21695,15 +21975,25 @@
     {
       "playerId": "4698719",
       "playerName": "Trevon Brazile",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 4.67,
-        "rebounds": 3.33,
+        "points": 9.0,
+        "rebounds": 3.0,
         "assists": 0.0,
-        "threes": 0.33
+        "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 22,
+          "rebounds": 2,
+          "assists": 0,
+          "threes": 3
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -22495,15 +22785,25 @@
     {
       "playerId": "3135046",
       "playerName": "Tyus Jones",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 4.67,
-        "rebounds": 1.33,
-        "assists": 4.67,
-        "threes": 0.67
+        "points": 3.5,
+        "rebounds": 1.25,
+        "assists": 5.25,
+        "threes": 0.5
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 0,
+          "rebounds": 1,
+          "assists": 7,
+          "threes": 0
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -23383,15 +23683,25 @@
     {
       "playerId": "4431690",
       "playerName": "Zeke Nnaji",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 4.33,
-        "rebounds": 2.67,
-        "assists": 0.33,
+        "points": 4.5,
+        "rebounds": 2.75,
+        "assists": 0.25,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 5,
+          "rebounds": 3,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",

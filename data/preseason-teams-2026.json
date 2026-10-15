@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T04:44:59.076732+00:00",
+  "generatedAt": "2026-10-15T11:35:06.377341+00:00",
   "source": "ESPN",
   "teams": [
     {
@@ -908,13 +908,13 @@
       "team": "Denver Nuggets",
       "abbreviation": "DEN",
       "all": {
-        "games": 3,
-        "q1": 26.33,
-        "firstHalf": 58.67,
-        "fullGame": 115.67,
-        "q1Allowed": 31.33,
-        "firstHalfAllowed": 63.33,
-        "fullGameAllowed": 114.33
+        "games": 4,
+        "q1": 25.75,
+        "firstHalf": 57.75,
+        "fullGame": 114.25,
+        "q1Allowed": 29.5,
+        "firstHalfAllowed": 62.0,
+        "fullGameAllowed": 116.25
       },
       "home": {
         "games": 2,
@@ -926,24 +926,49 @@
         "fullGameAllowed": 118.5
       },
       "away": {
-        "games": 1,
+        "games": 2,
         "q1": 24.0,
-        "firstHalf": 65.0,
-        "fullGame": 117.0,
-        "q1Allowed": 31.0,
-        "firstHalfAllowed": 59.0,
-        "fullGameAllowed": 106.0
+        "firstHalf": 60.0,
+        "fullGame": 113.5,
+        "q1Allowed": 27.5,
+        "firstHalfAllowed": 58.5,
+        "fullGameAllowed": 114.0
       },
       "last5": {
-        "games": 3,
-        "q1": 26.33,
-        "firstHalf": 58.67,
-        "fullGame": 115.67,
-        "q1Allowed": 31.33,
-        "firstHalfAllowed": 63.33,
-        "fullGameAllowed": 114.33
+        "games": 4,
+        "q1": 25.75,
+        "firstHalf": 57.75,
+        "fullGame": 114.25,
+        "q1Allowed": 29.5,
+        "firstHalfAllowed": 62.0,
+        "fullGameAllowed": 116.25
       },
       "gameLogs": [
+        {
+          "id": "7",
+          "team": "Denver Nuggets",
+          "abbreviation": "DEN",
+          "homeAway": "away",
+          "quarters": [
+            24,
+            31,
+            26,
+            29
+          ],
+          "q1": 24,
+          "q2": 31,
+          "q3": 26,
+          "q4": 29,
+          "firstHalf": 55,
+          "regulation": 110,
+          "fullGame": 110,
+          "overtime": false,
+          "q1Allowed": 24,
+          "firstHalfAllowed": 58,
+          "fullGameAllowed": 122,
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z"
+        },
         {
           "id": "7",
           "team": "Denver Nuggets",
@@ -1525,22 +1550,22 @@
       "team": "LA Clippers",
       "abbreviation": "LAC",
       "all": {
-        "games": 2,
-        "q1": 20.5,
-        "firstHalf": 50.0,
-        "fullGame": 105.0,
+        "games": 3,
+        "q1": 21.67,
+        "firstHalf": 52.67,
+        "fullGame": 110.67,
         "q1Allowed": 24.0,
-        "firstHalfAllowed": 50.0,
-        "fullGameAllowed": 107.5
+        "firstHalfAllowed": 51.67,
+        "fullGameAllowed": 108.33
       },
       "home": {
-        "games": 1,
-        "q1": 23.0,
-        "firstHalf": 55.0,
-        "fullGame": 104.0,
+        "games": 2,
+        "q1": 23.5,
+        "firstHalf": 56.5,
+        "fullGame": 113.0,
         "q1Allowed": 24.0,
-        "firstHalfAllowed": 43.0,
-        "fullGameAllowed": 101.0
+        "firstHalfAllowed": 49.0,
+        "fullGameAllowed": 105.5
       },
       "away": {
         "games": 1,
@@ -1552,15 +1577,40 @@
         "fullGameAllowed": 114.0
       },
       "last5": {
-        "games": 2,
-        "q1": 20.5,
-        "firstHalf": 50.0,
-        "fullGame": 105.0,
+        "games": 3,
+        "q1": 21.67,
+        "firstHalf": 52.67,
+        "fullGame": 110.67,
         "q1Allowed": 24.0,
-        "firstHalfAllowed": 50.0,
-        "fullGameAllowed": 107.5
+        "firstHalfAllowed": 51.67,
+        "fullGameAllowed": 108.33
       },
       "gameLogs": [
+        {
+          "id": "12",
+          "team": "LA Clippers",
+          "abbreviation": "LAC",
+          "homeAway": "home",
+          "quarters": [
+            24,
+            34,
+            38,
+            26
+          ],
+          "q1": 24,
+          "q2": 34,
+          "q3": 38,
+          "q4": 26,
+          "firstHalf": 58,
+          "regulation": 122,
+          "fullGame": 122,
+          "overtime": false,
+          "q1Allowed": 24,
+          "firstHalfAllowed": 55,
+          "fullGameAllowed": 110,
+          "eventId": "401918011",
+          "date": "2026-10-15T02:30Z"
+        },
         {
           "id": "12",
           "team": "LA Clippers",

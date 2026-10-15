@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T04:44:59.076732+00:00",
+  "generatedAt": "2026-10-15T11:35:06.377341+00:00",
   "source": "ESPN",
   "season": "2026-27",
   "seasonType": "preseason",
@@ -2708,6 +2708,58 @@
         "q1Allowed": 29,
         "firstHalfAllowed": 65,
         "fullGameAllowed": 128
+      },
+      "source": "ESPN",
+      "seasonType": "preseason"
+    },
+    {
+      "id": "401918011",
+      "date": "2026-10-15T02:30Z",
+      "away": {
+        "id": "7",
+        "team": "Denver Nuggets",
+        "abbreviation": "DEN",
+        "homeAway": "away",
+        "quarters": [
+          24,
+          31,
+          26,
+          29
+        ],
+        "q1": 24,
+        "q2": 31,
+        "q3": 26,
+        "q4": 29,
+        "firstHalf": 55,
+        "regulation": 110,
+        "fullGame": 110,
+        "overtime": false,
+        "q1Allowed": 24,
+        "firstHalfAllowed": 58,
+        "fullGameAllowed": 122
+      },
+      "home": {
+        "id": "12",
+        "team": "LA Clippers",
+        "abbreviation": "LAC",
+        "homeAway": "home",
+        "quarters": [
+          24,
+          34,
+          38,
+          26
+        ],
+        "q1": 24,
+        "q2": 34,
+        "q3": 38,
+        "q4": 26,
+        "firstHalf": 58,
+        "regulation": 122,
+        "fullGame": 122,
+        "overtime": false,
+        "q1Allowed": 24,
+        "firstHalfAllowed": 55,
+        "fullGameAllowed": 110
       },
       "source": "ESPN",
       "seasonType": "preseason"
