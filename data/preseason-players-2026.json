@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T23:57:23.215931+00:00",
+  "generatedAt": "2026-10-15T04:44:59.076732+00:00",
   "source": "ESPN",
   "players": [
     {
@@ -77,6 +77,30 @@
           "rebounds": 5,
           "assists": 2,
           "threes": 2
+        }
+      ]
+    },
+    {
+      "playerId": "5170947",
+      "playerName": "AJ Johnson",
+      "gamesPlayed": 1,
+      "team": "New Orleans Pelicans",
+      "averages": {
+        "points": 8.0,
+        "rebounds": 1.0,
+        "assists": 0.0,
+        "threes": 0.0
+      },
+      "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "3",
+          "team": "New Orleans Pelicans",
+          "points": 8,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 0
         }
       ]
     },
@@ -1019,15 +1043,25 @@
     {
       "playerId": "3059319",
       "playerName": "Andrew Wiggins",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Miami Heat",
       "averages": {
-        "points": 12.5,
-        "rebounds": 1.5,
-        "assists": 0.0,
-        "threes": 2.5
+        "points": 14.67,
+        "rebounds": 3.0,
+        "assists": 0.33,
+        "threes": 2.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "14",
+          "team": "Miami Heat",
+          "points": 19,
+          "rebounds": 6,
+          "assists": 1,
+          "threes": 1
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -1087,15 +1121,25 @@
     {
       "playerId": "4594268",
       "playerName": "Anthony Edwards",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Minnesota Timberwolves",
       "averages": {
-        "points": 19.67,
-        "rebounds": 2.67,
-        "assists": 2.0,
-        "threes": 3.33
+        "points": 19.75,
+        "rebounds": 2.0,
+        "assists": 2.25,
+        "threes": 2.75
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "16",
+          "team": "Minnesota Timberwolves",
+          "points": 20,
+          "rebounds": 0,
+          "assists": 3,
+          "threes": 1
+        },
         {
           "eventId": "401914124",
           "date": "2026-10-12T23:30Z",
@@ -1355,15 +1399,25 @@
     {
       "playerId": "4684742",
       "playerName": "Ausar Thompson",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Detroit Pistons",
       "averages": {
-        "points": 6.0,
-        "rebounds": 1.5,
-        "assists": 2.0,
+        "points": 5.33,
+        "rebounds": 2.33,
+        "assists": 2.67,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "8",
+          "team": "Detroit Pistons",
+          "points": 4,
+          "rebounds": 4,
+          "assists": 4,
+          "threes": 0
+        },
         {
           "eventId": "401906510",
           "date": "2026-10-10T23:00Z",
@@ -1423,15 +1477,25 @@
     {
       "playerId": "4397002",
       "playerName": "Ayo Dosunmu",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Minnesota Timberwolves",
       "averages": {
-        "points": 8.67,
-        "rebounds": 2.67,
-        "assists": 1.67,
-        "threes": 1.67
+        "points": 9.0,
+        "rebounds": 2.25,
+        "assists": 1.25,
+        "threes": 1.5
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "16",
+          "team": "Minnesota Timberwolves",
+          "points": 10,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 1
+        },
         {
           "eventId": "401914124",
           "date": "2026-10-12T23:30Z",
@@ -1535,15 +1599,25 @@
     {
       "playerId": "4593841",
       "playerName": "Baylor Scheierman",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Boston Celtics",
       "averages": {
-        "points": 9.5,
-        "rebounds": 4.0,
-        "assists": 5.5,
-        "threes": 2.5
+        "points": 8.0,
+        "rebounds": 3.33,
+        "assists": 4.33,
+        "threes": 2.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "2",
+          "team": "Boston Celtics",
+          "points": 5,
+          "rebounds": 2,
+          "assists": 2,
+          "threes": 1
+        },
         {
           "eventId": "401898398",
           "date": "2026-10-11T00:00Z",
@@ -1715,15 +1789,25 @@
     {
       "playerId": "4683634",
       "playerName": "Bennedict Mathurin",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "New Orleans Pelicans",
       "averages": {
-        "points": 10.5,
-        "rebounds": 3.0,
+        "points": 9.0,
+        "rebounds": 2.67,
         "assists": 3.0,
-        "threes": 1.5
+        "threes": 1.33
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "3",
+          "team": "New Orleans Pelicans",
+          "points": 6,
+          "rebounds": 2,
+          "assists": 3,
+          "threes": 1
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -1949,15 +2033,25 @@
     {
       "playerId": "3064482",
       "playerName": "Bobby Portis",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Miami Heat",
       "averages": {
-        "points": 7.5,
-        "rebounds": 4.5,
-        "assists": 2.0,
-        "threes": 1.0
+        "points": 9.0,
+        "rebounds": 3.67,
+        "assists": 2.33,
+        "threes": 1.33
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "14",
+          "team": "Miami Heat",
+          "points": 12,
+          "rebounds": 2,
+          "assists": 3,
+          "threes": 2
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -2017,15 +2111,25 @@
     {
       "playerId": "5214989",
       "playerName": "Bogoljub Markovic",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Milwaukee Bucks",
       "averages": {
-        "points": 2.0,
-        "rebounds": 2.0,
+        "points": 1.5,
+        "rebounds": 3.0,
         "assists": 0.0,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "15",
+          "team": "Milwaukee Bucks",
+          "points": 1,
+          "rebounds": 4,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401908620",
           "date": "2026-10-08T00:00Z",
@@ -2041,15 +2145,25 @@
     {
       "playerId": "4592492",
       "playerName": "Bones Hyland",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Minnesota Timberwolves",
       "averages": {
-        "points": 9.75,
-        "rebounds": 2.0,
-        "assists": 2.25,
-        "threes": 2.0
+        "points": 8.2,
+        "rebounds": 1.6,
+        "assists": 2.4,
+        "threes": 1.6
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "16",
+          "team": "Minnesota Timberwolves",
+          "points": 2,
+          "rebounds": 0,
+          "assists": 3,
+          "threes": 0
+        },
         {
           "eventId": "401914124",
           "date": "2026-10-12T23:30Z",
@@ -2237,15 +2351,25 @@
     {
       "playerId": "4432162",
       "playerName": "Brandon Boston Jr.",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Chicago Bulls",
       "averages": {
-        "points": 1.0,
-        "rebounds": 0.5,
-        "assists": 0.5,
+        "points": 0.67,
+        "rebounds": 0.33,
+        "assists": 0.33,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "4",
+          "team": "Chicago Bulls",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401908940",
           "date": "2026-10-10T00:00Z",
@@ -2271,15 +2395,25 @@
     {
       "playerId": "4433287",
       "playerName": "Brandon Miller",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Charlotte Hornets",
       "averages": {
-        "points": 18.0,
-        "rebounds": 3.0,
-        "assists": 4.0,
-        "threes": 4.0
+        "points": 17.0,
+        "rebounds": 4.0,
+        "assists": 3.5,
+        "threes": 3.5
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "30",
+          "team": "Charlotte Hornets",
+          "points": 16,
+          "rebounds": 5,
+          "assists": 3,
+          "threes": 3
+        },
         {
           "eventId": "401901821",
           "date": "2026-10-11T23:00Z",
@@ -2359,15 +2493,25 @@
     {
       "playerId": "5082206",
       "playerName": "Brayden Burries",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Milwaukee Bucks",
       "averages": {
-        "points": 11.5,
-        "rebounds": 3.5,
-        "assists": 3.0,
-        "threes": 0.5
+        "points": 14.0,
+        "rebounds": 4.0,
+        "assists": 3.67,
+        "threes": 0.67
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "15",
+          "team": "Milwaukee Bucks",
+          "points": 19,
+          "rebounds": 5,
+          "assists": 5,
+          "threes": 1
+        },
         {
           "eventId": "401908620",
           "date": "2026-10-08T00:00Z",
@@ -2715,15 +2859,25 @@
     {
       "playerId": "4576086",
       "playerName": "Bryce McGowens",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "New Orleans Pelicans",
       "averages": {
         "points": 4.0,
-        "rebounds": 2.0,
-        "assists": 4.0,
-        "threes": 0.5
+        "rebounds": 1.67,
+        "assists": 3.0,
+        "threes": 0.33
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "3",
+          "team": "New Orleans Pelicans",
+          "points": 4,
+          "rebounds": 1,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -2793,15 +2947,25 @@
     {
       "playerId": "2990984",
       "playerName": "Buddy Hield",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Chicago Bulls",
       "averages": {
-        "points": 9.33,
-        "rebounds": 2.33,
-        "assists": 2.0,
-        "threes": 2.0
+        "points": 7.75,
+        "rebounds": 2.0,
+        "assists": 2.25,
+        "threes": 1.75
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "4",
+          "team": "Chicago Bulls",
+          "points": 3,
+          "rebounds": 1,
+          "assists": 3,
+          "threes": 1
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -2831,6 +2995,30 @@
           "rebounds": 2,
           "assists": 3,
           "threes": 1
+        }
+      ]
+    },
+    {
+      "playerId": "4702602",
+      "playerName": "CJ Huntley",
+      "gamesPlayed": 1,
+      "team": "Phoenix Suns",
+      "averages": {
+        "points": 4.0,
+        "rebounds": 2.0,
+        "assists": 0.0,
+        "threes": 0.0
+      },
+      "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "21",
+          "team": "Phoenix Suns",
+          "points": 4,
+          "rebounds": 2,
+          "assists": 0,
+          "threes": 0
         }
       ]
     },
@@ -2871,15 +3059,25 @@
     {
       "playerId": "4432166",
       "playerName": "Cade Cunningham",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Detroit Pistons",
       "averages": {
-        "points": 10.0,
+        "points": 12.0,
         "rebounds": 2.0,
-        "assists": 1.0,
+        "assists": 5.0,
         "threes": 2.0
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "8",
+          "team": "Detroit Pistons",
+          "points": 14,
+          "rebounds": 2,
+          "assists": 9,
+          "threes": 2
+        },
         {
           "eventId": "401908947",
           "date": "2026-10-05T23:00Z",
@@ -2973,15 +3171,25 @@
     {
       "playerId": "3138160",
       "playerName": "Caleb Martin",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Dallas Mavericks",
       "averages": {
-        "points": 3.0,
+        "points": 2.5,
         "rebounds": 4.0,
-        "assists": 3.0,
-        "threes": 1.0
+        "assists": 2.5,
+        "threes": 0.5
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "6",
+          "team": "Dallas Mavericks",
+          "points": 2,
+          "rebounds": 4,
+          "assists": 2,
+          "threes": 0
+        },
         {
           "eventId": "401898400",
           "date": "2026-10-11T10:00Z",
@@ -2997,15 +3205,25 @@
     {
       "playerId": "5095151",
       "playerName": "Caleb Wilson",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Chicago Bulls",
       "averages": {
-        "points": 17.67,
-        "rebounds": 3.67,
-        "assists": 2.33,
-        "threes": 2.0
+        "points": 15.75,
+        "rebounds": 3.75,
+        "assists": 2.5,
+        "threes": 1.75
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "4",
+          "team": "Chicago Bulls",
+          "points": 10,
+          "rebounds": 4,
+          "assists": 3,
+          "threes": 1
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -3329,15 +3547,25 @@
     {
       "playerId": "2991043",
       "playerName": "Caris LeVert",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Milwaukee Bucks",
       "averages": {
-        "points": 0.0,
-        "rebounds": 0.5,
-        "assists": 1.5,
-        "threes": 0.0
+        "points": 1.0,
+        "rebounds": 0.67,
+        "assists": 1.0,
+        "threes": 0.33
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "15",
+          "team": "Milwaukee Bucks",
+          "points": 3,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 1
+        },
         {
           "eventId": "401901821",
           "date": "2026-10-11T23:00Z",
@@ -3407,15 +3635,25 @@
     {
       "playerId": "5061568",
       "playerName": "Carter Bryant",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "San Antonio Spurs",
       "averages": {
-        "points": 5.5,
-        "rebounds": 2.5,
+        "points": 9.0,
+        "rebounds": 3.33,
         "assists": 0.0,
-        "threes": 1.0
+        "threes": 2.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "24",
+          "team": "San Antonio Spurs",
+          "points": 16,
+          "rebounds": 5,
+          "assists": 0,
+          "threes": 4
+        },
         {
           "eventId": "401898720",
           "date": "2026-10-11T02:30Z",
@@ -3519,15 +3757,25 @@
     {
       "playerId": "5174655",
       "playerName": "Chaney Johnson",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Brooklyn Nets",
       "averages": {
-        "points": 6.33,
-        "rebounds": 2.33,
-        "assists": 1.0,
-        "threes": 0.33
+        "points": 5.25,
+        "rebounds": 1.75,
+        "assists": 1.25,
+        "threes": 0.25
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "17",
+          "team": "Brooklyn Nets",
+          "points": 2,
+          "rebounds": 0,
+          "assists": 2,
+          "threes": 0
+        },
         {
           "eventId": "401901824",
           "date": "2026-10-12T23:00Z",
@@ -3661,15 +3909,25 @@
     {
       "playerId": "5142621",
       "playerName": "Chris Cenac Jr.",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Boston Celtics",
       "averages": {
-        "points": 6.0,
-        "rebounds": 6.5,
-        "assists": 0.5,
+        "points": 4.67,
+        "rebounds": 5.0,
+        "assists": 0.33,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "2",
+          "team": "Boston Celtics",
+          "points": 2,
+          "rebounds": 2,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401898398",
           "date": "2026-10-11T00:00Z",
@@ -3800,6 +4058,30 @@
           "points": 8,
           "rebounds": 2,
           "assists": 3,
+          "threes": 2
+        }
+      ]
+    },
+    {
+      "playerId": "5060701",
+      "playerName": "Christian Anderson",
+      "gamesPlayed": 1,
+      "team": "Charlotte Hornets",
+      "averages": {
+        "points": 10.0,
+        "rebounds": 1.0,
+        "assists": 1.0,
+        "threes": 2.0
+      },
+      "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "30",
+          "team": "Charlotte Hornets",
+          "points": 10,
+          "rebounds": 1,
+          "assists": 1,
           "threes": 2
         }
       ]
@@ -3987,15 +4269,25 @@
     {
       "playerId": "4895758",
       "playerName": "Cody Williams",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Minnesota Timberwolves",
       "averages": {
-        "points": 5.25,
-        "rebounds": 1.75,
-        "assists": 1.5,
-        "threes": 0.5
+        "points": 4.8,
+        "rebounds": 1.4,
+        "assists": 1.2,
+        "threes": 0.4
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "16",
+          "team": "Minnesota Timberwolves",
+          "points": 3,
+          "rebounds": 0,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401914124",
           "date": "2026-10-12T23:30Z",
@@ -4329,15 +4621,25 @@
     {
       "playerId": "4397114",
       "playerName": "Cormac Ryan",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Milwaukee Bucks",
       "averages": {
-        "points": 2.0,
-        "rebounds": 2.0,
+        "points": 8.0,
+        "rebounds": 4.0,
         "assists": 0.0,
-        "threes": 0.0
+        "threes": 1.5
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "15",
+          "team": "Milwaukee Bucks",
+          "points": 14,
+          "rebounds": 6,
+          "assists": 0,
+          "threes": 3
+        },
         {
           "eventId": "401908620",
           "date": "2026-10-08T00:00Z",
@@ -4519,15 +4821,25 @@
     {
       "playerId": "4848625",
       "playerName": "Dailyn Swain",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Chicago Bulls",
       "averages": {
-        "points": 5.33,
-        "rebounds": 1.67,
-        "assists": 4.0,
+        "points": 5.0,
+        "rebounds": 1.25,
+        "assists": 3.5,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "4",
+          "team": "Chicago Bulls",
+          "points": 4,
+          "rebounds": 0,
+          "assists": 2,
+          "threes": 0
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -4787,15 +5099,25 @@
     {
       "playerId": "5107199",
       "playerName": "Daniss Jenkins",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Detroit Pistons",
       "averages": {
-        "points": 8.5,
-        "rebounds": 1.0,
+        "points": 7.67,
+        "rebounds": 1.67,
         "assists": 4.0,
-        "threes": 2.0
+        "threes": 1.67
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "8",
+          "team": "Detroit Pistons",
+          "points": 6,
+          "rebounds": 3,
+          "assists": 4,
+          "threes": 1
+        },
         {
           "eventId": "401906510",
           "date": "2026-10-10T23:00Z",
@@ -4821,15 +5143,25 @@
     {
       "playerId": "5107173",
       "playerName": "Danny Wolf",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Brooklyn Nets",
       "averages": {
-        "points": 6.67,
-        "rebounds": 3.33,
-        "assists": 3.33,
-        "threes": 0.67
+        "points": 5.0,
+        "rebounds": 3.0,
+        "assists": 2.5,
+        "threes": 0.5
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "17",
+          "team": "Brooklyn Nets",
+          "points": 0,
+          "rebounds": 2,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401901824",
           "date": "2026-10-12T23:00Z",
@@ -4987,15 +5319,25 @@
     {
       "playerId": "4713010",
       "playerName": "David Jones Garcia",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "San Antonio Spurs",
       "averages": {
-        "points": 6.0,
-        "rebounds": 5.0,
-        "assists": 1.33,
-        "threes": 0.33
+        "points": 5.5,
+        "rebounds": 4.5,
+        "assists": 1.0,
+        "threes": 0.25
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "24",
+          "team": "San Antonio Spurs",
+          "points": 4,
+          "rebounds": 3,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401898721",
           "date": "2026-10-13T01:00Z",
@@ -5031,15 +5373,25 @@
     {
       "playerId": "4278053",
       "playerName": "Davion Mitchell",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Miami Heat",
       "averages": {
-        "points": 6.0,
-        "rebounds": 1.0,
-        "assists": 5.5,
+        "points": 8.33,
+        "rebounds": 1.33,
+        "assists": 5.0,
         "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "14",
+          "team": "Miami Heat",
+          "points": 13,
+          "rebounds": 2,
+          "assists": 4,
+          "threes": 1
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -5065,15 +5417,25 @@
     {
       "playerId": "4432194",
       "playerName": "Day'Ron Sharpe",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Brooklyn Nets",
       "averages": {
-        "points": 6.0,
-        "rebounds": 4.5,
-        "assists": 3.0,
-        "threes": 0.5
+        "points": 7.67,
+        "rebounds": 5.0,
+        "assists": 3.33,
+        "threes": 0.67
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "17",
+          "team": "Brooklyn Nets",
+          "points": 11,
+          "rebounds": 6,
+          "assists": 4,
+          "threes": 1
+        },
         {
           "eventId": "401901824",
           "date": "2026-10-12T23:00Z",
@@ -5093,6 +5455,30 @@
           "rebounds": 7,
           "assists": 3,
           "threes": 0
+        }
+      ]
+    },
+    {
+      "playerId": "4066259",
+      "playerName": "De'Aaron Fox",
+      "gamesPlayed": 1,
+      "team": "San Antonio Spurs",
+      "averages": {
+        "points": 9.0,
+        "rebounds": 3.0,
+        "assists": 4.0,
+        "threes": 2.0
+      },
+      "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "24",
+          "team": "San Antonio Spurs",
+          "points": 9,
+          "rebounds": 3,
+          "assists": 4,
+          "threes": 2
         }
       ]
     },
@@ -5421,15 +5807,25 @@
     {
       "playerId": "3032979",
       "playerName": "Dennis Schroder",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Charlotte Hornets",
       "averages": {
-        "points": 4.0,
-        "rebounds": 1.5,
-        "assists": 3.0,
-        "threes": 1.0
+        "points": 4.33,
+        "rebounds": 2.0,
+        "assists": 2.67,
+        "threes": 0.67
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "30",
+          "team": "Charlotte Hornets",
+          "points": 5,
+          "rebounds": 3,
+          "assists": 2,
+          "threes": 0
+        },
         {
           "eventId": "401901821",
           "date": "2026-10-11T23:00Z",
@@ -5455,15 +5851,25 @@
     {
       "playerId": "4869780",
       "playerName": "Derik Queen",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "New Orleans Pelicans",
       "averages": {
-        "points": 7.5,
-        "rebounds": 8.5,
-        "assists": 1.0,
-        "threes": 0.5
+        "points": 7.0,
+        "rebounds": 9.33,
+        "assists": 1.33,
+        "threes": 0.33
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "3",
+          "team": "New Orleans Pelicans",
+          "points": 6,
+          "rebounds": 11,
+          "assists": 2,
+          "threes": 0
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -5523,15 +5929,25 @@
     {
       "playerId": "3078576",
       "playerName": "Derrick White",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Boston Celtics",
       "averages": {
-        "points": 15.0,
-        "rebounds": 4.0,
+        "points": 16.0,
+        "rebounds": 3.5,
         "assists": 2.0,
         "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "2",
+          "team": "Boston Celtics",
+          "points": 17,
+          "rebounds": 3,
+          "assists": 2,
+          "threes": 1
+        },
         {
           "eventId": "401898398",
           "date": "2026-10-11T00:00Z",
@@ -5663,15 +6079,25 @@
     {
       "playerId": "4395630",
       "playerName": "Devin Vassell",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "San Antonio Spurs",
       "averages": {
-        "points": 9.0,
-        "rebounds": 2.5,
-        "assists": 1.0,
-        "threes": 1.5
+        "points": 10.0,
+        "rebounds": 3.67,
+        "assists": 1.33,
+        "threes": 1.33
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "24",
+          "team": "San Antonio Spurs",
+          "points": 12,
+          "rebounds": 6,
+          "assists": 2,
+          "threes": 1
+        },
         {
           "eventId": "401898720",
           "date": "2026-10-11T02:30Z",
@@ -5785,15 +6211,25 @@
     {
       "playerId": "5106283",
       "playerName": "Dillon Mitchell",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Boston Celtics",
       "averages": {
-        "points": 6.0,
-        "rebounds": 6.0,
-        "assists": 3.0,
+        "points": 5.33,
+        "rebounds": 4.33,
+        "assists": 2.0,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "2",
+          "team": "Boston Celtics",
+          "points": 4,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401898398",
           "date": "2026-10-11T00:00Z",
@@ -5975,15 +6411,25 @@
     {
       "playerId": "5037873",
       "playerName": "Drake Powell",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Brooklyn Nets",
       "averages": {
-        "points": 5.33,
+        "points": 4.0,
         "rebounds": 1.0,
-        "assists": 0.67,
-        "threes": 0.67
+        "assists": 0.5,
+        "threes": 0.5
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "17",
+          "team": "Brooklyn Nets",
+          "points": 0,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401901824",
           "date": "2026-10-12T23:00Z",
@@ -6229,15 +6675,25 @@
     {
       "playerId": "3157465",
       "playerName": "Duncan Robinson",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Detroit Pistons",
       "averages": {
-        "points": 10.5,
-        "rebounds": 1.0,
-        "assists": 2.5,
-        "threes": 2.5
+        "points": 12.0,
+        "rebounds": 2.67,
+        "assists": 2.0,
+        "threes": 3.0
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "8",
+          "team": "Detroit Pistons",
+          "points": 15,
+          "rebounds": 6,
+          "assists": 1,
+          "threes": 4
+        },
         {
           "eventId": "401906510",
           "date": "2026-10-10T23:00Z",
@@ -6263,15 +6719,25 @@
     {
       "playerId": "4066268",
       "playerName": "Duop Reath",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Phoenix Suns",
       "averages": {
-        "points": 3.0,
-        "rebounds": 0.5,
-        "assists": 0.0,
-        "threes": 0.0
+        "points": 4.67,
+        "rebounds": 1.67,
+        "assists": 0.33,
+        "threes": 0.67
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "21",
+          "team": "Phoenix Suns",
+          "points": 8,
+          "rebounds": 4,
+          "assists": 1,
+          "threes": 2
+        },
         {
           "eventId": "401898720",
           "date": "2026-10-11T02:30Z",
@@ -6365,15 +6831,25 @@
     {
       "playerId": "5037871",
       "playerName": "Dylan Harper",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "San Antonio Spurs",
       "averages": {
-        "points": 15.5,
-        "rebounds": 3.5,
-        "assists": 4.0,
-        "threes": 2.0
+        "points": 13.33,
+        "rebounds": 4.33,
+        "assists": 3.0,
+        "threes": 1.67
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "24",
+          "team": "San Antonio Spurs",
+          "points": 9,
+          "rebounds": 6,
+          "assists": 1,
+          "threes": 1
+        },
         {
           "eventId": "401898720",
           "date": "2026-10-11T02:30Z",
@@ -6443,15 +6919,25 @@
     {
       "playerId": "5258459",
       "playerName": "Ebuka Okorie",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Detroit Pistons",
       "averages": {
-        "points": 10.5,
-        "rebounds": 1.0,
-        "assists": 3.5,
-        "threes": 0.5
+        "points": 9.0,
+        "rebounds": 0.67,
+        "assists": 3.0,
+        "threes": 0.33
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "8",
+          "team": "Detroit Pistons",
+          "points": 6,
+          "rebounds": 0,
+          "assists": 2,
+          "threes": 0
+        },
         {
           "eventId": "401906510",
           "date": "2026-10-10T23:00Z",
@@ -6477,15 +6963,25 @@
     {
       "playerId": "5175643",
       "playerName": "Egor Demin",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Brooklyn Nets",
       "averages": {
-        "points": 7.67,
-        "rebounds": 0.67,
-        "assists": 4.33,
-        "threes": 1.0
+        "points": 10.0,
+        "rebounds": 1.25,
+        "assists": 4.0,
+        "threes": 1.75
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "17",
+          "team": "Brooklyn Nets",
+          "points": 17,
+          "rebounds": 3,
+          "assists": 3,
+          "threes": 4
+        },
         {
           "eventId": "401901824",
           "date": "2026-10-12T23:00Z",
@@ -6565,15 +7061,25 @@
     {
       "playerId": "4397449",
       "playerName": "Elijah Harkless",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Detroit Pistons",
       "averages": {
-        "points": 1.0,
-        "rebounds": 4.0,
-        "assists": 3.0,
+        "points": 0.5,
+        "rebounds": 2.0,
+        "assists": 1.5,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "8",
+          "team": "Detroit Pistons",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401906510",
           "date": "2026-10-10T23:00Z",
@@ -7183,15 +7689,25 @@
     {
       "playerId": "3032977",
       "playerName": "Giannis Antetokounmpo",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Miami Heat",
       "averages": {
-        "points": 13.5,
-        "rebounds": 4.0,
-        "assists": 5.5,
+        "points": 15.67,
+        "rebounds": 7.67,
+        "assists": 6.67,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "14",
+          "team": "Miami Heat",
+          "points": 20,
+          "rebounds": 15,
+          "assists": 9,
+          "threes": 0
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -7349,15 +7865,25 @@
     {
       "playerId": "4702670",
       "playerName": "Grant Nelson",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Brooklyn Nets",
       "averages": {
-        "points": 7.33,
-        "rebounds": 2.67,
-        "assists": 1.0,
-        "threes": 0.67
+        "points": 6.75,
+        "rebounds": 2.25,
+        "assists": 0.75,
+        "threes": 0.5
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "17",
+          "team": "Brooklyn Nets",
+          "points": 5,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401901824",
           "date": "2026-10-12T23:00Z",
@@ -7471,15 +7997,25 @@
     {
       "playerId": "5281370",
       "playerName": "Hannes Steinbach",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Charlotte Hornets",
       "averages": {
-        "points": 7.5,
-        "rebounds": 4.5,
-        "assists": 0.5,
+        "points": 5.67,
+        "rebounds": 4.0,
+        "assists": 0.33,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "30",
+          "team": "Charlotte Hornets",
+          "points": 2,
+          "rebounds": 3,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401901821",
           "date": "2026-10-11T23:00Z",
@@ -7505,15 +8041,25 @@
     {
       "playerId": "6578",
       "playerName": "Harrison Barnes",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "San Antonio Spurs",
       "averages": {
-        "points": 10.67,
-        "rebounds": 1.33,
+        "points": 9.75,
+        "rebounds": 1.5,
         "assists": 1.0,
-        "threes": 2.0
+        "threes": 1.75
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "24",
+          "team": "San Antonio Spurs",
+          "points": 7,
+          "rebounds": 2,
+          "assists": 1,
+          "threes": 1
+        },
         {
           "eventId": "401898721",
           "date": "2026-10-13T01:00Z",
@@ -7617,15 +8163,25 @@
     {
       "playerId": "4291678",
       "playerName": "Haywood Highsmith",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Phoenix Suns",
       "averages": {
-        "points": 1.67,
-        "rebounds": 1.67,
-        "assists": 0.0,
-        "threes": 0.33
+        "points": 3.0,
+        "rebounds": 2.0,
+        "assists": 0.25,
+        "threes": 0.5
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "21",
+          "team": "Phoenix Suns",
+          "points": 7,
+          "rebounds": 3,
+          "assists": 1,
+          "threes": 1
+        },
         {
           "eventId": "401898720",
           "date": "2026-10-11T02:30Z",
@@ -7661,15 +8217,25 @@
     {
       "playerId": "4277813",
       "playerName": "Herbert Jones",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "New Orleans Pelicans",
       "averages": {
-        "points": 3.5,
-        "rebounds": 2.5,
-        "assists": 1.5,
-        "threes": 0.5
+        "points": 4.67,
+        "rebounds": 1.67,
+        "assists": 1.0,
+        "threes": 0.67
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "3",
+          "team": "New Orleans Pelicans",
+          "points": 7,
+          "rebounds": 0,
+          "assists": 0,
+          "threes": 1
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -7695,15 +8261,25 @@
     {
       "playerId": "5175647",
       "playerName": "Hugo Gonzalez",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Boston Celtics",
       "averages": {
-        "points": 16.0,
-        "rebounds": 5.0,
-        "assists": 3.5,
-        "threes": 3.5
+        "points": 12.33,
+        "rebounds": 3.67,
+        "assists": 3.0,
+        "threes": 2.67
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "2",
+          "team": "Boston Celtics",
+          "points": 5,
+          "rebounds": 1,
+          "assists": 2,
+          "threes": 1
+        },
         {
           "eventId": "401898398",
           "date": "2026-10-11T00:00Z",
@@ -7817,15 +8393,25 @@
     {
       "playerId": "5107818",
       "playerName": "Isaac Jones",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Detroit Pistons",
       "averages": {
-        "points": 6.5,
-        "rebounds": 2.0,
+        "points": 4.67,
+        "rebounds": 2.33,
         "assists": 0.0,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "8",
+          "team": "Detroit Pistons",
+          "points": 1,
+          "rebounds": 3,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401906510",
           "date": "2026-10-10T23:00Z",
@@ -8109,15 +8695,25 @@
     {
       "playerId": "4395702",
       "playerName": "Isaiah Joe",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Detroit Pistons",
       "averages": {
-        "points": 6.0,
-        "rebounds": 2.0,
-        "assists": 1.0,
-        "threes": 0.5
+        "points": 8.67,
+        "rebounds": 1.67,
+        "assists": 1.33,
+        "threes": 0.67
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "8",
+          "team": "Detroit Pistons",
+          "points": 14,
+          "rebounds": 1,
+          "assists": 2,
+          "threes": 1
+        },
         {
           "eventId": "401906510",
           "date": "2026-10-10T23:00Z",
@@ -8377,15 +8973,25 @@
     {
       "playerId": "5107968",
       "playerName": "Ja'Kobi Gillespie",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "San Antonio Spurs",
       "averages": {
-        "points": 12.0,
-        "rebounds": 1.0,
-        "assists": 2.33,
-        "threes": 2.0
+        "points": 12.25,
+        "rebounds": 1.75,
+        "assists": 2.75,
+        "threes": 2.25
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "24",
+          "team": "San Antonio Spurs",
+          "points": 13,
+          "rebounds": 4,
+          "assists": 4,
+          "threes": 3
+        },
         {
           "eventId": "401898721",
           "date": "2026-10-13T01:00Z",
@@ -8641,15 +9247,25 @@
     {
       "playerId": "4431671",
       "playerName": "Jaden McDaniels",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Minnesota Timberwolves",
       "averages": {
-        "points": 15.67,
-        "rebounds": 3.67,
-        "assists": 1.0,
-        "threes": 3.0
+        "points": 14.75,
+        "rebounds": 4.25,
+        "assists": 1.5,
+        "threes": 2.5
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "16",
+          "team": "Minnesota Timberwolves",
+          "points": 12,
+          "rebounds": 6,
+          "assists": 3,
+          "threes": 1
+        },
         {
           "eventId": "401914124",
           "date": "2026-10-12T23:30Z",
@@ -8841,15 +9457,25 @@
     {
       "playerId": "4398257",
       "playerName": "Jake Stephens",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Milwaukee Bucks",
       "averages": {
-        "points": 3.0,
-        "rebounds": 2.0,
+        "points": 1.5,
+        "rebounds": 1.0,
         "assists": 0.0,
-        "threes": 1.0
+        "threes": 0.5
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "15",
+          "team": "Milwaukee Bucks",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401901821",
           "date": "2026-10-11T23:00Z",
@@ -8909,15 +9535,25 @@
     {
       "playerId": "4432946",
       "playerName": "Jalen Bridges",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Chicago Bulls",
       "averages": {
-        "points": 3.5,
+        "points": 3.33,
         "rebounds": 1.0,
         "assists": 0.0,
         "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "4",
+          "team": "Chicago Bulls",
+          "points": 3,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 1
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -8981,6 +9617,30 @@
           "rebounds": 4,
           "assists": 3,
           "threes": 2
+        }
+      ]
+    },
+    {
+      "playerId": "4433621",
+      "playerName": "Jalen Duren",
+      "gamesPlayed": 1,
+      "team": "Detroit Pistons",
+      "averages": {
+        "points": 24.0,
+        "rebounds": 3.0,
+        "assists": 1.0,
+        "threes": 0.0
+      },
+      "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "8",
+          "team": "Detroit Pistons",
+          "points": 24,
+          "rebounds": 3,
+          "assists": 1,
+          "threes": 0
         }
       ]
     },
@@ -9143,15 +9803,25 @@
     {
       "playerId": "4397189",
       "playerName": "Jalen Smith",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Chicago Bulls",
       "averages": {
-        "points": 12.0,
-        "rebounds": 5.5,
-        "assists": 0.5,
-        "threes": 2.5
+        "points": 13.0,
+        "rebounds": 6.0,
+        "assists": 1.0,
+        "threes": 2.67
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "4",
+          "team": "Chicago Bulls",
+          "points": 15,
+          "rebounds": 7,
+          "assists": 2,
+          "threes": 3
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -9287,6 +9957,30 @@
       ]
     },
     {
+      "playerId": "4701819",
+      "playerName": "Jalon Moore",
+      "gamesPlayed": 1,
+      "team": "New Orleans Pelicans",
+      "averages": {
+        "points": 1.0,
+        "rebounds": 0.0,
+        "assists": 0.0,
+        "threes": 0.0
+      },
+      "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "3",
+          "team": "New Orleans Pelicans",
+          "points": 1,
+          "rebounds": 0,
+          "assists": 0,
+          "threes": 0
+        }
+      ]
+    },
+    {
       "playerId": "4278572",
       "playerName": "Jamal Cain",
       "gamesPlayed": 3,
@@ -9411,15 +10105,25 @@
     {
       "playerId": "4280245",
       "playerName": "Jamaree Bouyea",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Phoenix Suns",
       "averages": {
-        "points": 7.33,
-        "rebounds": 0.67,
-        "assists": 2.0,
+        "points": 9.25,
+        "rebounds": 1.5,
+        "assists": 3.5,
         "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "21",
+          "team": "Phoenix Suns",
+          "points": 15,
+          "rebounds": 4,
+          "assists": 8,
+          "threes": 1
+        },
         {
           "eventId": "401898720",
           "date": "2026-10-11T02:30Z",
@@ -9757,15 +10461,25 @@
     {
       "playerId": "4278729",
       "playerName": "Jarkel Joiner",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Charlotte Hornets",
       "averages": {
-        "points": 4.5,
+        "points": 3.33,
         "rebounds": 1.0,
-        "assists": 2.5,
-        "threes": 1.0
+        "assists": 1.67,
+        "threes": 0.67
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "30",
+          "team": "Charlotte Hornets",
+          "points": 1,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401901821",
           "date": "2026-10-11T23:00Z",
@@ -9791,15 +10505,25 @@
     {
       "playerId": "4703115",
       "playerName": "Jaron Pierre Jr.",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "New Orleans Pelicans",
       "averages": {
-        "points": 7.5,
-        "rebounds": 2.5,
-        "assists": 1.5,
-        "threes": 2.5
+        "points": 8.33,
+        "rebounds": 2.33,
+        "assists": 1.33,
+        "threes": 2.0
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "3",
+          "team": "New Orleans Pelicans",
+          "points": 10,
+          "rebounds": 2,
+          "assists": 1,
+          "threes": 1
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -10011,15 +10735,25 @@
     {
       "playerId": "2596112",
       "playerName": "Javonte Green",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Detroit Pistons",
       "averages": {
-        "points": 6.5,
-        "rebounds": 3.5,
-        "assists": 1.0,
-        "threes": 1.5
+        "points": 5.0,
+        "rebounds": 2.67,
+        "assists": 0.67,
+        "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "8",
+          "team": "Detroit Pistons",
+          "points": 2,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401906510",
           "date": "2026-10-10T23:00Z",
@@ -10167,15 +10901,25 @@
     {
       "playerId": "4432247",
       "playerName": "Jaylen Clark",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Minnesota Timberwolves",
       "averages": {
-        "points": 2.0,
-        "rebounds": 1.25,
-        "assists": 1.5,
-        "threes": 0.0
+        "points": 2.8,
+        "rebounds": 1.2,
+        "assists": 1.2,
+        "threes": 0.4
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "16",
+          "team": "Minnesota Timberwolves",
+          "points": 6,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 2
+        },
         {
           "eventId": "401914124",
           "date": "2026-10-12T23:30Z",
@@ -10259,6 +11003,30 @@
           "rebounds": 0,
           "assists": 0,
           "threes": 4
+        }
+      ]
+    },
+    {
+      "playerId": "4898010",
+      "playerName": "Jaylin Sellers",
+      "gamesPlayed": 1,
+      "team": "Chicago Bulls",
+      "averages": {
+        "points": 10.0,
+        "rebounds": 2.0,
+        "assists": 1.0,
+        "threes": 2.0
+      },
+      "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "4",
+          "team": "Chicago Bulls",
+          "points": 10,
+          "rebounds": 2,
+          "assists": 1,
+          "threes": 2
         }
       ]
     },
@@ -10353,15 +11121,25 @@
     {
       "playerId": "4065648",
       "playerName": "Jayson Tatum",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Boston Celtics",
       "averages": {
-        "points": 23.0,
-        "rebounds": 5.0,
-        "assists": 4.0,
-        "threes": 4.0
+        "points": 21.0,
+        "rebounds": 6.5,
+        "assists": 5.0,
+        "threes": 3.5
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "2",
+          "team": "Boston Celtics",
+          "points": 19,
+          "rebounds": 8,
+          "assists": 6,
+          "threes": 3
+        },
         {
           "eventId": "401898398",
           "date": "2026-10-11T00:00Z",
@@ -10421,15 +11199,25 @@
     {
       "playerId": "5144091",
       "playerName": "Jeremiah Fears",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "New Orleans Pelicans",
       "averages": {
-        "points": 11.5,
-        "rebounds": 2.0,
-        "assists": 1.5,
+        "points": 13.0,
+        "rebounds": 2.33,
+        "assists": 2.67,
         "threes": 2.0
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "3",
+          "team": "New Orleans Pelicans",
+          "points": 16,
+          "rebounds": 3,
+          "assists": 5,
+          "threes": 2
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -10499,15 +11287,25 @@
     {
       "playerId": "4277922",
       "playerName": "Jericho Sims",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Milwaukee Bucks",
       "averages": {
-        "points": 4.67,
-        "rebounds": 5.0,
-        "assists": 1.33,
+        "points": 4.25,
+        "rebounds": 5.75,
+        "assists": 1.5,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "15",
+          "team": "Milwaukee Bucks",
+          "points": 3,
+          "rebounds": 8,
+          "assists": 2,
+          "threes": 0
+        },
         {
           "eventId": "401901821",
           "date": "2026-10-11T23:00Z",
@@ -10621,15 +11419,25 @@
     {
       "playerId": "5279133",
       "playerName": "Joan Beringer",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Minnesota Timberwolves",
       "averages": {
-        "points": 7.25,
-        "rebounds": 6.5,
-        "assists": 0.25,
+        "points": 7.8,
+        "rebounds": 6.6,
+        "assists": 0.2,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "16",
+          "team": "Minnesota Timberwolves",
+          "points": 10,
+          "rebounds": 7,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401914124",
           "date": "2026-10-12T23:30Z",
@@ -10777,15 +11585,25 @@
     {
       "playerId": "3908845",
       "playerName": "John Collins",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Detroit Pistons",
       "averages": {
-        "points": 6.0,
-        "rebounds": 2.5,
+        "points": 7.67,
+        "rebounds": 2.67,
         "assists": 0.0,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "8",
+          "team": "Detroit Pistons",
+          "points": 11,
+          "rebounds": 3,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401906510",
           "date": "2026-10-10T23:00Z",
@@ -10811,15 +11629,25 @@
     {
       "playerId": "4898238",
       "playerName": "John Poulakidas",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Dallas Mavericks",
       "averages": {
-        "points": 3.0,
-        "rebounds": 0.0,
-        "assists": 2.0,
-        "threes": 1.0
+        "points": 9.5,
+        "rebounds": 1.5,
+        "assists": 1.0,
+        "threes": 2.5
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "6",
+          "team": "Dallas Mavericks",
+          "points": 16,
+          "rebounds": 3,
+          "assists": 0,
+          "threes": 4
+        },
         {
           "eventId": "401898395",
           "date": "2026-10-09T12:00Z",
@@ -10869,15 +11697,25 @@
     {
       "playerId": "5106708",
       "playerName": "John Ukomadu",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Detroit Pistons",
       "averages": {
-        "points": 0.0,
-        "rebounds": 0.0,
+        "points": 3.0,
+        "rebounds": 0.5,
         "assists": 0.0,
-        "threes": 0.0
+        "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "8",
+          "team": "Detroit Pistons",
+          "points": 6,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 2
+        },
         {
           "eventId": "401906510",
           "date": "2026-10-10T23:00Z",
@@ -10891,17 +11729,51 @@
       ]
     },
     {
-      "playerId": "3155937",
-      "playerName": "Jon Elmore",
-      "gamesPlayed": 3,
-      "team": "San Antonio Spurs",
+      "playerId": "4433569",
+      "playerName": "Johni Broome",
+      "gamesPlayed": 1,
+      "team": "Milwaukee Bucks",
       "averages": {
-        "points": 1.0,
-        "rebounds": 0.33,
-        "assists": 1.33,
-        "threes": 0.33
+        "points": 4.0,
+        "rebounds": 3.0,
+        "assists": 0.0,
+        "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "15",
+          "team": "Milwaukee Bucks",
+          "points": 4,
+          "rebounds": 3,
+          "assists": 0,
+          "threes": 0
+        }
+      ]
+    },
+    {
+      "playerId": "3155937",
+      "playerName": "Jon Elmore",
+      "gamesPlayed": 4,
+      "team": "San Antonio Spurs",
+      "averages": {
+        "points": 1.25,
+        "rebounds": 0.5,
+        "assists": 1.5,
+        "threes": 0.25
+      },
+      "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "24",
+          "team": "San Antonio Spurs",
+          "points": 2,
+          "rebounds": 1,
+          "assists": 2,
+          "threes": 0
+        },
         {
           "eventId": "401898721",
           "date": "2026-10-13T01:00Z",
@@ -10981,15 +11853,25 @@
     {
       "playerId": "4433247",
       "playerName": "Jonathan Kuminga",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Minnesota Timberwolves",
       "averages": {
-        "points": 5.0,
-        "rebounds": 1.5,
-        "assists": 1.5,
-        "threes": 0.0
+        "points": 8.67,
+        "rebounds": 2.33,
+        "assists": 2.0,
+        "threes": 0.67
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "16",
+          "team": "Minnesota Timberwolves",
+          "points": 16,
+          "rebounds": 4,
+          "assists": 3,
+          "threes": 2
+        },
         {
           "eventId": "401914123",
           "date": "2026-10-07T23:00Z",
@@ -11103,15 +11985,25 @@
     {
       "playerId": "4278402",
       "playerName": "Jordan Goodwin",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Phoenix Suns",
       "averages": {
-        "points": 6.67,
-        "rebounds": 3.67,
-        "assists": 1.0,
-        "threes": 1.33
+        "points": 5.0,
+        "rebounds": 3.75,
+        "assists": 1.25,
+        "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "21",
+          "team": "Phoenix Suns",
+          "points": 0,
+          "rebounds": 4,
+          "assists": 2,
+          "threes": 0
+        },
         {
           "eventId": "401898720",
           "date": "2026-10-11T02:30Z",
@@ -11171,15 +12063,25 @@
     {
       "playerId": "3134916",
       "playerName": "Jordan McLaughlin",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "San Antonio Spurs",
       "averages": {
-        "points": 6.67,
-        "rebounds": 0.67,
-        "assists": 3.33,
-        "threes": 0.67
+        "points": 5.5,
+        "rebounds": 0.5,
+        "assists": 3.5,
+        "threes": 0.5
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "24",
+          "team": "San Antonio Spurs",
+          "points": 2,
+          "rebounds": 0,
+          "assists": 4,
+          "threes": 0
+        },
         {
           "eventId": "401898721",
           "date": "2026-10-13T01:00Z",
@@ -11215,15 +12117,25 @@
     {
       "playerId": "4277956",
       "playerName": "Jordan Poole",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "New Orleans Pelicans",
       "averages": {
-        "points": 11.5,
-        "rebounds": 1.0,
-        "assists": 1.0,
-        "threes": 1.5
+        "points": 9.0,
+        "rebounds": 1.67,
+        "assists": 1.67,
+        "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "3",
+          "team": "New Orleans Pelicans",
+          "points": 4,
+          "rebounds": 3,
+          "assists": 3,
+          "threes": 0
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -11249,15 +12161,25 @@
     {
       "playerId": "4683689",
       "playerName": "Jordan Walsh",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Boston Celtics",
       "averages": {
-        "points": 11.0,
-        "rebounds": 3.5,
-        "assists": 0.5,
-        "threes": 2.0
+        "points": 8.0,
+        "rebounds": 3.33,
+        "assists": 0.67,
+        "threes": 1.33
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "2",
+          "team": "Boston Celtics",
+          "points": 2,
+          "rebounds": 3,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401898398",
           "date": "2026-10-11T00:00Z",
@@ -11277,6 +12199,30 @@
           "rebounds": 2,
           "assists": 1,
           "threes": 2
+        }
+      ]
+    },
+    {
+      "playerId": "5105411",
+      "playerName": "Jorge Diaz Graham",
+      "gamesPlayed": 1,
+      "team": "Dallas Mavericks",
+      "averages": {
+        "points": 5.0,
+        "rebounds": 3.0,
+        "assists": 1.0,
+        "threes": 0.0
+      },
+      "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "6",
+          "team": "Dallas Mavericks",
+          "points": 5,
+          "rebounds": 3,
+          "assists": 1,
+          "threes": 0
         }
       ]
     },
@@ -11381,15 +12327,25 @@
     {
       "playerId": "4871145",
       "playerName": "Josh Giddey",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Chicago Bulls",
       "averages": {
-        "points": 9.0,
-        "rebounds": 2.33,
-        "assists": 6.0,
+        "points": 8.25,
+        "rebounds": 3.0,
+        "assists": 6.75,
         "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "4",
+          "team": "Chicago Bulls",
+          "points": 6,
+          "rebounds": 5,
+          "assists": 9,
+          "threes": 1
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -11503,15 +12459,25 @@
     {
       "playerId": "4687718",
       "playerName": "Josh Minott",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Brooklyn Nets",
       "averages": {
-        "points": 5.33,
-        "rebounds": 2.0,
-        "assists": 0.33,
-        "threes": 0.67
+        "points": 4.75,
+        "rebounds": 1.75,
+        "assists": 0.25,
+        "threes": 0.75
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "17",
+          "team": "Brooklyn Nets",
+          "points": 3,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 1
+        },
         {
           "eventId": "401901824",
           "date": "2026-10-12T23:00Z",
@@ -11737,15 +12703,25 @@
     {
       "playerId": "4683742",
       "playerName": "Julian Reese",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "New Orleans Pelicans",
       "averages": {
         "points": 2.0,
-        "rebounds": 1.0,
+        "rebounds": 0.5,
         "assists": 0.0,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "3",
+          "team": "New Orleans Pelicans",
+          "points": 2,
+          "rebounds": 0,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -11805,15 +12781,25 @@
     {
       "playerId": "3064514",
       "playerName": "Julius Randle",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Brooklyn Nets",
       "averages": {
-        "points": 13.67,
-        "rebounds": 4.0,
-        "assists": 4.67,
-        "threes": 1.33
+        "points": 14.0,
+        "rebounds": 4.25,
+        "assists": 4.75,
+        "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "17",
+          "team": "Brooklyn Nets",
+          "points": 15,
+          "rebounds": 5,
+          "assists": 5,
+          "threes": 0
+        },
         {
           "eventId": "401901824",
           "date": "2026-10-12T23:00Z",
@@ -11961,15 +12947,25 @@
     {
       "playerId": "4431828",
       "playerName": "KJ Martin",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Minnesota Timberwolves",
       "averages": {
-        "points": 7.33,
-        "rebounds": 0.67,
-        "assists": 0.0,
-        "threes": 0.33
+        "points": 6.0,
+        "rebounds": 1.0,
+        "assists": 0.25,
+        "threes": 0.25
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "16",
+          "team": "Minnesota Timberwolves",
+          "points": 2,
+          "rebounds": 2,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401914124",
           "date": "2026-10-12T23:30Z",
@@ -12005,15 +13001,25 @@
     {
       "playerId": "4697268",
       "playerName": "Kam Jones",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Milwaukee Bucks",
       "averages": {
-        "points": 0.0,
-        "rebounds": 1.5,
+        "points": 7.67,
+        "rebounds": 2.33,
         "assists": 1.0,
-        "threes": 0.0
+        "threes": 0.67
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "15",
+          "team": "Milwaukee Bucks",
+          "points": 23,
+          "rebounds": 4,
+          "assists": 1,
+          "threes": 2
+        },
         {
           "eventId": "401901821",
           "date": "2026-10-11T23:00Z",
@@ -12127,15 +13133,25 @@
     {
       "playerId": "4997538",
       "playerName": "Karlo Matkovic",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "New Orleans Pelicans",
       "averages": {
-        "points": 6.0,
-        "rebounds": 3.0,
-        "assists": 0.5,
-        "threes": 0.5
+        "points": 7.67,
+        "rebounds": 2.67,
+        "assists": 0.33,
+        "threes": 1.33
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "3",
+          "team": "New Orleans Pelicans",
+          "points": 11,
+          "rebounds": 2,
+          "assists": 0,
+          "threes": 3
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -12161,15 +13177,25 @@
     {
       "playerId": "5214640",
       "playerName": "Kasparas Jakucionis",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Milwaukee Bucks",
       "averages": {
-        "points": 10.0,
-        "rebounds": 4.0,
-        "assists": 4.0,
-        "threes": 2.0
+        "points": 14.0,
+        "rebounds": 2.5,
+        "assists": 5.0,
+        "threes": 1.5
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "15",
+          "team": "Milwaukee Bucks",
+          "points": 18,
+          "rebounds": 1,
+          "assists": 6,
+          "threes": 1
+        },
         {
           "eventId": "401908620",
           "date": "2026-10-08T00:00Z",
@@ -12345,15 +13371,25 @@
     {
       "playerId": "5105623",
       "playerName": "Kel'el Ware",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Milwaukee Bucks",
       "averages": {
-        "points": 14.0,
-        "rebounds": 8.67,
-        "assists": 0.67,
-        "threes": 1.33
+        "points": 11.75,
+        "rebounds": 7.75,
+        "assists": 0.75,
+        "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "15",
+          "team": "Milwaukee Bucks",
+          "points": 5,
+          "rebounds": 5,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401901821",
           "date": "2026-10-11T23:00Z",
@@ -12477,15 +13513,25 @@
     {
       "playerId": "4432646",
       "playerName": "Kennedy Chandler",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Phoenix Suns",
       "averages": {
-        "points": 8.0,
-        "rebounds": 1.0,
-        "assists": 0.0,
-        "threes": 2.0
+        "points": 9.0,
+        "rebounds": 0.5,
+        "assists": 1.0,
+        "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "21",
+          "team": "Phoenix Suns",
+          "points": 10,
+          "rebounds": 0,
+          "assists": 2,
+          "threes": 0
+        },
         {
           "eventId": "401908947",
           "date": "2026-10-05T23:00Z",
@@ -12579,15 +13625,25 @@
     {
       "playerId": "4702177",
       "playerName": "Keon Ellis",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Brooklyn Nets",
       "averages": {
-        "points": 10.67,
-        "rebounds": 1.0,
-        "assists": 0.0,
-        "threes": 2.0
+        "points": 8.0,
+        "rebounds": 1.25,
+        "assists": 0.25,
+        "threes": 1.5
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "17",
+          "team": "Brooklyn Nets",
+          "points": 0,
+          "rebounds": 2,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401901824",
           "date": "2026-10-12T23:00Z",
@@ -12617,6 +13673,30 @@
           "rebounds": 0,
           "assists": 0,
           "threes": 1
+        }
+      ]
+    },
+    {
+      "playerId": "4431786",
+      "playerName": "Keshad Johnson",
+      "gamesPlayed": 1,
+      "team": "Miami Heat",
+      "averages": {
+        "points": 8.0,
+        "rebounds": 3.0,
+        "assists": 0.0,
+        "threes": 0.0
+      },
+      "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "14",
+          "team": "Miami Heat",
+          "points": 8,
+          "rebounds": 3,
+          "assists": 0,
+          "threes": 0
         }
       ]
     },
@@ -12671,15 +13751,25 @@
     {
       "playerId": "4066372",
       "playerName": "Kevin Huerter",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Detroit Pistons",
       "averages": {
-        "points": 7.5,
-        "rebounds": 1.0,
-        "assists": 1.5,
-        "threes": 1.5
+        "points": 6.0,
+        "rebounds": 1.33,
+        "assists": 2.33,
+        "threes": 1.33
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "8",
+          "team": "Detroit Pistons",
+          "points": 3,
+          "rebounds": 2,
+          "assists": 4,
+          "threes": 1
+        },
         {
           "eventId": "401906510",
           "date": "2026-10-10T23:00Z",
@@ -12925,15 +14015,25 @@
     {
       "playerId": "5203685",
       "playerName": "Khaman Maluach",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Phoenix Suns",
       "averages": {
-        "points": 8.0,
-        "rebounds": 8.0,
-        "assists": 2.33,
-        "threes": 0.33
+        "points": 6.75,
+        "rebounds": 7.0,
+        "assists": 2.0,
+        "threes": 0.25
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "21",
+          "team": "Phoenix Suns",
+          "points": 3,
+          "rebounds": 4,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401898720",
           "date": "2026-10-11T02:30Z",
@@ -13023,15 +14123,25 @@
     {
       "playerId": "6475",
       "playerName": "Klay Thompson",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Miami Heat",
       "averages": {
-        "points": 2.5,
-        "rebounds": 1.5,
-        "assists": 1.5,
-        "threes": 0.5
+        "points": 5.67,
+        "rebounds": 1.33,
+        "assists": 1.0,
+        "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "14",
+          "team": "Miami Heat",
+          "points": 12,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 2
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -13057,15 +14167,25 @@
     {
       "playerId": "5041953",
       "playerName": "Koa Peat",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Phoenix Suns",
       "averages": {
-        "points": 2.67,
-        "rebounds": 2.33,
-        "assists": 0.0,
+        "points": 4.5,
+        "rebounds": 2.75,
+        "assists": 0.25,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "21",
+          "team": "Phoenix Suns",
+          "points": 10,
+          "rebounds": 4,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401898720",
           "date": "2026-10-11T02:30Z",
@@ -13145,15 +14265,25 @@
     {
       "playerId": "4683736",
       "playerName": "Kobe Bufkin",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "New Orleans Pelicans",
       "averages": {
-        "points": 7.5,
+        "points": 5.0,
         "rebounds": 1.0,
-        "assists": 0.5,
-        "threes": 1.5
+        "assists": 0.33,
+        "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "3",
+          "team": "New Orleans Pelicans",
+          "points": 0,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -13233,15 +14363,25 @@
     {
       "playerId": "4591259",
       "playerName": "Koby Brea",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Phoenix Suns",
       "averages": {
-        "points": 2.0,
+        "points": 4.5,
         "rebounds": 1.0,
-        "assists": 1.0,
-        "threes": 0.0
+        "assists": 2.0,
+        "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "21",
+          "team": "Phoenix Suns",
+          "points": 7,
+          "rebounds": 1,
+          "assists": 3,
+          "threes": 2
+        },
         {
           "eventId": "401898720",
           "date": "2026-10-11T02:30Z",
@@ -13401,6 +14541,30 @@
       ]
     },
     {
+      "playerId": "3950760",
+      "playerName": "Kylor Kelley",
+      "gamesPlayed": 1,
+      "team": "Miami Heat",
+      "averages": {
+        "points": 2.0,
+        "rebounds": 2.0,
+        "assists": 0.0,
+        "threes": 0.0
+      },
+      "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "14",
+          "team": "Miami Heat",
+          "points": 2,
+          "rebounds": 2,
+          "assists": 0,
+          "threes": 0
+        }
+      ]
+    },
+    {
       "playerId": "6442",
       "playerName": "Kyrie Irving",
       "gamesPlayed": 1,
@@ -13535,15 +14699,25 @@
     {
       "playerId": "4432816",
       "playerName": "LaMelo Ball",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Minnesota Timberwolves",
       "averages": {
-        "points": 11.67,
-        "rebounds": 3.67,
-        "assists": 5.67,
-        "threes": 2.33
+        "points": 9.5,
+        "rebounds": 3.25,
+        "assists": 5.75,
+        "threes": 2.0
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "16",
+          "team": "Minnesota Timberwolves",
+          "points": 3,
+          "rebounds": 2,
+          "assists": 6,
+          "threes": 1
+        },
         {
           "eventId": "401914124",
           "date": "2026-10-12T23:30Z",
@@ -13827,15 +15001,25 @@
     {
       "playerId": "5044385",
       "playerName": "Leonard Miller",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Chicago Bulls",
       "averages": {
-        "points": 17.33,
-        "rebounds": 6.33,
-        "assists": 2.0,
-        "threes": 2.0
+        "points": 17.5,
+        "rebounds": 6.5,
+        "assists": 1.75,
+        "threes": 2.25
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "4",
+          "team": "Chicago Bulls",
+          "points": 18,
+          "rebounds": 7,
+          "assists": 1,
+          "threes": 3
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -13895,15 +15079,25 @@
     {
       "playerId": "5239590",
       "playerName": "Liam McNeeley",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Charlotte Hornets",
       "averages": {
-        "points": 12.5,
-        "rebounds": 0.5,
-        "assists": 2.5,
-        "threes": 3.5
+        "points": 10.67,
+        "rebounds": 2.0,
+        "assists": 2.33,
+        "threes": 2.67
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "30",
+          "team": "Charlotte Hornets",
+          "points": 7,
+          "rebounds": 5,
+          "assists": 2,
+          "threes": 1
+        },
         {
           "eventId": "401901821",
           "date": "2026-10-11T23:00Z",
@@ -14021,15 +15215,25 @@
     {
       "playerId": "4277951",
       "playerName": "Luka Garza",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Boston Celtics",
       "averages": {
-        "points": 15.0,
-        "rebounds": 8.5,
-        "assists": 1.0,
-        "threes": 1.5
+        "points": 14.67,
+        "rebounds": 6.0,
+        "assists": 0.67,
+        "threes": 1.67
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "2",
+          "team": "Boston Celtics",
+          "points": 14,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 2
+        },
         {
           "eventId": "401898398",
           "date": "2026-10-11T00:00Z",
@@ -14055,15 +15259,25 @@
     {
       "playerId": "3913174",
       "playerName": "Luke Kennard",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Phoenix Suns",
       "averages": {
-        "points": 12.33,
-        "rebounds": 3.0,
-        "assists": 3.33,
-        "threes": 1.67
+        "points": 10.25,
+        "rebounds": 2.75,
+        "assists": 2.75,
+        "threes": 1.25
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "21",
+          "team": "Phoenix Suns",
+          "points": 4,
+          "rebounds": 2,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401898720",
           "date": "2026-10-11T02:30Z",
@@ -14295,7 +15509,7 @@
     {
       "playerId": "4712862",
       "playerName": "Malik Dia",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "New Orleans Pelicans",
       "averages": {
         "points": 0.0,
@@ -14304,6 +15518,16 @@
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "3",
+          "team": "New Orleans Pelicans",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -14319,15 +15543,25 @@
     {
       "playerId": "5105337",
       "playerName": "Maliq Brown",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "San Antonio Spurs",
       "averages": {
-        "points": 5.5,
-        "rebounds": 2.0,
-        "assists": 0.0,
-        "threes": 1.5
+        "points": 6.33,
+        "rebounds": 2.33,
+        "assists": 0.33,
+        "threes": 1.33
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "24",
+          "team": "San Antonio Spurs",
+          "points": 8,
+          "rebounds": 3,
+          "assists": 1,
+          "threes": 1
+        },
         {
           "eventId": "401898721",
           "date": "2026-10-13T01:00Z",
@@ -14455,15 +15689,25 @@
     {
       "playerId": "4711294",
       "playerName": "Matas Buzelis",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Chicago Bulls",
       "averages": {
-        "points": 11.0,
-        "rebounds": 3.0,
-        "assists": 1.33,
-        "threes": 0.67
+        "points": 13.0,
+        "rebounds": 2.75,
+        "assists": 1.75,
+        "threes": 1.75
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "4",
+          "team": "Chicago Bulls",
+          "points": 19,
+          "rebounds": 2,
+          "assists": 3,
+          "threes": 5
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -14543,15 +15787,25 @@
     {
       "playerId": "4432582",
       "playerName": "Max Christie",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Dallas Mavericks",
       "averages": {
-        "points": 14.0,
-        "rebounds": 3.0,
-        "assists": 1.5,
-        "threes": 3.0
+        "points": 11.0,
+        "rebounds": 3.33,
+        "assists": 2.33,
+        "threes": 2.33
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "6",
+          "team": "Dallas Mavericks",
+          "points": 5,
+          "rebounds": 4,
+          "assists": 4,
+          "threes": 1
+        },
         {
           "eventId": "401898400",
           "date": "2026-10-11T10:00Z",
@@ -14757,15 +16011,25 @@
     {
       "playerId": "5176517",
       "playerName": "Michael Ajayi",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Charlotte Hornets",
       "averages": {
-        "points": 3.0,
-        "rebounds": 3.5,
-        "assists": 3.0,
-        "threes": 1.0
+        "points": 2.67,
+        "rebounds": 3.33,
+        "assists": 2.33,
+        "threes": 0.67
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "30",
+          "team": "Charlotte Hornets",
+          "points": 2,
+          "rebounds": 3,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401901821",
           "date": "2026-10-11T23:00Z",
@@ -14791,15 +16055,25 @@
     {
       "playerId": "4278104",
       "playerName": "Michael Porter Jr.",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Brooklyn Nets",
       "averages": {
-        "points": 19.0,
-        "rebounds": 4.5,
+        "points": 21.67,
+        "rebounds": 3.33,
         "assists": 1.0,
-        "threes": 3.0
+        "threes": 3.33
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "17",
+          "team": "Brooklyn Nets",
+          "points": 27,
+          "rebounds": 1,
+          "assists": 1,
+          "threes": 4
+        },
         {
           "eventId": "401901824",
           "date": "2026-10-12T23:00Z",
@@ -14887,6 +16161,30 @@
           "rebounds": 1,
           "assists": 4,
           "threes": 0
+        }
+      ]
+    },
+    {
+      "playerId": "5101761",
+      "playerName": "Mikel Brown Jr.",
+      "gamesPlayed": 1,
+      "team": "Brooklyn Nets",
+      "averages": {
+        "points": 15.0,
+        "rebounds": 3.0,
+        "assists": 3.0,
+        "threes": 2.0
+      },
+      "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "17",
+          "team": "Brooklyn Nets",
+          "points": 15,
+          "rebounds": 3,
+          "assists": 3,
+          "threes": 2
         }
       ]
     },
@@ -15059,15 +16357,25 @@
     {
       "playerId": "4351852",
       "playerName": "Mitchell Robinson",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Boston Celtics",
       "averages": {
-        "points": 6.0,
-        "rebounds": 5.0,
+        "points": 9.0,
+        "rebounds": 6.0,
         "assists": 1.0,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "2",
+          "team": "Boston Celtics",
+          "points": 12,
+          "rebounds": 7,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401898398",
           "date": "2026-10-11T00:00Z",
@@ -15229,15 +16537,25 @@
     {
       "playerId": "3150844",
       "playerName": "Moritz Wagner",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Brooklyn Nets",
       "averages": {
-        "points": 8.0,
-        "rebounds": 4.0,
-        "assists": 2.33,
-        "threes": 0.33
+        "points": 9.75,
+        "rebounds": 3.75,
+        "assists": 2.25,
+        "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "17",
+          "team": "Brooklyn Nets",
+          "points": 15,
+          "rebounds": 3,
+          "assists": 2,
+          "threes": 3
+        },
         {
           "eventId": "401901824",
           "date": "2026-10-12T23:00Z",
@@ -15273,15 +16591,25 @@
     {
       "playerId": "4701208",
       "playerName": "Moussa Cisse",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Dallas Mavericks",
       "averages": {
-        "points": 1.5,
-        "rebounds": 3.5,
-        "assists": 2.0,
+        "points": 3.67,
+        "rebounds": 4.33,
+        "assists": 1.67,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "6",
+          "team": "Dallas Mavericks",
+          "points": 8,
+          "rebounds": 6,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401898400",
           "date": "2026-10-11T10:00Z",
@@ -15307,15 +16635,25 @@
     {
       "playerId": "4433249",
       "playerName": "Moussa Diabate",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Charlotte Hornets",
       "averages": {
-        "points": 6.0,
-        "rebounds": 7.5,
-        "assists": 1.5,
+        "points": 5.0,
+        "rebounds": 6.67,
+        "assists": 1.0,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "30",
+          "team": "Charlotte Hornets",
+          "points": 3,
+          "rebounds": 5,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401901821",
           "date": "2026-10-11T23:00Z",
@@ -15385,15 +16723,25 @@
     {
       "playerId": "4431772",
       "playerName": "Myron Gardner",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Miami Heat",
       "averages": {
-        "points": 10.0,
-        "rebounds": 5.33,
-        "assists": 3.67,
-        "threes": 2.33
+        "points": 8.0,
+        "rebounds": 4.0,
+        "assists": 3.25,
+        "threes": 1.75
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "14",
+          "team": "Miami Heat",
+          "points": 2,
+          "rebounds": 0,
+          "assists": 2,
+          "threes": 0
+        },
         {
           "eventId": "401898397",
           "date": "2026-10-11T00:00Z",
@@ -15429,15 +16777,25 @@
     {
       "playerId": "4278594",
       "playerName": "Naji Marshall",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Dallas Mavericks",
       "averages": {
-        "points": 15.0,
+        "points": 12.33,
         "rebounds": 2.0,
-        "assists": 1.5,
+        "assists": 1.33,
         "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "6",
+          "team": "Dallas Mavericks",
+          "points": 7,
+          "rebounds": 2,
+          "assists": 1,
+          "threes": 1
+        },
         {
           "eventId": "401898400",
           "date": "2026-10-11T10:00Z",
@@ -15497,15 +16855,25 @@
     {
       "playerId": "4396971",
       "playerName": "Naz Reid",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Charlotte Hornets",
       "averages": {
-        "points": 14.5,
-        "rebounds": 3.0,
-        "assists": 0.5,
-        "threes": 1.5
+        "points": 13.67,
+        "rebounds": 4.0,
+        "assists": 1.33,
+        "threes": 1.67
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "30",
+          "team": "Charlotte Hornets",
+          "points": 12,
+          "rebounds": 6,
+          "assists": 3,
+          "threes": 2
+        },
         {
           "eventId": "401901821",
           "date": "2026-10-11T23:00Z",
@@ -15531,15 +16899,25 @@
     {
       "playerId": "4397424",
       "playerName": "Neemias Queta",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Boston Celtics",
       "averages": {
-        "points": 6.0,
-        "rebounds": 10.0,
+        "points": 11.0,
+        "rebounds": 5.5,
         "assists": 1.0,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "2",
+          "team": "Boston Celtics",
+          "points": 16,
+          "rebounds": 1,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401898398",
           "date": "2026-10-11T00:00Z",
@@ -15589,15 +16967,25 @@
     {
       "playerId": "4278076",
       "playerName": "Nick Richards",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Miami Heat",
       "averages": {
-        "points": 4.0,
-        "rebounds": 8.67,
+        "points": 5.75,
+        "rebounds": 7.75,
         "assists": 0.0,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "14",
+          "team": "Miami Heat",
+          "points": 11,
+          "rebounds": 5,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401898397",
           "date": "2026-10-11T00:00Z",
@@ -15721,15 +17109,25 @@
     {
       "playerId": "4997528",
       "playerName": "Nikola Jovic",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Miami Heat",
       "averages": {
-        "points": 11.67,
-        "rebounds": 5.67,
-        "assists": 3.0,
-        "threes": 1.67
+        "points": 10.0,
+        "rebounds": 5.5,
+        "assists": 4.0,
+        "threes": 1.5
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "14",
+          "team": "Miami Heat",
+          "points": 5,
+          "rebounds": 5,
+          "assists": 7,
+          "threes": 1
+        },
         {
           "eventId": "401898397",
           "date": "2026-10-11T00:00Z",
@@ -15897,15 +17295,25 @@
     {
       "playerId": "5242496",
       "playerName": "Noa Essengue",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Chicago Bulls",
       "averages": {
-        "points": 5.0,
-        "rebounds": 2.67,
-        "assists": 1.33,
-        "threes": 0.0
+        "points": 5.5,
+        "rebounds": 2.5,
+        "assists": 1.5,
+        "threes": 0.25
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "4",
+          "team": "Chicago Bulls",
+          "points": 7,
+          "rebounds": 2,
+          "assists": 2,
+          "threes": 1
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -15941,15 +17349,25 @@
     {
       "playerId": "4712896",
       "playerName": "Noah Clowney",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Brooklyn Nets",
       "averages": {
-        "points": 11.0,
-        "rebounds": 1.67,
-        "assists": 1.67,
-        "threes": 2.33
+        "points": 9.75,
+        "rebounds": 3.0,
+        "assists": 1.75,
+        "threes": 2.25
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "17",
+          "team": "Brooklyn Nets",
+          "points": 6,
+          "rebounds": 7,
+          "assists": 2,
+          "threes": 2
+        },
         {
           "eventId": "401901824",
           "date": "2026-10-12T23:00Z",
@@ -16019,15 +17437,25 @@
     {
       "playerId": "5279130",
       "playerName": "Nolan Traore",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Brooklyn Nets",
       "averages": {
-        "points": 13.0,
-        "rebounds": 1.0,
-        "assists": 2.0,
-        "threes": 1.33
+        "points": 12.75,
+        "rebounds": 1.25,
+        "assists": 2.75,
+        "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "17",
+          "team": "Brooklyn Nets",
+          "points": 12,
+          "rebounds": 2,
+          "assists": 5,
+          "threes": 0
+        },
         {
           "eventId": "401901824",
           "date": "2026-10-12T23:00Z",
@@ -16063,15 +17491,25 @@
     {
       "playerId": "4702134",
       "playerName": "Norchad Omier",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Minnesota Timberwolves",
       "averages": {
-        "points": 2.75,
-        "rebounds": 2.5,
-        "assists": 1.25,
-        "threes": 0.25
+        "points": 2.2,
+        "rebounds": 3.0,
+        "assists": 1.2,
+        "threes": 0.2
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "16",
+          "team": "Minnesota Timberwolves",
+          "points": 0,
+          "rebounds": 5,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401914124",
           "date": "2026-10-12T23:30Z",
@@ -16117,15 +17555,25 @@
     {
       "playerId": "2595516",
       "playerName": "Norman Powell",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Chicago Bulls",
       "averages": {
-        "points": 15.5,
-        "rebounds": 1.5,
-        "assists": 1.5,
+        "points": 15.67,
+        "rebounds": 1.33,
+        "assists": 1.33,
         "threes": 2.0
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "4",
+          "team": "Chicago Bulls",
+          "points": 16,
+          "rebounds": 1,
+          "assists": 1,
+          "threes": 2
+        },
         {
           "eventId": "401908940",
           "date": "2026-10-10T00:00Z",
@@ -16371,15 +17819,25 @@
     {
       "playerId": "4593049",
       "playerName": "Orlando Robinson",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Chicago Bulls",
       "averages": {
-        "points": 8.0,
-        "rebounds": 6.0,
-        "assists": 2.0,
-        "threes": 1.0
+        "points": 5.0,
+        "rebounds": 4.5,
+        "assists": 1.5,
+        "threes": 0.5
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "4",
+          "team": "Chicago Bulls",
+          "points": 2,
+          "rebounds": 3,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -16527,15 +17985,25 @@
     {
       "playerId": "4997526",
       "playerName": "Ousmane Dieng",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Milwaukee Bucks",
       "averages": {
-        "points": 8.0,
-        "rebounds": 5.0,
-        "assists": 7.0,
-        "threes": 0.0
+        "points": 9.0,
+        "rebounds": 8.0,
+        "assists": 5.5,
+        "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "15",
+          "team": "Milwaukee Bucks",
+          "points": 10,
+          "rebounds": 11,
+          "assists": 4,
+          "threes": 2
+        },
         {
           "eventId": "401908620",
           "date": "2026-10-08T00:00Z",
@@ -16551,15 +18019,25 @@
     {
       "playerId": "4278078",
       "playerName": "P.J. Washington",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Dallas Mavericks",
       "averages": {
-        "points": 10.0,
-        "rebounds": 2.0,
-        "assists": 1.0,
-        "threes": 2.0
+        "points": 5.5,
+        "rebounds": 4.5,
+        "assists": 1.5,
+        "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "6",
+          "team": "Dallas Mavericks",
+          "points": 1,
+          "rebounds": 7,
+          "assists": 2,
+          "threes": 0
+        },
         {
           "eventId": "401898400",
           "date": "2026-10-11T10:00Z",
@@ -16785,15 +18263,25 @@
     {
       "playerId": "4592714",
       "playerName": "Pat Spencer",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Phoenix Suns",
       "averages": {
-        "points": 4.5,
-        "rebounds": 0.0,
-        "assists": 1.0,
+        "points": 6.0,
+        "rebounds": 0.33,
+        "assists": 2.0,
         "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "21",
+          "team": "Phoenix Suns",
+          "points": 9,
+          "rebounds": 1,
+          "assists": 4,
+          "threes": 1
+        },
         {
           "eventId": "401908939",
           "date": "2026-10-08T00:00Z",
@@ -16819,15 +18307,25 @@
     {
       "playerId": "4431687",
       "playerName": "Patrick Williams",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Chicago Bulls",
       "averages": {
-        "points": 5.0,
-        "rebounds": 2.67,
-        "assists": 1.0,
-        "threes": 1.0
+        "points": 5.25,
+        "rebounds": 3.0,
+        "assists": 0.75,
+        "threes": 0.75
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "4",
+          "team": "Chicago Bulls",
+          "points": 6,
+          "rebounds": 4,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -16863,15 +18361,25 @@
     {
       "playerId": "4251",
       "playerName": "Paul George",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Boston Celtics",
       "averages": {
-        "points": 13.0,
-        "rebounds": 5.0,
+        "points": 9.0,
+        "rebounds": 5.5,
         "assists": 4.0,
-        "threes": 2.0
+        "threes": 1.5
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "2",
+          "team": "Boston Celtics",
+          "points": 5,
+          "rebounds": 6,
+          "assists": 4,
+          "threes": 1
+        },
         {
           "eventId": "401898398",
           "date": "2026-10-11T00:00Z",
@@ -16887,15 +18395,25 @@
     {
       "playerId": "4278562",
       "playerName": "Paul Reed",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Detroit Pistons",
       "averages": {
-        "points": 10.5,
-        "rebounds": 8.0,
-        "assists": 3.0,
+        "points": 9.33,
+        "rebounds": 6.33,
+        "assists": 2.67,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "8",
+          "team": "Detroit Pistons",
+          "points": 7,
+          "rebounds": 3,
+          "assists": 2,
+          "threes": 0
+        },
         {
           "eventId": "401906510",
           "date": "2026-10-10T23:00Z",
@@ -16921,15 +18439,25 @@
     {
       "playerId": "4066354",
       "playerName": "Payton Pritchard",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Boston Celtics",
       "averages": {
-        "points": 25.0,
-        "rebounds": 4.0,
-        "assists": 7.0,
-        "threes": 5.0
+        "points": 16.0,
+        "rebounds": 3.5,
+        "assists": 9.0,
+        "threes": 3.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "2",
+          "team": "Boston Celtics",
+          "points": 7,
+          "rebounds": 3,
+          "assists": 11,
+          "threes": 1
+        },
         {
           "eventId": "401898398",
           "date": "2026-10-11T00:00Z",
@@ -16979,15 +18507,25 @@
     {
       "playerId": "4397233",
       "playerName": "Pete Nance",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Milwaukee Bucks",
       "averages": {
         "points": 4.0,
-        "rebounds": 3.33,
-        "assists": 0.33,
-        "threes": 1.0
+        "rebounds": 3.25,
+        "assists": 0.75,
+        "threes": 0.75
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "15",
+          "team": "Milwaukee Bucks",
+          "points": 4,
+          "rebounds": 3,
+          "assists": 2,
+          "threes": 0
+        },
         {
           "eventId": "401901821",
           "date": "2026-10-11T23:00Z",
@@ -17061,6 +18599,30 @@
           "rebounds": 4,
           "assists": 4,
           "threes": 1
+        }
+      ]
+    },
+    {
+      "playerId": "4909710",
+      "playerName": "Phillip Wheeler",
+      "gamesPlayed": 1,
+      "team": "Phoenix Suns",
+      "averages": {
+        "points": 3.0,
+        "rebounds": 1.0,
+        "assists": 1.0,
+        "threes": 0.0
+      },
+      "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "21",
+          "team": "Phoenix Suns",
+          "points": 3,
+          "rebounds": 1,
+          "assists": 1,
+          "threes": 0
         }
       ]
     },
@@ -17433,15 +18995,25 @@
     {
       "playerId": "5105977",
       "playerName": "Rasheer Fleming",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Phoenix Suns",
       "averages": {
-        "points": 2.0,
+        "points": 3.5,
         "rebounds": 4.0,
-        "assists": 0.33,
-        "threes": 0.33
+        "assists": 0.25,
+        "threes": 0.25
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "21",
+          "team": "Phoenix Suns",
+          "points": 8,
+          "rebounds": 4,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401898720",
           "date": "2026-10-11T02:30Z",
@@ -17797,17 +19369,51 @@
       ]
     },
     {
-      "playerId": "4683771",
-      "playerName": "Ronald Holland II",
-      "gamesPlayed": 2,
-      "team": "Detroit Pistons",
+      "playerId": "4397251",
+      "playerName": "Ron Harper Jr.",
+      "gamesPlayed": 1,
+      "team": "Boston Celtics",
       "averages": {
-        "points": 11.0,
-        "rebounds": 3.5,
-        "assists": 0.5,
-        "threes": 0.5
+        "points": 0.0,
+        "rebounds": 0.0,
+        "assists": 0.0,
+        "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "2",
+          "team": "Boston Celtics",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "threes": 0
+        }
+      ]
+    },
+    {
+      "playerId": "4683771",
+      "playerName": "Ronald Holland II",
+      "gamesPlayed": 3,
+      "team": "Detroit Pistons",
+      "averages": {
+        "points": 10.33,
+        "rebounds": 3.33,
+        "assists": 0.67,
+        "threes": 0.33
+      },
+      "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "8",
+          "team": "Detroit Pistons",
+          "points": 9,
+          "rebounds": 3,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401906510",
           "date": "2026-10-10T23:00Z",
@@ -17833,15 +19439,25 @@
     {
       "playerId": "2583632",
       "playerName": "Royce O'Neale",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Charlotte Hornets",
       "averages": {
-        "points": 6.0,
-        "rebounds": 1.5,
-        "assists": 3.0,
-        "threes": 1.0
+        "points": 8.0,
+        "rebounds": 1.67,
+        "assists": 2.67,
+        "threes": 2.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "30",
+          "team": "Charlotte Hornets",
+          "points": 12,
+          "rebounds": 2,
+          "assists": 2,
+          "threes": 4
+        },
         {
           "eventId": "401901821",
           "date": "2026-10-11T23:00Z",
@@ -17867,15 +19483,25 @@
     {
       "playerId": "3032976",
       "playerName": "Rudy Gobert",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Minnesota Timberwolves",
       "averages": {
-        "points": 5.0,
-        "rebounds": 6.33,
-        "assists": 1.67,
+        "points": 5.75,
+        "rebounds": 5.75,
+        "assists": 1.5,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "16",
+          "team": "Minnesota Timberwolves",
+          "points": 8,
+          "rebounds": 4,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401914124",
           "date": "2026-10-12T23:30Z",
@@ -17945,15 +19571,25 @@
     {
       "playerId": "5107157",
       "playerName": "Ryan Conwell",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Miami Heat",
       "averages": {
-        "points": 10.33,
-        "rebounds": 2.33,
-        "assists": 5.0,
-        "threes": 0.67
+        "points": 11.0,
+        "rebounds": 2.0,
+        "assists": 4.25,
+        "threes": 1.25
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "14",
+          "team": "Miami Heat",
+          "points": 13,
+          "rebounds": 1,
+          "assists": 2,
+          "threes": 3
+        },
         {
           "eventId": "401898397",
           "date": "2026-10-11T00:00Z",
@@ -17989,15 +19625,25 @@
     {
       "playerId": "4888725",
       "playerName": "Ryan Dunn",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Phoenix Suns",
       "averages": {
-        "points": 4.0,
-        "rebounds": 3.67,
-        "assists": 1.33,
+        "points": 6.75,
+        "rebounds": 3.25,
+        "assists": 1.0,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "21",
+          "team": "Phoenix Suns",
+          "points": 15,
+          "rebounds": 2,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401898720",
           "date": "2026-10-11T02:30Z",
@@ -18033,15 +19679,25 @@
     {
       "playerId": "4576060",
       "playerName": "Ryan Kalkbrenner",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Charlotte Hornets",
       "averages": {
-        "points": 3.0,
-        "rebounds": 3.5,
+        "points": 4.33,
+        "rebounds": 3.33,
         "assists": 0.0,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "30",
+          "team": "Charlotte Hornets",
+          "points": 7,
+          "rebounds": 3,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401901821",
           "date": "2026-10-11T23:00Z",
@@ -18155,15 +19811,25 @@
     {
       "playerId": "4397136",
       "playerName": "Saddiq Bey",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "New Orleans Pelicans",
       "averages": {
-        "points": 8.5,
-        "rebounds": 3.5,
+        "points": 7.0,
+        "rebounds": 2.67,
         "assists": 0.0,
-        "threes": 1.0
+        "threes": 0.67
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "3",
+          "team": "New Orleans Pelicans",
+          "points": 4,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -18233,15 +19899,25 @@
     {
       "playerId": "4065804",
       "playerName": "Sam Hauser",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Boston Celtics",
       "averages": {
-        "points": 11.0,
-        "rebounds": 1.0,
-        "assists": 2.0,
-        "threes": 3.0
+        "points": 8.5,
+        "rebounds": 1.5,
+        "assists": 1.5,
+        "threes": 2.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "2",
+          "team": "Boston Celtics",
+          "points": 6,
+          "rebounds": 2,
+          "assists": 1,
+          "threes": 1
+        },
         {
           "eventId": "401898398",
           "date": "2026-10-11T00:00Z",
@@ -18511,15 +20187,25 @@
     {
       "playerId": "5279129",
       "playerName": "Sergio de Larrea",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Dallas Mavericks",
       "averages": {
         "points": 10.0,
-        "rebounds": 4.5,
-        "assists": 5.0,
+        "rebounds": 4.33,
+        "assists": 5.33,
         "threes": 2.0
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "6",
+          "team": "Dallas Mavericks",
+          "points": 10,
+          "rebounds": 4,
+          "assists": 6,
+          "threes": 2
+        },
         {
           "eventId": "401898400",
           "date": "2026-10-11T10:00Z",
@@ -18545,15 +20231,25 @@
     {
       "playerId": "4431775",
       "playerName": "Seth Lundy",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Dallas Mavericks",
       "averages": {
-        "points": 3.0,
-        "rebounds": 0.5,
-        "assists": 0.5,
+        "points": 6.33,
+        "rebounds": 1.0,
+        "assists": 0.33,
         "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "6",
+          "team": "Dallas Mavericks",
+          "points": 13,
+          "rebounds": 2,
+          "assists": 0,
+          "threes": 1
+        },
         {
           "eventId": "401898400",
           "date": "2026-10-11T10:00Z",
@@ -18657,15 +20353,25 @@
     {
       "playerId": "3899664",
       "playerName": "Simone Fontecchio",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Miami Heat",
       "averages": {
-        "points": 8.0,
+        "points": 8.75,
         "rebounds": 2.0,
-        "assists": 0.67,
-        "threes": 1.67
+        "assists": 0.5,
+        "threes": 2.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "14",
+          "team": "Miami Heat",
+          "points": 11,
+          "rebounds": 2,
+          "assists": 0,
+          "threes": 3
+        },
         {
           "eventId": "401898397",
           "date": "2026-10-11T00:00Z",
@@ -18701,15 +20407,25 @@
     {
       "playerId": "4602025",
       "playerName": "Sion James",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Charlotte Hornets",
       "averages": {
-        "points": 9.5,
-        "rebounds": 4.5,
-        "assists": 2.0,
-        "threes": 2.5
+        "points": 6.33,
+        "rebounds": 4.33,
+        "assists": 2.67,
+        "threes": 1.67
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "30",
+          "team": "Charlotte Hornets",
+          "points": 0,
+          "rebounds": 4,
+          "assists": 4,
+          "threes": 0
+        },
         {
           "eventId": "401901821",
           "date": "2026-10-11T23:00Z",
@@ -18789,15 +20505,25 @@
     {
       "playerId": "4845367",
       "playerName": "Stephon Castle",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "San Antonio Spurs",
       "averages": {
-        "points": 13.5,
-        "rebounds": 5.5,
-        "assists": 4.0,
-        "threes": 1.0
+        "points": 15.0,
+        "rebounds": 5.0,
+        "assists": 3.67,
+        "threes": 0.67
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "24",
+          "team": "San Antonio Spurs",
+          "points": 18,
+          "rebounds": 4,
+          "assists": 3,
+          "threes": 0
+        },
         {
           "eventId": "401898720",
           "date": "2026-10-11T02:30Z",
@@ -19003,15 +20729,25 @@
     {
       "playerId": "5148538",
       "playerName": "Tarik Biberovic",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Dallas Mavericks",
       "averages": {
-        "points": 8.5,
-        "rebounds": 2.5,
-        "assists": 1.5,
-        "threes": 2.5
+        "points": 8.33,
+        "rebounds": 3.0,
+        "assists": 2.0,
+        "threes": 2.0
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "6",
+          "team": "Dallas Mavericks",
+          "points": 8,
+          "rebounds": 4,
+          "assists": 3,
+          "threes": 1
+        },
         {
           "eventId": "401898400",
           "date": "2026-10-11T10:00Z",
@@ -19061,15 +20797,25 @@
     {
       "playerId": "5105809",
       "playerName": "Tarris Reed Jr.",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "San Antonio Spurs",
       "averages": {
-        "points": 5.33,
-        "rebounds": 9.67,
-        "assists": 0.67,
+        "points": 5.0,
+        "rebounds": 9.5,
+        "assists": 0.75,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "24",
+          "team": "San Antonio Spurs",
+          "points": 4,
+          "rebounds": 9,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401898721",
           "date": "2026-10-13T01:00Z",
@@ -19251,15 +20997,25 @@
     {
       "playerId": "4432847",
       "playerName": "Terrence Shannon Jr.",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Minnesota Timberwolves",
       "averages": {
-        "points": 11.33,
-        "rebounds": 2.67,
-        "assists": 3.33,
-        "threes": 1.33
+        "points": 9.75,
+        "rebounds": 2.25,
+        "assists": 2.75,
+        "threes": 1.25
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "16",
+          "team": "Minnesota Timberwolves",
+          "points": 5,
+          "rebounds": 1,
+          "assists": 1,
+          "threes": 1
+        },
         {
           "eventId": "401898397",
           "date": "2026-10-11T00:00Z",
@@ -19363,15 +21119,25 @@
     {
       "playerId": "5211176",
       "playerName": "Tidjane Salaun",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Charlotte Hornets",
       "averages": {
-        "points": 5.5,
-        "rebounds": 4.5,
+        "points": 9.0,
+        "rebounds": 3.33,
         "assists": 1.0,
-        "threes": 1.0
+        "threes": 2.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "30",
+          "team": "Charlotte Hornets",
+          "points": 16,
+          "rebounds": 1,
+          "assists": 1,
+          "threes": 4
+        },
         {
           "eventId": "401901821",
           "date": "2026-10-11T23:00Z",
@@ -19397,15 +21163,25 @@
     {
       "playerId": "2528210",
       "playerName": "Tim Hardaway Jr.",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Miami Heat",
       "averages": {
-        "points": 12.5,
-        "rebounds": 1.5,
-        "assists": 1.0,
-        "threes": 2.5
+        "points": 13.0,
+        "rebounds": 2.0,
+        "assists": 1.67,
+        "threes": 2.33
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "14",
+          "team": "Miami Heat",
+          "points": 14,
+          "rebounds": 3,
+          "assists": 3,
+          "threes": 2
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -19465,15 +21241,25 @@
     {
       "playerId": "5106040",
       "playerName": "Tobi Lawal",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Dallas Mavericks",
       "averages": {
-        "points": 9.0,
-        "rebounds": 3.0,
-        "assists": 0.5,
+        "points": 11.33,
+        "rebounds": 3.33,
+        "assists": 0.33,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "6",
+          "team": "Dallas Mavericks",
+          "points": 16,
+          "rebounds": 4,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401898400",
           "date": "2026-10-11T10:00Z",
@@ -19499,15 +21285,25 @@
     {
       "playerId": "4397882",
       "playerName": "Tolu Smith",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Detroit Pistons",
       "averages": {
-        "points": 3.5,
-        "rebounds": 9.0,
-        "assists": 1.5,
+        "points": 4.33,
+        "rebounds": 8.0,
+        "assists": 1.67,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "8",
+          "team": "Detroit Pistons",
+          "points": 6,
+          "rebounds": 6,
+          "assists": 2,
+          "threes": 0
+        },
         {
           "eventId": "401906510",
           "date": "2026-10-10T23:00Z",
@@ -19689,15 +21485,25 @@
     {
       "playerId": "4837356",
       "playerName": "Tre Donaldson",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Miami Heat",
       "averages": {
-        "points": 6.67,
-        "rebounds": 0.33,
-        "assists": 2.33,
-        "threes": 0.67
+        "points": 5.5,
+        "rebounds": 1.0,
+        "assists": 2.0,
+        "threes": 0.5
       },
       "gameLogs": [
+        {
+          "eventId": "401898404",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "14",
+          "team": "Miami Heat",
+          "points": 2,
+          "rebounds": 3,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401898397",
           "date": "2026-10-11T00:00Z",
@@ -19777,15 +21583,25 @@
     {
       "playerId": "4395626",
       "playerName": "Tre Jones",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Chicago Bulls",
       "averages": {
-        "points": 0.0,
-        "rebounds": 1.0,
-        "assists": 5.0,
+        "points": 3.0,
+        "rebounds": 2.0,
+        "assists": 6.0,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401908942",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "4",
+          "team": "Chicago Bulls",
+          "points": 6,
+          "rebounds": 3,
+          "assists": 7,
+          "threes": 0
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -19835,15 +21651,25 @@
     {
       "playerId": "4431675",
       "playerName": "Trendon Watford",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "New Orleans Pelicans",
       "averages": {
-        "points": 4.5,
-        "rebounds": 6.5,
-        "assists": 1.5,
+        "points": 3.33,
+        "rebounds": 4.67,
+        "assists": 1.0,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "3",
+          "team": "New Orleans Pelicans",
+          "points": 1,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -20005,15 +21831,25 @@
     {
       "playerId": "3136196",
       "playerName": "Trey Lyles",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Minnesota Timberwolves",
       "averages": {
-        "points": 4.5,
-        "rebounds": 4.25,
-        "assists": 1.5,
-        "threes": 1.25
+        "points": 4.6,
+        "rebounds": 3.4,
+        "assists": 1.2,
+        "threes": 1.2
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "16",
+          "team": "Minnesota Timberwolves",
+          "points": 5,
+          "rebounds": 0,
+          "assists": 0,
+          "threes": 1
+        },
         {
           "eventId": "401914124",
           "date": "2026-10-12T23:30Z",
@@ -20059,15 +21895,25 @@
     {
       "playerId": "4397688",
       "playerName": "Trey Murphy III",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "New Orleans Pelicans",
       "averages": {
-        "points": 11.0,
-        "rebounds": 2.0,
-        "assists": 2.0,
-        "threes": 2.0
+        "points": 9.0,
+        "rebounds": 2.33,
+        "assists": 2.33,
+        "threes": 1.33
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "3",
+          "team": "New Orleans Pelicans",
+          "points": 5,
+          "rebounds": 3,
+          "assists": 3,
+          "threes": 0
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -20691,6 +22537,30 @@
       ]
     },
     {
+      "playerId": "5037878",
+      "playerName": "Ugonna Onyenso",
+      "gamesPlayed": 1,
+      "team": "Detroit Pistons",
+      "averages": {
+        "points": 0.0,
+        "rebounds": 4.0,
+        "assists": 1.0,
+        "threes": 0.0
+      },
+      "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "8",
+          "team": "Detroit Pistons",
+          "points": 0,
+          "rebounds": 4,
+          "assists": 1,
+          "threes": 0
+        }
+      ]
+    },
+    {
       "playerId": "5124612",
       "playerName": "VJ Edgecombe",
       "gamesPlayed": 3,
@@ -20737,15 +22607,25 @@
     {
       "playerId": "5104157",
       "playerName": "Victor Wembanyama",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "San Antonio Spurs",
       "averages": {
-        "points": 11.0,
-        "rebounds": 6.5,
-        "assists": 3.5,
-        "threes": 0.5
+        "points": 13.67,
+        "rebounds": 5.67,
+        "assists": 3.33,
+        "threes": 0.33
       },
       "gameLogs": [
+        {
+          "eventId": "401898722",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "24",
+          "team": "San Antonio Spurs",
+          "points": 19,
+          "rebounds": 4,
+          "assists": 3,
+          "threes": 0
+        },
         {
           "eventId": "401898720",
           "date": "2026-10-11T02:30Z",
@@ -21137,15 +23017,25 @@
     {
       "playerId": "4897504",
       "playerName": "Wyatt Fricks",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Charlotte Hornets",
       "averages": {
-        "points": 1.0,
-        "rebounds": 1.5,
+        "points": 0.67,
+        "rebounds": 1.33,
         "assists": 0.0,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898405",
+          "date": "2026-10-14T23:30Z",
+          "teamId": "30",
+          "team": "Charlotte Hornets",
+          "points": 0,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401901821",
           "date": "2026-10-11T23:00Z",
@@ -21303,15 +23193,25 @@
     {
       "playerId": "5061589",
       "playerName": "Yves Missi",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "New Orleans Pelicans",
       "averages": {
-        "points": 8.5,
-        "rebounds": 8.0,
-        "assists": 0.5,
+        "points": 7.67,
+        "rebounds": 8.33,
+        "assists": 0.33,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "3",
+          "team": "New Orleans Pelicans",
+          "points": 6,
+          "rebounds": 9,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -21337,15 +23237,25 @@
     {
       "playerId": "5211175",
       "playerName": "Zaccharie Risacher",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Dallas Mavericks",
       "averages": {
-        "points": 12.5,
-        "rebounds": 5.5,
-        "assists": 1.5,
-        "threes": 1.5
+        "points": 10.33,
+        "rebounds": 5.0,
+        "assists": 1.33,
+        "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "6",
+          "team": "Dallas Mavericks",
+          "points": 6,
+          "rebounds": 4,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401898400",
           "date": "2026-10-11T10:00Z",
@@ -21585,15 +23495,25 @@
     {
       "playerId": "4395628",
       "playerName": "Zion Williamson",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "New Orleans Pelicans",
       "averages": {
-        "points": 9.5,
-        "rebounds": 2.5,
+        "points": 9.67,
+        "rebounds": 1.67,
         "assists": 1.0,
-        "threes": 0.5
+        "threes": 0.33
       },
       "gameLogs": [
+        {
+          "eventId": "401901825",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "3",
+          "team": "New Orleans Pelicans",
+          "points": 10,
+          "rebounds": 0,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401898393",
           "date": "2026-10-08T23:30Z",
@@ -21673,15 +23593,25 @@
     {
       "playerId": "4592979",
       "playerName": "Zyon Pullin",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Minnesota Timberwolves",
       "averages": {
-        "points": 11.75,
-        "rebounds": 3.0,
-        "assists": 1.25,
-        "threes": 0.0
+        "points": 10.2,
+        "rebounds": 2.6,
+        "assists": 1.2,
+        "threes": 0.2
       },
       "gameLogs": [
+        {
+          "eventId": "401914125",
+          "date": "2026-10-15T00:00Z",
+          "teamId": "16",
+          "team": "Minnesota Timberwolves",
+          "points": 4,
+          "rebounds": 1,
+          "assists": 1,
+          "threes": 1
+        },
         {
           "eventId": "401914124",
           "date": "2026-10-12T23:30Z",
