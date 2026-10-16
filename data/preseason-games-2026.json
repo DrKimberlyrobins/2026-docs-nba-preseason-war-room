@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T21:26:47.716154+00:00",
+  "generatedAt": "2026-10-16T04:36:29.430968+00:00",
   "source": "ESPN",
   "season": "2026-27",
   "seasonType": "preseason",
@@ -2760,6 +2760,110 @@
         "q1Allowed": 24,
         "firstHalfAllowed": 55,
         "fullGameAllowed": 110
+      },
+      "source": "ESPN",
+      "seasonType": "preseason"
+    },
+    {
+      "id": "401908945",
+      "date": "2026-10-15T23:30Z",
+      "away": {
+        "id": "28",
+        "team": "Toronto Raptors",
+        "abbreviation": "TOR",
+        "homeAway": "away",
+        "quarters": [
+          32,
+          26,
+          21,
+          41
+        ],
+        "q1": 32,
+        "q2": 26,
+        "q3": 21,
+        "q4": 41,
+        "firstHalf": 58,
+        "regulation": 120,
+        "fullGame": 120,
+        "overtime": false,
+        "q1Allowed": 35,
+        "firstHalfAllowed": 63,
+        "fullGameAllowed": 122
+      },
+      "home": {
+        "id": "18",
+        "team": "New York Knicks",
+        "abbreviation": "NY",
+        "homeAway": "home",
+        "quarters": [
+          35,
+          28,
+          24,
+          35
+        ],
+        "q1": 35,
+        "q2": 28,
+        "q3": 24,
+        "q4": 35,
+        "firstHalf": 63,
+        "regulation": 122,
+        "fullGame": 122,
+        "overtime": false,
+        "q1Allowed": 32,
+        "firstHalfAllowed": 58,
+        "fullGameAllowed": 120
+      },
+      "source": "ESPN",
+      "seasonType": "preseason"
+    },
+    {
+      "id": "401908622",
+      "date": "2026-10-16T00:30Z",
+      "away": {
+        "id": "25",
+        "team": "Oklahoma City Thunder",
+        "abbreviation": "OKC",
+        "homeAway": "away",
+        "quarters": [
+          15,
+          32,
+          22,
+          20
+        ],
+        "q1": 15,
+        "q2": 32,
+        "q3": 22,
+        "q4": 20,
+        "firstHalf": 47,
+        "regulation": 89,
+        "fullGame": 89,
+        "overtime": false,
+        "q1Allowed": 33,
+        "firstHalfAllowed": 54,
+        "fullGameAllowed": 116
+      },
+      "home": {
+        "id": "10",
+        "team": "Houston Rockets",
+        "abbreviation": "HOU",
+        "homeAway": "home",
+        "quarters": [
+          33,
+          21,
+          25,
+          37
+        ],
+        "q1": 33,
+        "q2": 21,
+        "q3": 25,
+        "q4": 37,
+        "firstHalf": 54,
+        "regulation": 116,
+        "fullGame": 116,
+        "overtime": false,
+        "q1Allowed": 15,
+        "firstHalfAllowed": 47,
+        "fullGameAllowed": 89
       },
       "source": "ESPN",
       "seasonType": "preseason"

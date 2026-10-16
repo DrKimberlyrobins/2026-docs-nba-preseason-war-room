@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-15T21:26:47.716154+00:00",
+  "generatedAt": "2026-10-16T04:36:29.430968+00:00",
   "source": "ESPN",
   "teams": [
     {
@@ -1338,22 +1338,22 @@
       "team": "Houston Rockets",
       "abbreviation": "HOU",
       "all": {
-        "games": 2,
-        "q1": 27.0,
-        "firstHalf": 58.0,
-        "fullGame": 125.0,
-        "q1Allowed": 23.5,
-        "firstHalfAllowed": 51.5,
-        "fullGameAllowed": 124.5
+        "games": 3,
+        "q1": 29.0,
+        "firstHalf": 56.67,
+        "fullGame": 122.0,
+        "q1Allowed": 20.67,
+        "firstHalfAllowed": 50.0,
+        "fullGameAllowed": 112.67
       },
       "home": {
-        "games": 1,
-        "q1": 27.0,
-        "firstHalf": 51.0,
-        "fullGame": 115.0,
-        "q1Allowed": 28.0,
-        "firstHalfAllowed": 58.0,
-        "fullGameAllowed": 132.0
+        "games": 2,
+        "q1": 30.0,
+        "firstHalf": 52.5,
+        "fullGame": 115.5,
+        "q1Allowed": 21.5,
+        "firstHalfAllowed": 52.5,
+        "fullGameAllowed": 110.5
       },
       "away": {
         "games": 1,
@@ -1365,15 +1365,40 @@
         "fullGameAllowed": 117.0
       },
       "last5": {
-        "games": 2,
-        "q1": 27.0,
-        "firstHalf": 58.0,
-        "fullGame": 125.0,
-        "q1Allowed": 23.5,
-        "firstHalfAllowed": 51.5,
-        "fullGameAllowed": 124.5
+        "games": 3,
+        "q1": 29.0,
+        "firstHalf": 56.67,
+        "fullGame": 122.0,
+        "q1Allowed": 20.67,
+        "firstHalfAllowed": 50.0,
+        "fullGameAllowed": 112.67
       },
       "gameLogs": [
+        {
+          "id": "10",
+          "team": "Houston Rockets",
+          "abbreviation": "HOU",
+          "homeAway": "home",
+          "quarters": [
+            33,
+            21,
+            25,
+            37
+          ],
+          "q1": 33,
+          "q2": 21,
+          "q3": 25,
+          "q4": 37,
+          "firstHalf": 54,
+          "regulation": 116,
+          "fullGame": 116,
+          "overtime": false,
+          "q1Allowed": 15,
+          "firstHalfAllowed": 47,
+          "fullGameAllowed": 89,
+          "eventId": "401908622",
+          "date": "2026-10-16T00:30Z"
+        },
         {
           "id": "10",
           "team": "Houston Rockets",
@@ -2569,22 +2594,22 @@
       "team": "New York Knicks",
       "abbreviation": "NY",
       "all": {
-        "games": 4,
-        "q1": 27.0,
-        "firstHalf": 54.5,
-        "fullGame": 102.0,
-        "q1Allowed": 33.75,
-        "firstHalfAllowed": 69.25,
-        "fullGameAllowed": 125.25
+        "games": 5,
+        "q1": 28.6,
+        "firstHalf": 56.2,
+        "fullGame": 106.0,
+        "q1Allowed": 33.4,
+        "firstHalfAllowed": 67.0,
+        "fullGameAllowed": 124.2
       },
       "home": {
-        "games": 2,
-        "q1": 27.0,
-        "firstHalf": 56.5,
-        "fullGame": 106.5,
-        "q1Allowed": 30.0,
-        "firstHalfAllowed": 59.5,
-        "fullGameAllowed": 116.5
+        "games": 3,
+        "q1": 29.67,
+        "firstHalf": 58.67,
+        "fullGame": 111.67,
+        "q1Allowed": 30.67,
+        "firstHalfAllowed": 59.0,
+        "fullGameAllowed": 117.67
       },
       "away": {
         "games": 2,
@@ -2596,15 +2621,40 @@
         "fullGameAllowed": 134.0
       },
       "last5": {
-        "games": 4,
-        "q1": 27.0,
-        "firstHalf": 54.5,
-        "fullGame": 102.0,
-        "q1Allowed": 33.75,
-        "firstHalfAllowed": 69.25,
-        "fullGameAllowed": 125.25
+        "games": 5,
+        "q1": 28.6,
+        "firstHalf": 56.2,
+        "fullGame": 106.0,
+        "q1Allowed": 33.4,
+        "firstHalfAllowed": 67.0,
+        "fullGameAllowed": 124.2
       },
       "gameLogs": [
+        {
+          "id": "18",
+          "team": "New York Knicks",
+          "abbreviation": "NY",
+          "homeAway": "home",
+          "quarters": [
+            35,
+            28,
+            24,
+            35
+          ],
+          "q1": 35,
+          "q2": 28,
+          "q3": 24,
+          "q4": 35,
+          "firstHalf": 63,
+          "regulation": 122,
+          "fullGame": 122,
+          "overtime": false,
+          "q1Allowed": 32,
+          "firstHalfAllowed": 58,
+          "fullGameAllowed": 120,
+          "eventId": "401908945",
+          "date": "2026-10-15T23:30Z"
+        },
         {
           "id": "18",
           "team": "New York Knicks",
@@ -2712,13 +2762,13 @@
       "team": "Oklahoma City Thunder",
       "abbreviation": "OKC",
       "all": {
-        "games": 4,
-        "q1": 32.75,
-        "firstHalf": 64.25,
-        "fullGame": 115.0,
-        "q1Allowed": 31.25,
-        "firstHalfAllowed": 58.25,
-        "fullGameAllowed": 117.25
+        "games": 5,
+        "q1": 29.2,
+        "firstHalf": 60.8,
+        "fullGame": 109.8,
+        "q1Allowed": 31.6,
+        "firstHalfAllowed": 57.4,
+        "fullGameAllowed": 117.0
       },
       "home": {
         "games": 3,
@@ -2730,24 +2780,49 @@
         "fullGameAllowed": 118.67
       },
       "away": {
-        "games": 1,
-        "q1": 28.0,
-        "firstHalf": 49.0,
-        "fullGame": 110.0,
-        "q1Allowed": 29.0,
-        "firstHalfAllowed": 56.0,
-        "fullGameAllowed": 113.0
+        "games": 2,
+        "q1": 21.5,
+        "firstHalf": 48.0,
+        "fullGame": 99.5,
+        "q1Allowed": 31.0,
+        "firstHalfAllowed": 55.0,
+        "fullGameAllowed": 114.5
       },
       "last5": {
-        "games": 4,
-        "q1": 32.75,
-        "firstHalf": 64.25,
-        "fullGame": 115.0,
-        "q1Allowed": 31.25,
-        "firstHalfAllowed": 58.25,
-        "fullGameAllowed": 117.25
+        "games": 5,
+        "q1": 29.2,
+        "firstHalf": 60.8,
+        "fullGame": 109.8,
+        "q1Allowed": 31.6,
+        "firstHalfAllowed": 57.4,
+        "fullGameAllowed": 117.0
       },
       "gameLogs": [
+        {
+          "id": "25",
+          "team": "Oklahoma City Thunder",
+          "abbreviation": "OKC",
+          "homeAway": "away",
+          "quarters": [
+            15,
+            32,
+            22,
+            20
+          ],
+          "q1": 15,
+          "q2": 32,
+          "q3": 22,
+          "q4": 20,
+          "firstHalf": 47,
+          "regulation": 89,
+          "fullGame": 89,
+          "overtime": false,
+          "q1Allowed": 33,
+          "firstHalfAllowed": 54,
+          "fullGameAllowed": 116,
+          "eventId": "401908622",
+          "date": "2026-10-16T00:30Z"
+        },
         {
           "id": "25",
           "team": "Oklahoma City Thunder",
@@ -3639,13 +3714,13 @@
       "team": "Toronto Raptors",
       "abbreviation": "TOR",
       "all": {
-        "games": 3,
-        "q1": 29.67,
-        "firstHalf": 66.0,
-        "fullGame": 122.33,
-        "q1Allowed": 27.0,
-        "firstHalfAllowed": 56.0,
-        "fullGameAllowed": 111.0
+        "games": 4,
+        "q1": 30.25,
+        "firstHalf": 64.0,
+        "fullGame": 121.75,
+        "q1Allowed": 29.0,
+        "firstHalfAllowed": 57.75,
+        "fullGameAllowed": 113.75
       },
       "home": {
         "games": 3,
@@ -3657,24 +3732,49 @@
         "fullGameAllowed": 111.0
       },
       "away": {
-        "games": 0,
-        "q1": null,
-        "firstHalf": null,
-        "fullGame": null,
-        "q1Allowed": null,
-        "firstHalfAllowed": null,
-        "fullGameAllowed": null
+        "games": 1,
+        "q1": 32.0,
+        "firstHalf": 58.0,
+        "fullGame": 120.0,
+        "q1Allowed": 35.0,
+        "firstHalfAllowed": 63.0,
+        "fullGameAllowed": 122.0
       },
       "last5": {
-        "games": 3,
-        "q1": 29.67,
-        "firstHalf": 66.0,
-        "fullGame": 122.33,
-        "q1Allowed": 27.0,
-        "firstHalfAllowed": 56.0,
-        "fullGameAllowed": 111.0
+        "games": 4,
+        "q1": 30.25,
+        "firstHalf": 64.0,
+        "fullGame": 121.75,
+        "q1Allowed": 29.0,
+        "firstHalfAllowed": 57.75,
+        "fullGameAllowed": 113.75
       },
       "gameLogs": [
+        {
+          "id": "28",
+          "team": "Toronto Raptors",
+          "abbreviation": "TOR",
+          "homeAway": "away",
+          "quarters": [
+            32,
+            26,
+            21,
+            41
+          ],
+          "q1": 32,
+          "q2": 26,
+          "q3": 21,
+          "q4": 41,
+          "firstHalf": 58,
+          "regulation": 120,
+          "fullGame": 120,
+          "overtime": false,
+          "q1Allowed": 35,
+          "firstHalfAllowed": 63,
+          "fullGameAllowed": 122,
+          "eventId": "401908945",
+          "date": "2026-10-15T23:30Z"
+        },
         {
           "id": "28",
           "team": "Toronto Raptors",
