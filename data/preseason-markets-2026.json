@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-16T11:29:25.820429+00:00",
+  "generatedAt": "2026-10-16T16:42:40.346328+00:00",
   "source": "Kambi",
   "offering": "pivusmsrl-bil",
   "market": "US-MS",
@@ -6557,63 +6557,7 @@
       "start": "2026-10-21T23:00:00Z",
       "betOffers": [
         {
-          "id": 2696251016,
-          "closed": "2026-10-21T23:00:00Z",
-          "criterion": {
-            "id": 1001159509,
-            "label": "Total Points - Including Overtime",
-            "englishLabel": "Total Points - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 6,
-            "name": "Over/Under",
-            "englishName": "Over/Under"
-          },
-          "eventId": 1028754195,
-          "outcomes": [
-            {
-              "id": 4349944441,
-              "label": "Over",
-              "englishLabel": "Over",
-              "odds": 1930,
-              "line": 234000,
-              "type": "OT_OVER",
-              "betOfferId": 2696251016,
-              "changedDate": "2026-09-24T21:28:22Z",
-              "oddsFractional": "10/11",
-              "oddsAmerican": "-108",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4349944442,
-              "label": "Under",
-              "englishLabel": "Under",
-              "odds": 1890,
-              "line": 234000,
-              "type": "OT_UNDER",
-              "betOfferId": 2696251016,
-              "changedDate": "2026-09-24T21:28:22Z",
-              "oddsFractional": "22/25",
-              "oddsAmerican": "-113",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
           "id": 2696256841,
-          "closed": "2026-10-21T23:00:00Z",
           "criterion": {
             "id": 1001159732,
             "label": "Moneyline",
@@ -6633,14 +6577,14 @@
               "id": 4349973296,
               "label": "ORL Magic",
               "englishLabel": "Orlando Magic",
-              "odds": 1750,
+              "odds": 1680,
               "participant": "ORL Magic",
               "type": "OT_ONE",
               "betOfferId": 2696256841,
-              "changedDate": "2026-09-24T21:28:22Z",
+              "changedDate": "2026-10-16T11:52:13Z",
               "participantId": 1000080666,
-              "oddsFractional": "3/4",
-              "oddsAmerican": "-134",
+              "oddsFractional": "4/6",
+              "oddsAmerican": "-148",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
@@ -6649,14 +6593,14 @@
               "id": 4349973297,
               "label": "ATL Hawks",
               "englishLabel": "Atlanta Hawks",
-              "odds": 2140,
+              "odds": 2200,
               "participant": "ATL Hawks",
               "type": "OT_TWO",
               "betOfferId": 2696256841,
-              "changedDate": "2026-09-24T21:28:22Z",
+              "changedDate": "2026-10-16T11:52:13Z",
               "participantId": 1000037508,
-              "oddsFractional": "57/50",
-              "oddsAmerican": "114",
+              "oddsFractional": "6/5",
+              "oddsAmerican": "120",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -6664,6 +6608,7 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "BET_BUILDER",
             "MAIN"
           ],
@@ -6671,7 +6616,6 @@
         },
         {
           "id": 2696256855,
-          "closed": "2026-10-21T23:00:00Z",
           "criterion": {
             "id": 1001159512,
             "label": "Point Spread",
@@ -6691,15 +6635,15 @@
               "id": 4349973355,
               "label": "ORL Magic",
               "englishLabel": "Orlando Magic",
-              "odds": 1910,
+              "odds": 1900,
               "line": -2500,
               "participant": "ORL Magic",
               "type": "OT_ONE",
               "betOfferId": 2696256855,
-              "changedDate": "2026-09-24T21:28:22Z",
+              "changedDate": "2026-10-16T11:52:13Z",
               "participantId": 1000080666,
-              "oddsFractional": "10/11",
-              "oddsAmerican": "-110",
+              "oddsFractional": "9/10",
+              "oddsAmerican": "-112",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
@@ -6708,15 +6652,15 @@
               "id": 4349973356,
               "label": "ATL Hawks",
               "englishLabel": "Atlanta Hawks",
-              "odds": 1910,
+              "odds": 1920,
               "line": 2500,
               "participant": "ATL Hawks",
               "type": "OT_TWO",
               "betOfferId": 2696256855,
-              "changedDate": "2026-09-24T21:28:22Z",
+              "changedDate": "2026-10-16T11:52:13Z",
               "participantId": 1000037508,
               "oddsFractional": "10/11",
-              "oddsAmerican": "-110",
+              "oddsAmerican": "-109",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -6724,73 +6668,14 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "MAIN_LINE",
             "BET_BUILDER"
           ],
           "cashOutStatus": "ENABLED"
         },
         {
-          "id": 2696282488,
-          "closed": "2026-10-21T23:00:00Z",
-          "criterion": {
-            "id": 1001159512,
-            "label": "Point Spread",
-            "englishLabel": "Point Spread - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 1,
-            "name": "Handicap",
-            "englishName": "Handicap"
-          },
-          "eventId": 1028754195,
-          "outcomes": [
-            {
-              "id": 4349941184,
-              "label": "ORL Magic",
-              "englishLabel": "Orlando Magic",
-              "odds": 1860,
-              "line": -2000,
-              "participant": "ORL Magic",
-              "type": "OT_ONE",
-              "betOfferId": 2696282488,
-              "changedDate": "2026-09-24T21:28:22Z",
-              "participantId": 1000080666,
-              "oddsFractional": "17/20",
-              "oddsAmerican": "-117",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4349941185,
-              "label": "ATL Hawks",
-              "englishLabel": "Atlanta Hawks",
-              "odds": 1960,
-              "line": 2000,
-              "participant": "ATL Hawks",
-              "type": "OT_TWO",
-              "betOfferId": 2696282488,
-              "changedDate": "2026-09-24T21:28:22Z",
-              "participantId": 1000037508,
-              "oddsFractional": "19/20",
-              "oddsAmerican": "-105",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
           "id": 2696282489,
-          "closed": "2026-10-21T23:00:00Z",
           "criterion": {
             "id": 1001159509,
             "label": "Total Points - Including Overtime",
@@ -6810,13 +6695,13 @@
               "id": 4349941186,
               "label": "Over",
               "englishLabel": "Over",
-              "odds": 1900,
+              "odds": 1950,
               "line": 233500,
               "type": "OT_OVER",
               "betOfferId": 2696282489,
-              "changedDate": "2026-09-24T21:28:22Z",
-              "oddsFractional": "9/10",
-              "oddsAmerican": "-112",
+              "changedDate": "2026-10-16T11:52:13Z",
+              "oddsFractional": "19/20",
+              "oddsAmerican": "-106",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
@@ -6825,13 +6710,13 @@
               "id": 4349941187,
               "label": "Under",
               "englishLabel": "Under",
-              "odds": 1920,
+              "odds": 1870,
               "line": 233500,
               "type": "OT_UNDER",
               "betOfferId": 2696282489,
-              "changedDate": "2026-09-24T21:28:22Z",
-              "oddsFractional": "10/11",
-              "oddsAmerican": "-109",
+              "changedDate": "2026-10-16T11:52:13Z",
+              "oddsFractional": "17/20",
+              "oddsAmerican": "-115",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -6839,6 +6724,7 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "MAIN_LINE",
             "BET_BUILDER"
           ],
@@ -6853,7 +6739,6 @@
       "betOffers": [
         {
           "id": 2696291406,
-          "closed": "2026-10-21T23:00:00Z",
           "criterion": {
             "id": 1001159732,
             "label": "Moneyline",
@@ -6877,7 +6762,7 @@
               "participant": "WAS Wizards",
               "type": "OT_ONE",
               "betOfferId": 2696291406,
-              "changedDate": "2026-10-07T17:15:58Z",
+              "changedDate": "2026-10-16T11:55:17Z",
               "participantId": 1000000214,
               "oddsFractional": "21/50",
               "oddsAmerican": "-240",
@@ -6889,14 +6774,14 @@
               "id": 4349979745,
               "label": "MIL Bucks",
               "englishLabel": "Milwaukee Bucks",
-              "odds": 2950,
+              "odds": 2900,
               "participant": "MIL Bucks",
               "type": "OT_TWO",
               "betOfferId": 2696291406,
-              "changedDate": "2026-10-07T17:15:58Z",
+              "changedDate": "2026-10-16T11:55:17Z",
               "participantId": 1000000219,
-              "oddsFractional": "39/20",
-              "oddsAmerican": "195",
+              "oddsFractional": "19/10",
+              "oddsAmerican": "190",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -6904,6 +6789,7 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "BET_BUILDER",
             "MAIN"
           ],
@@ -6911,7 +6797,6 @@
         },
         {
           "id": 2696291408,
-          "closed": "2026-10-21T23:00:00Z",
           "criterion": {
             "id": 1001159512,
             "label": "Point Spread",
@@ -6931,15 +6816,15 @@
               "id": 4349979748,
               "label": "WAS Wizards",
               "englishLabel": "Washington Wizards",
-              "odds": 1950,
+              "odds": 1930,
               "line": -6500,
               "participant": "WAS Wizards",
               "type": "OT_ONE",
               "betOfferId": 2696291408,
-              "changedDate": "2026-10-07T17:15:58Z",
+              "changedDate": "2026-10-16T11:55:15Z",
               "participantId": 1000000214,
-              "oddsFractional": "19/20",
-              "oddsAmerican": "-106",
+              "oddsFractional": "10/11",
+              "oddsAmerican": "-108",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
@@ -6948,74 +6833,15 @@
               "id": 4349979749,
               "label": "MIL Bucks",
               "englishLabel": "Milwaukee Bucks",
-              "odds": 1870,
+              "odds": 1890,
               "line": 6500,
               "participant": "MIL Bucks",
               "type": "OT_TWO",
               "betOfferId": 2696291408,
-              "changedDate": "2026-10-07T17:15:58Z",
+              "changedDate": "2026-10-16T11:55:15Z",
               "participantId": 1000000219,
-              "oddsFractional": "17/20",
-              "oddsAmerican": "-115",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
-          "id": 2696297345,
-          "closed": "2026-10-21T23:00:00Z",
-          "criterion": {
-            "id": 1001159512,
-            "label": "Point Spread",
-            "englishLabel": "Point Spread - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 1,
-            "name": "Handicap",
-            "englishName": "Handicap"
-          },
-          "eventId": 1028754206,
-          "outcomes": [
-            {
-              "id": 4349985661,
-              "label": "WAS Wizards",
-              "englishLabel": "Washington Wizards",
-              "odds": 1880,
-              "line": -6000,
-              "participant": "WAS Wizards",
-              "type": "OT_ONE",
-              "betOfferId": 2696297345,
-              "changedDate": "2026-10-07T17:15:58Z",
-              "participantId": 1000000214,
               "oddsFractional": "22/25",
-              "oddsAmerican": "-114",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4349985662,
-              "label": "MIL Bucks",
-              "englishLabel": "Milwaukee Bucks",
-              "odds": 1940,
-              "line": 6000,
-              "participant": "MIL Bucks",
-              "type": "OT_TWO",
-              "betOfferId": 2696297345,
-              "changedDate": "2026-10-07T17:15:58Z",
-              "participantId": 1000000219,
-              "oddsFractional": "23/25",
-              "oddsAmerican": "-107",
+              "oddsAmerican": "-113",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -7023,69 +6849,14 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "MAIN_LINE",
             "BET_BUILDER"
           ],
           "cashOutStatus": "ENABLED"
         },
         {
-          "id": 2701118730,
-          "closed": "2026-10-21T23:00:00Z",
-          "criterion": {
-            "id": 1001159509,
-            "label": "Total Points - Including Overtime",
-            "englishLabel": "Total Points - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 6,
-            "name": "Over/Under",
-            "englishName": "Over/Under"
-          },
-          "eventId": 1028754206,
-          "outcomes": [
-            {
-              "id": 4365917877,
-              "label": "Over",
-              "englishLabel": "Over",
-              "odds": 1940,
-              "line": 239000,
-              "type": "OT_OVER",
-              "betOfferId": 2701118730,
-              "changedDate": "2026-10-07T17:15:58Z",
-              "oddsFractional": "23/25",
-              "oddsAmerican": "-107",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4365917878,
-              "label": "Under",
-              "englishLabel": "Under",
-              "odds": 1880,
-              "line": 239000,
-              "type": "OT_UNDER",
-              "betOfferId": 2701118730,
-              "changedDate": "2026-10-07T17:15:58Z",
-              "oddsFractional": "22/25",
-              "oddsAmerican": "-114",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
           "id": 2701141322,
-          "closed": "2026-10-21T23:00:00Z",
           "criterion": {
             "id": 1001159509,
             "label": "Total Points - Including Overtime",
@@ -7105,13 +6876,13 @@
               "id": 4365929641,
               "label": "Over",
               "englishLabel": "Over",
-              "odds": 1910,
+              "odds": 1870,
               "line": 238500,
               "type": "OT_OVER",
               "betOfferId": 2701141322,
-              "changedDate": "2026-10-07T17:15:58Z",
-              "oddsFractional": "10/11",
-              "oddsAmerican": "-110",
+              "changedDate": "2026-10-16T11:55:15Z",
+              "oddsFractional": "17/20",
+              "oddsAmerican": "-115",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
@@ -7120,13 +6891,13 @@
               "id": 4365929642,
               "label": "Under",
               "englishLabel": "Under",
-              "odds": 1910,
+              "odds": 1950,
               "line": 238500,
               "type": "OT_UNDER",
               "betOfferId": 2701141322,
-              "changedDate": "2026-10-07T17:15:58Z",
-              "oddsFractional": "10/11",
-              "oddsAmerican": "-110",
+              "changedDate": "2026-10-16T11:55:15Z",
+              "oddsFractional": "19/20",
+              "oddsAmerican": "-106",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -7134,6 +6905,7 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "MAIN_LINE",
             "BET_BUILDER"
           ],
@@ -7147,64 +6919,7 @@
       "start": "2026-10-21T23:30:00Z",
       "betOffers": [
         {
-          "id": 2696265487,
-          "closed": "2026-10-21T23:30:00Z",
-          "criterion": {
-            "id": 1001159509,
-            "label": "Total Points - Including Overtime",
-            "englishLabel": "Total Points - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 6,
-            "name": "Over/Under",
-            "englishName": "Over/Under"
-          },
-          "eventId": 1028736326,
-          "outcomes": [
-            {
-              "id": 4349967899,
-              "label": "Over",
-              "englishLabel": "Over",
-              "odds": 1890,
-              "line": 243000,
-              "type": "OT_OVER",
-              "betOfferId": 2696265487,
-              "changedDate": "2026-09-24T21:35:00Z",
-              "oddsFractional": "22/25",
-              "oddsAmerican": "-113",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4349967900,
-              "label": "Under",
-              "englishLabel": "Under",
-              "odds": 1930,
-              "line": 243000,
-              "type": "OT_UNDER",
-              "betOfferId": 2696265487,
-              "changedDate": "2026-09-24T21:35:00Z",
-              "oddsFractional": "10/11",
-              "oddsAmerican": "-108",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "MAIN_LINE",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
           "id": 2696265488,
-          "closed": "2026-10-21T23:30:00Z",
           "criterion": {
             "id": 1001159512,
             "label": "Point Spread",
@@ -7224,15 +6939,15 @@
               "id": 4349967901,
               "label": "MIA Heat",
               "englishLabel": "Miami Heat",
-              "odds": 1890,
+              "odds": 1880,
               "line": -1500,
               "participant": "MIA Heat",
               "type": "OT_ONE",
               "betOfferId": 2696265488,
-              "changedDate": "2026-09-24T21:35:00Z",
+              "changedDate": "2026-10-16T12:04:43Z",
               "participantId": 1000000212,
               "oddsFractional": "22/25",
-              "oddsAmerican": "-113",
+              "oddsAmerican": "-114",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
@@ -7241,15 +6956,15 @@
               "id": 4349967902,
               "label": "MIN Timberwolves",
               "englishLabel": "Minnesota Timberwolves",
-              "odds": 1930,
+              "odds": 1940,
               "line": 1500,
               "participant": "MIN Timberwolves",
               "type": "OT_TWO",
               "betOfferId": 2696265488,
-              "changedDate": "2026-09-24T21:35:00Z",
+              "changedDate": "2026-10-16T12:04:43Z",
               "participantId": 1000027507,
-              "oddsFractional": "10/11",
-              "oddsAmerican": "-108",
+              "oddsFractional": "23/25",
+              "oddsAmerican": "-107",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -7257,6 +6972,7 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "MAIN_LINE",
             "BET_BUILDER"
           ],
@@ -7264,7 +6980,6 @@
         },
         {
           "id": 2696268250,
-          "closed": "2026-10-21T23:30:00Z",
           "criterion": {
             "id": 1001159732,
             "label": "Moneyline",
@@ -7284,14 +6999,14 @@
               "id": 4349961701,
               "label": "MIA Heat",
               "englishLabel": "Miami Heat",
-              "odds": 1820,
+              "odds": 1770,
               "participant": "MIA Heat",
               "type": "OT_ONE",
               "betOfferId": 2696268250,
-              "changedDate": "2026-09-24T21:35:00Z",
+              "changedDate": "2026-10-16T12:04:43Z",
               "participantId": 1000000212,
-              "oddsFractional": "4/5",
-              "oddsAmerican": "-122",
+              "oddsFractional": "3/4",
+              "oddsAmerican": "-130",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
@@ -7300,14 +7015,14 @@
               "id": 4349961702,
               "label": "MIN Timberwolves",
               "englishLabel": "Minnesota Timberwolves",
-              "odds": 2040,
+              "odds": 2070,
               "participant": "MIN Timberwolves",
               "type": "OT_TWO",
               "betOfferId": 2696268250,
-              "changedDate": "2026-09-24T21:35:00Z",
+              "changedDate": "2026-10-16T12:04:43Z",
               "participantId": 1000027507,
-              "oddsFractional": "26/25",
-              "oddsAmerican": "104",
+              "oddsFractional": "21/20",
+              "oddsAmerican": "107",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -7315,73 +7030,14 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "BET_BUILDER",
             "MAIN"
           ],
           "cashOutStatus": "ENABLED"
         },
         {
-          "id": 2696268285,
-          "closed": "2026-10-21T23:30:00Z",
-          "criterion": {
-            "id": 1001159512,
-            "label": "Point Spread",
-            "englishLabel": "Point Spread - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 1,
-            "name": "Handicap",
-            "englishName": "Handicap"
-          },
-          "eventId": 1028736326,
-          "outcomes": [
-            {
-              "id": 4349961827,
-              "label": "MIA Heat",
-              "englishLabel": "Miami Heat",
-              "odds": 1950,
-              "line": -2000,
-              "participant": "MIA Heat",
-              "type": "OT_ONE",
-              "betOfferId": 2696268285,
-              "changedDate": "2026-09-24T21:35:00Z",
-              "participantId": 1000000212,
-              "oddsFractional": "19/20",
-              "oddsAmerican": "-106",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4349961828,
-              "label": "MIN Timberwolves",
-              "englishLabel": "Minnesota Timberwolves",
-              "odds": 1870,
-              "line": 2000,
-              "participant": "MIN Timberwolves",
-              "type": "OT_TWO",
-              "betOfferId": 2696268285,
-              "changedDate": "2026-09-24T21:35:00Z",
-              "participantId": 1000027507,
-              "oddsFractional": "17/20",
-              "oddsAmerican": "-115",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
           "id": 2696279729,
-          "closed": "2026-10-21T23:30:00Z",
           "criterion": {
             "id": 1001159509,
             "label": "Total Points - Including Overtime",
@@ -7405,7 +7061,7 @@
               "line": 243500,
               "type": "OT_OVER",
               "betOfferId": 2696279729,
-              "changedDate": "2026-09-24T21:35:00Z",
+              "changedDate": "2026-10-16T12:04:43Z",
               "oddsFractional": "10/11",
               "oddsAmerican": "-108",
               "status": "OPEN",
@@ -7416,13 +7072,13 @@
               "id": 4349983031,
               "label": "Under",
               "englishLabel": "Under",
-              "odds": 1890,
+              "odds": 1880,
               "line": 243500,
               "type": "OT_UNDER",
               "betOfferId": 2696279729,
-              "changedDate": "2026-09-24T21:35:00Z",
+              "changedDate": "2026-10-16T12:04:43Z",
               "oddsFractional": "22/25",
-              "oddsAmerican": "-113",
+              "oddsAmerican": "-114",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -7430,6 +7086,8 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
+            "MAIN_LINE",
             "BET_BUILDER"
           ],
           "cashOutStatus": "ENABLED"
@@ -7443,7 +7101,6 @@
       "betOffers": [
         {
           "id": 2701124621,
-          "closed": "2026-10-21T23:30:00Z",
           "criterion": {
             "id": 1001159512,
             "label": "Point Spread",
@@ -7463,15 +7120,15 @@
               "id": 4365900499,
               "label": "TOR Raptors",
               "englishLabel": "Toronto Raptors",
-              "odds": 1900,
+              "odds": 1890,
               "line": -8500,
               "participant": "TOR Raptors",
               "type": "OT_ONE",
               "betOfferId": 2701124621,
-              "changedDate": "2026-10-07T17:30:45Z",
+              "changedDate": "2026-10-16T12:45:29Z",
               "participantId": 1000000220,
-              "oddsFractional": "9/10",
-              "oddsAmerican": "-112",
+              "oddsFractional": "22/25",
+              "oddsAmerican": "-113",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
@@ -7480,15 +7137,15 @@
               "id": 4365900500,
               "label": "CHI Bulls",
               "englishLabel": "Chicago Bulls",
-              "odds": 1920,
+              "odds": 1930,
               "line": 8500,
               "participant": "CHI Bulls",
               "type": "OT_TWO",
               "betOfferId": 2701124621,
-              "changedDate": "2026-10-07T17:30:45Z",
+              "changedDate": "2026-10-16T12:45:29Z",
               "participantId": 1000000215,
               "oddsFractional": "10/11",
-              "oddsAmerican": "-109",
+              "oddsAmerican": "-108",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -7496,69 +7153,14 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "MAIN_LINE",
             "BET_BUILDER"
           ],
           "cashOutStatus": "ENABLED"
         },
         {
-          "id": 2701144289,
-          "closed": "2026-10-21T23:30:00Z",
-          "criterion": {
-            "id": 1001159509,
-            "label": "Total Points - Including Overtime",
-            "englishLabel": "Total Points - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 6,
-            "name": "Over/Under",
-            "englishName": "Over/Under"
-          },
-          "eventId": 1028754201,
-          "outcomes": [
-            {
-              "id": 4365907553,
-              "label": "Over",
-              "englishLabel": "Over",
-              "odds": 1940,
-              "line": 236000,
-              "type": "OT_OVER",
-              "betOfferId": 2701144289,
-              "changedDate": "2026-10-07T17:30:45Z",
-              "oddsFractional": "23/25",
-              "oddsAmerican": "-107",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4365907554,
-              "label": "Under",
-              "englishLabel": "Under",
-              "odds": 1880,
-              "line": 236000,
-              "type": "OT_UNDER",
-              "betOfferId": 2701144289,
-              "changedDate": "2026-10-07T17:30:45Z",
-              "oddsFractional": "22/25",
-              "oddsAmerican": "-114",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
           "id": 2701159120,
-          "closed": "2026-10-21T23:30:00Z",
           "criterion": {
             "id": 1001159732,
             "label": "Moneyline",
@@ -7582,7 +7184,7 @@
               "participant": "TOR Raptors",
               "type": "OT_ONE",
               "betOfferId": 2701159120,
-              "changedDate": "2026-10-07T17:30:45Z",
+              "changedDate": "2026-10-16T12:45:29Z",
               "participantId": 1000000220,
               "oddsFractional": "7/25",
               "oddsAmerican": "-360",
@@ -7594,14 +7196,14 @@
               "id": 4365932470,
               "label": "CHI Bulls",
               "englishLabel": "Chicago Bulls",
-              "odds": 3850,
+              "odds": 3750,
               "participant": "CHI Bulls",
               "type": "OT_TWO",
               "betOfferId": 2701159120,
-              "changedDate": "2026-10-07T17:30:45Z",
+              "changedDate": "2026-10-16T12:45:29Z",
               "participantId": 1000000215,
-              "oddsFractional": "14/5",
-              "oddsAmerican": "285",
+              "oddsFractional": "11/4",
+              "oddsAmerican": "275",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -7609,73 +7211,14 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "BET_BUILDER",
             "MAIN"
           ],
           "cashOutStatus": "ENABLED"
         },
         {
-          "id": 2701159121,
-          "closed": "2026-10-21T23:30:00Z",
-          "criterion": {
-            "id": 1001159512,
-            "label": "Point Spread",
-            "englishLabel": "Point Spread - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 1,
-            "name": "Handicap",
-            "englishName": "Handicap"
-          },
-          "eventId": 1028754201,
-          "outcomes": [
-            {
-              "id": 4365932471,
-              "label": "TOR Raptors",
-              "englishLabel": "Toronto Raptors",
-              "odds": 1980,
-              "line": -9000,
-              "participant": "TOR Raptors",
-              "type": "OT_ONE",
-              "betOfferId": 2701159121,
-              "changedDate": "2026-10-07T17:30:45Z",
-              "participantId": 1000000220,
-              "oddsFractional": "49/50",
-              "oddsAmerican": "-103",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4365932472,
-              "label": "CHI Bulls",
-              "englishLabel": "Chicago Bulls",
-              "odds": 1850,
-              "line": 9000,
-              "participant": "CHI Bulls",
-              "type": "OT_TWO",
-              "betOfferId": 2701159121,
-              "changedDate": "2026-10-07T17:30:45Z",
-              "participantId": 1000000215,
-              "oddsFractional": "17/20",
-              "oddsAmerican": "-118",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
           "id": 2701159124,
-          "closed": "2026-10-21T23:30:00Z",
           "criterion": {
             "id": 1001159509,
             "label": "Total Points - Including Overtime",
@@ -7695,13 +7238,13 @@
               "id": 4365932477,
               "label": "Over",
               "englishLabel": "Over",
-              "odds": 1910,
+              "odds": 1930,
               "line": 235500,
               "type": "OT_OVER",
               "betOfferId": 2701159124,
-              "changedDate": "2026-10-07T17:30:45Z",
+              "changedDate": "2026-10-16T12:45:29Z",
               "oddsFractional": "10/11",
-              "oddsAmerican": "-110",
+              "oddsAmerican": "-108",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
@@ -7710,13 +7253,13 @@
               "id": 4365932478,
               "label": "Under",
               "englishLabel": "Under",
-              "odds": 1910,
+              "odds": 1890,
               "line": 235500,
               "type": "OT_UNDER",
               "betOfferId": 2701159124,
-              "changedDate": "2026-10-07T17:30:45Z",
-              "oddsFractional": "10/11",
-              "oddsAmerican": "-110",
+              "changedDate": "2026-10-16T12:45:29Z",
+              "oddsFractional": "22/25",
+              "oddsAmerican": "-113",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -7724,6 +7267,7 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "MAIN_LINE",
             "BET_BUILDER"
           ],
@@ -7738,7 +7282,6 @@
       "betOffers": [
         {
           "id": 2696294442,
-          "closed": "2026-10-21T23:30:00Z",
           "criterion": {
             "id": 1001159732,
             "label": "Moneyline",
@@ -7758,14 +7301,14 @@
               "id": 4349955962,
               "label": "BKN Nets",
               "englishLabel": "Brooklyn Nets",
-              "odds": 2200,
+              "odds": 2150,
               "participant": "BKN Nets",
               "type": "OT_ONE",
               "betOfferId": 2696294442,
-              "changedDate": "2026-10-06T03:12:29Z",
+              "changedDate": "2026-10-16T13:19:45Z",
               "participantId": 1000000213,
-              "oddsFractional": "6/5",
-              "oddsAmerican": "120",
+              "oddsFractional": "23/20",
+              "oddsAmerican": "115",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
@@ -7774,14 +7317,14 @@
               "id": 4349955963,
               "label": "CHA Hornets",
               "englishLabel": "Charlotte Hornets",
-              "odds": 1700,
+              "odds": 1720,
               "participant": "CHA Hornets",
               "type": "OT_TWO",
               "betOfferId": 2696294442,
-              "changedDate": "2026-10-06T03:12:29Z",
+              "changedDate": "2026-10-16T13:19:45Z",
               "participantId": 1000014411,
               "oddsFractional": "7/10",
-              "oddsAmerican": "-143",
+              "oddsAmerican": "-139",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -7789,69 +7332,14 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "BET_BUILDER",
             "MAIN"
           ],
           "cashOutStatus": "ENABLED"
         },
         {
-          "id": 2700430175,
-          "closed": "2026-10-21T23:30:00Z",
-          "criterion": {
-            "id": 1001159509,
-            "label": "Total Points - Including Overtime",
-            "englishLabel": "Total Points - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 6,
-            "name": "Over/Under",
-            "englishName": "Over/Under"
-          },
-          "eventId": 1028754203,
-          "outcomes": [
-            {
-              "id": 4363675601,
-              "label": "Over",
-              "englishLabel": "Over",
-              "odds": 1880,
-              "line": 220500,
-              "type": "OT_OVER",
-              "betOfferId": 2700430175,
-              "changedDate": "2026-10-06T03:12:29Z",
-              "oddsFractional": "22/25",
-              "oddsAmerican": "-114",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4363675602,
-              "label": "Under",
-              "englishLabel": "Under",
-              "odds": 1940,
-              "line": 220500,
-              "type": "OT_UNDER",
-              "betOfferId": 2700430175,
-              "changedDate": "2026-10-06T03:12:29Z",
-              "oddsFractional": "23/25",
-              "oddsAmerican": "-107",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
-          "id": 2700438959,
-          "closed": "2026-10-21T23:30:00Z",
+          "id": 2704600975,
           "criterion": {
             "id": 1001159512,
             "label": "Point Spread",
@@ -7868,35 +7356,35 @@
           "eventId": 1028754203,
           "outcomes": [
             {
-              "id": 4363670304,
+              "id": 4377237652,
               "label": "BKN Nets",
               "englishLabel": "Brooklyn Nets",
-              "odds": 1890,
-              "line": 2500,
+              "odds": 2000,
+              "line": 1500,
               "participant": "BKN Nets",
               "type": "OT_ONE",
-              "betOfferId": 2700438959,
-              "changedDate": "2026-10-06T03:12:29Z",
+              "betOfferId": 2704600975,
+              "changedDate": "2026-10-16T13:19:45Z",
               "participantId": 1000000213,
-              "oddsFractional": "22/25",
-              "oddsAmerican": "-113",
+              "oddsFractional": "Evens",
+              "oddsAmerican": "100",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
             },
             {
-              "id": 4363670305,
+              "id": 4377237653,
               "label": "CHA Hornets",
               "englishLabel": "Charlotte Hornets",
-              "odds": 1930,
-              "line": -2500,
+              "odds": 1820,
+              "line": -1500,
               "participant": "CHA Hornets",
               "type": "OT_TWO",
-              "betOfferId": 2700438959,
-              "changedDate": "2026-10-06T03:12:29Z",
+              "betOfferId": 2704600975,
+              "changedDate": "2026-10-16T13:19:45Z",
               "participantId": 1000014411,
-              "oddsFractional": "10/11",
-              "oddsAmerican": "-108",
+              "oddsFractional": "4/5",
+              "oddsAmerican": "-122",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -7904,14 +7392,14 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "MAIN_LINE",
             "BET_BUILDER"
           ],
           "cashOutStatus": "ENABLED"
         },
         {
-          "id": 2700438960,
-          "closed": "2026-10-21T23:30:00Z",
+          "id": 2704642023,
           "criterion": {
             "id": 1001159509,
             "label": "Total Points - Including Overtime",
@@ -7928,72 +7416,14 @@
           "eventId": 1028754203,
           "outcomes": [
             {
-              "id": 4363670306,
+              "id": 4377220014,
               "label": "Over",
               "englishLabel": "Over",
-              "odds": 1920,
-              "line": 221000,
-              "type": "OT_OVER",
-              "betOfferId": 2700438960,
-              "changedDate": "2026-10-06T03:12:29Z",
-              "oddsFractional": "10/11",
-              "oddsAmerican": "-109",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4363670307,
-              "label": "Under",
-              "englishLabel": "Under",
-              "odds": 1900,
-              "line": 221000,
-              "type": "OT_UNDER",
-              "betOfferId": 2700438960,
-              "changedDate": "2026-10-06T03:12:29Z",
-              "oddsFractional": "9/10",
-              "oddsAmerican": "-112",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "MAIN_LINE",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
-          "id": 2700438964,
-          "closed": "2026-10-21T23:30:00Z",
-          "criterion": {
-            "id": 1001159512,
-            "label": "Point Spread",
-            "englishLabel": "Point Spread - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 1,
-            "name": "Handicap",
-            "englishName": "Handicap"
-          },
-          "eventId": 1028754203,
-          "outcomes": [
-            {
-              "id": 4363670314,
-              "label": "BKN Nets",
-              "englishLabel": "Brooklyn Nets",
               "odds": 1940,
-              "line": 2000,
-              "participant": "BKN Nets",
-              "type": "OT_ONE",
-              "betOfferId": 2700438964,
-              "changedDate": "2026-10-06T03:12:29Z",
-              "participantId": 1000000213,
+              "line": 221500,
+              "type": "OT_OVER",
+              "betOfferId": 2704642023,
+              "changedDate": "2026-10-16T11:58:58Z",
               "oddsFractional": "23/25",
               "oddsAmerican": "-107",
               "status": "OPEN",
@@ -8001,16 +7431,14 @@
               "displayOrder": 0
             },
             {
-              "id": 4363670315,
-              "label": "CHA Hornets",
-              "englishLabel": "Charlotte Hornets",
+              "id": 4377220015,
+              "label": "Under",
+              "englishLabel": "Under",
               "odds": 1880,
-              "line": -2000,
-              "participant": "CHA Hornets",
-              "type": "OT_TWO",
-              "betOfferId": 2700438964,
-              "changedDate": "2026-10-06T03:12:29Z",
-              "participantId": 1000014411,
+              "line": 221500,
+              "type": "OT_UNDER",
+              "betOfferId": 2704642023,
+              "changedDate": "2026-10-16T11:58:58Z",
               "oddsFractional": "22/25",
               "oddsAmerican": "-114",
               "status": "OPEN",
@@ -8020,6 +7448,8 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
+            "MAIN_LINE",
             "BET_BUILDER"
           ],
           "cashOutStatus": "ENABLED"
@@ -8032,63 +7462,7 @@
       "start": "2026-10-22T00:00:00Z",
       "betOffers": [
         {
-          "id": 2696248145,
-          "closed": "2026-10-22T00:00:00Z",
-          "criterion": {
-            "id": 1001159509,
-            "label": "Total Points - Including Overtime",
-            "englishLabel": "Total Points - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 6,
-            "name": "Over/Under",
-            "englishName": "Over/Under"
-          },
-          "eventId": 1028754207,
-          "outcomes": [
-            {
-              "id": 4349992173,
-              "label": "Over",
-              "englishLabel": "Over",
-              "odds": 1940,
-              "line": 243000,
-              "type": "OT_OVER",
-              "betOfferId": 2696248145,
-              "changedDate": "2026-10-15T16:43:55Z",
-              "oddsFractional": "23/25",
-              "oddsAmerican": "-107",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4349992174,
-              "label": "Under",
-              "englishLabel": "Under",
-              "odds": 1880,
-              "line": 243000,
-              "type": "OT_UNDER",
-              "betOfferId": 2696248145,
-              "changedDate": "2026-10-15T16:43:55Z",
-              "oddsFractional": "22/25",
-              "oddsAmerican": "-114",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
           "id": 2696253470,
-          "closed": "2026-10-22T00:00:00Z",
           "criterion": {
             "id": 1001159512,
             "label": "Point Spread",
@@ -8113,7 +7487,7 @@
               "participant": "NO Pelicans",
               "type": "OT_ONE",
               "betOfferId": 2696253470,
-              "changedDate": "2026-10-15T16:43:55Z",
+              "changedDate": "2026-10-16T14:06:39Z",
               "participantId": 1000090614,
               "oddsFractional": "19/20",
               "oddsAmerican": "-106",
@@ -8130,7 +7504,7 @@
               "participant": "IND Pacers",
               "type": "OT_TWO",
               "betOfferId": 2696253470,
-              "changedDate": "2026-10-15T16:43:55Z",
+              "changedDate": "2026-10-16T14:06:39Z",
               "participantId": 1000000218,
               "oddsFractional": "17/20",
               "oddsAmerican": "-115",
@@ -8141,13 +7515,14 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
+            "MAIN_LINE",
             "BET_BUILDER"
           ],
           "cashOutStatus": "ENABLED"
         },
         {
           "id": 2696285589,
-          "closed": "2026-10-22T00:00:00Z",
           "criterion": {
             "id": 1001159732,
             "label": "Moneyline",
@@ -8167,14 +7542,14 @@
               "id": 4349947015,
               "label": "NO Pelicans",
               "englishLabel": "New Orleans Pelicans",
-              "odds": 2400,
+              "odds": 2380,
               "participant": "NO Pelicans",
               "type": "OT_ONE",
               "betOfferId": 2696285589,
-              "changedDate": "2026-10-15T16:43:55Z",
+              "changedDate": "2026-10-16T14:06:39Z",
               "participantId": 1000090614,
-              "oddsFractional": "7/5",
-              "oddsAmerican": "140",
+              "oddsFractional": "11/8",
+              "oddsAmerican": "138",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
@@ -8183,14 +7558,14 @@
               "id": 4349947016,
               "label": "IND Pacers",
               "englishLabel": "Indiana Pacers",
-              "odds": 1600,
+              "odds": 1580,
               "participant": "IND Pacers",
               "type": "OT_TWO",
               "betOfferId": 2696285589,
-              "changedDate": "2026-10-15T16:43:55Z",
+              "changedDate": "2026-10-16T14:06:39Z",
               "participantId": 1000000218,
-              "oddsFractional": "3/5",
-              "oddsAmerican": "-167",
+              "oddsFractional": "4/7",
+              "oddsAmerican": "-175",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -8198,74 +7573,14 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "BET_BUILDER",
             "MAIN"
           ],
           "cashOutStatus": "ENABLED"
         },
         {
-          "id": 2696285598,
-          "closed": "2026-10-22T00:00:00Z",
-          "criterion": {
-            "id": 1001159512,
-            "label": "Point Spread",
-            "englishLabel": "Point Spread - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 1,
-            "name": "Handicap",
-            "englishName": "Handicap"
-          },
-          "eventId": 1028754207,
-          "outcomes": [
-            {
-              "id": 4349947033,
-              "label": "NO Pelicans",
-              "englishLabel": "New Orleans Pelicans",
-              "odds": 1890,
-              "line": 4000,
-              "participant": "NO Pelicans",
-              "type": "OT_ONE",
-              "betOfferId": 2696285598,
-              "changedDate": "2026-10-15T16:43:55Z",
-              "participantId": 1000090614,
-              "oddsFractional": "22/25",
-              "oddsAmerican": "-113",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4349947036,
-              "label": "IND Pacers",
-              "englishLabel": "Indiana Pacers",
-              "odds": 1930,
-              "line": -4000,
-              "participant": "IND Pacers",
-              "type": "OT_TWO",
-              "betOfferId": 2696285598,
-              "changedDate": "2026-10-15T16:43:55Z",
-              "participantId": 1000000218,
-              "oddsFractional": "10/11",
-              "oddsAmerican": "-108",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "MAIN_LINE",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
           "id": 2696285599,
-          "closed": "2026-10-22T00:00:00Z",
           "criterion": {
             "id": 1001159509,
             "label": "Total Points - Including Overtime",
@@ -8285,13 +7600,13 @@
               "id": 4349947034,
               "label": "Over",
               "englishLabel": "Over",
-              "odds": 1910,
+              "odds": 1900,
               "line": 242500,
               "type": "OT_OVER",
               "betOfferId": 2696285599,
-              "changedDate": "2026-10-15T16:43:55Z",
-              "oddsFractional": "10/11",
-              "oddsAmerican": "-110",
+              "changedDate": "2026-10-16T14:06:39Z",
+              "oddsFractional": "9/10",
+              "oddsAmerican": "-112",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
@@ -8300,13 +7615,13 @@
               "id": 4349947035,
               "label": "Under",
               "englishLabel": "Under",
-              "odds": 1910,
+              "odds": 1920,
               "line": 242500,
               "type": "OT_UNDER",
               "betOfferId": 2696285599,
-              "changedDate": "2026-10-15T16:43:55Z",
+              "changedDate": "2026-10-16T14:06:39Z",
               "oddsFractional": "10/11",
-              "oddsAmerican": "-110",
+              "oddsAmerican": "-109",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -8314,6 +7629,7 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "MAIN_LINE",
             "BET_BUILDER"
           ],
@@ -8328,7 +7644,6 @@
       "betOffers": [
         {
           "id": 2696265551,
-          "closed": "2026-10-22T00:00:00Z",
           "criterion": {
             "id": 1001159732,
             "label": "Moneyline",
@@ -8348,14 +7663,14 @@
               "id": 4349968129,
               "label": "MEM Grizzlies",
               "englishLabel": "Memphis Grizzlies",
-              "odds": 2120,
+              "odds": 2080,
               "participant": "MEM Grizzlies",
               "type": "OT_ONE",
               "betOfferId": 2696265551,
-              "changedDate": "2026-10-12T19:33:08Z",
+              "changedDate": "2026-10-16T12:49:36Z",
               "participantId": 1000000343,
-              "oddsFractional": "11/10",
-              "oddsAmerican": "112",
+              "oddsFractional": "27/25",
+              "oddsAmerican": "108",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
@@ -8364,14 +7679,14 @@
               "id": 4349968130,
               "label": "UTA Jazz",
               "englishLabel": "Utah Jazz",
-              "odds": 1750,
+              "odds": 1760,
               "participant": "UTA Jazz",
               "type": "OT_TWO",
               "betOfferId": 2696265551,
-              "changedDate": "2026-10-12T19:33:08Z",
+              "changedDate": "2026-10-16T12:49:36Z",
               "participantId": 1000052893,
               "oddsFractional": "3/4",
-              "oddsAmerican": "-134",
+              "oddsAmerican": "-132",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -8379,129 +7694,14 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "BET_BUILDER",
             "MAIN"
           ],
           "cashOutStatus": "ENABLED"
         },
         {
-          "id": 2696265585,
-          "closed": "2026-10-22T00:00:00Z",
-          "criterion": {
-            "id": 1001159512,
-            "label": "Point Spread",
-            "englishLabel": "Point Spread - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 1,
-            "name": "Handicap",
-            "englishName": "Handicap"
-          },
-          "eventId": 1028754209,
-          "outcomes": [
-            {
-              "id": 4349968276,
-              "label": "MEM Grizzlies",
-              "englishLabel": "Memphis Grizzlies",
-              "odds": 1910,
-              "line": 2500,
-              "participant": "MEM Grizzlies",
-              "type": "OT_ONE",
-              "betOfferId": 2696265585,
-              "changedDate": "2026-10-12T19:33:08Z",
-              "participantId": 1000000343,
-              "oddsFractional": "10/11",
-              "oddsAmerican": "-110",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4349968277,
-              "label": "UTA Jazz",
-              "englishLabel": "Utah Jazz",
-              "odds": 1910,
-              "line": -2500,
-              "participant": "UTA Jazz",
-              "type": "OT_TWO",
-              "betOfferId": 2696265585,
-              "changedDate": "2026-10-12T19:33:08Z",
-              "participantId": 1000052893,
-              "oddsFractional": "10/11",
-              "oddsAmerican": "-110",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "MAIN_LINE",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
-          "id": 2703096397,
-          "closed": "2026-10-22T00:00:00Z",
-          "criterion": {
-            "id": 1001159509,
-            "label": "Total Points - Including Overtime",
-            "englishLabel": "Total Points - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 6,
-            "name": "Over/Under",
-            "englishName": "Over/Under"
-          },
-          "eventId": 1028754209,
-          "outcomes": [
-            {
-              "id": 4372379507,
-              "label": "Over",
-              "englishLabel": "Over",
-              "odds": 1880,
-              "line": 243000,
-              "type": "OT_OVER",
-              "betOfferId": 2703096397,
-              "changedDate": "2026-10-12T19:33:08Z",
-              "oddsFractional": "22/25",
-              "oddsAmerican": "-114",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4372379508,
-              "label": "Under",
-              "englishLabel": "Under",
-              "odds": 1940,
-              "line": 243000,
-              "type": "OT_UNDER",
-              "betOfferId": 2703096397,
-              "changedDate": "2026-10-12T19:33:08Z",
-              "oddsFractional": "23/25",
-              "oddsAmerican": "-107",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
           "id": 2703122037,
-          "closed": "2026-10-22T00:00:00Z",
           "criterion": {
             "id": 1001159509,
             "label": "Total Points - Including Overtime",
@@ -8521,13 +7721,13 @@
               "id": 4372356689,
               "label": "Over",
               "englishLabel": "Over",
-              "odds": 1920,
+              "odds": 1940,
               "line": 243500,
               "type": "OT_OVER",
               "betOfferId": 2703122037,
-              "changedDate": "2026-10-12T19:33:08Z",
-              "oddsFractional": "10/11",
-              "oddsAmerican": "-109",
+              "changedDate": "2026-10-16T12:49:36Z",
+              "oddsFractional": "23/25",
+              "oddsAmerican": "-107",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
@@ -8536,13 +7736,13 @@
               "id": 4372356690,
               "label": "Under",
               "englishLabel": "Under",
-              "odds": 1900,
+              "odds": 1880,
               "line": 243500,
               "type": "OT_UNDER",
               "betOfferId": 2703122037,
-              "changedDate": "2026-10-12T19:33:08Z",
-              "oddsFractional": "9/10",
-              "oddsAmerican": "-112",
+              "changedDate": "2026-10-16T12:49:36Z",
+              "oddsFractional": "22/25",
+              "oddsAmerican": "-114",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -8550,14 +7750,14 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "MAIN_LINE",
             "BET_BUILDER"
           ],
           "cashOutStatus": "ENABLED"
         },
         {
-          "id": 2703130925,
-          "closed": "2026-10-22T00:00:00Z",
+          "id": 2704664226,
           "criterion": {
             "id": 1001159512,
             "label": "Point Spread",
@@ -8574,35 +7774,35 @@
           "eventId": 1028754209,
           "outcomes": [
             {
-              "id": 4372376716,
+              "id": 4377308494,
               "label": "MEM Grizzlies",
               "englishLabel": "Memphis Grizzlies",
-              "odds": 1960,
-              "line": 2000,
+              "odds": 1950,
+              "line": 1500,
               "participant": "MEM Grizzlies",
               "type": "OT_ONE",
-              "betOfferId": 2703130925,
-              "changedDate": "2026-10-12T19:33:08Z",
+              "betOfferId": 2704664226,
+              "changedDate": "2026-10-16T12:49:36Z",
               "participantId": 1000000343,
               "oddsFractional": "19/20",
-              "oddsAmerican": "-105",
+              "oddsAmerican": "-106",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
             },
             {
-              "id": 4372376717,
+              "id": 4377308495,
               "label": "UTA Jazz",
               "englishLabel": "Utah Jazz",
-              "odds": 1860,
-              "line": -2000,
+              "odds": 1870,
+              "line": -1500,
               "participant": "UTA Jazz",
               "type": "OT_TWO",
-              "betOfferId": 2703130925,
-              "changedDate": "2026-10-12T19:33:08Z",
+              "betOfferId": 2704664226,
+              "changedDate": "2026-10-16T12:49:36Z",
               "participantId": 1000052893,
               "oddsFractional": "17/20",
-              "oddsAmerican": "-117",
+              "oddsAmerican": "-115",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -8610,6 +7810,8 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
+            "MAIN_LINE",
             "BET_BUILDER"
           ],
           "cashOutStatus": "ENABLED"
@@ -8623,7 +7825,6 @@
       "betOffers": [
         {
           "id": 2696274061,
-          "closed": "2026-10-22T00:30:00Z",
           "criterion": {
             "id": 1001159512,
             "label": "Point Spread",
@@ -8648,7 +7849,7 @@
               "participant": "HOU Rockets",
               "type": "OT_ONE",
               "betOfferId": 2696274061,
-              "changedDate": "2026-10-12T19:45:21Z",
+              "changedDate": "2026-10-16T12:55:04Z",
               "participantId": 1000018005,
               "oddsFractional": "10/11",
               "oddsAmerican": "-108",
@@ -8665,7 +7866,7 @@
               "participant": "DAL Mavericks",
               "type": "OT_TWO",
               "betOfferId": 2696274061,
-              "changedDate": "2026-10-12T19:45:21Z",
+              "changedDate": "2026-10-16T12:55:04Z",
               "participantId": 1000000221,
               "oddsFractional": "22/25",
               "oddsAmerican": "-113",
@@ -8676,6 +7877,7 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "MAIN_LINE",
             "BET_BUILDER"
           ],
@@ -8683,7 +7885,6 @@
         },
         {
           "id": 2696291493,
-          "closed": "2026-10-22T00:30:00Z",
           "criterion": {
             "id": 1001159732,
             "label": "Moneyline",
@@ -8703,14 +7904,14 @@
               "id": 4349979986,
               "label": "HOU Rockets",
               "englishLabel": "Houston Rockets",
-              "odds": 1300,
+              "odds": 1290,
               "participant": "HOU Rockets",
               "type": "OT_ONE",
               "betOfferId": 2696291493,
-              "changedDate": "2026-10-12T19:45:21Z",
+              "changedDate": "2026-10-16T12:55:04Z",
               "participantId": 1000018005,
-              "oddsFractional": "3/10",
-              "oddsAmerican": "-335",
+              "oddsFractional": "2/7",
+              "oddsAmerican": "-345",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
@@ -8719,14 +7920,14 @@
               "id": 4349979987,
               "label": "DAL Mavericks",
               "englishLabel": "Dallas Mavericks",
-              "odds": 3650,
+              "odds": 3600,
               "participant": "DAL Mavericks",
               "type": "OT_TWO",
               "betOfferId": 2696291493,
-              "changedDate": "2026-10-12T19:45:21Z",
+              "changedDate": "2026-10-16T12:55:04Z",
               "participantId": 1000000221,
               "oddsFractional": "13/5",
-              "oddsAmerican": "265",
+              "oddsAmerican": "260",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -8734,128 +7935,14 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "BET_BUILDER",
             "MAIN"
           ],
           "cashOutStatus": "ENABLED"
         },
         {
-          "id": 2696297438,
-          "closed": "2026-10-22T00:30:00Z",
-          "criterion": {
-            "id": 1001159512,
-            "label": "Point Spread",
-            "englishLabel": "Point Spread - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 1,
-            "name": "Handicap",
-            "englishName": "Handicap"
-          },
-          "eventId": 1028754216,
-          "outcomes": [
-            {
-              "id": 4349985879,
-              "label": "HOU Rockets",
-              "englishLabel": "Houston Rockets",
-              "odds": 1860,
-              "line": -8000,
-              "participant": "HOU Rockets",
-              "type": "OT_ONE",
-              "betOfferId": 2696297438,
-              "changedDate": "2026-10-12T19:45:21Z",
-              "participantId": 1000018005,
-              "oddsFractional": "17/20",
-              "oddsAmerican": "-117",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4349985881,
-              "label": "DAL Mavericks",
-              "englishLabel": "Dallas Mavericks",
-              "odds": 1960,
-              "line": 8000,
-              "participant": "DAL Mavericks",
-              "type": "OT_TWO",
-              "betOfferId": 2696297438,
-              "changedDate": "2026-10-12T19:45:21Z",
-              "participantId": 1000000221,
-              "oddsFractional": "19/20",
-              "oddsAmerican": "-105",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
-          "id": 2703116937,
-          "closed": "2026-10-22T00:30:00Z",
-          "criterion": {
-            "id": 1001159509,
-            "label": "Total Points - Including Overtime",
-            "englishLabel": "Total Points - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 6,
-            "name": "Over/Under",
-            "englishName": "Over/Under"
-          },
-          "eventId": 1028754216,
-          "outcomes": [
-            {
-              "id": 4372388661,
-              "label": "Over",
-              "englishLabel": "Over",
-              "odds": 1940,
-              "line": 229000,
-              "type": "OT_OVER",
-              "betOfferId": 2703116937,
-              "changedDate": "2026-10-12T19:45:21Z",
-              "oddsFractional": "23/25",
-              "oddsAmerican": "-107",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4372388662,
-              "label": "Under",
-              "englishLabel": "Under",
-              "odds": 1880,
-              "line": 229000,
-              "type": "OT_UNDER",
-              "betOfferId": 2703116937,
-              "changedDate": "2026-10-12T19:45:21Z",
-              "oddsFractional": "22/25",
-              "oddsAmerican": "-114",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
           "id": 2703119441,
-          "closed": "2026-10-22T00:30:00Z",
           "criterion": {
             "id": 1001159509,
             "label": "Total Points - Including Overtime",
@@ -8875,13 +7962,13 @@
               "id": 4372368683,
               "label": "Over",
               "englishLabel": "Over",
-              "odds": 1900,
+              "odds": 1890,
               "line": 228500,
               "type": "OT_OVER",
               "betOfferId": 2703119441,
-              "changedDate": "2026-10-12T19:45:21Z",
-              "oddsFractional": "9/10",
-              "oddsAmerican": "-112",
+              "changedDate": "2026-10-16T12:55:04Z",
+              "oddsFractional": "22/25",
+              "oddsAmerican": "-113",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
@@ -8890,13 +7977,13 @@
               "id": 4372368684,
               "label": "Under",
               "englishLabel": "Under",
-              "odds": 1920,
+              "odds": 1930,
               "line": 228500,
               "type": "OT_UNDER",
               "betOfferId": 2703119441,
-              "changedDate": "2026-10-12T19:45:21Z",
+              "changedDate": "2026-10-16T12:55:04Z",
               "oddsFractional": "10/11",
-              "oddsAmerican": "-109",
+              "oddsAmerican": "-108",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -8904,6 +7991,7 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "MAIN_LINE",
             "BET_BUILDER"
           ],
@@ -8918,7 +8006,6 @@
       "betOffers": [
         {
           "id": 2696257029,
-          "closed": "2026-10-22T02:00:00Z",
           "criterion": {
             "id": 1001159732,
             "label": "Moneyline",
@@ -8942,7 +8029,7 @@
               "participant": "LA Lakers",
               "type": "OT_ONE",
               "betOfferId": 2696257029,
-              "changedDate": "2026-10-12T19:53:07Z",
+              "changedDate": "2026-10-16T14:20:51Z",
               "participantId": 1000000226,
               "oddsFractional": "12/25",
               "oddsAmerican": "-210",
@@ -8958,7 +8045,7 @@
               "participant": "GS Warriors",
               "type": "OT_TWO",
               "betOfferId": 2696257029,
-              "changedDate": "2026-10-12T19:53:07Z",
+              "changedDate": "2026-10-16T14:20:51Z",
               "participantId": 1000000224,
               "oddsFractional": "17/10",
               "oddsAmerican": "170",
@@ -8969,73 +8056,14 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "BET_BUILDER",
             "MAIN"
           ],
           "cashOutStatus": "ENABLED"
         },
         {
-          "id": 2696257057,
-          "closed": "2026-10-22T02:00:00Z",
-          "criterion": {
-            "id": 1001159512,
-            "label": "Point Spread",
-            "englishLabel": "Point Spread - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 1,
-            "name": "Handicap",
-            "englishName": "Handicap"
-          },
-          "eventId": 1028736321,
-          "outcomes": [
-            {
-              "id": 4349974311,
-              "label": "LA Lakers",
-              "englishLabel": "Los Angeles Lakers",
-              "odds": 1850,
-              "line": -5000,
-              "participant": "LA Lakers",
-              "type": "OT_ONE",
-              "betOfferId": 2696257057,
-              "changedDate": "2026-10-12T19:53:07Z",
-              "participantId": 1000000226,
-              "oddsFractional": "17/20",
-              "oddsAmerican": "-118",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4349974312,
-              "label": "GS Warriors",
-              "englishLabel": "Golden State Warriors",
-              "odds": 1980,
-              "line": 5000,
-              "participant": "GS Warriors",
-              "type": "OT_TWO",
-              "betOfferId": 2696257057,
-              "changedDate": "2026-10-12T19:53:07Z",
-              "participantId": 1000000224,
-              "oddsFractional": "49/50",
-              "oddsAmerican": "-103",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
           "id": 2701159152,
-          "closed": "2026-10-22T02:00:00Z",
           "criterion": {
             "id": 1001159512,
             "label": "Point Spread",
@@ -9060,7 +8088,7 @@
               "participant": "LA Lakers",
               "type": "OT_ONE",
               "betOfferId": 2701159152,
-              "changedDate": "2026-10-12T19:53:07Z",
+              "changedDate": "2026-10-16T14:20:51Z",
               "participantId": 1000000226,
               "oddsFractional": "10/11",
               "oddsAmerican": "-109",
@@ -9077,7 +8105,7 @@
               "participant": "GS Warriors",
               "type": "OT_TWO",
               "betOfferId": 2701159152,
-              "changedDate": "2026-10-12T19:53:07Z",
+              "changedDate": "2026-10-16T14:20:51Z",
               "participantId": 1000000224,
               "oddsFractional": "9/10",
               "oddsAmerican": "-112",
@@ -9088,6 +8116,7 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "MAIN_LINE",
             "BET_BUILDER"
           ],
@@ -9095,7 +8124,6 @@
         },
         {
           "id": 2703111362,
-          "closed": "2026-10-22T02:00:00Z",
           "criterion": {
             "id": 1001159509,
             "label": "Total Points - Including Overtime",
@@ -9119,7 +8147,7 @@
               "line": 234500,
               "type": "OT_OVER",
               "betOfferId": 2703111362,
-              "changedDate": "2026-10-12T19:53:07Z",
+              "changedDate": "2026-10-16T14:20:51Z",
               "oddsFractional": "22/25",
               "oddsAmerican": "-113",
               "status": "OPEN",
@@ -9134,7 +8162,7 @@
               "line": 234500,
               "type": "OT_UNDER",
               "betOfferId": 2703111362,
-              "changedDate": "2026-10-12T19:53:07Z",
+              "changedDate": "2026-10-16T14:20:51Z",
               "oddsFractional": "10/11",
               "oddsAmerican": "-108",
               "status": "OPEN",
@@ -9144,62 +8172,7 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
-          "id": 2703142355,
-          "closed": "2026-10-22T02:00:00Z",
-          "criterion": {
-            "id": 1001159509,
-            "label": "Total Points - Including Overtime",
-            "englishLabel": "Total Points - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 6,
-            "name": "Over/Under",
-            "englishName": "Over/Under"
-          },
-          "eventId": 1028736321,
-          "outcomes": [
-            {
-              "id": 4372406151,
-              "label": "Over",
-              "englishLabel": "Over",
-              "odds": 1930,
-              "line": 235000,
-              "type": "OT_OVER",
-              "betOfferId": 2703142355,
-              "changedDate": "2026-10-12T19:53:07Z",
-              "oddsFractional": "10/11",
-              "oddsAmerican": "-108",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4372406152,
-              "label": "Under",
-              "englishLabel": "Under",
-              "odds": 1890,
-              "line": 235000,
-              "type": "OT_UNDER",
-              "betOfferId": 2703142355,
-              "changedDate": "2026-10-12T19:53:07Z",
-              "oddsFractional": "22/25",
-              "oddsAmerican": "-113",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "MAIN_LINE",
+            "OFFERED_LIVE",
             "BET_BUILDER"
           ],
           "cashOutStatus": "ENABLED"
@@ -9212,68 +8185,7 @@
       "start": "2026-10-22T02:00:00Z",
       "betOffers": [
         {
-          "id": 2696297531,
-          "closed": "2026-10-22T02:00:00Z",
-          "criterion": {
-            "id": 1001159512,
-            "label": "Point Spread",
-            "englishLabel": "Point Spread - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 1,
-            "name": "Handicap",
-            "englishName": "Handicap"
-          },
-          "eventId": 1028754214,
-          "outcomes": [
-            {
-              "id": 4349986154,
-              "label": "POR Trail Blazers",
-              "englishLabel": "Portland Trail Blazers",
-              "odds": 1940,
-              "line": -4500,
-              "participant": "POR Trail Blazers",
-              "type": "OT_ONE",
-              "betOfferId": 2696297531,
-              "changedDate": "2026-10-12T19:51:40Z",
-              "participantId": 1000000227,
-              "oddsFractional": "23/25",
-              "oddsAmerican": "-107",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4349986155,
-              "label": "PHO Suns",
-              "englishLabel": "Phoenix Suns",
-              "odds": 1880,
-              "line": 4500,
-              "participant": "PHO Suns",
-              "type": "OT_TWO",
-              "betOfferId": 2696297531,
-              "changedDate": "2026-10-12T19:51:40Z",
-              "participantId": 1000000538,
-              "oddsFractional": "22/25",
-              "oddsAmerican": "-114",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "MAIN_LINE",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
           "id": 2696297532,
-          "closed": "2026-10-22T02:00:00Z",
           "criterion": {
             "id": 1001159732,
             "label": "Moneyline",
@@ -9293,14 +8205,14 @@
               "id": 4349986156,
               "label": "POR Trail Blazers",
               "englishLabel": "Portland Trail Blazers",
-              "odds": 1570,
+              "odds": 1580,
               "participant": "POR Trail Blazers",
               "type": "OT_ONE",
               "betOfferId": 2696297532,
-              "changedDate": "2026-10-12T19:51:40Z",
+              "changedDate": "2026-10-16T14:01:59Z",
               "participantId": 1000000227,
-              "oddsFractional": "11/20",
-              "oddsAmerican": "-177",
+              "oddsFractional": "4/7",
+              "oddsAmerican": "-175",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
@@ -9309,14 +8221,14 @@
               "id": 4349986157,
               "label": "PHO Suns",
               "englishLabel": "Phoenix Suns",
-              "odds": 2480,
+              "odds": 2380,
               "participant": "PHO Suns",
               "type": "OT_TWO",
               "betOfferId": 2696297532,
-              "changedDate": "2026-10-12T19:51:40Z",
+              "changedDate": "2026-10-16T14:01:59Z",
               "participantId": 1000000538,
-              "oddsFractional": "29/20",
-              "oddsAmerican": "148",
+              "oddsFractional": "11/8",
+              "oddsAmerican": "138",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -9324,14 +8236,69 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "BET_BUILDER",
             "MAIN"
           ],
           "cashOutStatus": "ENABLED"
         },
         {
-          "id": 2696297533,
-          "closed": "2026-10-22T02:00:00Z",
+          "id": 2703119526,
+          "criterion": {
+            "id": 1001159509,
+            "label": "Total Points - Including Overtime",
+            "englishLabel": "Total Points - Including Overtime",
+            "order": [],
+            "occurrenceType": "POINTS",
+            "lifetime": "FULL_TIME_OVERTIME"
+          },
+          "betOfferType": {
+            "id": 6,
+            "name": "Over/Under",
+            "englishName": "Over/Under"
+          },
+          "eventId": 1028754214,
+          "outcomes": [
+            {
+              "id": 4372368888,
+              "label": "Over",
+              "englishLabel": "Over",
+              "odds": 1910,
+              "line": 233500,
+              "type": "OT_OVER",
+              "betOfferId": 2703119526,
+              "changedDate": "2026-10-16T14:01:59Z",
+              "oddsFractional": "10/11",
+              "oddsAmerican": "-110",
+              "status": "OPEN",
+              "cashOutStatus": "ENABLED",
+              "displayOrder": 0
+            },
+            {
+              "id": 4372368889,
+              "label": "Under",
+              "englishLabel": "Under",
+              "odds": 1900,
+              "line": 233500,
+              "type": "OT_UNDER",
+              "betOfferId": 2703119526,
+              "changedDate": "2026-10-16T14:01:59Z",
+              "oddsFractional": "9/10",
+              "oddsAmerican": "-112",
+              "status": "OPEN",
+              "cashOutStatus": "ENABLED",
+              "displayOrder": 1
+            }
+          ],
+          "tags": [
+            "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
+            "BET_BUILDER"
+          ],
+          "cashOutStatus": "ENABLED"
+        },
+        {
+          "id": 2704653056,
           "criterion": {
             "id": 1001159512,
             "label": "Point Spread",
@@ -9348,35 +8315,35 @@
           "eventId": 1028754214,
           "outcomes": [
             {
-              "id": 4349986158,
+              "id": 4377367455,
               "label": "POR Trail Blazers",
               "englishLabel": "Portland Trail Blazers",
-              "odds": 1870,
-              "line": -4000,
+              "odds": 1880,
+              "line": -3500,
               "participant": "POR Trail Blazers",
               "type": "OT_ONE",
-              "betOfferId": 2696297533,
-              "changedDate": "2026-10-12T19:51:40Z",
+              "betOfferId": 2704653056,
+              "changedDate": "2026-10-16T14:01:59Z",
               "participantId": 1000000227,
-              "oddsFractional": "17/20",
-              "oddsAmerican": "-115",
+              "oddsFractional": "22/25",
+              "oddsAmerican": "-114",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
             },
             {
-              "id": 4349986159,
+              "id": 4377367456,
               "label": "PHO Suns",
               "englishLabel": "Phoenix Suns",
-              "odds": 1950,
-              "line": 4000,
+              "odds": 1940,
+              "line": 3500,
               "participant": "PHO Suns",
               "type": "OT_TWO",
-              "betOfferId": 2696297533,
-              "changedDate": "2026-10-12T19:51:40Z",
+              "betOfferId": 2704653056,
+              "changedDate": "2026-10-16T14:01:59Z",
               "participantId": 1000000538,
-              "oddsFractional": "19/20",
-              "oddsAmerican": "-106",
+              "oddsFractional": "23/25",
+              "oddsAmerican": "-107",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -9384,116 +8351,7 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
-          "id": 2703099847,
-          "closed": "2026-10-22T02:00:00Z",
-          "criterion": {
-            "id": 1001159509,
-            "label": "Total Points - Including Overtime",
-            "englishLabel": "Total Points - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 6,
-            "name": "Over/Under",
-            "englishName": "Over/Under"
-          },
-          "eventId": 1028754214,
-          "outcomes": [
-            {
-              "id": 4372374963,
-              "label": "Over",
-              "englishLabel": "Over",
-              "odds": 1930,
-              "line": 234500,
-              "type": "OT_OVER",
-              "betOfferId": 2703099847,
-              "changedDate": "2026-10-12T19:51:40Z",
-              "oddsFractional": "10/11",
-              "oddsAmerican": "-108",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4372374964,
-              "label": "Under",
-              "englishLabel": "Under",
-              "odds": 1890,
-              "line": 234500,
-              "type": "OT_UNDER",
-              "betOfferId": 2703099847,
-              "changedDate": "2026-10-12T19:51:40Z",
-              "oddsFractional": "22/25",
-              "oddsAmerican": "-113",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
-          "id": 2703117046,
-          "closed": "2026-10-22T02:00:00Z",
-          "criterion": {
-            "id": 1001159509,
-            "label": "Total Points - Including Overtime",
-            "englishLabel": "Total Points - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 6,
-            "name": "Over/Under",
-            "englishName": "Over/Under"
-          },
-          "eventId": 1028754214,
-          "outcomes": [
-            {
-              "id": 4372389010,
-              "label": "Over",
-              "englishLabel": "Over",
-              "odds": 1900,
-              "line": 234000,
-              "type": "OT_OVER",
-              "betOfferId": 2703117046,
-              "changedDate": "2026-10-12T19:51:40Z",
-              "oddsFractional": "9/10",
-              "oddsAmerican": "-112",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4372389011,
-              "label": "Under",
-              "englishLabel": "Under",
-              "odds": 1920,
-              "line": 234000,
-              "type": "OT_UNDER",
-              "betOfferId": 2703117046,
-              "changedDate": "2026-10-12T19:51:40Z",
-              "oddsFractional": "10/11",
-              "oddsAmerican": "-109",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "MAIN_LINE",
             "BET_BUILDER"
           ],
@@ -9508,7 +8366,6 @@
       "betOffers": [
         {
           "id": 2701116208,
-          "closed": "2026-10-22T02:30:00Z",
           "criterion": {
             "id": 1001159732,
             "label": "Moneyline",
@@ -9528,14 +8385,14 @@
               "id": 4365911550,
               "label": "LA Clippers",
               "englishLabel": "LA Clippers",
-              "odds": 1640,
+              "odds": 1600,
               "participant": "LA Clippers",
               "type": "OT_ONE",
               "betOfferId": 2701116208,
-              "changedDate": "2026-10-12T19:52:25Z",
+              "changedDate": "2026-10-16T14:27:30Z",
               "participantId": 1000000225,
-              "oddsFractional": "16/25",
-              "oddsAmerican": "-157",
+              "oddsFractional": "3/5",
+              "oddsAmerican": "-167",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
@@ -9544,14 +8401,14 @@
               "id": 4365911551,
               "label": "SAC Kings",
               "englishLabel": "Sacramento Kings",
-              "odds": 2330,
+              "odds": 2380,
               "participant": "SAC Kings",
               "type": "OT_TWO",
               "betOfferId": 2701116208,
-              "changedDate": "2026-10-12T19:52:25Z",
+              "changedDate": "2026-10-16T14:27:30Z",
               "participantId": 1000000228,
-              "oddsFractional": "13/10",
-              "oddsAmerican": "133",
+              "oddsFractional": "11/8",
+              "oddsAmerican": "138",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -9559,6 +8416,7 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "BET_BUILDER",
             "MAIN"
           ],
@@ -9566,7 +8424,6 @@
         },
         {
           "id": 2701116221,
-          "closed": "2026-10-22T02:30:00Z",
           "criterion": {
             "id": 1001159509,
             "label": "Total Points - Including Overtime",
@@ -9586,13 +8443,13 @@
               "id": 4365911576,
               "label": "Over",
               "englishLabel": "Over",
-              "odds": 1920,
+              "odds": 1940,
               "line": 230500,
               "type": "OT_OVER",
               "betOfferId": 2701116221,
-              "changedDate": "2026-10-12T19:52:25Z",
-              "oddsFractional": "10/11",
-              "oddsAmerican": "-109",
+              "changedDate": "2026-10-16T14:27:30Z",
+              "oddsFractional": "23/25",
+              "oddsAmerican": "-107",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
@@ -9601,13 +8458,13 @@
               "id": 4365911577,
               "label": "Under",
               "englishLabel": "Under",
-              "odds": 1900,
+              "odds": 1880,
               "line": 230500,
               "type": "OT_UNDER",
               "betOfferId": 2701116221,
-              "changedDate": "2026-10-12T19:52:25Z",
-              "oddsFractional": "9/10",
-              "oddsAmerican": "-112",
+              "changedDate": "2026-10-16T14:27:30Z",
+              "oddsFractional": "22/25",
+              "oddsAmerican": "-114",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -9615,69 +8472,14 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
+            "OFFERED_LIVE",
             "MAIN_LINE",
             "BET_BUILDER"
           ],
           "cashOutStatus": "ENABLED"
         },
         {
-          "id": 2701116222,
-          "closed": "2026-10-22T02:30:00Z",
-          "criterion": {
-            "id": 1001159509,
-            "label": "Total Points - Including Overtime",
-            "englishLabel": "Total Points - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 6,
-            "name": "Over/Under",
-            "englishName": "Over/Under"
-          },
-          "eventId": 1028754212,
-          "outcomes": [
-            {
-              "id": 4365911578,
-              "label": "Over",
-              "englishLabel": "Over",
-              "odds": 1880,
-              "line": 230000,
-              "type": "OT_OVER",
-              "betOfferId": 2701116222,
-              "changedDate": "2026-10-12T19:52:25Z",
-              "oddsFractional": "22/25",
-              "oddsAmerican": "-114",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4365911579,
-              "label": "Under",
-              "englishLabel": "Under",
-              "odds": 1940,
-              "line": 230000,
-              "type": "OT_UNDER",
-              "betOfferId": 2701116222,
-              "changedDate": "2026-10-12T19:52:25Z",
-              "oddsFractional": "23/25",
-              "oddsAmerican": "-107",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
-          "id": 2701141631,
-          "closed": "2026-10-22T02:30:00Z",
+          "id": 2703117071,
           "criterion": {
             "id": 1001159512,
             "label": "Point Spread",
@@ -9694,35 +8496,35 @@
           "eventId": 1028754212,
           "outcomes": [
             {
-              "id": 4365930428,
+              "id": 4372389083,
               "label": "LA Clippers",
               "englishLabel": "LA Clippers",
-              "odds": 1940,
-              "line": -4500,
+              "odds": 1850,
+              "line": -3500,
               "participant": "LA Clippers",
               "type": "OT_ONE",
-              "betOfferId": 2701141631,
-              "changedDate": "2026-10-12T19:52:25Z",
+              "betOfferId": 2703117071,
+              "changedDate": "2026-10-16T14:27:30Z",
               "participantId": 1000000225,
-              "oddsFractional": "23/25",
-              "oddsAmerican": "-107",
+              "oddsFractional": "17/20",
+              "oddsAmerican": "-118",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 0
             },
             {
-              "id": 4365930429,
+              "id": 4372389084,
               "label": "SAC Kings",
               "englishLabel": "Sacramento Kings",
-              "odds": 1880,
-              "line": 4500,
+              "odds": 1970,
+              "line": 3500,
               "participant": "SAC Kings",
               "type": "OT_TWO",
-              "betOfferId": 2701141631,
-              "changedDate": "2026-10-12T19:52:25Z",
+              "betOfferId": 2703117071,
+              "changedDate": "2026-10-16T14:27:30Z",
               "participantId": 1000000228,
-              "oddsFractional": "22/25",
-              "oddsAmerican": "-114",
+              "oddsFractional": "19/20",
+              "oddsAmerican": "-104",
               "status": "OPEN",
               "cashOutStatus": "ENABLED",
               "displayOrder": 1
@@ -9730,66 +8532,7 @@
           ],
           "tags": [
             "OFFERED_PREMATCH",
-            "BET_BUILDER"
-          ],
-          "cashOutStatus": "ENABLED"
-        },
-        {
-          "id": 2701141632,
-          "closed": "2026-10-22T02:30:00Z",
-          "criterion": {
-            "id": 1001159512,
-            "label": "Point Spread",
-            "englishLabel": "Point Spread - Including Overtime",
-            "order": [],
-            "occurrenceType": "POINTS",
-            "lifetime": "FULL_TIME_OVERTIME"
-          },
-          "betOfferType": {
-            "id": 1,
-            "name": "Handicap",
-            "englishName": "Handicap"
-          },
-          "eventId": 1028754212,
-          "outcomes": [
-            {
-              "id": 4365930430,
-              "label": "LA Clippers",
-              "englishLabel": "LA Clippers",
-              "odds": 1880,
-              "line": -4000,
-              "participant": "LA Clippers",
-              "type": "OT_ONE",
-              "betOfferId": 2701141632,
-              "changedDate": "2026-10-12T19:52:25Z",
-              "participantId": 1000000225,
-              "oddsFractional": "22/25",
-              "oddsAmerican": "-114",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 0
-            },
-            {
-              "id": 4365930431,
-              "label": "SAC Kings",
-              "englishLabel": "Sacramento Kings",
-              "odds": 1940,
-              "line": 4000,
-              "participant": "SAC Kings",
-              "type": "OT_TWO",
-              "betOfferId": 2701141632,
-              "changedDate": "2026-10-12T19:52:25Z",
-              "participantId": 1000000228,
-              "oddsFractional": "23/25",
-              "oddsAmerican": "-107",
-              "status": "OPEN",
-              "cashOutStatus": "ENABLED",
-              "displayOrder": 1
-            }
-          ],
-          "tags": [
-            "OFFERED_PREMATCH",
-            "MAIN_LINE",
+            "OFFERED_LIVE",
             "BET_BUILDER"
           ],
           "cashOutStatus": "ENABLED"
