@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T04:32:39.398084+00:00",
+  "generatedAt": "2026-10-17T10:49:06.868944+00:00",
   "source": "ESPN",
   "players": [
     {
@@ -563,15 +563,25 @@
     {
       "playerId": "3213",
       "playerName": "Al Horford",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Golden State Warriors",
       "averages": {
-        "points": 3.5,
-        "rebounds": 4.0,
-        "assists": 2.0,
-        "threes": 0.5
+        "points": 7.33,
+        "rebounds": 3.33,
+        "assists": 1.67,
+        "threes": 2.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "9",
+          "team": "Golden State Warriors",
+          "points": 15,
+          "rebounds": 2,
+          "assists": 1,
+          "threes": 5
+        },
         {
           "eventId": "401898399",
           "date": "2026-10-11T00:30Z",
@@ -803,15 +813,25 @@
     {
       "playerId": "5170949",
       "playerName": "Alex Toohey",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Golden State Warriors",
       "averages": {
-        "points": 3.33,
-        "rebounds": 0.67,
+        "points": 2.5,
+        "rebounds": 0.75,
         "assists": 1.0,
-        "threes": 0.67
+        "threes": 0.5
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "9",
+          "team": "Golden State Warriors",
+          "points": 0,
+          "rebounds": 1,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401914129",
           "date": "2026-10-08T02:00Z",
@@ -973,15 +993,25 @@
     {
       "playerId": "4065813",
       "playerName": "Alpha Diallo",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 3.0,
-        "rebounds": 2.5,
-        "assists": 1.25,
-        "threes": 0.5
+        "points": 4.2,
+        "rebounds": 3.0,
+        "assists": 1.2,
+        "threes": 0.6
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 9,
+          "rebounds": 5,
+          "assists": 1,
+          "threes": 1
+        },
         {
           "eventId": "401918011",
           "date": "2026-10-15T02:30Z",
@@ -1737,15 +1767,25 @@
     {
       "playerId": "4066457",
       "playerName": "Austin Reaves",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Los Angeles Lakers",
       "averages": {
-        "points": 18.0,
-        "rebounds": 4.5,
-        "assists": 7.5,
-        "threes": 2.0
+        "points": 18.33,
+        "rebounds": 4.67,
+        "assists": 6.0,
+        "threes": 1.67
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "13",
+          "team": "Los Angeles Lakers",
+          "points": 19,
+          "rebounds": 5,
+          "assists": 3,
+          "threes": 1
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -2677,15 +2717,25 @@
     {
       "playerId": "4592435",
       "playerName": "Branden Carlson",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Portland Trail Blazers",
       "averages": {
-        "points": 3.0,
-        "rebounds": 2.67,
+        "points": 2.25,
+        "rebounds": 2.5,
         "assists": 0.0,
-        "threes": 0.33
+        "threes": 0.25
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "22",
+          "team": "Portland Trail Blazers",
+          "points": 0,
+          "rebounds": 2,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401901826",
           "date": "2026-10-14T02:00Z",
@@ -2721,15 +2771,25 @@
     {
       "playerId": "4709138",
       "playerName": "Brandin Podziemski",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Golden State Warriors",
       "averages": {
-        "points": 13.5,
-        "rebounds": 4.0,
-        "assists": 2.25,
-        "threes": 2.0
+        "points": 14.2,
+        "rebounds": 3.8,
+        "assists": 2.2,
+        "threes": 2.2
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "9",
+          "team": "Golden State Warriors",
+          "points": 17,
+          "rebounds": 3,
+          "assists": 2,
+          "threes": 3
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -3049,15 +3109,25 @@
     {
       "playerId": "4683774",
       "playerName": "Bronny James",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Los Angeles Lakers",
       "averages": {
-        "points": 2.75,
-        "rebounds": 2.75,
-        "assists": 3.25,
-        "threes": 0.25
+        "points": 2.2,
+        "rebounds": 2.4,
+        "assists": 2.8,
+        "threes": 0.2
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "13",
+          "team": "Los Angeles Lakers",
+          "points": 0,
+          "rebounds": 1,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -3299,15 +3369,25 @@
     {
       "playerId": "4565698",
       "playerName": "Bryce Hopkins",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 3.75,
-        "rebounds": 1.25,
-        "assists": 1.25,
+        "points": 4.0,
+        "rebounds": 1.8,
+        "assists": 1.0,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 5,
+          "rebounds": 4,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401918011",
           "date": "2026-10-15T02:30Z",
@@ -3921,15 +4001,25 @@
     {
       "playerId": "5105592",
       "playerName": "Cam Whitmore",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 10.25,
-        "rebounds": 1.75,
-        "assists": 0.5,
-        "threes": 0.75
+        "points": 8.6,
+        "rebounds": 1.4,
+        "assists": 0.4,
+        "threes": 0.6
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 2,
+          "rebounds": 0,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401918011",
           "date": "2026-10-15T02:30Z",
@@ -4107,15 +4197,25 @@
     {
       "playerId": "3138196",
       "playerName": "Cameron Johnson",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 9.5,
-        "rebounds": 2.0,
-        "assists": 0.75,
-        "threes": 2.25
+        "points": 10.0,
+        "rebounds": 2.2,
+        "assists": 0.8,
+        "threes": 2.2
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 12,
+          "rebounds": 3,
+          "assists": 1,
+          "threes": 2
+        },
         {
           "eventId": "401918011",
           "date": "2026-10-15T02:30Z",
@@ -4469,15 +4569,25 @@
     {
       "playerId": "4397886",
       "playerName": "Charles Bassey",
-      "gamesPlayed": 5,
+      "gamesPlayed": 6,
       "team": "Golden State Warriors",
       "averages": {
-        "points": 8.4,
-        "rebounds": 7.0,
-        "assists": 1.2,
+        "points": 8.0,
+        "rebounds": 6.5,
+        "assists": 1.0,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "9",
+          "team": "Golden State Warriors",
+          "points": 6,
+          "rebounds": 4,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -4675,15 +4785,25 @@
     {
       "playerId": "4702972",
       "playerName": "Chris Manon",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Los Angeles Lakers",
       "averages": {
-        "points": 6.5,
-        "rebounds": 2.5,
-        "assists": 0.5,
-        "threes": 0.25
+        "points": 5.8,
+        "rebounds": 2.0,
+        "assists": 0.8,
+        "threes": 0.2
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "13",
+          "team": "Los Angeles Lakers",
+          "points": 3,
+          "rebounds": 0,
+          "assists": 2,
+          "threes": 0
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -4787,15 +4907,25 @@
     {
       "playerId": "4431767",
       "playerName": "Christian Braun",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 4.0,
-        "rebounds": 3.5,
-        "assists": 0.5,
-        "threes": 0.25
+        "points": 6.4,
+        "rebounds": 4.0,
+        "assists": 0.6,
+        "threes": 0.6
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 16,
+          "rebounds": 6,
+          "assists": 1,
+          "threes": 2
+        },
         {
           "eventId": "401918011",
           "date": "2026-10-15T02:30Z",
@@ -5801,15 +5931,25 @@
     {
       "playerId": "4897943",
       "playerName": "Dalton Knecht",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Los Angeles Lakers",
       "averages": {
-        "points": 3.67,
-        "rebounds": 1.33,
-        "assists": 0.67,
-        "threes": 0.33
+        "points": 2.75,
+        "rebounds": 1.25,
+        "assists": 0.75,
+        "threes": 0.25
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "13",
+          "team": "Los Angeles Lakers",
+          "points": 0,
+          "rebounds": 1,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -5845,15 +5985,25 @@
     {
       "playerId": "6606",
       "playerName": "Damian Lillard",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Portland Trail Blazers",
       "averages": {
-        "points": 14.5,
-        "rebounds": 2.0,
-        "assists": 2.5,
-        "threes": 3.0
+        "points": 17.33,
+        "rebounds": 1.67,
+        "assists": 2.67,
+        "threes": 2.67
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "22",
+          "team": "Portland Trail Blazers",
+          "points": 23,
+          "rebounds": 1,
+          "assists": 3,
+          "threes": 2
+        },
         {
           "eventId": "401901826",
           "date": "2026-10-14T02:00Z",
@@ -6467,15 +6617,25 @@
     {
       "playerId": "4066436",
       "playerName": "De'Anthony Melton",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Golden State Warriors",
       "averages": {
-        "points": 4.75,
-        "rebounds": 1.25,
-        "assists": 2.25,
-        "threes": 0.5
+        "points": 5.2,
+        "rebounds": 1.4,
+        "assists": 2.0,
+        "threes": 0.6
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "9",
+          "team": "Golden State Warriors",
+          "points": 7,
+          "rebounds": 2,
+          "assists": 1,
+          "threes": 1
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -6545,15 +6705,25 @@
     {
       "playerId": "3978",
       "playerName": "DeMar DeRozan",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 4.67,
-        "rebounds": 1.33,
-        "assists": 1.33,
-        "threes": 0.33
+        "points": 7.0,
+        "rebounds": 1.25,
+        "assists": 2.25,
+        "threes": 0.25
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 14,
+          "rebounds": 1,
+          "assists": 5,
+          "threes": 0
+        },
         {
           "eventId": "401908941",
           "date": "2026-10-12T01:00Z",
@@ -6745,15 +6915,25 @@
     {
       "playerId": "4683021",
       "playerName": "Deni Avdija",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Portland Trail Blazers",
       "averages": {
-        "points": 19.33,
-        "rebounds": 5.33,
-        "assists": 3.33,
-        "threes": 2.0
+        "points": 17.5,
+        "rebounds": 5.0,
+        "assists": 3.25,
+        "threes": 1.5
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "22",
+          "team": "Portland Trail Blazers",
+          "points": 12,
+          "rebounds": 4,
+          "assists": 3,
+          "threes": 0
+        },
         {
           "eventId": "401901826",
           "date": "2026-10-14T02:00Z",
@@ -7361,15 +7541,25 @@
     {
       "playerId": "5105565",
       "playerName": "Donovan Clingan",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Portland Trail Blazers",
       "averages": {
         "points": 6.0,
-        "rebounds": 6.67,
-        "assists": 1.67,
+        "rebounds": 7.75,
+        "assists": 1.5,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "22",
+          "team": "Portland Trail Blazers",
+          "points": 6,
+          "rebounds": 11,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401901826",
           "date": "2026-10-14T02:00Z",
@@ -7547,15 +7737,25 @@
     {
       "playerId": "6589",
       "playerName": "Draymond Green",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Golden State Warriors",
       "averages": {
-        "points": 2.67,
-        "rebounds": 3.67,
-        "assists": 5.0,
-        "threes": 0.33
+        "points": 3.75,
+        "rebounds": 4.75,
+        "assists": 6.25,
+        "threes": 0.5
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "9",
+          "team": "Golden State Warriors",
+          "points": 7,
+          "rebounds": 8,
+          "assists": 10,
+          "threes": 1
+        },
         {
           "eventId": "401898399",
           "date": "2026-10-11T00:30Z",
@@ -8813,15 +9013,25 @@
     {
       "playerId": "3134903",
       "playerName": "Gary Payton II",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Golden State Warriors",
       "averages": {
-        "points": 4.0,
-        "rebounds": 2.75,
-        "assists": 1.0,
-        "threes": 0.25
+        "points": 4.8,
+        "rebounds": 3.0,
+        "assists": 0.8,
+        "threes": 0.2
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "9",
+          "team": "Golden State Warriors",
+          "points": 8,
+          "rebounds": 4,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -8901,15 +9111,25 @@
     {
       "playerId": "2990969",
       "playerName": "Georges Niang",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Golden State Warriors",
       "averages": {
-        "points": 6.25,
-        "rebounds": 1.5,
-        "assists": 0.5,
-        "threes": 1.0
+        "points": 7.6,
+        "rebounds": 1.8,
+        "assists": 0.4,
+        "threes": 1.2
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "9",
+          "team": "Golden State Warriors",
+          "points": 13,
+          "rebounds": 3,
+          "assists": 0,
+          "threes": 2
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -9097,15 +9317,25 @@
     {
       "playerId": "4703396",
       "playerName": "Graham Ike",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Golden State Warriors",
       "averages": {
-        "points": 8.25,
-        "rebounds": 5.25,
-        "assists": 1.5,
-        "threes": 0.5
+        "points": 7.0,
+        "rebounds": 4.4,
+        "assists": 1.4,
+        "threes": 0.4
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "9",
+          "team": "Golden State Warriors",
+          "points": 2,
+          "rebounds": 1,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -9229,15 +9459,25 @@
     {
       "playerId": "4997536",
       "playerName": "Gui Santos",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Golden State Warriors",
       "averages": {
-        "points": 10.25,
-        "rebounds": 4.5,
-        "assists": 1.5,
-        "threes": 0.75
+        "points": 9.6,
+        "rebounds": 3.8,
+        "assists": 1.4,
+        "threes": 0.6
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "9",
+          "team": "Golden State Warriors",
+          "points": 7,
+          "rebounds": 1,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -10331,15 +10571,25 @@
     {
       "playerId": "4279888",
       "playerName": "Ja Morant",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Portland Trail Blazers",
       "averages": {
-        "points": 9.0,
-        "rebounds": 1.33,
-        "assists": 5.33,
-        "threes": 0.33
+        "points": 11.5,
+        "rebounds": 1.75,
+        "assists": 4.75,
+        "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "22",
+          "team": "Portland Trail Blazers",
+          "points": 19,
+          "rebounds": 3,
+          "assists": 3,
+          "threes": 3
+        },
         {
           "eventId": "401901826",
           "date": "2026-10-14T02:00Z",
@@ -10709,15 +10959,25 @@
     {
       "playerId": "4868423",
       "playerName": "Jaden Hardy",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Los Angeles Lakers",
       "averages": {
-        "points": 9.25,
-        "rebounds": 1.75,
-        "assists": 1.5,
-        "threes": 1.0
+        "points": 10.0,
+        "rebounds": 1.6,
+        "assists": 1.2,
+        "threes": 1.4
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "13",
+          "team": "Los Angeles Lakers",
+          "points": 13,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 3
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -10973,15 +11233,25 @@
     {
       "playerId": "4592691",
       "playerName": "Jake LaRavia",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Los Angeles Lakers",
       "averages": {
-        "points": 10.5,
-        "rebounds": 3.25,
+        "points": 9.0,
+        "rebounds": 3.0,
         "assists": 2.0,
-        "threes": 1.75
+        "threes": 1.6
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "13",
+          "team": "Los Angeles Lakers",
+          "points": 3,
+          "rebounds": 2,
+          "assists": 2,
+          "threes": 1
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -11741,15 +12011,25 @@
     {
       "playerId": "3936299",
       "playerName": "Jamal Murray",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 10.33,
+        "points": 13.0,
         "rebounds": 3.0,
-        "assists": 3.0,
-        "threes": 1.0
+        "assists": 3.75,
+        "threes": 0.75
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 21,
+          "rebounds": 3,
+          "assists": 6,
+          "threes": 0
+        },
         {
           "eventId": "401918011",
           "date": "2026-10-15T02:30Z",
@@ -13015,15 +13295,25 @@
     {
       "playerId": "4703889",
       "playerName": "Jayson Kent",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Portland Trail Blazers",
       "averages": {
-        "points": 3.33,
-        "rebounds": 3.0,
-        "assists": 0.67,
-        "threes": 0.67
+        "points": 3.25,
+        "rebounds": 2.75,
+        "assists": 0.75,
+        "threes": 0.75
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "22",
+          "team": "Portland Trail Blazers",
+          "points": 3,
+          "rebounds": 2,
+          "assists": 1,
+          "threes": 1
+        },
         {
           "eventId": "401901826",
           "date": "2026-10-14T02:00Z",
@@ -13191,15 +13481,25 @@
     {
       "playerId": "4610139",
       "playerName": "Jeremy Sochan",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Portland Trail Blazers",
       "averages": {
         "points": 6.0,
-        "rebounds": 3.33,
-        "assists": 1.33,
-        "threes": 0.67
+        "rebounds": 3.25,
+        "assists": 1.25,
+        "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "22",
+          "team": "Portland Trail Blazers",
+          "points": 6,
+          "rebounds": 3,
+          "assists": 1,
+          "threes": 2
+        },
         {
           "eventId": "401901826",
           "date": "2026-10-14T02:00Z",
@@ -13671,15 +13971,25 @@
     {
       "playerId": "4593043",
       "playerName": "John Tonje",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Portland Trail Blazers",
       "averages": {
-        "points": 0.5,
+        "points": 2.33,
         "rebounds": 1.0,
-        "assists": 1.0,
-        "threes": 0.0
+        "assists": 1.33,
+        "threes": 0.33
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "22",
+          "team": "Portland Trail Blazers",
+          "points": 6,
+          "rebounds": 1,
+          "assists": 2,
+          "threes": 1
+        },
         {
           "eventId": "401914130",
           "date": "2026-10-12T20:00Z",
@@ -16325,15 +16635,25 @@
     {
       "playerId": "3155535",
       "playerName": "Kevon Looney",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Los Angeles Lakers",
       "averages": {
-        "points": 2.0,
-        "rebounds": 5.5,
-        "assists": 1.5,
+        "points": 1.6,
+        "rebounds": 4.8,
+        "assists": 1.4,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "13",
+          "team": "Los Angeles Lakers",
+          "points": 0,
+          "rebounds": 2,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -17221,15 +17541,25 @@
     {
       "playerId": "4433149",
       "playerName": "LJ Cryer",
-      "gamesPlayed": 5,
+      "gamesPlayed": 6,
       "team": "Golden State Warriors",
       "averages": {
-        "points": 2.2,
-        "rebounds": 0.2,
-        "assists": 0.4,
-        "threes": 0.2
+        "points": 2.67,
+        "rebounds": 0.17,
+        "assists": 0.5,
+        "threes": 0.33
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "9",
+          "team": "Golden State Warriors",
+          "points": 5,
+          "rebounds": 0,
+          "assists": 1,
+          "threes": 1
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -17847,15 +18177,25 @@
     {
       "playerId": "3945274",
       "playerName": "Luka Doncic",
-      "gamesPlayed": 2,
+      "gamesPlayed": 3,
       "team": "Los Angeles Lakers",
       "averages": {
-        "points": 22.0,
-        "rebounds": 2.5,
-        "assists": 3.0,
-        "threes": 2.5
+        "points": 19.67,
+        "rebounds": 3.0,
+        "assists": 2.67,
+        "threes": 2.67
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "13",
+          "team": "Los Angeles Lakers",
+          "points": 15,
+          "rebounds": 4,
+          "assists": 2,
+          "threes": 3
+        },
         {
           "eventId": "401898717",
           "date": "2026-10-09T02:45Z",
@@ -18161,15 +18501,25 @@
     {
       "playerId": "4897449",
       "playerName": "Malevy Leons",
-      "gamesPlayed": 5,
+      "gamesPlayed": 6,
       "team": "Golden State Warriors",
       "averages": {
-        "points": 3.6,
-        "rebounds": 1.6,
-        "assists": 0.8,
-        "threes": 0.4
+        "points": 3.33,
+        "rebounds": 1.5,
+        "assists": 0.67,
+        "threes": 0.33
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "9",
+          "team": "Golden State Warriors",
+          "points": 2,
+          "rebounds": 1,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -18415,15 +18765,25 @@
     {
       "playerId": "4277848",
       "playerName": "Marvin Bagley III",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 6.33,
-        "rebounds": 6.0,
-        "assists": 1.0,
-        "threes": 0.0
+        "points": 8.0,
+        "rebounds": 6.5,
+        "assists": 0.75,
+        "threes": 0.25
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 13,
+          "rebounds": 8,
+          "assists": 0,
+          "threes": 1
+        },
         {
           "eventId": "401918011",
           "date": "2026-10-15T02:30Z",
@@ -18523,15 +18883,25 @@
     {
       "playerId": "3907498",
       "playerName": "Matisse Thybulle",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Los Angeles Lakers",
       "averages": {
-        "points": 4.33,
-        "rebounds": 1.67,
-        "assists": 0.67,
+        "points": 5.0,
+        "rebounds": 2.5,
+        "assists": 1.25,
         "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "13",
+          "team": "Los Angeles Lakers",
+          "points": 7,
+          "rebounds": 5,
+          "assists": 3,
+          "threes": 1
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -20005,15 +20375,25 @@
     {
       "playerId": "3112335",
       "playerName": "Nikola Jokic",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 9.0,
+        "points": 10.6,
         "rebounds": 6.0,
-        "assists": 7.25,
-        "threes": 0.25
+        "assists": 7.4,
+        "threes": 0.8
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 17,
+          "rebounds": 6,
+          "assists": 8,
+          "threes": 3
+        },
         {
           "eventId": "401918011",
           "date": "2026-10-15T02:30Z",
@@ -21927,15 +22307,25 @@
     {
       "playerId": "4397014",
       "playerName": "Quentin Grimes",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Los Angeles Lakers",
       "averages": {
-        "points": 12.25,
-        "rebounds": 0.25,
-        "assists": 2.5,
-        "threes": 1.75
+        "points": 12.0,
+        "rebounds": 0.6,
+        "assists": 2.6,
+        "threes": 2.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "13",
+          "team": "Los Angeles Lakers",
+          "points": 11,
+          "rebounds": 2,
+          "assists": 3,
+          "threes": 3
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -22211,15 +22601,25 @@
     {
       "playerId": "4684443",
       "playerName": "Rafael Castro",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Los Angeles Lakers",
       "averages": {
-        "points": 2.0,
-        "rebounds": 3.0,
-        "assists": 1.0,
+        "points": 1.0,
+        "rebounds": 2.5,
+        "assists": 0.5,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "13",
+          "team": "Los Angeles Lakers",
+          "points": 0,
+          "rebounds": 2,
+          "assists": 0,
+          "threes": 0
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -23391,15 +23791,25 @@
     {
       "playerId": "4278580",
       "playerName": "Sandro Mamukelashvili",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Los Angeles Lakers",
       "averages": {
-        "points": 13.0,
-        "rebounds": 3.25,
-        "assists": 3.25,
-        "threes": 2.5
+        "points": 13.4,
+        "rebounds": 4.2,
+        "assists": 3.4,
+        "threes": 2.6
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "13",
+          "team": "Los Angeles Lakers",
+          "points": 15,
+          "rebounds": 8,
+          "assists": 4,
+          "threes": 3
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -23445,15 +23855,25 @@
     {
       "playerId": "4683678",
       "playerName": "Scoot Henderson",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Portland Trail Blazers",
       "averages": {
-        "points": 10.67,
-        "rebounds": 1.33,
-        "assists": 3.33,
-        "threes": 2.33
+        "points": 12.25,
+        "rebounds": 1.25,
+        "assists": 3.0,
+        "threes": 2.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "22",
+          "team": "Portland Trail Blazers",
+          "points": 17,
+          "rebounds": 1,
+          "assists": 2,
+          "threes": 1
+        },
         {
           "eventId": "401901826",
           "date": "2026-10-14T02:00Z",
@@ -23793,15 +24213,25 @@
     {
       "playerId": "5081727",
       "playerName": "Sidy Cissoko",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Portland Trail Blazers",
       "averages": {
-        "points": 5.0,
-        "rebounds": 1.67,
-        "assists": 1.67,
-        "threes": 1.0
+        "points": 4.25,
+        "rebounds": 1.5,
+        "assists": 1.5,
+        "threes": 0.75
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "22",
+          "team": "Portland Trail Blazers",
+          "points": 2,
+          "rebounds": 1,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401901826",
           "date": "2026-10-14T02:00Z",
@@ -23955,15 +24385,25 @@
     {
       "playerId": "3975",
       "playerName": "Stephen Curry",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Golden State Warriors",
       "averages": {
-        "points": 11.25,
-        "rebounds": 1.5,
-        "assists": 2.75,
-        "threes": 2.5
+        "points": 13.0,
+        "rebounds": 2.0,
+        "assists": 3.2,
+        "threes": 2.6
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "9",
+          "team": "Golden State Warriors",
+          "points": 20,
+          "rebounds": 4,
+          "assists": 5,
+          "threes": 3
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -24987,15 +25427,25 @@
     {
       "playerId": "4431736",
       "playerName": "Toumani Camara",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Portland Trail Blazers",
       "averages": {
-        "points": 10.0,
-        "rebounds": 3.33,
+        "points": 10.25,
+        "rebounds": 3.0,
         "assists": 2.0,
-        "threes": 1.67
+        "threes": 2.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "22",
+          "team": "Portland Trail Blazers",
+          "points": 11,
+          "rebounds": 2,
+          "assists": 2,
+          "threes": 3
+        },
         {
           "eventId": "401901826",
           "date": "2026-10-14T02:00Z",
@@ -25369,15 +25819,25 @@
     {
       "playerId": "4698719",
       "playerName": "Trevon Brazile",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 9.0,
-        "rebounds": 3.0,
-        "assists": 0.0,
-        "threes": 1.0
+        "points": 9.6,
+        "rebounds": 4.0,
+        "assists": 0.4,
+        "threes": 1.2
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 12,
+          "rebounds": 8,
+          "assists": 2,
+          "threes": 2
+        },
         {
           "eventId": "401918011",
           "date": "2026-10-15T02:30Z",
@@ -25905,6 +26365,30 @@
       ]
     },
     {
+      "playerId": "4431914",
+      "playerName": "Tyler Burton",
+      "gamesPlayed": 1,
+      "team": "Golden State Warriors",
+      "averages": {
+        "points": 0.0,
+        "rebounds": 0.0,
+        "assists": 0.0,
+        "threes": 0.0
+      },
+      "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "9",
+          "team": "Golden State Warriors",
+          "points": 0,
+          "rebounds": 0,
+          "assists": 0,
+          "threes": 0
+        }
+      ]
+    },
+    {
       "playerId": "4395725",
       "playerName": "Tyler Herro",
       "gamesPlayed": 4,
@@ -26319,15 +26803,25 @@
     {
       "playerId": "3135046",
       "playerName": "Tyus Jones",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Denver Nuggets",
       "averages": {
-        "points": 3.5,
-        "rebounds": 1.25,
-        "assists": 5.25,
-        "threes": 0.5
+        "points": 2.8,
+        "rebounds": 1.2,
+        "assists": 5.8,
+        "threes": 0.4
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "7",
+          "team": "Denver Nuggets",
+          "points": 0,
+          "rebounds": 1,
+          "assists": 8,
+          "threes": 0
+        },
         {
           "eventId": "401918011",
           "date": "2026-10-15T02:30Z",
@@ -26519,15 +27013,25 @@
     {
       "playerId": "4578893",
       "playerName": "Vit Krejci",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Portland Trail Blazers",
       "averages": {
-        "points": 4.33,
-        "rebounds": 3.33,
-        "assists": 2.0,
+        "points": 5.0,
+        "rebounds": 3.75,
+        "assists": 1.5,
         "threes": 1.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "22",
+          "team": "Portland Trail Blazers",
+          "points": 7,
+          "rebounds": 5,
+          "assists": 0,
+          "threes": 1
+        },
         {
           "eventId": "401901826",
           "date": "2026-10-14T02:00Z",
@@ -26607,15 +27111,25 @@
     {
       "playerId": "4433136",
       "playerName": "Walker Kessler",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Los Angeles Lakers",
       "averages": {
-        "points": 11.0,
-        "rebounds": 9.0,
-        "assists": 1.0,
+        "points": 8.5,
+        "rebounds": 7.5,
+        "assists": 2.5,
         "threes": 0.0
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "13",
+          "team": "Los Angeles Lakers",
+          "points": 6,
+          "rebounds": 6,
+          "assists": 4,
+          "threes": 0
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -26739,15 +27253,25 @@
     {
       "playerId": "4897262",
       "playerName": "Will Richard",
-      "gamesPlayed": 5,
+      "gamesPlayed": 6,
       "team": "Golden State Warriors",
       "averages": {
-        "points": 7.6,
-        "rebounds": 2.0,
-        "assists": 0.6,
-        "threes": 1.6
+        "points": 6.67,
+        "rebounds": 1.83,
+        "assists": 0.67,
+        "threes": 1.33
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "9",
+          "team": "Golden State Warriors",
+          "points": 2,
+          "rebounds": 1,
+          "assists": 1,
+          "threes": 0
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -26945,15 +27469,25 @@
     {
       "playerId": "5217746",
       "playerName": "Yang Hansen",
-      "gamesPlayed": 3,
+      "gamesPlayed": 4,
       "team": "Portland Trail Blazers",
       "averages": {
-        "points": 7.67,
-        "rebounds": 4.0,
-        "assists": 3.0,
-        "threes": 0.33
+        "points": 7.25,
+        "rebounds": 4.75,
+        "assists": 2.75,
+        "threes": 0.25
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "22",
+          "team": "Portland Trail Blazers",
+          "points": 6,
+          "rebounds": 7,
+          "assists": 2,
+          "threes": 0
+        },
         {
           "eventId": "401901826",
           "date": "2026-10-14T02:00Z",
@@ -26989,15 +27523,25 @@
     {
       "playerId": "5175737",
       "playerName": "Yaxel Lendeborg",
-      "gamesPlayed": 4,
+      "gamesPlayed": 5,
       "team": "Golden State Warriors",
       "averages": {
-        "points": 15.25,
-        "rebounds": 8.25,
-        "assists": 3.75,
-        "threes": 1.25
+        "points": 15.6,
+        "rebounds": 7.4,
+        "assists": 4.0,
+        "threes": 1.4
       },
       "gameLogs": [
+        {
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z",
+          "teamId": "9",
+          "team": "Golden State Warriors",
+          "points": 17,
+          "rebounds": 4,
+          "assists": 5,
+          "threes": 2
+        },
         {
           "eventId": "401898718",
           "date": "2026-10-14T02:00Z",
@@ -27405,15 +27949,25 @@
     {
       "playerId": "4433137",
       "playerName": "Ziaire Williams",
-      "gamesPlayed": 1,
+      "gamesPlayed": 2,
       "team": "Los Angeles Lakers",
       "averages": {
-        "points": 13.0,
-        "rebounds": 1.0,
-        "assists": 1.0,
-        "threes": 3.0
+        "points": 13.5,
+        "rebounds": 0.5,
+        "assists": 0.5,
+        "threes": 2.5
       },
       "gameLogs": [
+        {
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z",
+          "teamId": "13",
+          "team": "Los Angeles Lakers",
+          "points": 14,
+          "rebounds": 0,
+          "assists": 0,
+          "threes": 2
+        },
         {
           "eventId": "401898716",
           "date": "2026-10-06T02:00Z",

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T04:32:39.398084+00:00",
+  "generatedAt": "2026-10-17T10:49:06.868944+00:00",
   "source": "ESPN",
   "teams": [
     {
@@ -1034,13 +1034,13 @@
       "team": "Denver Nuggets",
       "abbreviation": "DEN",
       "all": {
-        "games": 4,
-        "q1": 25.75,
-        "firstHalf": 57.75,
-        "fullGame": 114.25,
-        "q1Allowed": 29.5,
-        "firstHalfAllowed": 62.0,
-        "fullGameAllowed": 116.25
+        "games": 5,
+        "q1": 27.8,
+        "firstHalf": 58.6,
+        "fullGame": 115.6,
+        "q1Allowed": 28.0,
+        "firstHalfAllowed": 60.6,
+        "fullGameAllowed": 114.2
       },
       "home": {
         "games": 2,
@@ -1052,24 +1052,49 @@
         "fullGameAllowed": 118.5
       },
       "away": {
-        "games": 2,
-        "q1": 24.0,
-        "firstHalf": 60.0,
-        "fullGame": 113.5,
-        "q1Allowed": 27.5,
-        "firstHalfAllowed": 58.5,
-        "fullGameAllowed": 114.0
+        "games": 3,
+        "q1": 28.0,
+        "firstHalf": 60.67,
+        "fullGame": 116.0,
+        "q1Allowed": 25.67,
+        "firstHalfAllowed": 57.33,
+        "fullGameAllowed": 111.33
       },
       "last5": {
-        "games": 4,
-        "q1": 25.75,
-        "firstHalf": 57.75,
-        "fullGame": 114.25,
-        "q1Allowed": 29.5,
-        "firstHalfAllowed": 62.0,
-        "fullGameAllowed": 116.25
+        "games": 5,
+        "q1": 27.8,
+        "firstHalf": 58.6,
+        "fullGame": 115.6,
+        "q1Allowed": 28.0,
+        "firstHalfAllowed": 60.6,
+        "fullGameAllowed": 114.2
       },
       "gameLogs": [
+        {
+          "id": "7",
+          "team": "Denver Nuggets",
+          "abbreviation": "DEN",
+          "homeAway": "away",
+          "quarters": [
+            36,
+            26,
+            26,
+            33
+          ],
+          "q1": 36,
+          "q2": 26,
+          "q3": 26,
+          "q4": 33,
+          "firstHalf": 62,
+          "regulation": 121,
+          "fullGame": 121,
+          "overtime": false,
+          "q1Allowed": 22,
+          "firstHalfAllowed": 55,
+          "fullGameAllowed": 106,
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z"
+        },
         {
           "id": "7",
           "team": "Denver Nuggets",
@@ -1321,22 +1346,22 @@
       "team": "Golden State Warriors",
       "abbreviation": "GS",
       "all": {
-        "games": 5,
-        "q1": 30.6,
-        "firstHalf": 57.0,
-        "fullGame": 111.0,
-        "q1Allowed": 28.8,
-        "firstHalfAllowed": 56.8,
-        "fullGameAllowed": 104.0
+        "games": 6,
+        "q1": 31.33,
+        "firstHalf": 58.67,
+        "fullGame": 113.83,
+        "q1Allowed": 28.33,
+        "firstHalfAllowed": 57.0,
+        "fullGameAllowed": 106.33
       },
       "home": {
-        "games": 2,
-        "q1": 34.5,
-        "firstHalf": 71.0,
-        "fullGame": 117.5,
-        "q1Allowed": 28.0,
-        "firstHalfAllowed": 54.5,
-        "fullGameAllowed": 102.0
+        "games": 3,
+        "q1": 34.67,
+        "firstHalf": 69.67,
+        "fullGame": 121.0,
+        "q1Allowed": 27.33,
+        "firstHalfAllowed": 55.67,
+        "fullGameAllowed": 107.33
       },
       "away": {
         "games": 3,
@@ -1349,14 +1374,39 @@
       },
       "last5": {
         "games": 5,
-        "q1": 30.6,
-        "firstHalf": 57.0,
-        "fullGame": 111.0,
-        "q1Allowed": 28.8,
-        "firstHalfAllowed": 56.8,
-        "fullGameAllowed": 104.0
+        "q1": 32.8,
+        "firstHalf": 61.8,
+        "fullGame": 116.4,
+        "q1Allowed": 29.4,
+        "firstHalfAllowed": 57.4,
+        "fullGameAllowed": 106.8
       },
       "gameLogs": [
+        {
+          "id": "9",
+          "team": "Golden State Warriors",
+          "abbreviation": "GS",
+          "homeAway": "home",
+          "quarters": [
+            35,
+            32,
+            38,
+            23
+          ],
+          "q1": 35,
+          "q2": 32,
+          "q3": 38,
+          "q4": 23,
+          "firstHalf": 67,
+          "regulation": 128,
+          "fullGame": 128,
+          "overtime": false,
+          "q1Allowed": 26,
+          "firstHalfAllowed": 58,
+          "fullGameAllowed": 118,
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z"
+        },
         {
           "id": "9",
           "team": "Golden State Warriors",
@@ -1938,22 +1988,22 @@
       "team": "Los Angeles Lakers",
       "abbreviation": "LAL",
       "all": {
-        "games": 4,
-        "q1": 29.25,
-        "firstHalf": 61.5,
-        "fullGame": 107.0,
-        "q1Allowed": 30.5,
-        "firstHalfAllowed": 55.25,
-        "fullGameAllowed": 109.5
+        "games": 5,
+        "q1": 27.8,
+        "firstHalf": 60.2,
+        "fullGame": 106.8,
+        "q1Allowed": 31.6,
+        "firstHalfAllowed": 56.6,
+        "fullGameAllowed": 111.8
       },
       "home": {
-        "games": 2,
-        "q1": 25.0,
-        "firstHalf": 60.0,
-        "fullGame": 101.5,
-        "q1Allowed": 24.5,
-        "firstHalfAllowed": 46.5,
-        "fullGameAllowed": 105.5
+        "games": 3,
+        "q1": 24.0,
+        "firstHalf": 58.33,
+        "fullGame": 103.0,
+        "q1Allowed": 28.33,
+        "firstHalfAllowed": 51.67,
+        "fullGameAllowed": 110.67
       },
       "away": {
         "games": 2,
@@ -1965,15 +2015,40 @@
         "fullGameAllowed": 113.5
       },
       "last5": {
-        "games": 4,
-        "q1": 29.25,
-        "firstHalf": 61.5,
-        "fullGame": 107.0,
-        "q1Allowed": 30.5,
-        "firstHalfAllowed": 55.25,
-        "fullGameAllowed": 109.5
+        "games": 5,
+        "q1": 27.8,
+        "firstHalf": 60.2,
+        "fullGame": 106.8,
+        "q1Allowed": 31.6,
+        "firstHalfAllowed": 56.6,
+        "fullGameAllowed": 111.8
       },
       "gameLogs": [
+        {
+          "id": "13",
+          "team": "Los Angeles Lakers",
+          "abbreviation": "LAL",
+          "homeAway": "home",
+          "quarters": [
+            22,
+            33,
+            28,
+            23
+          ],
+          "q1": 22,
+          "q2": 33,
+          "q3": 28,
+          "q4": 23,
+          "firstHalf": 55,
+          "regulation": 106,
+          "fullGame": 106,
+          "overtime": false,
+          "q1Allowed": 36,
+          "firstHalfAllowed": 62,
+          "fullGameAllowed": 121,
+          "eventId": "401898719",
+          "date": "2026-10-17T02:30Z"
+        },
         {
           "id": "13",
           "team": "Los Angeles Lakers",
@@ -3689,13 +3764,13 @@
       "team": "Portland Trail Blazers",
       "abbreviation": "POR",
       "all": {
-        "games": 3,
-        "q1": 34.33,
-        "firstHalf": 65.0,
-        "fullGame": 117.33,
-        "q1Allowed": 24.67,
-        "firstHalfAllowed": 40.67,
-        "fullGameAllowed": 94.0
+        "games": 4,
+        "q1": 32.25,
+        "firstHalf": 63.25,
+        "fullGame": 117.5,
+        "q1Allowed": 27.25,
+        "firstHalfAllowed": 47.25,
+        "fullGameAllowed": 102.5
       },
       "home": {
         "games": 2,
@@ -3707,24 +3782,49 @@
         "fullGameAllowed": 92.0
       },
       "away": {
-        "games": 1,
-        "q1": 33.0,
-        "firstHalf": 66.0,
-        "fullGame": 110.0,
-        "q1Allowed": 22.0,
-        "firstHalfAllowed": 39.0,
-        "fullGameAllowed": 98.0
+        "games": 2,
+        "q1": 29.5,
+        "firstHalf": 62.0,
+        "fullGame": 114.0,
+        "q1Allowed": 28.5,
+        "firstHalfAllowed": 53.0,
+        "fullGameAllowed": 113.0
       },
       "last5": {
-        "games": 3,
-        "q1": 34.33,
-        "firstHalf": 65.0,
-        "fullGame": 117.33,
-        "q1Allowed": 24.67,
-        "firstHalfAllowed": 40.67,
-        "fullGameAllowed": 94.0
+        "games": 4,
+        "q1": 32.25,
+        "firstHalf": 63.25,
+        "fullGame": 117.5,
+        "q1Allowed": 27.25,
+        "firstHalfAllowed": 47.25,
+        "fullGameAllowed": 102.5
       },
       "gameLogs": [
+        {
+          "id": "22",
+          "team": "Portland Trail Blazers",
+          "abbreviation": "POR",
+          "homeAway": "away",
+          "quarters": [
+            26,
+            32,
+            33,
+            27
+          ],
+          "q1": 26,
+          "q2": 32,
+          "q3": 33,
+          "q4": 27,
+          "firstHalf": 58,
+          "regulation": 118,
+          "fullGame": 118,
+          "overtime": false,
+          "q1Allowed": 35,
+          "firstHalfAllowed": 67,
+          "fullGameAllowed": 128,
+          "eventId": "401898409",
+          "date": "2026-10-17T02:00Z"
+        },
         {
           "id": "22",
           "team": "Portland Trail Blazers",

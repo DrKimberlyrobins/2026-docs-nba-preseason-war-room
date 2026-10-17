@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-17T04:32:39.398084+00:00",
+  "generatedAt": "2026-10-17T10:49:06.868944+00:00",
   "source": "ESPN",
   "season": "2026-27",
   "seasonType": "preseason",
@@ -3341,6 +3341,58 @@
       "seasonType": "preseason"
     },
     {
+      "id": "401898409",
+      "date": "2026-10-17T02:00Z",
+      "away": {
+        "id": "22",
+        "team": "Portland Trail Blazers",
+        "abbreviation": "POR",
+        "homeAway": "away",
+        "quarters": [
+          26,
+          32,
+          33,
+          27
+        ],
+        "q1": 26,
+        "q2": 32,
+        "q3": 33,
+        "q4": 27,
+        "firstHalf": 58,
+        "regulation": 118,
+        "fullGame": 118,
+        "overtime": false,
+        "q1Allowed": 35,
+        "firstHalfAllowed": 67,
+        "fullGameAllowed": 128
+      },
+      "home": {
+        "id": "9",
+        "team": "Golden State Warriors",
+        "abbreviation": "GS",
+        "homeAway": "home",
+        "quarters": [
+          35,
+          32,
+          38,
+          23
+        ],
+        "q1": 35,
+        "q2": 32,
+        "q3": 38,
+        "q4": 23,
+        "firstHalf": 67,
+        "regulation": 128,
+        "fullGame": 128,
+        "overtime": false,
+        "q1Allowed": 26,
+        "firstHalfAllowed": 58,
+        "fullGameAllowed": 118
+      },
+      "source": "ESPN",
+      "seasonType": "preseason"
+    },
+    {
       "id": "401908948",
       "date": "2026-10-17T02:00Z",
       "away": {
@@ -3388,6 +3440,58 @@
         "q1Allowed": 31,
         "firstHalfAllowed": 59,
         "fullGameAllowed": 119
+      },
+      "source": "ESPN",
+      "seasonType": "preseason"
+    },
+    {
+      "id": "401898719",
+      "date": "2026-10-17T02:30Z",
+      "away": {
+        "id": "7",
+        "team": "Denver Nuggets",
+        "abbreviation": "DEN",
+        "homeAway": "away",
+        "quarters": [
+          36,
+          26,
+          26,
+          33
+        ],
+        "q1": 36,
+        "q2": 26,
+        "q3": 26,
+        "q4": 33,
+        "firstHalf": 62,
+        "regulation": 121,
+        "fullGame": 121,
+        "overtime": false,
+        "q1Allowed": 22,
+        "firstHalfAllowed": 55,
+        "fullGameAllowed": 106
+      },
+      "home": {
+        "id": "13",
+        "team": "Los Angeles Lakers",
+        "abbreviation": "LAL",
+        "homeAway": "home",
+        "quarters": [
+          22,
+          33,
+          28,
+          23
+        ],
+        "q1": 22,
+        "q2": 33,
+        "q3": 28,
+        "q4": 23,
+        "firstHalf": 55,
+        "regulation": 106,
+        "fullGame": 106,
+        "overtime": false,
+        "q1Allowed": 36,
+        "firstHalfAllowed": 62,
+        "fullGameAllowed": 121
       },
       "source": "ESPN",
       "seasonType": "preseason"
