@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T04:38:46.336810+00:00",
+  "generatedAt": "2026-10-18T11:12:29.897280+00:00",
   "source": "ESPN",
   "season": "2026-27",
   "seasonType": "preseason",
@@ -3208,7 +3208,7 @@
         "overtime": false,
         "q1Allowed": 23,
         "firstHalfAllowed": 50,
-        "fullGameAllowed": 117
+        "fullGameAllowed": 116
       },
       "home": {
         "id": "29",
@@ -3218,16 +3218,16 @@
         "quarters": [
           23,
           27,
-          30,
+          29,
           37
         ],
         "q1": 23,
         "q2": 27,
-        "q3": 30,
+        "q3": 29,
         "q4": 37,
         "firstHalf": 50,
-        "regulation": 117,
-        "fullGame": 117,
+        "regulation": 116,
+        "fullGame": 116,
         "overtime": false,
         "q1Allowed": 20,
         "firstHalfAllowed": 38,

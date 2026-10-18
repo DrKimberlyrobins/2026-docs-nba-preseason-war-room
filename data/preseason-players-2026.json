@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T04:38:46.336810+00:00",
+  "generatedAt": "2026-10-18T11:12:29.897280+00:00",
   "source": "ESPN",
   "players": [
     {
@@ -27732,7 +27732,7 @@
       "gamesPlayed": 3,
       "team": "Memphis Grizzlies",
       "averages": {
-        "points": 7.33,
+        "points": 7.0,
         "rebounds": 5.0,
         "assists": 0.67,
         "threes": 0.0
@@ -27743,7 +27743,7 @@
           "date": "2026-10-17T00:00Z",
           "teamId": "29",
           "team": "Memphis Grizzlies",
-          "points": 10,
+          "points": 9,
           "rebounds": 6,
           "assists": 1,
           "threes": 0

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T04:38:46.336810+00:00",
+  "generatedAt": "2026-10-18T11:12:29.897280+00:00",
   "source": "ESPN",
   "teams": [
     {
@@ -468,7 +468,7 @@
         "fullGame": 96.5,
         "q1Allowed": 27.5,
         "firstHalfAllowed": 51.25,
-        "fullGameAllowed": 111.25
+        "fullGameAllowed": 111.0
       },
       "home": {
         "games": 2,
@@ -486,7 +486,7 @@
         "fullGame": 95.5,
         "q1Allowed": 25.5,
         "firstHalfAllowed": 52.0,
-        "fullGameAllowed": 115.5
+        "fullGameAllowed": 115.0
       },
       "last5": {
         "games": 4,
@@ -495,7 +495,7 @@
         "fullGame": 96.5,
         "q1Allowed": 27.5,
         "firstHalfAllowed": 51.25,
-        "fullGameAllowed": 111.25
+        "fullGameAllowed": 111.0
       },
       "gameLogs": [
         {
@@ -519,7 +519,7 @@
           "overtime": false,
           "q1Allowed": 23,
           "firstHalfAllowed": 50,
-          "fullGameAllowed": 117,
+          "fullGameAllowed": 116,
           "eventId": "401901822",
           "date": "2026-10-17T00:00Z"
         },
@@ -2159,7 +2159,7 @@
         "games": 4,
         "q1": 27.75,
         "firstHalf": 63.0,
-        "fullGame": 117.75,
+        "fullGame": 117.5,
         "q1Allowed": 29.5,
         "firstHalfAllowed": 53.25,
         "fullGameAllowed": 110.75
@@ -2168,7 +2168,7 @@
         "games": 2,
         "q1": 24.5,
         "firstHalf": 55.5,
-        "fullGame": 117.5,
+        "fullGame": 117.0,
         "q1Allowed": 28.0,
         "firstHalfAllowed": 51.0,
         "fullGameAllowed": 110.0
@@ -2186,7 +2186,7 @@
         "games": 4,
         "q1": 27.75,
         "firstHalf": 63.0,
-        "fullGame": 117.75,
+        "fullGame": 117.5,
         "q1Allowed": 29.5,
         "firstHalfAllowed": 53.25,
         "fullGameAllowed": 110.75
@@ -2200,16 +2200,16 @@
           "quarters": [
             23,
             27,
-            30,
+            29,
             37
           ],
           "q1": 23,
           "q2": 27,
-          "q3": 30,
+          "q3": 29,
           "q4": 37,
           "firstHalf": 50,
-          "regulation": 117,
-          "fullGame": 117,
+          "regulation": 116,
+          "fullGame": 116,
           "overtime": false,
           "q1Allowed": 20,
           "firstHalfAllowed": 38,
