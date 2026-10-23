@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-10-22T21:39:49.116990+00:00",
+  "generatedAt": "2026-10-23T04:56:42.925967+00:00",
   "espnGames": 67,
   "espnTeams": 31,
   "espnPlayers": 590,
   "espnFailedDates": [],
   "espnFailedSummaries": [],
-  "kambiEvents": 19,
-  "kambiEventsWithOffers": 19,
+  "kambiEvents": 17,
+  "kambiEventsWithOffers": 17,
   "errors": [],
   "dataComplete": true,
   "bettingQualificationEnabled": false
